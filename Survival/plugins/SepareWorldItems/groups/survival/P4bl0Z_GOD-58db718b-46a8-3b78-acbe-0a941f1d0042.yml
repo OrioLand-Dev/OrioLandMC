@@ -1,0 +1,113 @@
+health: 20.0
+hunger: 20
+exp: 0.27999988
+exp-level: 9
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 118
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 128
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 20
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 6
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHIELD
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 22
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DARK_OAK_DOOR
+    amount: 13
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 26
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DARK_OAK_PLANKS
+    amount: 64
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 187
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 190
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 190
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      Damage: 79
+      blockMaterial: SHIELD
+armor_contents:
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 190
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 190
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 187

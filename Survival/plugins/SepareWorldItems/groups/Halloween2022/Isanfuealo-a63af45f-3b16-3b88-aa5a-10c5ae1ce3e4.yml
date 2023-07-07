@@ -1,0 +1,19 @@
+inventory:
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+health: 69.19999694824219
+hunger: 20
+exp: 0.28503278
+exp-level: 26
+potion_effect:
+  '0':
+    type: GLOWING
+    level: 1
+    duration: 19980569

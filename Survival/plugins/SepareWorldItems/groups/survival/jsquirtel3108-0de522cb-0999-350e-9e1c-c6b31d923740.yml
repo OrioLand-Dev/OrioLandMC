@@ -1,0 +1,226 @@
+health: 20.0
+hunger: 20
+exp: 0.57121646
+exp-level: 29
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+        MENDING: 1
+        DAMAGE_ALL: 5
+      repair-cost: 15
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        INFERNAL_TOUCH: 1
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 7
+      Damage: 3
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 68
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        SILK_TOUCH: 1
+        TELEKINESIS: 1
+        DURABILITY: 3
+        WISDOM: 1
+      repair-cost: 1
+      Damage: 37
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52BgykxhEM3NzEtNLkpMK7EqzijNyU4tik/Kr+BkYPUsSc0tZoAAABfBoPk/AAAA
+      blockMaterial: SHULKER_BOX
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_BRICKS
+    amount: 64
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_BRICKS
+    amount: 14
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 4
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 43
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 2
+      Damage: 1
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 64
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 41
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 10
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 2
+        PROTECTION_FALL: 4
+        PROTECTION_FIRE: 4
+        DURABILITY: 3
+      repair-cost: 1
+      Damage: 97
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      Damage: 131
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        THORNS: 2
+        DURABILITY: 3
+      Damage: 153
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+      Damage: 166
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 50
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+      Damage: 166
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        THORNS: 2
+        DURABILITY: 3
+      Damage: 153
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      Damage: 131
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 2
+        PROTECTION_FALL: 4
+        PROTECTION_FIRE: 4
+        DURABILITY: 3
+      repair-cost: 1
+      Damage: 97

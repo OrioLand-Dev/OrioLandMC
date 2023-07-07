@@ -1,0 +1,76 @@
+MinaPvP:
+  Blocks:
+  - STONE;0.861
+  - COAL_ORE;0.08
+  - IRON_ORE;0.02
+  - COPPER_ORE;0.01
+  - GOLD_ORE;0.007
+  - REDSTONE_ORE;0.01
+  - EMERALD_ORE;0.002
+  - LAPIS_ORE;0.006
+  - DIAMOND_ORE;0.005
+  Icon: DIAMOND_ORE
+  Signs: []
+  World: minas
+  POS1:
+    X: 25.0
+    Y: 39.0
+    Z: 19.0
+  POS2:
+    X: 3.0
+    Y: 24.0
+    Z: -5.0
+  Settings:
+    Reset:
+      ByPercentage: false
+      ByTime: true
+      ByPercentageValue: 20
+      ByTimeValue: 600
+      Silent: true
+  Display-Name: MinaPvP
+  Color: WHITE
+  Type: BLOCKS
+  Teleport:
+    X: 3.2416160197856914
+    Y: 41.312188369373
+    Z: 11.293445702900986
+    Yaw: -173.40012
+    Pitch: 29.399925
+MinaPvE:
+  Blocks:
+  - STONE;0.861
+  - COAL_ORE;0.08
+  - IRON_ORE;0.02
+  - COPPER_ORE;0.01
+  - GOLD_ORE;0.007
+  - REDSTONE_ORE;0.01
+  - EMERALD_ORE;0.002
+  - LAPIS_ORE;0.006
+  - DIAMOND_ORE;0.005
+  Icon: DIAMOND_ORE
+  Signs: []
+  World: minas
+  POS1:
+    X: -29.0
+    Y: 39.0
+    Z: 19.0
+  POS2:
+    X: -51.0
+    Y: 24.0
+    Z: -5.0
+  Settings:
+    Reset:
+      ByPercentage: false
+      ByTime: true
+      ByPercentageValue: 20
+      ByTimeValue: 600
+      Silent: true
+  Display-Name: MinaPvE
+  Color: WHITE
+  Type: BLOCKS
+  Teleport:
+    X: -30.168672037439187
+    Y: 41.15319984386592
+    Z: -2.6757056246736437
+    Yaw: 27.435547
+    Pitch: 55.800564

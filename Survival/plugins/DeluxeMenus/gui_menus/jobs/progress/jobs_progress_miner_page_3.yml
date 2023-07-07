@@ -1,0 +1,1171 @@
+menu_title: '&fㆩ'
+size: 44
+
+items:
+  JOB:
+    material: GOLD_NUGGET
+    model_data: 13100
+    display_name: '&#9F89E5%jobsr_name_miner%'
+    slot: 0
+    priority: 1
+    lore:
+    - '%jobsr_description_Miner%'
+    - ''
+    - '&#A1E6D8[Click para ver los pagos]'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Miner'
+    right_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Miner'
+  JOB-JOIN:
+    material: GOLD_NUGGET
+    model_data: 13110
+    display_name: '&#9F89E5%jobsr_name_miner%'
+    slot: 0
+    priority: 0
+    view_requirement:
+      requirements:
+        jobs_requirement:
+         type: string contains
+         input: "%jobsr_user_isin_Miner%"
+         output: 'True'
+    lore:
+    - '%jobsr_description_miner%'
+    - ''
+    - '&#A1E6D8[Click para ver los pagos]'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Miner'
+    right_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Miner'
+  PROFILE:
+    material: head-%player_name%
+    model_data: 10555
+    display_name: '&#F8BD23%player_name%'
+    slot: 4
+    lore:
+    - '&7Rango: %jobsr_user_title_Miner%'
+    - '&7Trabajadores: &#FCFCFC%jobsr_totalplayers_Miner%'
+    - ''
+    - '&7Level: &#FCFCFC%jobsr_user_jlevel_Miner%'
+    - '&7Siguiente nivel: &#F19C0B%jobsr_user_jmexp_Miner% EXP'
+    - '%progress_bar_{jobsr_user_jexp_Miner}_c:&a&l▀_p:&a&l▀_r:&7&l▀_l:12_m:{jobsr_user_jmaxexp_Miner}_fullbar:&8&l▀▀▀▀▀▀▀▀▀▀▀▀%'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_OFF 0.3 0.85'
+    - '[openguimenu] jobs_menu_page_2'
+  BACK_NEXT:
+    material: GOLD_NUGGET
+    model_data: 11900
+    display_name: '&#C7A439[LMB] Atrás'
+    slot: 8
+    lore:
+    - '&#6EC438Siguiente [RMB]'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_progress_Miner_page_2'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_progress_Miner'
+
+#  _                   _   _  _   _ 
+# | |    _____   _____| | | || | / |
+# | |   / _ \ \ / / _ \ | | || |_| |
+# | |__|  __/\ V /  __/ | |__   _| |
+# |_____\___| \_/ \___|_|    |_| |_|
+#
+  Level41-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 41'
+    priority: 3
+    amount: 41
+    slot: 9
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 180 ⛃'
+    - '&8 ▮&a 120 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level41-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 41'
+    priority: 2
+    amount: 41
+    slot: 9
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 41"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 180 ⛃'
+    - '&8 ▮&a 120 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level41-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 41'
+    priority: 1
+    amount: 41
+    slot: 9
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 41"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 180 ⛃'
+    - '&8 ▮&a 120 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _  ____  
+# | |    _____   _____| | | || ||___ \ 
+# | |   / _ \ \ / / _ \ | | || |_ __) |
+# | |__|  __/\ V /  __/ | |__   _/ __/ 
+# |_____\___| \_/ \___|_|    |_||_____|
+#
+  Level42-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 42'
+    priority: 3
+    amount: 42
+    slot: 18
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 180 ⛃'
+    - '&8 ▮&a 120 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level42-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 42'
+    priority: 2
+    amount: 42
+    slot: 18
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 42"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 180 ⛃'
+    - '&8 ▮&a 120 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level42-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 42'
+    priority: 1
+    amount: 42
+    slot: 18
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 42"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 180 ⛃'
+    - '&8 ▮&a 120 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _  _____ 
+# | |    _____   _____| | | || ||___ / 
+# | |   / _ \ \ / / _ \ | | || |_ |_ \ 
+# | |__|  __/\ V /  __/ | |__   _|__) |
+# |_____\___| \_/ \___|_|    |_||____/ 
+#
+  Level43-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 43'
+    priority: 3
+    amount: 43
+    slot: 27
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 190 ⛃'
+    - '&8 ▮&a 125 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level43-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 43'
+    priority: 2
+    amount: 43
+    slot: 27
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 43"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 190 ⛃'
+    - '&8 ▮&a 125 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level43-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 43'
+    priority: 1
+    amount: 43
+    slot: 27
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 43"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 190 ⛃'
+    - '&8 ▮&a 125 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _   _  _   
+# | |    _____   _____| | | || | | || |  
+# | |   / _ \ \ / / _ \ | | || |_| || |_ 
+# | |__|  __/\ V /  __/ | |__   _|__   _|
+# |_____\___| \_/ \___|_|    |_|    |_|  
+#
+  Level44-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 44'
+    priority: 3
+    amount: 44
+    slot: 36
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a 130 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level44-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 44'
+    priority: 2
+    amount: 44
+    slot: 36
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 44"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a 130 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level44-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 44'
+    priority: 1
+    amount: 44
+    slot: 36
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 44"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a 130 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _  ____  
+# | |    _____   _____| | | || || ___| 
+# | |   / _ \ \ / / _ \ | | || ||___ \ 
+# | |__|  __/\ V /  __/ | |__   _|__) |
+# |_____\___| \_/ \___|_|    |_||____/ 
+#
+  Level45-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 45'
+    priority: 3
+    amount: 45
+    slot: 37
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a 150 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level45-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 45'
+    priority: 2
+    amount: 45
+    slot: 37
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 45"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a 150 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level45-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 45'
+    priority: 1
+    amount: 45
+    slot: 37
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 45"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a 150 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _    __   
+# | |    _____   _____| | | || |  / /_  
+# | |   / _ \ \ / / _ \ | | || |_| '_ \ 
+# | |__|  __/\ V /  __/ | |__   _| (_) |
+# |_____\___| \_/ \___|_|    |_|  \___/ 
+#
+  Level46-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 46'
+    priority: 3
+    amount: 46
+    slot: 38
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 210 ⛃'
+    - '&8 ▮&a 150 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level46-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 46'
+    priority: 2
+    amount: 46
+    slot: 38
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 46"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 210 ⛃'
+    - '&8 ▮&a 150 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level46-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 46'
+    priority: 1
+    amount: 46
+    slot: 38
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 46"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 210 ⛃'
+    - '&8 ▮&a 150 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _ _____ 
+# | |    _____   _____| | | || |___  |
+# | |   / _ \ \ / / _ \ | | || |_ / / 
+# | |__|  __/\ V /  __/ | |__   _/ /  
+# |_____\___| \_/ \___|_|    |_|/_/   
+#
+  Level47-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 47'
+    priority: 3
+    amount: 47
+    slot: 29
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 220 ⛃'
+    - '&8 ▮&a 160 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level47-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 47'
+    priority: 2
+    amount: 47
+    slot: 29
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 47"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 220 ⛃'
+    - '&8 ▮&a 160 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level47-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 47'
+    priority: 1
+    amount: 47
+    slot: 29
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 47"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 220 ⛃'
+    - '&8 ▮&a 160 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _    ___  
+# | |    _____   _____| | | || |  ( _ ) 
+# | |   / _ \ \ / / _ \ | | || |_ / _ \ 
+# | |__|  __/\ V /  __/ | |__   _| (_) |
+# |_____\___| \_/ \___|_|    |_|  \___/ 
+#
+  Level48-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 48'
+    priority: 3
+    amount: 48
+    slot: 20
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 230 ⛃'
+    - '&8 ▮&a 170 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level48-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 48'
+    priority: 2
+    amount: 48
+    slot: 20
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 48"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 230 ⛃'
+    - '&8 ▮&a 170 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level48-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 48'
+    priority: 1
+    amount: 48
+    slot: 20
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 48"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 230 ⛃'
+    - '&8 ▮&a 170 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _   ___  
+# | |    _____   _____| | | || | / _ \ 
+# | |   / _ \ \ / / _ \ | | || || (_) |
+# | |__|  __/\ V /  __/ | |__   _\__, |
+# |_____\___| \_/ \___|_|    |_|   /_/ 
+#
+  Level49-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 49'
+    priority: 3
+    amount: 49
+    slot: 21
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 240 ⛃'
+    - '&8 ▮&a 170 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level49-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 49'
+    priority: 2
+    amount: 49
+    slot: 21
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 49"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 240 ⛃'
+    - '&8 ▮&a 170 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level49-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 49'
+    priority: 1
+    amount: 49
+    slot: 21
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 49"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 240 ⛃'
+    - '&8 ▮&a 170 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____   ___  
+# | |    _____   _____| | | ___| / _ \ 
+# | |   / _ \ \ / / _ \ | |___ \| | | |
+# | |__|  __/\ V /  __/ |  ___) | |_| |
+# |_____\___| \_/ \___|_| |____/ \___/ 
+#
+  Level50-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 50'
+    priority: 3
+    amount: 50
+    slot: 22
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 500 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level50-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 50'
+    priority: 2
+    amount: 50
+    slot: 22
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 50"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 500 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level50-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 50'
+    priority: 1
+    amount: 50
+    slot: 22
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 50"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 500 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____  _ 
+# | |    _____   _____| | | ___|/ |
+# | |   / _ \ \ / / _ \ | |___ \| |
+# | |__|  __/\ V /  __/ |  ___) | |
+# |_____\___| \_/ \___|_| |____/|_|
+#
+  Level51-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 51'
+    priority: 3
+    amount: 51
+    slot: 31
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 240 ⛃'
+    - '&8 ▮&a 180 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level51-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 51'
+    priority: 2
+    amount: 51
+    slot: 31
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 51"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 240 ⛃'
+    - '&8 ▮&a 180 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level51-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 51'
+    priority: 1
+    amount: 51
+    slot: 31
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 51"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 240 ⛃'
+    - '&8 ▮&a 180 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____ ____  
+# | |    _____   _____| | | ___|___ \ 
+# | |   / _ \ \ / / _ \ | |___ \ __) |
+# | |__|  __/\ V /  __/ |  ___) / __/ 
+# |_____\___| \_/ \___|_| |____/_____|
+#
+  Level52-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 52'
+    priority: 3
+    amount: 52
+    slot: 40
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 250 ⛃'
+    - '&8 ▮&a 190 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level52-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 52'
+    priority: 2
+    amount: 52
+    slot: 40
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 52"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 250 ⛃'
+    - '&8 ▮&a 190 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level52-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 52'
+    priority: 1
+    amount: 52
+    slot: 40
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 52"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 250 ⛃'
+    - '&8 ▮&a 190 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____ _____ 
+# | |    _____   _____| | | ___|___ / 
+# | |   / _ \ \ / / _ \ | |___ \ |_ \ 
+# | |__|  __/\ V /  __/ |  ___) |__) |
+# |_____\___| \_/ \___|_| |____/____/ 
+#
+  Level53-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 53'
+    priority: 3
+    amount: 53
+    slot: 41
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 300 ⛃'
+    - '&8 ▮&a 200 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level53-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 53'
+    priority: 2
+    amount: 53
+    slot: 41
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 53"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 300 ⛃'
+    - '&8 ▮&a 200 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level53-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 53'
+    priority: 1
+    amount: 53
+    slot: 41
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 53"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 300 ⛃'
+    - '&8 ▮&a 200 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____  _  _   
+# | |    _____   _____| | | ___|| || |  
+# | |   / _ \ \ / / _ \ | |___ \| || |_ 
+# | |__|  __/\ V /  __/ |  ___) |__   _|
+# |_____\___| \_/ \___|_| |____/   |_|  
+#
+  Level54-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 54'
+    priority: 3
+    amount: 54
+    slot: 42
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 300 ⛃'
+    - '&8 ▮&a 210 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level54-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 54'
+    priority: 2
+    amount: 54
+    slot: 42
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 54"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 300 ⛃'
+    - '&8 ▮&a 210 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level54-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 54'
+    priority: 1
+    amount: 54
+    slot: 42
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 54"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 300 ⛃'
+    - '&8 ▮&a 210 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____ ____  
+# | |    _____   _____| | | ___| ___| 
+# | |   / _ \ \ / / _ \ | |___ \___ \ 
+# | |__|  __/\ V /  __/ |  ___) |__) |
+# |_____\___| \_/ \___|_| |____/____/ 
+#
+  Level55-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 55'
+    priority: 3
+    amount: 55
+    slot: 33
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 320 ⛃'
+    - '&8 ▮&a 230 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level55-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 55'
+    priority: 2
+    amount: 55
+    slot: 33
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 55"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 320 ⛃'
+    - '&8 ▮&a 230 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level55-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 55'
+    priority: 1
+    amount: 55
+    slot: 33
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 55"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 320 ⛃'
+    - '&8 ▮&a 230 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____   __   
+# | |    _____   _____| | | ___| / /_  
+# | |   / _ \ \ / / _ \ | |___ \| '_ \ 
+# | |__|  __/\ V /  __/ |  ___) | (_) |
+# |_____\___| \_/ \___|_| |____/ \___/ 
+#
+  Level56-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 56'
+    priority: 3
+    amount: 56
+    slot: 24
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 340 ⛃'
+    - '&8 ▮&a 250 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level56-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 56'
+    priority: 2
+    amount: 56
+    slot: 24
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 56"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 340 ⛃'
+    - '&8 ▮&a 250 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level56-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 56'
+    priority: 1
+    amount: 56
+    slot: 24
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 56"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 340 ⛃'
+    - '&8 ▮&a 250 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____ _____ 
+# | |    _____   _____| | | ___|___  |
+# | |   / _ \ \ / / _ \ | |___ \  / / 
+# | |__|  __/\ V /  __/ |  ___) |/ /  
+# |_____\___| \_/ \___|_| |____//_/   
+#
+  Level57-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 57'
+    priority: 3
+    amount: 57
+    slot: 25
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 360 ⛃'
+    - '&8 ▮&a 270 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level57-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 57'
+    priority: 2
+    amount: 57
+    slot: 25
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 57"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 360 ⛃'
+    - '&8 ▮&a 270 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level57-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 57'
+    priority: 1
+    amount: 57
+    slot: 25
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 57"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 360 ⛃'
+    - '&8 ▮&a 270 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____   ___  
+# | |    _____   _____| | | ___| ( _ ) 
+# | |   / _ \ \ / / _ \ | |___ \ / _ \ 
+# | |__|  __/\ V /  __/ |  ___) | (_) |
+# |_____\___| \_/ \___|_| |____/ \___/ 
+#
+  Level58-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 58'
+    priority: 3
+    amount: 58
+    slot: 26
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 380 ⛃'
+    - '&8 ▮&a 290 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level58-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 58'
+    priority: 2
+    amount: 58
+    slot: 26
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 58"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 380 ⛃'
+    - '&8 ▮&a 290 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level58-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 58'
+    priority: 1
+    amount: 58
+    slot: 26
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 58"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 380 ⛃'
+    - '&8 ▮&a 290 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____  ___  
+# | |    _____   _____| | | ___|/ _ \ 
+# | |   / _ \ \ / / _ \ | |___ \ (_) |
+# | |__|  __/\ V /  __/ |  ___) \__, |
+# |_____\___| \_/ \___|_| |____/  /_/ 
+#
+  Level59-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 59'
+    priority: 3
+    amount: 59
+    slot: 35
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 400 ⛃'
+    - '&8 ▮&a 300 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level59-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 59'
+    priority: 2
+    amount: 59
+    slot: 35
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 59"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 400 ⛃'
+    - '&8 ▮&a 300 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level59-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 59'
+    priority: 1
+    amount: 59
+    slot: 35
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 59"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 400 ⛃'
+    - '&8 ▮&a 300 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _    __    ___  
+# | |    _____   _____| |  / /_  / _ \ 
+# | |   / _ \ \ / / _ \ | | '_ \| | | |
+# | |__|  __/\ V /  __/ | | (_) | |_| |
+# |_____\___| \_/ \___|_|  \___/ \___/ 
+#
+  Level60-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 60'
+    priority: 3
+    amount: 60
+    slot: 44
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 600 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level60-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 60'
+    priority: 2
+    amount: 60
+    slot: 44
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% >= 60"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 600 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level60-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 60'
+    priority: 1
+    amount: 60
+    slot: 44
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Miner% == 60"
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 600 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&e&lNIVEL ACTUAL'

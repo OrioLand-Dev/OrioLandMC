@@ -1,0 +1,7 @@
+update_time_in_ticks: 200
+huds:
+  dinero:
+    display_text: "<font:default><glyph:mana> %aureliumskills_mana%                      %vault_eco_balance_fixed% <font:default><glyph:moneda>"
+    disabled_whilst_in_water: true # Oxygen can be hidden if this is placed right above food
+    enabled_by_default: true
+    enable_for_spectator_mode: true # By default, this is set to false

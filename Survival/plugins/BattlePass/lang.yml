@@ -1,0 +1,33 @@
+# NOTE: Remember to check each update for language file changes or you may receive 'null' messages in chat.
+
+could-not-find-user: "&cCould not find the user &e%player%"
+no-permission: "&cYou do not have permission to execute this command."
+disallowed-permission: "&cYou do not have permission to use the Battle Pass." # This is used if you give a user battlepass.block to disallow them from using the battlepass.
+collectable-rewards-notification: "ᖆ &7You have unclaimed rewards!"
+
+daily-quest-reset: 'ᖆ {#FFAC1C}Daily quests have reset!'
+
+week-status-locked: '{#F33A6A}Locked'
+week-status-unlocked: '{#7CFC00}Unlocked'
+
+season-finished-message: '{#7CFC00}Terminada' # This is displayed as the %week% if the season is finished. Remove this line to have it go to the minimum week.
+
+progress-bar:
+  complete-color: '{#7CFC00}'
+  incomplete-color: '{#6d6c81}'
+  symbol: 'ᆛᖅ'
+
+stats-command:
+  - '&eYour BattlePass Stats:'
+  - '  &8- &ePass Type: &f%pass_type%'
+  - '  &8- &eTier: &f%tier%'
+  - '  &8- &eTotal Points: &f%total_points%'
+  #- '  &8- &eBalance: &f%balance%' # Only used if you use internal for excess points in the settings.yml
+
+quests:
+  # The base message will be used for all quests unless another message is set.
+  base-message-progressed: "ᖆ &7Quest progressed: &e%quest_name% {#71797E}(%progress%/%required_progress%)"
+  base-message-completed: "ᖆ &7Quest completed: &e%quest_name%"
+
+  boss-bar-message-progressed: "&7&e%quest_name% Quest Progressed &8(&e%progress%&7/&8&e%required_progress%&8)"
+  boss-bar-message-completed: "&7&e%quest_name% Quest Completed"

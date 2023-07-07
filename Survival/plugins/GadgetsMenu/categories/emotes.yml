@@ -1,0 +1,239 @@
+Emotes:
+  Smile:
+    Name: '&b&lSonrisa'
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Linda Sonrisa'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Cool:
+    Name: '&b&lCool'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6B)'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Wink:
+    Name: '&b&lGuiño'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Guiños'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Grin:
+    Name: '&b&lGran Sonrisa'
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Yey!'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Surprised:
+    Name: '&b&lSorprendido'
+    Cooldown: 10
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6OMG'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Cry:
+    Name: '&b&lLlorar'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Waaaaa!'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Sleepy:
+    Name: '&b&lDormido'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6ZZzzzz'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Rage:
+    Name: '&b&lRabia'
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&cGRRRRR!!!'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Frown:
+    Name: '&b&lFruncido'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fsniff'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Cheeky:
+    Name: '&b&lFresco'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6:P'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Sun Tan:
+    Name: '&b&lBronceado'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Soleado'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Heart Eyes:
+    Name: '&b&lEnamorado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&d❤  ❤'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Dizzy:
+    Name: '&b&lMareado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&c'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  RIP:
+    Name: '&b&LRIP'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&cx_x'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Relax:
+    Name: '&b&lRelajado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6:)'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Spicy:
+    Name: '&b&lPicante'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Uff'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Deal With It:
+    Name: '&b&lTratado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&6Tratando con el'
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'

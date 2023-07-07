@@ -1,0 +1,23 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_LOG
+    amount: 4
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: APPLE
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIRT
+    amount: 4
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BIRCH_SAPLING
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

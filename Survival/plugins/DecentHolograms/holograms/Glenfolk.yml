@@ -1,0 +1,12 @@
+location: Dungeons:32.542:37.414:-28.544
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Aldea &a&lGlenfolk ->
+    height: 0.3
+  actions: {}

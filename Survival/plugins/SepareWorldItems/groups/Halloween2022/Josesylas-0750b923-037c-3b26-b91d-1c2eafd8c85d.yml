@@ -1,0 +1,335 @@
+health: 23.600000381469727
+hunger: 20
+exp: 0.023076922
+exp-level: 32
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 63
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 44
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+    amount: 64
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 3
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 3
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 4
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 4
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 4
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+    amount: 64
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 64
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 4
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 3
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 3
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DAMAGED_ANVIL
+    amount: 2
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+    amount: 64
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 64
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 5
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 2
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 6
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 2
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 2
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 6
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 2
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 5

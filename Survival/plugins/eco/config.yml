@@ -1,0 +1,29 @@
+# 
+# eco
+# by Auxilor
+
+save-interval: 1
+data-handler: yaml
+display-frame-ttl: 17
+log-full-extension-errors: false
+no-update-checker: false
+conflicts:
+  whitelist:
+  - eco
+mysql:
+  threads: 2
+  database: database
+  password: passy
+  port: 3306
+  host: localhost
+  user: username
+  connections: 10
+mongodb:
+  url: ''
+use-safer-namespacedkey-creation: false
+use-display-frame: true
+use-lower-protocollib-priority: false
+use-fast-collated-drops: true
+perform-data-migration: true
+displayed-recipes: true
+

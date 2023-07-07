@@ -1,0 +1,298 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        KNOCKBACK: 2
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+      Damage: 94
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 429
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/53UTU/DIBjAcTo3t1Wde3fTePRLeDBG48Gz3snTFjtSCg3Q6Pz068IYGi5l99+fkuZ5iBGK0eiFibR445rq7SfkA9ShGVqUlJNUwpd+VJuaFUTiRPwMUe9dk1LFCKG7CHU/mNDIBBMXpMBSqkmEeq+i5voZHWTUWnZay7PWsmvkykkoid5slcbJ/gd4QS80ODfBvQsqwajakKwJIC2UFty/V/+kamCqpasYVFRhBr81ox4ftuJPlseGTx2X8I1zwTJLHyy98E7eM8IxVBU73rtj+aXha8czkAUWUOCKAS+Ud/Wr4GIUXFwHF+PgYhJcTIOLWXAxP2n6Ft7WZRRKwY/jMbZyaeT8/3hgyvPmPTjgmcU3Bo//LrOUDh6/v/JgAmUihAfX3iCnULNMCm5p19Jb78xmQbSD/ebN2wHf/wmNMAUAAA==
+      blockMaterial: SHULKER_BOX
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 3
+        DURABILITY: 3
+      Damage: 444
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      enchants:
+        PIERCING: 4
+        QUICK_CHARGE: 2
+        DURABILITY: 2
+      repair-cost: 63
+      Damage: 6
+      charged: false
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: AXOLOTL_BUCKET
+    meta:
+      ==: ItemMeta
+      meta-type: AXOLOTL_BUCKET
+      internal: H4sIAAAAAAAA/+NiYGBh4PcozSvJzEt3zs/PSckvz2MAA8ZPzAzMjumpIDYrA5tHamJOSYajrtwOBgBAh3tKNQAAAA==
+      axolotl-variant: 4
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WATER_BUCKET
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BLOCK
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHEST
+    amount: 64
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLOWERING_AZALEA_LEAVES
+    amount: 3
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIRT
+    amount: 52
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUGAR_CANE
+    amount: 64
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: JUNGLE_SAPLING
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: AMETHYST_BLOCK
+    amount: 43
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAVA_BUCKET
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SADDLE
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOOKSHELF
+    amount: 42
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DRAGON_HEAD
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"green","text":"<---"},{"italic":false,"color":"aqua","text":"
+        Proteccion de 64 "},{"italic":false,"strikethrough":true,"color":"green","text":"--->"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"(⌐■_■)ノ♪
+        Protege tu casita!"}],"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BONE_MEAL
+    amount: 36
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NAME_TAG
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHEAT_SEEDS
+    amount: 48
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GLASS
+    amount: 64
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_INGOT
+    amount: 18
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: AMETHYST_BLOCK
+    amount: 64
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DARK_OAK_PLANKS
+    amount: 64
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUGAR_CANE
+    amount: 58
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: POLISHED_BLACKSTONE
+    amount: 64
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OBSIDIAN
+    amount: 16
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 27
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 20
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 6
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 152
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DARK_OAK_PLANKS
+    amount: 64
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DARK_OAK_PLANKS
+    amount: 64
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_MOBS: 3
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+      Damage: 53
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 22
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 196
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 15
+health: 20.0
+hunger: 20
+exp: 0.93117464
+exp-level: 45
+armor_contents:
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 196
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      Damage: 22

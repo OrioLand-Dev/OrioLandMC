@@ -1,0 +1,435 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"gold","text":"Orita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        LOOT_BONUS_BLOCKS: 7
+        MENDING: 2
+        DURABILITY: 7
+      Damage: 159
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"P"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA82AD","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB889E","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8E90","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9B73","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCA165","text":"e"},{"italic":false,"text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAD48","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDB33A","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBA2B","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC01D","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC60E","text":"a"}],"text":""}'
+      custom-model-data: 2
+      enchants:
+        DIG_SPEED: 4
+        LOOT_BONUS_BLOCKS: 2
+        DURABILITY: 3
+      Damage: 93
+      PublicBukkitValues:
+        oraxen:id: orita_shovel
+        oraxen:durability: 4769i
+        oraxen:if-uuid: '[B;-101B,-17B,110B,105B,67B,-104B,71B,-91B,-67B,68B,-23B,-112B,-68B,94B,-77B,-101B]'
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DRIPSTONE_BLOCK
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 52
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 17
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STRING
+    amount: 2
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIRT
+    amount: 48
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 8
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BONE
+    amount: 25
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHICKEN
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 12
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NAME_TAG
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_PLANKS
+    amount: 2
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GRAVEL
+    amount: 5
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BEETROOT_SEEDS
+    amount: 8
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHEAT_SEEDS
+    amount: 39
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BROWN_MUSHROOM
+    amount: 2
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"B"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA82AE","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB87A0","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8D93","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9386","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9978","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9E6B","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA45E","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAA50","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAF43","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB535","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBB28","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC11B","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC60D","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: oraxen
+          slot: FEET
+          uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: FEET
+          uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_boots
+        oraxen:durability: 788i
+        oraxen:if-uuid: '[B;53B,82B,123B,38B,-91B,104B,69B,-104B,-73B,65B,61B,-22B,109B,-82B,-61B,-54B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"P"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA80B1","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB84A7","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB899D","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8D94","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB918A","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9580","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9976","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9E6C","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCA262","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA659","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAA4F","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAF45","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDB33B","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB731","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBB27","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBF1E","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC414","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC80A","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: oraxen
+          slot: LEGS
+          uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: LEGS
+          uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_leggings
+        oraxen:durability: 810i
+        oraxen:if-uuid: '[B;-66B,112B,-75B,10B,32B,-105B,71B,-27B,-71B,-113B,-87B,36B,53B,-99B,18B,-63B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"P"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA81AF","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB86A4","text":"c"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8B98","text":"h"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB908C","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9581","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9A75","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9F69","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA45E","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA952","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAE46","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDB33A","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB82F","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBD23","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC217","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC70C","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: oraxen
+          slot: CHEST
+          uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: CHEST
+          uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_chestplate
+        oraxen:durability: 889i
+        oraxen:if-uuid: '[B;-78B,-92B,108B,121B,86B,35B,64B,63B,-127B,-12B,1B,-15B,63B,-57B,-71B,-53B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"C"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA82AE","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB87A0","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8D93","text":"c"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9386","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9978","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9E6B","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA45E","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAA50","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAF43","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB535","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBB28","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC11B","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC60D","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 3
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: oraxen
+          slot: HEAD
+          uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: HEAD
+          uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_helmet
+        oraxen:durability: 688i
+        oraxen:if-uuid: '[B;79B,-1B,-115B,-61B,86B,-101B,65B,97B,-75B,-105B,-45B,11B,35B,3B,48B,-54B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"C"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA82AE","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB87A0","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8D93","text":"c"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9386","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9978","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9E6B","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA45E","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAA50","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAF43","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB535","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBB28","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC11B","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC60D","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 3
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: oraxen
+          slot: HEAD
+          uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: HEAD
+          uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_helmet
+        oraxen:durability: 688i
+        oraxen:if-uuid: '[B;79B,-1B,-115B,-61B,86B,-101B,65B,97B,-75B,-105B,-45B,11B,35B,3B,48B,-54B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"P"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA81AF","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB86A4","text":"c"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8B98","text":"h"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB908C","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9581","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9A75","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9F69","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA45E","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA952","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAE46","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDB33A","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB82F","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBD23","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC217","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC70C","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: oraxen
+          slot: CHEST
+          uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: CHEST
+          uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_chestplate
+        oraxen:durability: 889i
+        oraxen:if-uuid: '[B;-78B,-92B,108B,121B,86B,35B,64B,63B,-127B,-12B,1B,-15B,63B,-57B,-71B,-53B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"P"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA80B1","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB84A7","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB899D","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8D94","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB918A","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9580","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9976","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9E6C","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FCA262","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA659","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAA4F","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAF45","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDB33B","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB731","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBB27","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBF1E","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC414","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC80A","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: oraxen
+          slot: LEGS
+          uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: LEGS
+          uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_leggings
+        oraxen:durability: 810i
+        oraxen:if-uuid: '[B;-66B,112B,-75B,10B,32B,-105B,71B,-27B,-71B,-113B,-87B,36B,53B,-99B,18B,-63B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"B"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA82AE","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB87A0","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8D93","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB9386","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9978","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9E6B","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDA45E","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAA50","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAF43","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEB535","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBB28","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEC11B","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC60D","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 4
+      enchants:
+        MENDING: 2
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 7
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: oraxen
+          slot: FEET
+          uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: FEET
+          uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: orita_boots
+        oraxen:durability: 788i
+        oraxen:if-uuid: '[B;53B,82B,123B,38B,-91B,104B,69B,-104B,-73B,65B,61B,-22B,109B,-82B,-61B,-54B]'
+      color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 204
+health: 22.399999618530273
+hunger: 20
+exp: 0.0
+exp-level: 0

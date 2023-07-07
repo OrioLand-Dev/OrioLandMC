@@ -1,0 +1,66 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3685EC","text":"S"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3B8AEB","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4190EB","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4695EA","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#4C9BE9","text":"m"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#57A6E8","text":"S"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5CABE7","text":"w"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#62B1E6","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#67B6E5","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6DBCE5","text":"d"}],"text":""}'
+      lore:
+      - '{"italic":false,"extra":[{"extra":[{"color":"#6f737d","text":"» "},{"color":"#d5d6d8","text":"Right
+        click to strike lightning"}],"text":""}],"text":""}'
+      custom-model-data: 5
+      enchants:
+        DAMAGE_ALL: 1000
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.2
+          name: oraxen
+          slot: HAND
+          uuid: 35f224b1-bd48-4ca1-bd0e-bbb760b2aa0c
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: oraxen
+          slot: HAND
+          uuid: d1fe3908-8aa8-49bb-8c1f-907b765a43ab
+          operation: 0
+      Damage: 1
+      PublicBukkitValues:
+        oraxen:charges: -1i
+        oraxen:id: storm_sword
+        oraxen:if-uuid: '[B;-57B,61B,-97B,126B,74B,-112B,67B,95B,-102B,-77B,103B,-63B,-89B,-52B,126B,-26B]'
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BARRIER
+    amount: 64
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WOODEN_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BLOCK
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BLOCK
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_BLOCK
+health: 58.24300003051758
+hunger: 17
+exp: 0.5264772
+exp-level: 44
+armor_contents: {}

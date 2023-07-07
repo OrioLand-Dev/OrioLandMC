@@ -1,0 +1,472 @@
+menu-title: '&f<shift:-16>ᖀ'
+menu-rows: 4
+
+menu:
+  '0':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '1':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '2':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '3':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '9':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '10':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '11':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '12':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '18':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '19':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '20':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '21':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lPase: {#ffdc9e}Semana %week%'
+      lore:
+        - '&8Pase %pass_type%'
+        - ''
+        - '{#71797E}Nivel: &f%tier%'
+        - '{#71797E}Experiencia: &f%points%{#71797E}/%required_points%'
+  '22':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '23':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '24':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '25':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '26':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '31':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '32':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '33':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '34':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '35':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lRECOMPENSAS'
+      lore:
+        - ''
+        - '{#71797E}¡¡Completa el Pase!!'
+        - '{#71797E}¡Haz las misiones para '
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[menu] {rewards}'
+  '4':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '5':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '6':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '7':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '8':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '13':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '14':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '15':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '16':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '17':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#F60102}&lMISIONES'
+      lore:
+        - ''
+        - '{#71797E}¡Completa las Misiones!'
+        - '{#71797E}para conseguir puntos y'
+        - '{#71797E}conseguir recompensas!'
+        - ''
+        - '&eVer &8[Click Izquierdo]'
+    actions:
+      - '[command] {misiones}'
+  '27':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPase Premium'
+      lore:
+        - ''
+        - '{#71797E}Consigue el Pase Premium'
+        - '{#71797E}para no perderte un'
+        - '{#71797E}montón de recompensas'
+        - '{#71797E}y conseguir un x3.5 mas de XP!'
+        - ''
+        - '&eComprar &8[Click Izquierdo]'
+    actions:
+      - '[message] {ᖆ &7Compra el Pase Mensual en &ahttps://orioland.com/store/orioland/none/pase-premium/6}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'
+  '28':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPase Premium'
+      lore:
+        - ''
+        - '{#71797E}Consigue el Pase Premium'
+        - '{#71797E}para no perderte un'
+        - '{#71797E}montón de recompensas'
+        - '{#71797E}y conseguir un x3.5 mas de XP!'
+        - ''
+        - '&eComprar &8[Click Izquierdo]'
+    actions:
+      - '[message] {ᖆ &7Compra el Pase Mensual en &ahttps://orioland.com/store/orioland/none/pase-premium/6}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'
+  '29':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPase Premium'
+      lore:
+        - ''
+        - '{#71797E}Consigue el Pase Premium'
+        - '{#71797E}para no perderte un'
+        - '{#71797E}montón de recompensas'
+        - '{#71797E}y conseguir un x3.5 mas de XP!'
+        - ''
+        - '&eComprar &8[Click Izquierdo]'
+    actions:
+      - '[message] {ᖆ &7Compra el Pase Mensual en &ahttps://orioland.com/store/orioland/none/pase-premium/6}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'
+  '30':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPase Premium'
+      lore:
+        - ''
+        - '{#71797E}Consigue el Pase Premium'
+        - '{#71797E}para no perderte un'
+        - '{#71797E}montón de recompensas'
+        - '{#71797E}y conseguir un x3.5 mas de XP!'
+        - ''
+        - '&eComprar &8[Click Izquierdo]'
+    actions:
+      - '[message] {ᖆ &7Compra el Pase Mensual en &ahttps://orioland.com/store/orioland/none/pase-premium/6}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'

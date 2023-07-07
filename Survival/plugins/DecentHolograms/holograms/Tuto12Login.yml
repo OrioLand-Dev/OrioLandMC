@@ -1,0 +1,16 @@
+location: Lobby:0.503:77.000:6.395
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: 'Para ꐐ &l&5usa /register <contraseña>.'
+  - content: '&lSi ya estas registrado inicia sesion con /login <contraseña>.'
+  - content: ''
+  - content: '&l&ETEN EN CUENTA QUE SI TE HAS REGISTRADO POR LA WEB'
+  - content: '&l&EPODRAS INICIAR SESION CON LA MISMA CONTRASEÑA Y AL REVES.'
+    height: 0.3
+  actions: {}

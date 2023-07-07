@@ -1,0 +1,13 @@
+Name: §6Llave_huevos_mobs Crate Key
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 0
+  Name: '&3&lLlave Huevos mobs'
+  Lore:
+  - '&fUsa esta llave en &a/warp crates'
+  Enchants:
+    abrasion: 1
+  Item_Flags: []
+  Unbreakable: false

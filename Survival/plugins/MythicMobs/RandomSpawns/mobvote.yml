@@ -1,0 +1,111 @@
+glare_randomspawn:
+  Action: REPLACE
+  Type: glare
+  Chance: 0.001
+  Priority: 10
+  Worlds: world
+  UseWorldScaling: false
+  Biomes: LUSH_CAVES
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+meerkat_randomspawn:
+  Action: REPLACE
+  Type: meerkat
+  Worlds: world
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Biomes: DESERT,WOODED_BADLANDS,BADLANDS,ERODES_BADLANDS
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+ostrich_randomspawn:
+  Action: REPLACE
+  Type: ostrich
+  Worlds: world
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Biomes: SAVANNA_PLATEAU,SAVANNA
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+crow_randomspawn:
+  Action: REPLACE
+  Worlds: world
+  Type: ostrich
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Biomes: DESERT,WOODED_BADLANDS,BADLANDS,ERODES_BADLANDS
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+iceologer_randomspawn:
+  Action: REPLACE
+  Worlds: world
+  Type: ostrich
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Biomes: TUNDRA,FROZEN_RIVER,SNOWY_TAIGA,WINDSWEPT_FOREST
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+moobloom_randomspawn:
+  Action: REPLACE
+  Worlds: world
+  Type: moobloom
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+  - biome{b=DESERT,BADLANDS,ERODES_BADLANDS,WOODEN_BADLANDS} false
+great_hunger_randomspawn:
+  Action: REPLACE
+  Worlds: world
+  Type: great_hunger
+  Chance: 0.001
+  Priority: 10
+  BIOMES: DRIPSTONE_CAVES,LUSH_CAVES,SWAMP
+  UseWorldScaling: false
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+  - biome{b=DESERT,BADLANDS,ERODES_BADLANDS,WOODEN_BADLANDS} false
+coppergolem_randomspawn:
+  Action: REPLACE
+  Worlds: world
+  Type: COPPER_GOLEM
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+  - biome{b=DESERT,BADLANDS,ERODES_BADLANDS,WOODEN_BADLANDS} false
+rascal_randomspawn:
+  Action: REPLACE
+  Type: rascal
+  Worlds: world
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+  - biome{b=DESERT,BADLANDS,ERODES_BADLANDS,WOODEN_BADLANDS} false
+sniffer_randomspawn:
+  Action: REPLACE
+  Type: sniffer
+  Chance: 0.001
+  Worlds: world
+  Priority: 10
+  UseWorldScaling: false
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+  - biome{b=DESERT,BADLANDS,ERODES_BADLANDS,WOODEN_BADLANDS} false
+big_sniffer_randomspawn:
+  Action: REPLACE
+  Type: big_sniffer
+  Worlds: world
+  Chance: 0.001
+  Priority: 10
+  UseWorldScaling: false
+  Conditions:
+  - onblock{b=LAVA,WATER} false
+  - biome{b=DESERT,BADLANDS,ERODES_BADLANDS,WOODEN_BADLANDS} false

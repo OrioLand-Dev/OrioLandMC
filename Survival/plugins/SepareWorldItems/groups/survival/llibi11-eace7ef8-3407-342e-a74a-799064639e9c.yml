@@ -1,0 +1,271 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 153
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_IRON
+    amount: 13
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 217
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: REDSTONE
+    amount: 22
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLED_DEEPSLATE
+    amount: 6
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/72Vy27TQBSGj5O0TUzv0FbtKngFUrtDLCKEUEsXSIAqQGwQso7tiTPKeMbMjJuGqiu2CLFCYscWJF6AB+BByivwAEyS+oKdRqqEWGTh0Tf/uf1nYgPYsLzPhN8/5Jrq4QsMm1CjAWxElBNfYld3VC9hfSJdT5y0YO6RJpGyAWDLgsZzJjRYMHcgEq4tG+oawzrMP8QIQwJg/bBg4aCHMiQBwER4PRf2pVDKEwO4ULIypQnq5GhkyKHrC89jRGnBias0UqnSq7XLk4DfF5E3czkqBXdj6vfxhKQS9VTiwQS/XkiU4dD1kLGUbVyBnbsCO38FdqHUrdUCi1KOBzMGmyWwMAEVD0OGKmtjq4TeyNFQsMClPMx17RRuVXQlDtzRhRS9lqLLlVEwjKlyGb5NGE3xpRSvT/C1HA+okFRnQ1tOyfmKbQkPjGljgjJr2coMl0ALFg+530OuI8L12OK1iehKLhqLAZE1qLPjkWilSQn3JMG+aVPGXEBLOVRw/GolIfsZiY2xD4TSJgFrSlLV0cRm2MTXVPAsarGyrzYsBFTFxkBNaDzFiMDPU4ecaIlO59Wp45lBOZ0uMkV2HaqRUT/7TEZNZCZSTigtaZ/onhRJ2MtOhddNlI+6APqCCel0nEHPDMzZdbQJaT73hUbVds52T8vB0gsByr4bSkJ4fusJJZEnhXP2OjtyztLmbhes30PKI6TMPFdCZ8ZeKxm7cIPRsKdNOLNeAyEyr6ynN+zKeo06wMMU3CiZdav4wNFImZdGFlPZLKVS4AcoYxK43YSHScZvXa4/ICQ2mbjH5iTjt2ctD0aCZ1u5U3KfDetHiWcmsp/0+1S/RJYQZcFO7q/x06s6xkzKG/1pWFDxlrX477ylZTLbWiWT3Nvb25tlLHyTYE63j8Z1+aaudkDad+9MNeXUlC6Jb8Lf/9uhLWg8FpI0R3sL3//n1o2e3zyzW+fvP55/+uKa3+1f7z6cf/42qT4kbZ20fVQmg5vTl2uj4h/XVGQK+gM5N1foPQgAAA==
+      blockMaterial: SHULKER_BOX
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 62
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 38
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WATER_BUCKET
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_COPPER_BLOCK
+    amount: 2
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      Damage: 26
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_INGOT
+    amount: 13
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GRAVEL
+    amount: 2
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIORITE
+    amount: 2
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 7
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERRACK
+    amount: 12
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        BREAKLESSNESS_CURSE: 1
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: POTATO
+    amount: 58
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SNOWBALL
+    amount: 16
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_MUSHROOM
+    amount: 8
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: QUARTZ
+    amount: 9
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        SOUL_SPEED: 2
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOWL
+    amount: 3
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GRANITE
+    amount: 32
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT
+    amount: 3
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GLOW_INK_SAC
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 214
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BROWN_MUSHROOM
+    amount: 10
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHEAT_SEEDS
+    amount: 16
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 13
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 3
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 4
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 140
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 122
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        METABOLISM: 1
+      Damage: 4
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+      Damage: 4
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+      Damage: 4
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        METABOLISM: 1
+      Damage: 4
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 122
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 140
+health: 20.0
+hunger: 20
+exp: 0.3529412
+exp-level: 1

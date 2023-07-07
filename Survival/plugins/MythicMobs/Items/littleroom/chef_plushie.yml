@@ -1,0 +1,10 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+
+
+chef_doll:
+  Id: ink_sac
+  Display: 'Chef Plushie'
+  Model: 30

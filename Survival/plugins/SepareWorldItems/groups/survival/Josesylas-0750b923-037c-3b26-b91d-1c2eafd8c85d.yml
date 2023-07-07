@@ -1,0 +1,158 @@
+health: 23.600000381469727
+hunger: 20
+exp: 0.41176474
+exp-level: 5
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+      Damage: 372
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 838
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERRACK
+    amount: 31
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BUCKET
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 15
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/4WUTW+bQBCGxyaOMZU/EjV2e+Vc5QdE6qVtDrlEkZI7GmADqyw77u5SN616za/Ljwr+WLNA7dyA93l33p0ZEQAEMPkmKHm6loab5wfMfOjzFC4KLlmi8NFc6bwUT0xFMf0eweDGsEIHAHDeg5N7QQZ6MPhOpTS9ADyDWQDDlOulwGcfTm6xYPD1b5iQIBVehRmJNPwSGoVSCzSs+hSvq1/uy11S9UiljmKUkqnwXzfhCPw7NIYpuQni+zDcvUO/UN46TlWtUirQkWLtSH5DSlxp2HTRQVfhuqYNKc8Pu5KDUqPWdCOvZzGvZ7HKuWG71sBuAL39ALb4pMYFw9Ri/RY2q7GfJSrzx4KeBf0tOHVWwZBklhtYzuvE3B4YbUZr8dPWnnhw+gMLzFh1zxfoZNI5Q6Wt2T9iHr9nHllzv9Og2LnP2GLDLXZeYxRrnnKUFp20evmxRgvSunnx6ZHsM+jU4opklNM+1szaP/xnHLwuc2a5cacdmcJfTFjwohXeORCXS7EvPD+8B6gUrSy3aLV34QQsiEweNffrU2tvnF/N+vcQyTLLmLH05yPde911b+wOdFUJb9jrDn/YBAAA
+      blockMaterial: SHULKER_BOX
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRAFTING_TABLE
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 24
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STRING
+    amount: 4
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHER_WART
+    amount: 17
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_PLANKS
+    amount: 6
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_BLOCK
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 472
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 387
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        HAUNTING: 2
+        PROTECTION_PROJECTILE: 4
+        OXYGEN: 2
+      repair-cost: 1
+      Damage: 285
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      Damage: 12
+      blockMaterial: SHIELD
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 8
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        HAUNTING: 2
+        PROTECTION_PROJECTILE: 4
+        OXYGEN: 2
+      repair-cost: 1
+      Damage: 285
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 387
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 472

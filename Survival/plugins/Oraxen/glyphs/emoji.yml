@@ -1,0 +1,159 @@
+heart:
+  texture: default/chat/heart
+  ascent: 8
+  height: 8
+  code: 900
+  chat:
+    placeholders:
+      - "<3"
+god:
+  texture: default/chat/god
+  ascent: 8
+  height: 8
+  code: 901
+  chat:
+    placeholders:
+      - ":god:"
+
+jaja:
+  texture: default/chat/jaja
+  ascent: 8
+  height: 8
+  code: 902
+  chat:
+    placeholders:
+      - ":jaja:"
+jeje:
+  texture: default/chat/jeje
+  ascent: 8
+  height: 8
+  code: 903
+  chat:
+    placeholders:
+      - ":jeje:"
+alquimista:
+  texture: default/chat/alquimista
+  ascent: 8
+  height: 8
+  code: 904
+  chat:
+    placeholders:
+      - ":alquimista:"
+    permission: "oraxen.emoji.alquimista"
+
+enchantador:
+  texture: default/chat/enchantador
+  ascent: 8
+  height: 8
+  code: 905
+  chat:
+    placeholders:
+      - ":enchantador:"
+    permission: "oraxen.emoji.enchantador"
+
+banco:
+  texture: default/chat/banco
+  ascent: 8
+  height: 8
+  code: 906
+  chat:
+    placeholders:
+      - ":banco:"
+    permission: "oraxen.emoji.banco"
+
+mercado:
+  texture: default/chat/mercado
+  ascent: 8
+  height: 8
+  code: 907
+  chat:
+    placeholders:
+      - ":mercado:"
+    permission: "oraxen.emoji.mercado"
+
+tradear:
+  texture: default/chat/tradear
+  ascent: 8
+  height: 8
+  code: 908
+  chat:
+    placeholders:
+      - ":tradear:"
+    permission: "oraxen.emoji.tradear"
+
+hablar:
+  texture: default/chat/hablar
+  ascent: 8
+  height: 8
+  code: 909
+  chat:
+    placeholders:
+      - ":hablar:"
+    permission: "oraxen.emoji.hablar"
+
+tienda:
+  texture: default/chat/tienda
+  ascent: 8
+  height: 8
+  code: 910
+  chat:
+    placeholders:
+      - ":tienda:"
+    permission: "oraxen.emoji.tienda"
+
+donaciones:
+  texture: default/chat/donaciones
+  ascent: 8
+  height: 8
+  code: 911
+  chat:
+    placeholders:
+      - ":donaciones:"
+    permission: "oraxen.emoji.donaciones"
+
+misiones:
+  texture: default/chat/misiones
+  ascent: 8
+  height: 8
+  code: 912
+  chat:
+    placeholders:
+      - ":misiones:"
+    permission: "oraxen.emoji.misiones"
+
+pase_de_batalla:
+  texture: default/chat/pase_de_batalla
+  ascent: 8
+  height: 8
+  code: 913
+  chat:
+    placeholders:
+      - ":pase_de_batalla:"
+    permission: "oraxen.emoji.pase_de_batalla"
+
+tienda_de_jugador:
+  texture: default/chat/tienda_de_jugador
+  ascent: 8
+  height: 8
+  code: 914
+  chat:
+    placeholders:
+      - ":tienda_de_jugador:"
+    permission: "oraxen.emoji.tienda_de_jugador"
+
+mana:
+  texture: default/chat/mana
+  ascent: 11
+  height: 14
+  code: 1915
+  chat:
+    placeholders:
+      - ":mana:"
+    permission: "oraxen.emoji.mana"
+
+postulaciones:
+  texture: default/chat/postulaciones
+  ascent: 11
+  height: 256
+  code: 1916
+

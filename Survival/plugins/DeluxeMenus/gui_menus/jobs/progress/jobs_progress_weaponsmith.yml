@@ -1,0 +1,1158 @@
+menu_title: '&fㆪ'
+open_command:
+  - jobweaponsmith
+size: 44
+
+items:
+  JOB:
+    material: GOLD_NUGGET
+    model_data: 13200
+    display_name: '&#A996EC%jobsr_name_weaponsmith%'
+    slot: 0
+    priority: 1
+    lore:
+    - '%jobsr_description_Weaponsmith%'
+    - ''
+    - '&#A1E6D8[Click para ver los pagos]'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Weaponsmith'
+    right_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Weaponsmith'
+  JOB-JOIN:
+    material: GOLD_NUGGET
+    model_data: 13210
+    display_name: '&#A996EC%jobsr_name_weaponsmith%'
+    slot: 0
+    priority: 0
+    view_requirement:
+      requirements:
+        jobs_requirement:
+         type: string contains
+         input: "%jobsr_user_isin_Weaponsmith%"
+         output: 'True'
+    lore:
+    - '%jobsr_description_weaponsmith%'
+    - ''
+    - '&#A1E6D8[Click para ver los pagos]'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Weaponsmith'
+    right_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_ON 0.3 0.95'
+    - '[player] jobs info Weaponsmith'
+  PROFILE:
+    material: head-%player_name%
+    model_data: 10555
+    display_name: '&#F8BD23%player_name%'
+    slot: 4
+    lore:
+    - '&7Rango: %jobsr_user_title_Weaponsmith%'
+    - '&7Trabajadores: &#FCFCFC%jobsr_totalplayers_Weaponsmith%'
+    - ''
+    - '&7Level: &#FCFCFC%jobsr_user_jlevel_Weaponsmith%'
+    - '&7Siguiente nivel: &#F19C0B%jobsr_user_jmexp_Weaponsmith% EXP'
+    - '%progress_bar_{jobsr_user_jexp_Weaponsmith}_c:&a&l▀_p:&a&l▀_r:&7&l▀_l:12_m:{jobsr_user_jmaxexp_Weaponsmith}_fullbar:&8&l▀▀▀▀▀▀▀▀▀▀▀▀%'
+    left_click_commands:
+    - '[sound] BLOCK_STONE_BUTTON_CLICK_OFF 0.3 0.85'
+    - '[openguimenu] jobs_menu_page_2'
+  BACK_NEXT:
+    material: GOLD_NUGGET
+    model_data: 11900
+    display_name: '&#C7A439[LMB] Atrás'
+    slot: 8
+    lore:
+    - '&#6EC438Siguiente [RMB]'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_progress_Weaponsmith_page_3'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_HAT 0.6 1.8'
+    - '[openguimenu] jobs_progress_Weaponsmith_page_2'
+
+#  _                   _   _ 
+# | |    _____   _____| | / |
+# | |   / _ \ \ / / _ \ | | |
+# | |__|  __/\ V /  __/ | | |
+# |_____\___| \_/ \___|_| |_|
+#
+  Level1-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 1'
+    priority: 3
+    slot: 9
+    lore:
+    - '&#D6E3CCNo hay recompensas'
+    - '&#D6E3CCpara este nivel.'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level1-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 1'
+    priority: 2
+    slot: 9
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 1" 
+    lore:
+    - '&#D6E3CCNo hay recompensas'
+    - '&#D6E3CCpara este nivel.'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level1-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 1'
+    priority: 1
+    slot: 9
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 1" 
+    lore:
+    - '&#D6E3CCNo hay recompensas'
+    - '&#D6E3CCpara este nivel.'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____  
+# | |    _____   _____| | |___ \ 
+# | |   / _ \ \ / / _ \ |   __) |
+# | |__|  __/\ V /  __/ |  / __/ 
+# |_____\___| \_/ \___|_| |_____|
+#
+  Level2-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 2'
+    priority: 3
+    amount: 2
+    slot: 18
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 10 ⛃'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level2-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 2'
+    priority: 2
+    amount: 2
+    slot: 18
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 2" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 10 ⛃'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level2-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 2'
+    priority: 1
+    amount: 2
+    slot: 18
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 2" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 10 ⛃'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _____ 
+# | |    _____   _____| | |___ / 
+# | |   / _ \ \ / / _ \ |   |_ \ 
+# | |__|  __/\ V /  __/ |  ___) |
+# |_____\___| \_/ \___|_| |____/ 
+#
+  Level3-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 3'
+    priority: 3
+    amount: 3
+    slot: 27
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 10 ⛃'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level3-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 3'
+    priority: 2
+    amount: 3
+    slot: 27
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 3" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 10 ⛃'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level3-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 3'
+    priority: 1
+    amount: 3
+    slot: 27
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 3" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 10 ⛃'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  _   
+# | |    _____   _____| | | || |  
+# | |   / _ \ \ / / _ \ | | || |_ 
+# | |__|  __/\ V /  __/ | |__   _|
+# |_____\___| \_/ \___|_|    |_|  
+#
+  Level4-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 4'
+    priority: 3
+    amount: 4
+    slot: 36
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 15 ⛃'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level4-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 4'
+    priority: 2
+    amount: 4
+    slot: 36
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 4" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 15 ⛃'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level4-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 4'
+    priority: 1
+    amount: 4
+    slot: 36
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 4" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 15 ⛃'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____  
+# | |    _____   _____| | | ___| 
+# | |   / _ \ \ / / _ \ | |___ \ 
+# | |__|  __/\ V /  __/ |  ___) |
+# |_____\___| \_/ \___|_| |____/ 
+#
+  Level5-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 5'
+    priority: 3
+    amount: 5
+    slot: 37
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 20 ⛃'
+    - '&8 ▮&a 10 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level5-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 5'
+    priority: 2
+    amount: 5
+    slot: 37
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 5" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 20 ⛃'
+    - '&8 ▮&a 10 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level5-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 5'
+    priority: 1
+    amount: 5
+    slot: 37
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 5" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 20 ⛃'
+    - '&8 ▮&a 10 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _    __   
+# | |    _____   _____| |  / /_  
+# | |   / _ \ \ / / _ \ | | '_ \ 
+# | |__|  __/\ V /  __/ | | (_) |
+# |_____\___| \_/ \___|_|  \___/ 
+#
+  Level6-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 6'
+    priority: 3
+    amount: 6
+    slot: 38
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 20 ⛃'
+    - '&8 ▮&a 15 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level6-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 6'
+    priority: 2
+    amount: 6
+    slot: 38
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 6" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 20 ⛃'
+    - '&8 ▮&a 15 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level6-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 6'
+    priority: 1
+    amount: 6
+    slot: 38
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 6" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 20 ⛃'
+    - '&8 ▮&a 15 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _____ 
+# | |    _____   _____| | |___  |
+# | |   / _ \ \ / / _ \ |    / / 
+# | |__|  __/\ V /  __/ |   / /  
+# |_____\___| \_/ \___|_|  /_/   
+#
+  Level7-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 7'
+    priority: 3
+    amount: 7
+    slot: 29
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 25 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level7-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 7'
+    priority: 2
+    amount: 7
+    slot: 29
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 7" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 25 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level7-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 7'
+    priority: 1
+    amount: 7
+    slot: 29
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 7" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 25 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _    ___  
+# | |    _____   _____| |  ( _ ) 
+# | |   / _ \ \ / / _ \ |  / _ \ 
+# | |__|  __/\ V /  __/ | | (_) |
+# |_____\___| \_/ \___|_|  \___/ 
+#
+  Level8-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 8'
+    priority: 3
+    amount: 8
+    slot: 20
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level8-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 8'
+    priority: 2
+    amount: 8
+    slot: 20
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 8" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level8-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 8'
+    priority: 1
+    amount: 8
+    slot: 20
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 8" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _    ___  
+# | |    _____   _____| |  / _ \ 
+# | |   / _ \ \ / / _ \ | | (_) |
+# | |__|  __/\ V /  __/ |  \__, |
+# |_____\___| \_/ \___|_|    /_/ 
+#
+  Level9-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 9'
+    priority: 3
+    amount: 9
+    slot: 21
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level9-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 9'
+    priority: 2
+    amount: 9
+    slot: 21
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 9" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level9-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 9'
+    priority: 1
+    amount: 9
+    slot: 21
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 9" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  ___  
+# | |    _____   _____| | / |/ _ \ 
+# | |   / _ \ \ / / _ \ | | | | | |
+# | |__|  __/\ V /  __/ | | | |_| |
+# |_____\___| \_/ \___|_| |_|\___/ 
+#
+  Level10-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 10'
+    priority: 3
+    amount: 10
+    slot: 22
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 100 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level10-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 10'
+    priority: 2
+    amount: 10
+    slot: 22
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 10" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level10-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 10'
+    priority: 1
+    amount: 10
+    slot: 22
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 10" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 30 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _ _ 
+# | |    _____   _____| | / / |
+# | |   / _ \ \ / / _ \ | | | |
+# | |__|  __/\ V /  __/ | | | |
+# |_____\___| \_/ \___|_| |_|_|
+#
+  Level11-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 11'
+    priority: 3
+    amount: 11
+    slot: 31
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 35 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level11-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 11'
+    priority: 2
+    amount: 11
+    slot: 31
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 11" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 35 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level11-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 11'
+    priority: 1
+    amount: 11
+    slot: 31
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 11" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 35 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _ ____  
+# | |    _____   _____| | / |___ \ 
+# | |   / _ \ \ / / _ \ | | | __) |
+# | |__|  __/\ V /  __/ | | |/ __/ 
+# |_____\___| \_/ \___|_| |_|_____|
+#
+  Level12-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 12'
+    priority: 3
+    amount: 12
+    slot: 40
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 40 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level12-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 12'
+    priority: 2
+    amount: 12
+    slot: 40
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 12" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 40 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level12-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 12'
+    priority: 1
+    amount: 12
+    slot: 40
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 12" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 40 ⛃'
+    - '&8 ▮&a 20 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _ _____ 
+# | |    _____   _____| | / |___ / 
+# | |   / _ \ \ / / _ \ | | | |_ \ 
+# | |__|  __/\ V /  __/ | | |___) |
+# |_____\___| \_/ \___|_| |_|____/ 
+#
+  Level13-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 13'
+    priority: 3
+    amount: 13
+    slot: 41
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 40 ⛃'
+    - '&8 ▮&a 25 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level13-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 13'
+    priority: 2
+    amount: 13
+    slot: 41
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 13" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 40 ⛃'
+    - '&8 ▮&a 25 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level13-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 13'
+    priority: 1
+    amount: 13
+    slot: 41
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 13" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 40 ⛃'
+    - '&8 ▮&a 25 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _ _  _   
+# | |    _____   _____| | / | || |  
+# | |   / _ \ \ / / _ \ | | | || |_ 
+# | |__|  __/\ V /  __/ | | |__   _|
+# |_____\___| \_/ \___|_| |_|  |_|  
+#
+  Level14-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 14'
+    priority: 3
+    amount: 14
+    slot: 42
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 45 ⛃'
+    - '&8 ▮&a 25 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level14-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 14'
+    priority: 2
+    amount: 14
+    slot: 42
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 14" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 45 ⛃'
+    - '&8 ▮&a 25 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level14-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 14'
+    priority: 1
+    amount: 14
+    slot: 42
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 14" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 45 ⛃'
+    - '&8 ▮&a 25 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _ ____  
+# | |    _____   _____| | / | ___| 
+# | |   / _ \ \ / / _ \ | | |___ \ 
+# | |__|  __/\ V /  __/ | | |___) |
+# |_____\___| \_/ \___|_| |_|____/ 
+#
+  Level15-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 15'
+    priority: 3
+    amount: 15
+    slot: 33
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 50 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level15-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 15'
+    priority: 2
+    amount: 15
+    slot: 33
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 15" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 50 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level15-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 15'
+    priority: 1
+    amount: 15
+    slot: 33
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 15" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 50 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  __   
+# | |    _____   _____| | / |/ /_  
+# | |   / _ \ \ / / _ \ | | | '_ \ 
+# | |__|  __/\ V /  __/ | | | (_) |
+# |_____\___| \_/ \___|_| |_|\___/ 
+#
+  Level16-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 16'
+    priority: 3
+    amount: 16
+    slot: 24
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 55 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level16-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 16'
+    priority: 2
+    amount: 16
+    slot: 24
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 16" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 55 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level16-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 16'
+    priority: 1
+    amount: 16
+    slot: 24
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 16" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 55 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _ _____ 
+# | |    _____   _____| | / |___  |
+# | |   / _ \ \ / / _ \ | | |  / / 
+# | |__|  __/\ V /  __/ | | | / /  
+# |_____\___| \_/ \___|_| |_|/_/   
+#
+  Level17-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 17'
+    priority: 3
+    amount: 17
+    slot: 25
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 60 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level17-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 17'
+    priority: 2
+    amount: 17
+    slot: 25
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 17" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 60 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level17-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 17'
+    priority: 1
+    amount: 17
+    slot: 25
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 17" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 60 ⛃'
+    - '&8 ▮&a 30 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  ___  
+# | |    _____   _____| | / |( _ ) 
+# | |   / _ \ \ / / _ \ | | |/ _ \ 
+# | |__|  __/\ V /  __/ | | | (_) |
+# |_____\___| \_/ \___|_| |_|\___/ 
+#
+  Level18-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 18'
+    priority: 3
+    amount: 18
+    slot: 26
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 60 ⛃'
+    - '&8 ▮&a 35 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level18-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 18'
+    priority: 2
+    amount: 18
+    slot: 26
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 18" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 60 ⛃'
+    - '&8 ▮&a 35 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level18-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 18'
+    priority: 1
+    amount: 18
+    slot: 26
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 18" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 60 ⛃'
+    - '&8 ▮&a 35 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   _  ___  
+# | |    _____   _____| | / |/ _ \ 
+# | |   / _ \ \ / / _ \ | | | (_) |
+# | |__|  __/\ V /  __/ | | |\__, |
+# |_____\___| \_/ \___|_| |_|  /_/ 
+#
+  Level19-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 19'
+    priority: 3
+    amount: 19
+    slot: 35
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 65 ⛃'
+    - '&8 ▮&a 40 EXP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level19-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 19'
+    priority: 2
+    amount: 19
+    slot: 35
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 19" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 65 ⛃'
+    - '&8 ▮&a 40 EXP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level19-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 19'
+    priority: 1
+    amount: 19
+    slot: 35
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 19" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 65 ⛃'
+    - '&8 ▮&a 40 EXP'
+    - ''
+    - '&e&lNIVEL ACTUAL'
+#  _                   _   ____   ___  
+# | |    _____   _____| | |___ \ / _ \ 
+# | |   / _ \ \ / / _ \ |   __) | | | |
+# | |__|  __/\ V /  __/ |  / __/| |_| |
+# |_____\___| \_/ \___|_| |_____|\___/ 
+#
+  Level20-LOCKED:
+    material: GOLD_NUGGET
+    model_data: 15500
+    display_name: '&cLevel 20'
+    priority: 3
+    amount: 20
+    slot: 44
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&c&lBLOQUEADO'
+  Level20-UNLOCKED:
+    material: GOLD_NUGGET
+    model_data: 16500
+    display_name: '&aLevel 20'
+    priority: 2
+    amount: 20
+    slot: 44
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% >= 20" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&a&lDESBLOQUEADO'
+  Level20-CURRENT:
+    material: GOLD_NUGGET
+    model_data: 17500
+    display_name: '&eLevel 20'
+    priority: 1
+    amount: 20
+    slot: 44
+    view_requirement:
+      requirements:
+        level:
+          type: javascript
+          expression: "%jobsr_user_jlevel_Weaponsmith% == 20" 
+    lore:
+    - '&7La recompensa contiene:'
+    - '&8 ▮&6 200 ⛃'
+    - '&8 ▮&a&l + LEVEL UP'
+    - ''
+    - '&e&lNIVEL ACTUAL'

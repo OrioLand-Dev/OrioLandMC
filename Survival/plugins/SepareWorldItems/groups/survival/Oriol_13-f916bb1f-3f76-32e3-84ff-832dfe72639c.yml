@@ -1,0 +1,262 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 156
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 185
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 114
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 8
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 14
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BUCKET
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 15
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 4
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ANDESITE
+    amount: 2
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ACACIA_LOG
+    amount: 26
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER
+    amount: 9
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CARVED_PUMPKIN
+    amount: 4
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_IRON
+    amount: 4
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 17
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_INGOT
+    amount: 23
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: REDSTONE
+    amount: 22
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+    amount: 6
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: MUTTON
+    amount: 10
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GUNPOWDER
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ACACIA_SAPLING
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 13
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 10
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 26
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_GOLD
+    amount: 39
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TUFF
+    amount: 8
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STRING
+    amount: 13
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 10
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BONE
+    amount: 12
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GLASS_BOTTLE
+    amount: 3
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+    amount: 11
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND
+    amount: 9
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: REDSTONE
+    amount: 64
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLED_DEEPSLATE
+    amount: 45
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      Damage: 263
+      blockMaterial: SHIELD
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 42
+health: 20.0
+hunger: 20
+exp: 0.74626863
+exp-level: 21

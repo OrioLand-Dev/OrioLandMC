@@ -1,0 +1,149 @@
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_FENCE
+    amount: 6
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_KNOCKBACK: 1
+      Damage: 255
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 64
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 6
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ANDESITE
+    amount: 64
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_LOG
+    amount: 23
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LADDER
+    amount: 2
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Marcopro171712"}],"text":""}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: c6f92c54-5a06-3989-986e-81e5aa05ccb6
+        name: Marcopro171712
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY3MjA3MzMzODAwOCwKICAicHJvZmlsZUlkIiA6ICJlMDM3YjIwYzJkOTQ0ZGUyYjg0OWRlYzc4MTNmMmZmNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJjb3BybzE3MTcxMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOTQ1ZmE0NDVlYTIxYjg2ZDlmZWNjOGJiMTAzNjZlMTg4YjY3NGY0MDU3YmNiNmNkMDkwOTQ2NjRlNmQ2MzU5IgogICAgfQogIH0KfQ==
+          signature: HZYT8h+m6zAK+vfds0/eL9ysMWT6w/DpnHQC+/32XgAFhQ7bGgrn60Mfd7a21/N9YJkBnjDug84k/I1hdqvZVNO17C7XNzcvA+Mjlvlm5pCNK9dj9bBInucJdESUZWMg9cR5BvEchSQ0f7fPRwYGD+KgcblZbg2Cmwemi8gI4XGNP7KnPTsEaNPkez2apFdRiN41U4qxjImoCFqRB/q18kCSwBTYItoltIJMjq3mdtr8JZfRFRLD0cSbjvNT2w9TX9nr7erLFLAaP1wfHEYvc/+sz9jI1rAbVdKR07KhLi+LZpvgbzpYuH30zy57V5koUPkTGS1mPQE3PyFVRiJVgx8p29SYLwkvED/R94XhQiH6blefotvERusrrL0awsxfDtNc5xezHuv20Ypuu0yLfU3iTnYpZ6liOVbnucO0SmYMndTe4b55PEjn9Lec6BqZ+j4h2Nxv4PMZ3dbAWE4uk25hDND37GPBPsgiyCAlJxMzXptuc1l1IZGWwXvJqKVce4MPSgWqh9Dz1pBL0rcT0RCraMgIK5V/r7g1GNfoTLFp8qhJ47k8WxzA9ur35gUTxLVmE9MDNX13qK6CrrSitf9ElRo705UNet0jbpGQEtmy/qeX1toLcRP4qf24W4NzxmYh/K/WmmCro1t9YLI1rmhX7pm+pa/q4v9xO1G4GBE=
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 25
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_BED
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_BED
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_PLANKS
+    amount: 26
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_PLANKS
+    amount: 64
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 3
+health: 71.5999984741211
+hunger: 20
+exp: 0.0
+exp-level: 0

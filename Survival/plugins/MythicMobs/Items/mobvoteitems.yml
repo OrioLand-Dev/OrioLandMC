@@ -1,0 +1,30 @@
+Eficiency_1:
+  Amount: 1
+  Id: ENCHANTED_BOOK
+  Display: '&fEfficiency I'
+  Enchantments:
+  - DIG_SPEED:1
+Eficiency_2:
+  Amount: 1
+  Id: ENCHANTED_BOOK
+  Display: '&fEfficiency II'
+  Enchantments:
+  - DIG_SPEED:2
+Eficiency_3:
+  Amount: 1
+  Id: ENCHANTED_BOOK
+  Display: '&fEfficiency II'
+  Enchantments:
+  - DIG_SPEED:3
+Eficiency_4:
+  Amount: 1
+  Id: ENCHANTED_BOOK
+  Display: '&fEfficiency IV'
+  Enchantments:
+  - DIG_SPEED:4
+Eficiency_5:
+  Amount: 1
+  Id: ENCHANTED_BOOK
+  Display: '&fEfficiency V'
+  Enchantments:
+  - DIG_SPEED:5

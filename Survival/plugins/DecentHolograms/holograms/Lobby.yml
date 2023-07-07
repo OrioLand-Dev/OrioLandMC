@@ -1,0 +1,13 @@
+location: minas:-12.506:43.000:4.541
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&lVolver al Lobby'
+  - content: '&u&l↓↓↓↓↓↓↓'
+    height: 0.3
+  actions: {}

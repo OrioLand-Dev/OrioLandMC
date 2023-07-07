@@ -1,0 +1,30 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+CAVE_SPIDER:
+  Health: 30
+  Damage: 7
+WITHER_SKELETON:
+  Health: 50
+  Damage: 10
+GIANT:
+  Health: 1000
+  Damage: 20
+  Skills:
+  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack
+SQUID:
+  Drops:
+    - oraxen calamari 1-8 0.6
+FROG:
+  Drops:
+    - oraxen frog_legs 1 1
+SALMON:
+  Drops:
+    - oraxen salmon_slice 1-2 0.3
+SHEEP:
+  Drops:
+    - oraxen mutton_chops 1-3 0.2
+CHICKEN:
+  Drops:
+    - oraxen chicken_cuts 1 0.3

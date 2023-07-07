@@ -1,0 +1,14 @@
+Name: '&3&lLlave Lonsdaleita'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Encoded:
+    Use: true
+    Value: k00010004qb400bmqqbeclhn4ob6egt78sj9e1rmisj5btk6urrb18006t31cs5001r4d5pn0r31f440012ec5mma04tfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h68obiddfm2sblc4h2o8jkcls788hq4966oobmckg4orreedi62r35d5q628jtbkm24t35f1q24eh249ugi0049hnn4p8800000080q9ti4pboehp628hqbdti4ojfdhi24ej6c5m76p9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8jnd1kn8p925gh78pboegh3k8iledgi0pbjehgi0r3cc5r6a835dog24v9cfch6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2ctp6apbe48m24t35f1q24eh25tbm2sjg41hn4obkclpi4vat5gh78pboegh3k8h2fk00k00ia1qm4r39cd17aqrbd5q5cobcelin62003hingor5dhm6arjkcdp62t35ect66sj1ehiluqr5f4n6ip0025m6oobmclfmorreedi62r35d5q620000400agrfeln78080
+  Durability: 0
+  Name: '&3&lLlave Lonsdaleita'
+  Lore:
+  - '&fUsa esta llave en &a/Warp crates'
+  Item_Flags: []
+  Unbreakable: false

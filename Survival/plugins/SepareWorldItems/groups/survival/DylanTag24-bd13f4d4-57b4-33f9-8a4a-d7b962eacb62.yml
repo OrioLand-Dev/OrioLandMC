@@ -1,0 +1,23 @@
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RECOVERY_COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"DylanTag24''s
+        Grave"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Survival,
+        15425.5x, 20.5y, 7169.5z"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        graves:graveuuid: 8db41ced-f915-4544-9063-61385953f1f3

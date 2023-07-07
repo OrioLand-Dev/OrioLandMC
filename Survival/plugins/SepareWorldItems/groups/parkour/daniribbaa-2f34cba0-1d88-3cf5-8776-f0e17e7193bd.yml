@@ -1,0 +1,47 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COMPARATOR
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6086EB","text":"Configuración"}],"text":""}'
+      blockMaterial: COMPARATOR
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUGAR_CANE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#60EB76","text":"Jugar"}],"text":""}'
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_BOAT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#60C9DF","text":"Comunidad"}],"text":""}'
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EB608C","text":"Tu
+        Lobby"}],"text":""}'
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D71F1F","text":"Cerrar"}],"text":""}'
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

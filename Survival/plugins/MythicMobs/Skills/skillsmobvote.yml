@@ -1,0 +1,827 @@
+Mob_Despawn:
+  Skills:
+  - effect:particles{particle=cloud;amount=125;hS=1;vS=1;speed=.01} @self
+  - state{s=death;li=0;lo=0} @self
+  - remove @self # Note the presence of this remove here which is essential if you use a custom despawn mechanic
+
+Iron_cooperInit:
+  Cooldown: 0.5
+  Skills:
+  - CancelEvent
+  - skill{s=Iron_cooperPunch} @self
+
+Iron_cooperPunch:
+  Cooldown: 0.5
+  Skills:
+  - state{s=attack;li=3;lo=2} @self ~onAttack
+  - delay 80
+  - totem{ch=1;onStart=Iron_cooperPunchDamage;int=1;hR=3;md=1} @Forward{f=1;y=-0.5}
+
+Iron_cooperPunchDamage:
+  Skills: 
+    - damage{a=2;pkb=false} @EntitiesNearOrigin{r=1.5}
+
+boton: 
+  Cooldown: 3 
+  TargetConditions: 
+  - blocktype{type=stone_button} true 
+  Skills: 
+  - state{s=mining2} @self 
+  - delay 3 
+  - setAI{ai=false} @self 
+  - delay 20 
+  - pushbutton{x=<target.l.x>;y=<target.l.y>;z=<target.l.z>} 
+  - effect:sound{s=block.copper.hit;volume=1.0;pitch=0.5} @self
+  - effect:particles{p=reddust;color=#EF3214;amount=5;hS=2;vS=1;speed=.08;size=1} @self
+  - delay 3 
+  - setAI{ai=true} @self 
+boton1: 
+  Cooldown: 6 
+  TargetConditions: 
+  - blocktype{type=stone_button} true 
+  Skills: 
+  - state{s=button} @self 
+  - delay 3 
+  - setAI{ai=false} @self 
+  - delay 20
+  - pushbutton{x=<target.l.x>;y=<target.l.y>;z=<target.l.z>} 
+  - effect:sound{s=block.copper.hit;volume=1.0;pitch=0.5} @self
+  - effect:particles{p=reddust;color=#EF3214;amount=5;hS=2;vS=1;speed=.08;size=1} @self
+  - delay 3 
+  - setAI{ai=true} @self 
+boton2: 
+  Cooldown: 8 
+  TargetConditions: 
+  - blocktype{type=stone_button} true 
+  Skills: 
+  - state{s=button2} @self 
+  - delay 3 
+  - setAI{ai=false} @self 
+  - delay 20 
+  - pushbutton{x=<target.l.x>;y=<target.l.y>;z=<target.l.z>}
+  - effect:sound{s=block.copper.hit;volume=1.0;pitch=0.5} @self
+  - effect:particles{p=reddust;color=#EF3214;amount=5;hS=2;vS=1;speed=.08;size=1} @self
+  - delay 3 
+  - setAI{ai=true} @self 
+
+boton3: 
+  Cooldown: 5 
+  TargetConditions: 
+  - blocktype{type=stone_button} true 
+  Skills: 
+  - state{s=mining} @self 
+  - delay 3 
+  - setAI{ai=false} @self 
+  - delay 25 
+  - pushbutton{x=<target.l.x>;y=<target.l.y>;z=<target.l.z>}
+  - effect:sound{s=block.copper.hit;volume=1.0;pitch=0.5} @self
+  - effect:particles{p=reddust;color=#EF3214;amount=5;hS=2;vS=1;speed=.08;size=1} @self
+  - delay 3 
+  - setAI{ai=true} @self
+
+ostritch_interact:
+  Cooldown: 6
+  Skills:
+  - randomskill{skills=ostritch_State1,ostritch_State2}
+
+ostritch_State1:
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=sumerge} @self
+  - delay 10
+  - sound{s=entity.fox.sleep}
+  - delay 220
+  - setAI{ai=true} @self
+ostritch_State2:
+  Skills:
+  - mountmodel{} @trigger
+Ostrich_CancelMelee:
+  Skills:
+  - CancelEvent
+
+Ostrich_Attack:
+  Cooldown: 3.0
+  Skills:
+  - state{s=attack;li=3;lo=2} @self
+  - delay 20
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - totem{ch=1;onStart=OstrichDamage;int=1;hR=3;md=1} @Forward{f=0.5}
+  - throw{velocity=5;velocityY=8} @PlayersInRadius{r=3}
+
+OstrichDamage:
+  Skills:
+  - damage{amount=15} @EntitiesNearOrigin{r=3}
+
+
+MoonbloomShear:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=SHEARS} true
+  Skills:
+  - summon{mob=moobloomcow;amount=1;noise=0} @Self
+  - delay 1
+  - remove @self
+MoonbloomInteract:
+  Skills:
+   - skill{s=MoonbloomDandelion} @trigger
+   - skill{s=MoonbloomRed} @trigger
+   - skill{s=MoonbloomBlueOrchid} @trigger
+   - skill{s=MoonbloomAllium} @trigger
+   - skill{s=MoonbloomOrange} @trigger
+MoonbloomRed:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=RED_TULIP} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=moobloom_white;p=body;em=false;c=e23431} @self
+  - tint{m=moobloom_white;p=head_dye;em=false;c=e23431} @self
+  - tint{m=moobloom_white;p=leg0;em=false;c=e23431} @self
+  - tint{m=moobloom_white;p=leg1;em=false;c=e23431} @self
+  - tint{m=moobloom_white;p=leg2;em=false;c=e23431} @self
+  - tint{m=moobloom_white;p=leg3;em=false;c=e23431} @self
+MoonbloomBlueOrchid:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=BLUE_ORCHID} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=moobloom_white;p=body;em=false;c=29bcfb} @self
+  - tint{m=moobloom_white;p=head_dye;em=false;c=29bcfb} @self
+  - tint{m=moobloom_white;p=leg0;em=false;c=29bcfb} @self
+  - tint{m=moobloom_white;p=leg1;em=false;c=29bcfb} @self
+  - tint{m=moobloom_white;p=leg2;em=false;c=29bcfb} @self
+  - tint{m=moobloom_white;p=leg3;em=false;c=29bcfb} @self
+MoonbloomDandelion:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=DANDELION} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=moobloom_white;p=body;em=false;c=f4dc00} @self
+  - tint{m=moobloom_white;p=head_dye;em=false;c=f4dc00} @self
+  - tint{m=moobloom_white;p=leg0;em=false;c=f4dc00} @self
+  - tint{m=moobloom_white;p=leg1;em=false;c=f4dc00} @self
+  - tint{m=moobloom_white;p=leg2;em=false;c=f4dc00} @self
+  - tint{m=moobloom_white;p=leg3;em=false;c=f4dc00} @self
+MoonbloomAllium:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=ALLIUM} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=moobloom_white;p=body;em=false;c=b777eb} @self
+  - tint{m=moobloom_white;p=head_dye;em=false;c=b777eb} @self
+  - tint{m=moobloom_white;p=leg0;em=false;c=b777eb} @self
+  - tint{m=moobloom_white;p=leg1;em=false;c=b777eb} @self
+  - tint{m=moobloom_white;p=leg2;em=false;c=b777eb} @self
+  - tint{m=moobloom_white;p=leg3;em=false;c=b777eb} @self
+MoonbloomOrange:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=ORANGE_TULIP} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=moobloom_white;p=body;em=false;c=ee9b25} @self
+  - tint{m=moobloom_white;p=head_dye;em=false;c=ee9b25} @self
+  - tint{m=moobloom_white;p=leg0;em=false;c=ee9b25} @self
+  - tint{m=moobloom_white;p=leg1;em=false;c=ee9b25} @self
+  - tint{m=moobloom_white;p=leg2;em=false;c=ee9b25} @self
+  - tint{m=moobloom_white;p=leg3;em=false;c=ee9b25} @self
+
+GlareScary:
+  Conditions:
+  - lightlevel{l=0to5} true
+  Skills:
+  - effect:particles{particle=SPORE_BLOSSOM_AIR;amount=120;hS=1;vS=1;speed=.01} @self
+FloweringGlare:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=GLOW_BERRIES} true
+  Skills:
+  - setAI{ai=false}
+  - sound{s=block.grass.hit} @self
+  - effect:particles{particle=cloud;amount=125;hS=1;vS=1;speed=.01} @self
+  - delay 10
+  - model{mid=glare;r=true} @self
+  - model{mid=flowering_glare;n=false;n=nametag} @self
+  - consumeslot{} @trigger
+  - delay 60
+  - setAI{ai=true}
+
+GreatHunger_CancelMelee:
+  Skills:
+  - CancelEvent
+
+GreatHunger_Attack:
+  Cooldown: 3.0
+  Skills:
+  - state{s=attack;li=3;lo=2} @self
+  - delay 20
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - totem{ch=1;onStart=GreatHungerDamage;int=1;hR=3;md=1} @Forward{f=0.5}
+  - throw{velocity=5;velocityY=8} @PlayersInRadius{r=3}
+
+GreatHungerDamage:
+  Skills:
+  - damage{amount=15} @EntitiesNearOrigin{r=3}
+copper_deoxidize1:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=IRON_AXE} true
+  Skills:
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - summon{mob=COPPER_GOLEM;amount=1;noise=0} @Self
+  - DefaultState{mid=copper_golem_1;t=DEATH;s=stage} @self
+  - delay 1
+  - remove @self
+copper_deoxidize2:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=IRON_AXE} true
+  Skills:
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - summon{mob=COPPER_GOLEM_1;amount=1;noise=0} @Self
+  - DefaultState{mid=copper_golem_2;t=DEATH;s=stage} @self
+  - delay 1
+  - remove @self
+copper_deoxidize3:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=IRON_AXE} true
+  Skills:
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - summon{mob=COPPER_GOLEM_2;amount=1;noise=0} @Self
+  - DefaultState{mid=copper_golem_3;t=DEATH;s=stage} @self
+  - delay 1
+  - remove @self
+
+copper_state1:
+  Cooldown: 6
+  Skills:
+  - delay 400
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - summon{mob=COPPER_GOLEM_1;amount=1;noise=0} @Self
+  - DefaultState{mid=copper_golem;t=DEATH;s=stage} @self
+  - delay 1
+  - remove @self
+
+copper_state2:
+  Cooldown: 6
+  Skills:
+  - delay 860
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - summon{mob=COPPER_GOLEM_2;amount=1;noise=0} @Self
+  - DefaultState{mid=copper_golem_1;t=DEATH;s=stage} @self
+  - delay 1
+  - remove @self
+
+copper_state3:
+  Cooldown: 6
+  Skills:
+  - delay 1200
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - summon{mob=COPPER_GOLEM_3;amount=1;noise=0} @Self
+  - DefaultState{mid=copper_golem_2;t=DEATH;s=stage} @self
+  - delay 1
+  - remove @self
+
+sniff2:
+  Cooldown: 10
+  Conditions:
+  - stance{s=sniff} false
+  Skills:
+  - state{mid=sniffer;s=sniff2;li=0;lo=0;r=false} @self
+
+sniff3:
+  Cooldown: 60
+  Conditions:
+  - onblock{m=GRASS_BLOCK} true
+  Skills:
+  - setstance{stance=sniff} @self
+  - setAI{ai=false} @self
+  - state{s=sniff_idle;li=3;lo=2} @self
+  - delay 120
+  - skill{s=sniff} @self
+
+sniff:
+  Cooldown: 1
+  Conditions:
+  - stance{s=sniff} true
+  Skills:
+  - state{s=sniff;li=3;lo=2} @self
+  - delay 15
+  - effect:particles{particle=block_crack;m=grass;amount=40;hS=0;vS=0} @ModelPart{p=nose}
+  - effect:sound{s=block.grass.break;volume=1.0;pitch=0.5} @self
+  - delay 5
+  - effect:particles{particle=block_crack;m=grass;amount=40;hS=0;vS=0} @ModelPart{p=nose}
+  - effect:sound{s=block.grass.break;volume=1.0;pitch=0.5} @self
+  - delay 5
+  - effect:particles{particle=block_crack;m=grass;amount=40;hS=0;vS=0} @ModelPart{p=nose}
+  - effect:sound{s=block.grass.break;volume=1.0;pitch=0.5} @self
+  - delay 5
+  - effect:particles{particle=block_crack;m=grass;amount=40;hS=0;vS=0} @ModelPart{p=nose}
+  - effect:sound{s=block.grass.break;volume=1.0;pitch=0.5} @self
+  - delay 5
+  - effect:particles{particle=block_crack;m=grass;amount=40;hS=0;vS=0} @ModelPart{p=nose}
+  - effect:sound{s=block.grass.break;volume=1.0;pitch=0.5} @self
+  - delay 5
+  - randomskill{skills=seed1,seed2,seed3} @self
+seed1:
+  Skills:
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=beetroot_seeds} @ModelPart{p=head}
+  - delay 20
+  - state{s=sniff_idle;li=3;lo=2;r=true} @self
+  - setstance{stance=walk} @Self
+  - setAI{ai=true} @self
+seed2:
+  Skills:
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=pumpkin_seeds} @ModelPart{p=head}
+  - delay 20
+  - state{s=sniff_idle;li=3;lo=2;r=true} @self
+  - setstance{stance=walk} @Self
+  - setAI{ai=true} @self
+seed3:
+  Skills:
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=wheat_seeds} @ModelPart{p=head}
+  - delay 20
+  - DefaultState{mid=sniffer;t=idle;s=idle} @self
+  - state{s=sniff_idle;li=3;lo=2;r=true} @self
+  - setstance{stance=walk} @Self
+  - setAI{ai=true} @self
+tp1:
+  Cooldown: 0
+  Conditions:
+  - stance{s=first;str=true} true
+  Skills:
+  - state{mid=suprise;s=state;li=0;lo=0;r=false} @self
+  - delay 10
+  - teleport{spreadh=15;spreadv=15} @self
+  - effect:particles{particle=cloud;amount=125;hS=1;vS=1;speed=.01} @ModelPart{p=head}
+  - setstance{stance=second} @self
+  - sound{s=entity.ender_dragon.hurt;p=1.6}
+tp2:
+  Cooldown: 0
+  Conditions:
+  - stance{s=second;str=true} true
+  Skills:
+  - state{s=state;li=0;lo=0;r=false} @self
+  - delay 10
+  - teleport{spreadh=15;spreadv=15} @self
+  - effect:particles{particle=cloud;amount=125;hS=1;vS=1;speed=.01} @ModelPart{p=head}
+  - setstance{stance=third} @self
+  - sound{s=entity.ender_dragon.hurt;p=1.6}
+tp3:
+  Cooldown: 5
+  Conditions:
+  - stance{s=third;str=true} true
+  Skills:
+  - setAI{ai=false} @self
+  - sound{s=entity.ender_dragon.hurt;p=1.6}
+  - delay 5
+  - state{s=drop;li=0;lo=0;r=false} @self
+  - delay 15
+  - randomskill{skills=rascal_drop1,rascal_drop2,rascal_drop3,rascal_drop4,rascal_drop5,rascal_drop6,rascal_drop7} @self
+  - setstance{stance=first} @self
+
+rascal_drop1:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=iron_pickaxe} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+rascal_drop2:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=diamond_pickaxe} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+rascal_drop3:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=moss_block} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+rascal_drop4:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=diamond} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+rascal_drop6:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=copper_ingot} @ModelPart{p=drop}
+  - dropitem{i=copper_ingot} @ModelPart{p=drop}
+  - dropitem{i=copper_ingot} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+rascal_drop7:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=coal} @ModelPart{p=drop}
+  - dropitem{i=coal} @ModelPart{p=drop}
+  - dropitem{i=coal} @ModelPart{p=drop}
+  - dropitem{i=coal} @ModelPart{p=drop}
+  - dropitem{i=coal} @ModelPart{p=drop}
+  - dropitem{i=coal} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+rascal_drop5:
+  Skills:
+  - randomskill{skills=efficiency_drop1,efficiency_drop2,efficiency_drop3,efficiency_drop4,efficiency_drop5} @self
+efficiency_drop1:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=Eficiency_1} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+efficiency_drop2:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=Eficiency_2} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+efficiency_drop3:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=Eficiency_3} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+efficiency_drop4:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=Eficiency_4} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+efficiency_drop5:
+  Skills:
+  - setAI{ai=false} @self
+  - effect:sound{s=block.azalea_leaves.hit;volume=1.0;pitch=0.5} @self
+  - dropitem{i=Eficiency_5} @ModelPart{p=drop}
+  - delay 20
+  - setAI{ai=true} @self
+
+tuff_death:
+  Skills:
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self ~onDeath
+  - dropitem{i=<caster.var.TuffItem>} @self ~onDeath
+  - delay 5
+  - setitemmodel{m=tuff_golem_red;b=hand;i=AIR} @self ~onDeath
+tuff_home:
+  Skills:
+  - goto{speedModifier=1;sh=2;sv=2} @CasterSpawnLocation
+  - delay 50
+  - skill{s=tuff_disabled2} @self
+tuff_disabled:
+  Conditions:
+  - stance{s=disabled;str=true} true
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - DefaultState{t=idle;s=idle_disabled} @self
+  - DefaultState{t=walk;s=idle_disabled} @self
+  - delay 5
+  - state{s=idle_disabled;li=0;lo=0} @self
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+#  - sound{s=block.tuff.break;p=1.6}
+tuff_disabled2:
+  Cooldown: 1
+  Conditions:
+  - stance{s=activate;str=true} true
+  TriggerConditions:
+  - crouching true
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - DefaultState{t=idle;s=idle_disabled} @self
+  - DefaultState{t=walk;s=idle_disabled} @self
+  - delay 5
+  - state{s=disabled;li=0;lo=0} @self
+  - delay 10
+  - state{s=idle_disabled;li=0;lo=0} @self
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - setstance{stance=disabled} @self
+#  - sound{s=block.tuff.break;p=1.6}
+tuff_activate:
+  Cooldown: 2
+  Conditions:
+  - stance{s=disabled;str=true} true
+  TriggerConditions:
+  - crouching true
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=idle_disabled;li=0;lo=0;r=true} @self
+  - state{s=activate;li=0;lo=0} @self
+  - delay 5
+  - DefaultState{t=idle;s=idle} @self
+  - DefaultState{t=walk;s=walk} @self
+  - delay 10
+  - setAI{ai=true} @self
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - setstance{stance=activate} @self
+#  - sound{s=block.tuff.break;p=1.6}
+tuff_carp_on:
+  Cooldown: 3
+  Conditions:
+  - stance{s=activate;str=true} true
+  TriggerConditions:
+  - crouching false
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=idle;li=0;lo=0;r=true} @self
+  - state{s=walk;li=0;lo=0;r=true} @self
+  - state{s=carp_on;li=0;lo=0} @self
+  - delay 5
+  - DefaultState{t=idle;s=idle_carped} @self
+  - DefaultState{t=walk;s=walk_carpet} @self
+  - delay 20
+  - setAI{ai=true} @self
+  - setstance{stance=carp_on} @self
+tuff_carp_off_white:
+  Cooldown: 4
+  Conditions:
+  - stance{s=carp_on;str=true} true
+  TriggerConditions:
+  - crouching false
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - DefaultState{t=idle;s=idle @self
+  - DefaultState{t=walk;s=walk} @self
+  - state{s=idle_carped;li=0;lo=0;r=true} @self
+  - state{s=walk_carpet;li=0;lo=0;r=true} @self
+  - dropitem{i=<caster.var.TuffItem>} @self
+  - delay 5
+  - setitemmodel{m=tuff_golem_white;b=hand;i=AIR} @self
+  - setvariable{var=caster.TuffItem;t=STRING;val="<trigger.held.item>"} @self
+  - state{s=carped_off;li=0;lo=0} @self
+  - delay 25
+  - setAI{ai=true} @self
+  - setstance{stance=activate} @self
+tuff_base_white:
+  Skills:
+  - skill{s=tuff_carp_on} @self
+  - skill{s=tuff_carp_off_white} @self
+  - skill{s=tuff_activate_carp} @self
+  - skill{s=tuff_disabled_carp} @self
+  - skill{s=tuff_disabled2} @self
+  - skill{s=tuff_activate} @self
+  - skill{s=tuff_colors_dye} @trigger
+tuff_items_white:
+  Cooldown: 2
+  Conditions:
+  - stance{s=carp_on;str=true} true
+  TriggerConditions:
+  - crouching true
+  - holding{m=AIR} false
+  Skills:
+  - dropitem{i=<caster.var.TuffItem>} @self
+  - delay 2
+  - setitemmodel{m=tuff_golem_white;b=hand;i=AIR} @self
+  - setvariable{var=caster.TuffItem;t=STRING;val="<trigger.held.item>"} @self
+  - delay 2
+  - setitemmodel{m=tuff_golem_white;b=hand;i=<trigger.held.item>} @self
+  - setvariable{var=caster.TuffItem;t=STRING;val="<trigger.held.item>"} @self
+  - consumeslot{} @trigger
+
+tuff_colors_dye:
+  Skills:
+  - skill{s=tuff_colors_blue_dye} @trigger
+  - skill{s=tuff_colors_red_dye} @trigger
+  - skill{s=tuff_colors_black_dye} @trigger
+  - skill{s=tuff_colors_brown_dye} @trigger
+  - skill{s=tuff_colors_gray_dye} @trigger
+  - skill{s=tuff_colors_orange_dye} @trigger
+  - skill{s=tuff_colors_green_dye} @trigger
+  - skill{s=tuff_colors_light_blue_dye} @trigger
+  - skill{s=tuff_colors_light_gray_dye} @trigger
+  - skill{s=tuff_colors_pink_dye} @trigger
+  - skill{s=tuff_colors_lime_dye} @trigger
+  - skill{s=tuff_colors_yellow_dye} @trigger
+  - skill{s=tuff_colors_purple_dye} @trigger
+  - skill{s=tuff_colors_magenta_dye} @trigger
+  - skill{s=tuff_colors_cyan_dye} @trigger
+  - skill{s=tuff_colors_white_dye} @trigger
+tuff_colors_blue_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=BLUE_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=3a3fa4} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=3a3fa4} @self
+tuff_colors_red_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=RED_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=d31a38} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=d31a38} @self
+tuff_colors_black_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=BLACK_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=242428} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=242428} @self
+tuff_colors_brown_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=BROWN_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=7c4e2f} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=7c4e2f} @self
+tuff_colors_gray_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=GRAY_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=444a4f} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=444a4f} @self
+tuff_colors_orange_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=ORANGE_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=f68321} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=f68321} @self
+tuff_colors_green_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=GREEN_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=5a7716} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=5a7716} @self
+tuff_colors_light_blue_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=LIGHT_BLUE_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=4bc2e3} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=4bc2e3} @self
+tuff_colors_light_gray_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=LIGHT_GRAY_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=92938d} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=92938d} @self
+tuff_colors_pink_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=PINK_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=e8a8c2} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=e8a8c2} @self
+tuff_colors_lime_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=LIME_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=84c925} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=84c925} @self
+tuff_colors_yellow_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=YELLOW_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=fbd73e} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=fbd73e} @self
+tuff_colors_purple_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=PURPLE_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=7d2aac} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=7d2aac} @self
+tuff_colors_magenta_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=MAGENTA_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=c750bf} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=c750bf} @self
+tuff_colors_cyan_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=CYAN_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=179497} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=179497} @self
+tuff_colors_white_dye:
+  Cooldown: 6
+  TargetConditions:
+  - holding{m=WHITE_WOOL} true
+  Skills:
+  - consumeslot{} @trigger
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @self
+  - tint{m=tuff_golem_white;p=bag;em=false;c=fafbfb} @self
+  - tint{m=tuff_golem_white;p=dye;em=false;c=fafbfb} @self
+
+tuff_disabled_carp:
+  Cooldown: 5
+  Conditions:
+  - stance{s=carp_on;str=true} true
+  TriggerConditions:
+  - crouching true
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - DefaultState{t=idle;s=disabled_carpet2} @self
+  - DefaultState{t=walk;s=disabled_carpet2} @self
+  - delay 5
+  - state{s=disabled_carpet;li=0;lo=0} @self
+  - delay 5
+  - state{s=disabled_carpet2;li=0;lo=0} @self
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - delay 5
+  - effect:sound{s=block.tuff.break;p=1.3;v=1} @self
+  - effect:particles{particle=block_crack;m=tuff;amount=40;hS=0;vS=0} @ModelPart{p=all}
+  - setstance{stance=carp_disabled} @self
+#  - sound{s=block.tuff.break;p=1.6}
+tuff_activate_carp:
+  Cooldown: 6
+  Conditions:
+  - stance{s=carp_disabled;str=true} true
+  TriggerConditions:
+  - crouching true
+  - holding{m=AIR} true
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=disabled_carpet2;li=0;lo=0;r=true} @self
+  - state{s=activate_carped;li=0;lo=0} @self
+  - delay 5
+  - state{s=idle_carped;li=0;lo=0} @self
+  - DefaultState{t=idle;s=idle_carped} @self
+  - DefaultState{t=walk;s=walk_carpet} @self
+  - delay 40
+  - setAI{ai=true} @self
+  - effect:particles{particle=cloud;amount=25;hS=1;vS=1;speed=.01} @ModelPart{p=head}
+  - setstance{stance=carp_on} @self
+#  - sound{s=block.tuff.break;p=1.6}

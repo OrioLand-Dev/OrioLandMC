@@ -1,0 +1,623 @@
+tostada_de_ajvar:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: COOKED_BEEF
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Tostada
+          de Ajvar"}],"text":""}'
+        custom-model-data: 2
+        PublicBukkitValues:
+          oraxen:id: ajvar_toast
+          oraxen:if-uuid: '[B;38B,-5B,-93B,-54B,95B,-11B,70B,-94B,-124B,-77B,10B,-93B,28B,-83B,-88B,-21B]'
+  ingredients:
+    A:
+      minecraft_item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COOKED_BEEF
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Ajvar"}],"text":""}'
+          custom-model-data: 1
+          PublicBukkitValues:
+            oraxen:id: ajvar
+            oraxen:if-uuid: '[B;46B,-15B,119B,-11B,-21B,113B,74B,105B,-117B,121B,33B,-110B,64B,-125B,-72B,81B]'
+    B:
+      minecraft_type: BREAD
+  shape:
+  - ___
+  - _A_
+  - _B_
+sidra:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: COOKED_BEEF
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Sidra"}],"text":""}'
+        custom-model-data: 7
+        PublicBukkitValues:
+          oraxen:id: apple_cider
+          oraxen:if-uuid: '[B;-69B,-118B,20B,-16B,-3B,47B,65B,-114B,-75B,-30B,-48B,62B,-70B,111B,-84B,58B]'
+  ingredients:
+    A:
+      minecraft_type: GLASS_BOTTLE
+    C:
+      minecraft_type: BARREL
+    B:
+      minecraft_type: GOLDEN_APPLE
+  shape:
+  - ABA
+  - BCB
+  - ABA
+zumo_de_manzana:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: COOKED_BEEF
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Zumo
+          de Manzana"}],"text":""}'
+        custom-model-data: 8
+        PublicBukkitValues:
+          oraxen:id: apple_juice
+          oraxen:if-uuid: '[B;-126B,-38B,-15B,-24B,20B,-32B,76B,-61B,-113B,-53B,82B,-111B,-95B,51B,-48B,121B]'
+  ingredients:
+    B:
+      minecraft_type: GLASS_BOTTLE
+    A:
+      minecraft_type: APPLE
+  shape:
+  - AAA
+  - ABA
+  - AAA
+lucesdenavidad:
+  result:
+    oraxen_item: toffy_xmasdecor_hanging
+  ingredients:
+    A:
+      minecraft_type: STRING
+    C:
+      minecraft_type: SOUL_LANTERN
+    B:
+      minecraft_type: LANTERN
+  shape:
+  - A_A
+  - BAB
+  - _C_
+gorrodenavidadrojo:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Gorro
+          Rojo"}],"text":""}'
+        custom-model-data: 57
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: oraxen
+            slot: HEAD
+            uuid: 1926e260-02a4-4efd-ae16-84f8bb26150d
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: oraxen
+            slot: HEAD
+            uuid: 1926e260-02a4-4efd-ae16-84f8bb26150d
+            operation: 0
+        PublicBukkitValues:
+          oraxen:id: fur_cap
+          oraxen:if-uuid: '[B;104B,125B,17B,-7B,77B,110B,75B,76B,-78B,10B,-58B,-101B,-67B,60B,-47B,-39B]'
+  ingredients:
+    B:
+      minecraft_type: STRING
+    A:
+      minecraft_type: LEATHER
+  shape:
+  - AAA
+  - A_A
+  - B_B
+gorrodenavidadmarron:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Gorro
+          Marron"}],"text":""}'
+        custom-model-data: 56
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: oraxen
+            slot: HEAD
+            uuid: 2c9caf7b-8961-42ba-8c1b-ba87f39ec910
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: oraxen
+            slot: HEAD
+            uuid: 2c9caf7b-8961-42ba-8c1b-ba87f39ec910
+            operation: 0
+        PublicBukkitValues:
+          oraxen:id: fur_cap_brown
+          oraxen:if-uuid: '[B;-89B,-23B,-3B,-57B,68B,29B,64B,-54B,-123B,-98B,122B,-9B,119B,32B,-66B,-13B]'
+  ingredients:
+    B:
+      minecraft_type: STRING
+    A:
+      minecraft_type: LEATHER
+  shape:
+  - AAA
+  - A_A
+  - B_B
+regaloblanco:
+  result:
+    oraxen_item: toffy_xmasdecor_gift
+  ingredients:
+    C:
+      minecraft_type: CHEST
+    D:
+      minecraft_type: STRING
+    B:
+      minecraft_type: RED_DYE
+    A:
+      minecraft_type: WHITE_DYE
+  shape:
+  - ABA
+  - BCB
+  - ADA
+regaloverde:
+  result:
+    oraxen_item: toffy_xmasdecor_gift_green
+  ingredients:
+    C:
+      minecraft_type: CHEST
+    D:
+      minecraft_type: STRING
+    B:
+      minecraft_type: RED_DYE
+    A:
+      minecraft_type: LIME_DYE
+  shape:
+  - ABA
+  - BCB
+  - ADA
+regalorojo:
+  result:
+    oraxen_item: toffy_xmasdecor_gift_red
+  ingredients:
+    C:
+      minecraft_type: CHEST
+    D:
+      minecraft_type: STRING
+    A:
+      minecraft_type: RED_DYE
+    B:
+      minecraft_type: LIME_DYE
+  shape:
+  - ABA
+  - BCB
+  - ADA
+regalogrande:
+  result:
+    oraxen_item: toffy_xmasdecor_giftlarge
+  ingredients:
+    B:
+      minecraft_type: CHEST
+    D:
+      minecraft_type: STRING
+    C:
+      minecraft_type: YELLOW_DYE
+    A:
+      minecraft_type: LIME_DYE
+  shape:
+  - ABA
+  - CBC
+  - ADA
+munecodenieve:
+  result:
+    oraxen_item: toffy_xmasdecor_snowman
+  ingredients:
+    A:
+      minecraft_type: CARVED_PUMPKIN
+    B:
+      minecraft_type: SNOW_BLOCK
+  shape:
+  - _A_
+  - _B_
+  - _B_
+coronadehielo:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#33F9FF","text":"Corona
+          Congelada"}],"text":""}'
+        custom-model-data: 62
+        PublicBukkitValues:
+          oraxen:id: frozen_crown_high
+          oraxen:if-uuid: '[B;-52B,-62B,-87B,-122B,-103B,28B,75B,-38B,-116B,41B,46B,78B,-4B,18B,49B,81B]'
+  ingredients:
+    A:
+      minecraft_type: ICE
+  shape:
+  - AAA
+  - A_A
+  - ___
+bastoncongelado:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#33F9FF","text":"Baston
+          Congelado"}],"text":""}'
+        custom-model-data: 61
+        PublicBukkitValues:
+          oraxen:id: frostbite_staff
+          oraxen:if-uuid: '[B;113B,64B,81B,-117B,-127B,-16B,74B,30B,-72B,110B,-38B,-38B,37B,-115B,42B,68B]'
+  ingredients:
+    B:
+      minecraft_type: STICK
+    A:
+      minecraft_type: ICE
+  shape:
+  - AAA
+  - _A_
+  - _B_
+orejerasrojas:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Orejeras
+          Rojas"}],"text":""}'
+        custom-model-data: 58
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: oraxen
+            slot: HEAD
+            uuid: 381d1b11-6d20-41a4-a13b-483b011d2f42
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: oraxen
+            slot: HEAD
+            uuid: 381d1b11-6d20-41a4-a13b-483b011d2f42
+            operation: 0
+        PublicBukkitValues:
+          oraxen:id: earmuffs
+          oraxen:if-uuid: '[B;65B,124B,64B,118B,29B,-112B,68B,5B,-111B,113B,-53B,-73B,-87B,-44B,114B,15B]'
+  ingredients:
+    B:
+      minecraft_type: LEATHER
+    A:
+      minecraft_type: RED_WOOL
+  shape:
+  - AAA
+  - B_B
+  - ___
+orejerasnegras:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Orejeras
+          Negras"}],"text":""}'
+        custom-model-data: 59
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: oraxen
+            slot: HEAD
+            uuid: cff5a9a3-f7ca-4cb5-9bd9-dd0c0ca3f8fd
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: oraxen
+            slot: HEAD
+            uuid: cff5a9a3-f7ca-4cb5-9bd9-dd0c0ca3f8fd
+            operation: 0
+        PublicBukkitValues:
+          oraxen:id: earmuffs_brown
+          oraxen:if-uuid: '[B;53B,-105B,38B,-124B,113B,-86B,70B,-64B,-83B,-36B,-123B,-82B,-108B,25B,-58B,88B]'
+  ingredients:
+    B:
+      minecraft_type: LEATHER
+    A:
+      minecraft_type: BLACK_WOOL
+  shape:
+  - AAA
+  - B_B
+  - ___
+orejerasverdes:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Orejeras
+          Verdes"}],"text":""}'
+        custom-model-data: 60
+        attribute-modifiers:
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 2.0
+            name: oraxen
+            slot: HEAD
+            uuid: 156c3e2d-3081-4d62-b15a-f7cb87136182
+            operation: 0
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 3.0
+            name: oraxen
+            slot: HEAD
+            uuid: 156c3e2d-3081-4d62-b15a-f7cb87136182
+            operation: 0
+        PublicBukkitValues:
+          oraxen:id: earmuffs_green
+          oraxen:if-uuid: '[B;-5B,-9B,-48B,-24B,89B,24B,71B,73B,-128B,-10B,27B,1B,-106B,73B,114B,15B]'
+  ingredients:
+    B:
+      minecraft_type: LEATHER
+    A:
+      minecraft_type: LIME_WOOL
+  shape:
+  - AAA
+  - B_B
+  - ___
+barrilconhielo:
+  result:
+    oraxen_item: ice_bucket_ice
+  ingredients:
+    A:
+      minecraft_type: ICE
+    B:
+      minecraft_type: BARREL
+  shape:
+  - ___
+  - _A_
+  - _B_
+arboldenavidad:
+  result:
+    oraxen_item: toffy_christmas_tree
+  ingredients:
+    B:
+      minecraft_item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Luces
+            de Navidad"}],"text":""}'
+          custom-model-data: 73
+          PublicBukkitValues:
+            oraxen:id: toffy_xmasdecor_hanging
+            oraxen:furniture: 1b
+            oraxen:if-uuid: '[B;-73B,0B,-109B,33B,7B,80B,77B,44B,-102B,121B,-42B,-83B,37B,123B,13B,-6B]'
+    C:
+      minecraft_type: SPRUCE_SAPLING
+    A:
+      minecraft_type: NETHER_STAR
+  shape:
+  - _A_
+  - _B_
+  - _C_
+globos:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Globos
+          de Navidad"}],"text":""}'
+        custom-model-data: 67
+        PublicBukkitValues:
+          oraxen:id: toffy_xmasdecor_balloons
+          oraxen:furniture: 1b
+          oraxen:if-uuid: '[B;-107B,22B,-24B,82B,69B,-24B,67B,106B,-121B,-107B,-54B,22B,-89B,39B,126B,18B]'
+  ingredients:
+    C:
+      minecraft_type: STRING
+    B:
+      minecraft_type: RED_DYE
+    A:
+      minecraft_type: BLACK_DYE
+  shape:
+  - ABA
+  - CCC
+  - _C_
+cestadenavidad:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cesta
+          de Navidad"}],"text":""}'
+        custom-model-data: 68
+        PublicBukkitValues:
+          oraxen:id: toffy_xmasdecor_basket
+          oraxen:furniture: 1b
+          oraxen:if-uuid: '[B;8B,48B,35B,-49B,-59B,74B,69B,101B,-116B,-21B,-107B,46B,50B,-105B,32B,-56B]'
+  ingredients:
+    A:
+      minecraft_type: WHEAT_SEEDS
+    B:
+      minecraft_item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Luces
+            de Navidad"}],"text":""}'
+          custom-model-data: 73
+          PublicBukkitValues:
+            oraxen:id: toffy_xmasdecor_hanging
+            oraxen:furniture: 1b
+            oraxen:if-uuid: '[B;-73B,0B,-109B,33B,7B,80B,77B,44B,-102B,121B,-42B,-83B,37B,123B,13B,-6B]'
+    C:
+      minecraft_type: OAK_PLANKS
+  shape:
+  - ABA
+  - CAC
+  - CCC
+calcetinesdenavidad:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Calcetines
+          de Navidad"}],"text":""}'
+        custom-model-data: 76
+        PublicBukkitValues:
+          oraxen:id: toffy_xmasdecor_socks
+          oraxen:furniture: 1b
+          oraxen:if-uuid: '[B;-77B,45B,-124B,-27B,41B,-99B,72B,-66B,-77B,24B,-82B,58B,-111B,87B,-42B,-15B]'
+  ingredients:
+    A:
+      minecraft_type: WHITE_WOOL
+    B:
+      minecraft_type: RED_WOOL
+  shape:
+  - A__
+  - B__
+  - BB_
+arboldenavidades:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Arbol
+          de Navidad"}],"text":""}'
+        custom-model-data: 66
+        PublicBukkitValues:
+          oraxen:id: toffy_christmas_tree
+          oraxen:furniture: 1b
+          oraxen:if-uuid: '[B;23B,101B,94B,-35B,-93B,-16B,76B,33B,-101B,84B,-115B,-127B,62B,-31B,117B,116B]'
+  ingredients:
+    C:
+      minecraft_type: SPRUCE_SAPLING
+    B:
+      oraxen_item: toffy_xmasdecor_hanging
+    A:
+      minecraft_type: NETHER_STAR
+  shape:
+  - _A_
+  - _B_
+  - _C_
+fustadedoma:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: INK_SAC
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"italic":false,"color":"white","text":"Fusta de Doma"}'
+        custom-model-data: 9991
+        internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeBzcwzy9XD0c4l3CgKSDABjqSs7IgAAAA==
+  ingredients:
+    A:
+      minecraft_type: IRON_INGOT
+    C:
+      minecraft_type: STICK
+    B:
+      minecraft_type: LEAD
+  shape:
+  - __A
+  - _B_
+  - C__
+espadaorita:
+  result:
+    oraxen_item: orita_sword
+  ingredients:
+    A:
+      oraxen_item: orita
+    B:
+      minecraft_type: STICK
+  shape:
+  - _A_
+  - _A_
+  - _B_
+paladeorita:
+  result:
+    oraxen_item: orita_shovel
+  ingredients:
+    A:
+      oraxen_item: orita
+    B:
+      minecraft_type: STICK
+  shape:
+  - _A_
+  - _B_
+  - _B_

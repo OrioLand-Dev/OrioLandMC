@@ -1,0 +1,37 @@
+Name: '&x&F&F&C&3&0&0&lCrate Jade'
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&l&bCRATE_JADE CRATE'
+    - '&7Buy a key at &cwww.myserver.com'
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Item:
+  Material: ENDER_CHEST
+  Amount: 1
+  Encoded:
+    Use: true
+    Value: 5000080016ip002lmmirj5cdp62pjk79imsp35e9fm6q35edq0k003ehgme2g02987aojcd5hk4tbbddkn8lj1dhqmaso800c6au33clm6opbeehhn4obkclpjkoric5q6abj9cg00koric5q6anrac5i6a0000400agrfeln78080
+  Durability: 0
+  Name: ''
+  Item_Flags: []
+  Unbreakable: false

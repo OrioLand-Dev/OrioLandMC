@@ -1,0 +1,9 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHICKEN
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

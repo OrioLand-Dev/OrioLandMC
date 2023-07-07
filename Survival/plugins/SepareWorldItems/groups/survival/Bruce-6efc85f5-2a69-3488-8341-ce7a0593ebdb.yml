@@ -1,0 +1,102 @@
+health: 20.0
+hunger: 20
+exp: 0.5882353
+exp-level: 0
+inventory:
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pantalones
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pantalones
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1

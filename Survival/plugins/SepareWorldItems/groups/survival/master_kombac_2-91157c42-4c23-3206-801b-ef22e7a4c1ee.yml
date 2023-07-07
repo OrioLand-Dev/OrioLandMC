@@ -1,0 +1,219 @@
+health: 80.80000305175781
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory: {}
+armor_contents: {}
+ender_chest:
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_INGOT
+    amount: 7
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/9WSsU7DMBRFb+IGmghVApWFgV9gZ0JAB2bYLTd5Taw6z1X8UtHv5geIEqJIdKAd2c+5PracARkWz87n2xWLlcOHKeeIbYHb2jLljdnIY6hat6VGr/1niuRNqA4ZgDTC7N15QYTkxbcs0WDeTab4DtZ+o1suDpZL/CjRqCwHZTkptvGsO7Tf7WE1wg8DfD3BhTW152IkkwxKTKlw8WpqU1IX+ZXiasV5ZVhqYunD46POtTNB9K7pcnOxnmMot3eY4ehE2pswAQq/L38/oUxSUWOFdF5RkJ0zQmPp5b8pnY/a01+vn57/DxYnj9+cMQ58AzOMsavXAgAA
+      blockMaterial: SHULKER_BOX
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 3
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"green","text":"<---"},{"italic":false,"color":"aqua","text":"
+        Proteccion de 128 "},{"italic":false,"strikethrough":true,"color":"green","text":"--->"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"(⌐■_■)ノ♪
+        Protege tu casita!"}],"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_BLOCK
+    amount: 32
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHER_STAR
+    amount: 8
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BLOCK
+    amount: 29
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#6EC2F7","text":"E"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#73C4F7","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#77C6F7","text":"p"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#7CC8F8","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#80CAF8","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#85CCF8","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8ACEF8","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8ED0F9","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93D2F9","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#98D4F9","text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9CD6F9","text":"L"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A1D7FA","text":"o"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#A5D9FA","text":"n"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AADBFA","text":"s"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AFDDFA","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B3DFFB","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B8E1FB","text":"l"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BDE3FB","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C1E5FB","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C6E7FC","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CAE9FC","text":"a"}],"text":""}'
+      lore: []
+      custom-model-data: 1
+      enchants:
+        ONE_FOR_ALL: 1
+      repair-cost: 1
+      Damage: 363
+      PublicBukkitValues:
+        oraxen:id: lonsdaleita_sword
+        oraxen:durability: 2874i
+        oraxen:if-uuid: '[B;-120B,-23B,-63B,-72B,114B,-89B,67B,47B,-125B,-104B,1B,-90B,123B,72B,-4B,126B]'
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_BANNER
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: BANNER
+      display-name: '{"extra":[{"text":"Mucho beti"}],"text":""}'
+      patterns:
+      - ==: Pattern
+        color: LIME
+        pattern: ls
+      - ==: Pattern
+        color: LIME
+        pattern: rs
+      - ==: Pattern
+        color: WHITE
+        pattern: ss
+      - ==: Pattern
+        color: WHITE
+        pattern: vhr
+      - ==: Pattern
+        color: WHITE
+        pattern: vh
+      - ==: Pattern
+        color: LIME
+        pattern: ss
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        DAMAGE_ALL: 8
+        DURABILITY: 8
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 8
+      Damage: 92
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XLuQ6CQBQF0DcICqPiigv+iaXGwlp7gmxOgJkEHon8vSaaWN/+HEkkyT9VJikvmhX397hwyVIpBbXSWdLEOR/bZ1eVWRM9zMsj58pZ3UoiOgiyb5VhEuScTadZfGf4n2w+ODJ51Om0V7qgXxF4sfAywIuNFwcvQ7yM8OLixcOLxMsYLxO8TPHi42WGlzleFnhZ4mWFlzVeArxs8LLFyw4ve7yEQCF6A9Ca7FygBQAA
+      blockMaterial: SHULKER_BOX
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 64
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 17
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUNFLOWER
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":true,"color":"gold","text":"a"},{"bold":true,"italic":false,"underlined":true,"obfuscated":false,"color":"gold","text":"anillo"},{"bold":true,"italic":false,"underlined":true,"obfuscated":true,"color":"gold","text":"a"}],"text":""}'
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BLOCK
+    amount: 9
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XLuQ6CQBQF0DcICqPiigv+iaXGwlp7gmxOgJkEHon8vSaaWN/+HEkkyT9VJikvmhX397hwyVIpBbXSWdLEOR/bZ1eVWRM9zMsj58pZ3UoiOgiyb5VhEuScTadZfGf4n2w+ODJ51Om0V7qgXxF4sfAywIuNFwcvQ7yM8OLixcOLxMsYLxO8TPHi42WGlzleFnhZ4mWFlzVeArxs8LLFyw4ve7yEQCF6A9Ca7FygBQAA
+      blockMaterial: SHULKER_BOX
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XLuQ6CQBQF0DcICqPiigv+iaXGwlp7gmxOgJkEHon8vSaaWN/+HEkkyT9VJikvmhX397hwyVIpBbXSWdLEOR/bZ1eVWRM9zMsj58pZ3UoiOgiyb5VhEuScTadZfGf4n2w+ODJ51Om0V7qgXxF4sfAywIuNFwcvQ7yM8OLixcOLxMsYLxO8TPHi42WGlzleFnhZ4mWFlzVeArxs8LLFyw4ve7yEQCF6A9Ca7FygBQAA
+      blockMaterial: SHULKER_BOX
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BLOCK
+    amount: 64
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/8WWzXbaMBCFxxhIcNM0gZBAmwfoM3TV0zaLrtNVNz7ClrGOZQ2VZAiv1kWfrW5tYwfRWJDTsP+ke+fO6McD8OD8E8cguROa6fU3Mj+FDgthnDJBA0ki/UHFGU+o9Gf4MIDeV01T5QHAOwe69xw1OND7jJnQH4uVF/XKGUlniFCCji3YsQVdW7BrC/Zswb4teGILnlbg+xZw4IGryXwAw3uNkoZ3IoiJ0CkV+m9jnGL9Vb1+IVHTQDMUHXD5kkMXNl0r6UlN02I/GuYdx6RS9Y6i+uooqmdHUX1dqLrQ/0JSMqe50M8BnG2L94vtbpvjIaiPkU+kjiUuMFSlCRcKdlqzAccsVH9QFpFAl6ADxqmPmKQ+UQtqQNePIKV9pSVL6KbwgrqsKY6omZiXQAeM9DIxk5QkNeMa6d3UdMhIiiL01QplWIV3bobn7QjP7JyF9mSHdoxLyivxN6b41EqcCMFixommm4z3LfzCblYb7YhQ6kxQm3J3D+rly0sOzYR/7Ui406psAPnasG6+mf/YzD9GWvkaGb6ck3/7anSeRhELWF7sulTumdbaUnva2pVp7fszImvMIRNK51vktw5m1VXT39Pd2Gzojx3u3IOC2+7pIYf+afvXZri3z7PfYBTjia8xC+L/WMFNyyHuFpuMGnPBiYrzt2a+NRmjx6PDdBbSLePDGolJ7tB8DZr/zRWL8kdF5OVtoL0vjElLea4hO0Ol/DiXoHLrKWvxZnzXVuslleJw79OXv1/fvqAkwG+rcxWrdwwAAA==
+      blockMaterial: SHULKER_BOX
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        BREAKLESSNESS_CURSE: 1
+        DIG_SPEED: 4
+        SILK_TOUCH: 1
+      Damage: 1
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 5
+        REPLENISH: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      Damage: 287

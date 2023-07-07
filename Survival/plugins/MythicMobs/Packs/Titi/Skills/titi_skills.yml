@@ -1,0 +1,4 @@
+despawn:
+  Skills:
+  - effect:particles{particle=poof;amount=50;hS=.45;vS=.25} @self
+  - remove @self

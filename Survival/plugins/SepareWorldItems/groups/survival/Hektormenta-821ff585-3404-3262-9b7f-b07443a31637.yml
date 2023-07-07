@@ -1,0 +1,208 @@
+inventory: {}
+ender_chest:
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 63
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XLsQ6CMBQF0FugiXZwc/BXnIzGwRl3UkrFF0pf0j4S+XsHTVzt2Y8BDHbnwG66RiFZ73bcoKIB+5mid8k+5JifS5h86np+baFv4udsAGiFpg0sUNAXXqKcPvPwmy6tFMeO+0wD2YjvUMWjKh518Wj+H8AbOuMXZTkBAAA=
+      blockMaterial: SHULKER_BOX
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52BgykxhEM3NzEtNLkpMK7EqzijNyU4tik/Kr+BkYPUsSc0tZoAAABfBoPk/AAAA
+      blockMaterial: SHULKER_BOX
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"gold","text":"Orita"}],"text":""}'
+      internal: H4sIAAAAAAAA/5XLuQ6CQBQF0AuCwqi4BAp/xcpoLKy1JyOOQFgmgUeif2+hxs7k9ucoQCHa1zarjq2U8rzoPIBb3pA0ZWuyTt9l2xdDXZkuvdpHCP8kpukVgNiBd66twIF/sEMru/eMfzMvdC+pGN3hgx0GuwweMdhjsM/gMYMnDA4YHDJYMXjK4BmD5wyOGLxg8JLBKwavGZx88eYfBl7GMr/YwwMAAA==
+      blockMaterial: YELLOW_SHULKER_BOX
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XLzRKBUAAG0K8UdZGfxBt4CCvDWFizN6krTXWvqdvg7S0wdma+/TkCEAg2pU6KnTK5eR7jzIOdp4iqXMmkji9m1VzbspD16awfPty9kVUjACwsOIdSG1hwt7pVZv2e4W9mrbrpeyprfKxFWJuwHcI6hHUJ2yVsj7AeYX3CCsL2CTsg7JCwAWFHhB0TdkLYKWFDws4IGxF2/rXLPxZ4AZIueu8zBAAA
+      blockMaterial: SHULKER_BOX
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XMvQ6CMBSG4a9IFerPot6Mk9E4OOveIBwqAdqklETu3gEJq2d/3lcBCrtL4/L6ZkMVhmdmEkRVgWNbWcp9VoZT9+6bmrx+uU8KeQ/UdgrAViB+NC5AQF5db8N5LPdzaTyR1cVA+FnBsBHDLhg2ZljJsEuGXTFsMlkx2sNsC58ZZzUZM+GUMVYMu2bYzT8W+AJm6QnLfAIAAA==
+      blockMaterial: SHULKER_BOX
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SALMON_SPAWN_EGG
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ZOGLIN_SPAWN_EGG
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XLSxOBUAAF4FOKCnkkz39iZRgLa/YmdaWp7jV1G/x7C2Zsnf33eYAHf1uoON9LnenXKUodmFmCsMykiKvoqtf1rSlyUZ0v6unCPmhR1h6AlQHrWCgNA/ZONVJvPjP4zbSRd/VIRIWvNQhrErZFWIuwNmHbhO0Q1iGsS1iPsF3C9gjbJ6xP2AFhh4QdEXZM2ICwE8KGhJ0SdkbYOWEXhF3+Y4E3I4jRR+MEAAA=
+      blockMaterial: SHULKER_BOX
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: cd6b4f77-852c-3279-b089-08ee7beeb745
+        name: Patata122
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY2NjI5NDAyMTc4OCwKICAicHJvZmlsZUlkIiA6ICI2NGU1OTJiYzI3MDI0OTRlOTYxZmE3YWYzYWY2NzcyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb250ZXJzdGluZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMGIxYmU2ZWE4YjAxMjdlMTc3OGZiN2VmY2RmN2RmNzdmYzU1Yjk2ZDUyYmJlYzNmNzM5MTRlMTlkYjMwNmRjIgogICAgfQogIH0KfQ==
+          signature: DNKrIBhkLANKLbZGwhPeaYdv1KgnH+EUqn1ldA9ei+bqvyhleT6ayLPc4R/EsPBqPZ2UJzrW2WK8kzVE8UHY+kkljr41MirDxdoIG/ZE5LvgDuZo1oZykF3gzM2BIPwfhkAXg/in8gqGFLHqqz79EIhkpAW3ZlNCp+DD10KTdaEarZmuhrM34tQFEXG7RJU26A3q2LcQbs0OApLhRfskgzk7JS2WzwZ1vPjIgW5XtzAcHbvADFJpVi8WkZeiJXeUyIjDa6wUelV8PFnZwZIquQ4DTVAeJPMldDrjzIGh1W6ILpLDepsHpABReSusKuoJWJxJAhJL1hmh7Gx4hf/qW22HwXqJr/QRY6p+D86vpXd3yPIOqtEBNpXlEwvq3SaU+UxKjAFfHqR1/OrYhJk1Xx1mbGegCav+DTmlTHBUTFzaTicKPYDwjfY1zJ/r6y5a59Vr/X9PNzDwa89O2ks164Qq1HLNifX7dwzmXLs/wseP+DU8q2mVXI/D7CGlv+k1GzANJ3XJkmK9gOZh0deF51hpCE8OrhdEGotAxy3WEEGd/bgAg5sHHgS0/kIp4yP4lYlMisFvfQnwKkjTa1a5rE4Xap3tvNgoWq+yyQa+ynSpispwCoJD9BB5d/k46+2cyyCs7srIsumJ3xMmkFz/JgMrfv5yIuO2FqyHOSH2EDM=
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+      Damage: 171
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Vale
+        por 1 Llave Orita"}],"text":""}'
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52BgykxhEM3NzEtNLkpMK7EqzijNyU4tik/Kr+BkYPUsSc0tZoAAABfBoPk/AAAA
+      blockMaterial: SHULKER_BOX
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 21
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"Cabeza de andiricum2"}],"text":""}'
+      repair-cost: 1
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 2f80cb78-f4a0-34e0-9540-e79f3ec64c47
+        name: _NickiNicole_
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY3MDk5MzE1NDc2MCwKICAicHJvZmlsZUlkIiA6ICJkYjI3Mjc1NDBmOWE0NzljOTljNDVjYmI0ZDEzMjQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbmRpcmljdW0yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmNGFmMDBhMDliZTIwMjQ1ZjAyMDFlYTkwOTVhMWNkMDMwMTFlNTRhOTNhZDU5NjJmY2YwZGI1NmVhOTg4NWYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+          signature: qNK6KqkOnrd+pQxd2H25EvWiragVVPmDcNxem4/aA1nTAr7qzRLBfxAqedjhF3+gxwL1oIW+kZ2CgvuCET+nrsP2xAFnFTtJiLOdIWaHsMwrqbC0quvxcVlhPU3r5OV7PEt1EpqThjsh+FsUFma5uj2RgH5MA0fgvMwjf+kjShrAX3VRzgX/p0QOfYTwUm76zHISivWIuCLku2s/3EHXr1iy0m2ao+Af0ZiUM8YnQOSPyHqrcXyjvFOXr5A9/OiBckGrj0I09iLHy9Y1uHYaQZaIFyCw/OnDG78nmHx94xXf+UVAy0hLvDy5Q1w7E4QOADITE3Uf8IXAZ33jlixY+KKRww3SKUnYX5KnudEC99rrmwyP3pwXC7WrDa2HBt6JK6eC8jLVbTmrAml/fXJu5RTDwtYL44a7sJ0Be1bgbtifuu9bN/FeI/4+Ir4+FgfroXdtCrZVeVPXJGCae6bv6RttaIbn6gXcUtuL3I9sgPF0lgTv+zuWCi8TiSRcRnOH9bDIIjNZ5Ed0oP2MNAhUXKRfVFrodp1sw8Gs17VqwalpxmbcWIQmO7jdb9tg+JB8RWkZPYqy9xS4yjCDo4O8aX0qjgehHZdkX79tF5HaJhBG0igpZbPYBx2JOkCsUYk7NioXLezVd3XF1X3usJ8dG92zMXpm83bXFtJp0ZIRowY=
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: YELLOW_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"gold","text":"Orita"}],"text":""}'
+      internal: H4sIAAAAAAAA/5XLOQ6CQAAF0A+CwrgruN7EymgsrLUnI45AWCaBIdHbW2hi6+/fE4DA6FDoOD9VJjOvq0w82NkdYZlVKq7lw+yatC1yVUc3/fThno0qGwFga8G5FNrAgnvUbWX2nxn8ZpLKxkRGyRpfbDHYZnCHwQ6DXQZ3GdxjsMdgn8GCwX0GDxg8ZPCIwWMGTxg8ZfCMwXMGBwwOGbxg8JLBKwavGbz5CwNvAb7FiP4EAAA=
+      blockMaterial: YELLOW_SHULKER_BOX
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 55
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"text":"andiricum2"}],"text":""}'
+      repair-cost: 1
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 2f80cb78-f4a0-34e0-9540-e79f3ec64c47
+        name: _NickiNicole_
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY3MDk5MzE1NDc2MCwKICAicHJvZmlsZUlkIiA6ICJkYjI3Mjc1NDBmOWE0NzljOTljNDVjYmI0ZDEzMjQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbmRpcmljdW0yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmNGFmMDBhMDliZTIwMjQ1ZjAyMDFlYTkwOTVhMWNkMDMwMTFlNTRhOTNhZDU5NjJmY2YwZGI1NmVhOTg4NWYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+          signature: qNK6KqkOnrd+pQxd2H25EvWiragVVPmDcNxem4/aA1nTAr7qzRLBfxAqedjhF3+gxwL1oIW+kZ2CgvuCET+nrsP2xAFnFTtJiLOdIWaHsMwrqbC0quvxcVlhPU3r5OV7PEt1EpqThjsh+FsUFma5uj2RgH5MA0fgvMwjf+kjShrAX3VRzgX/p0QOfYTwUm76zHISivWIuCLku2s/3EHXr1iy0m2ao+Af0ZiUM8YnQOSPyHqrcXyjvFOXr5A9/OiBckGrj0I09iLHy9Y1uHYaQZaIFyCw/OnDG78nmHx94xXf+UVAy0hLvDy5Q1w7E4QOADITE3Uf8IXAZ33jlixY+KKRww3SKUnYX5KnudEC99rrmwyP3pwXC7WrDa2HBt6JK6eC8jLVbTmrAml/fXJu5RTDwtYL44a7sJ0Be1bgbtifuu9bN/FeI/4+Ir4+FgfroXdtCrZVeVPXJGCae6bv6RttaIbn6gXcUtuL3I9sgPF0lgTv+zuWCi8TiSRcRnOH9bDIIjNZ5Ed0oP2MNAhUXKRfVFrodp1sw8Gs17VqwalpxmbcWIQmO7jdb9tg+JB8RWkZPYqy9xS4yjCDo4O8aX0qjgehHZdkX79tF5HaJhBG0igpZbPYBx2JOkCsUYk7NioXLezVd3XF1X3usJ8dG92zMXpm83bXFtJp0ZIRowY=
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Arbol
+        de Navidad"}],"text":""}'
+      custom-model-data: 42
+      PublicBukkitValues:
+        oraxen:id: toffy_christmas_tree
+        oraxen:furniture: 1b
+        oraxen:if-uuid: '[B;24B,12B,100B,70B,13B,76B,72B,-83B,-111B,-16B,41B,-4B,-71B,-90B,71B,21B]'
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+armor_contents: {}
+health: 34.0
+hunger: 20
+exp: 0.0
+exp-level: 0

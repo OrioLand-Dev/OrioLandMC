@@ -1,0 +1,191 @@
+health: 20.0
+hunger: 20
+exp: 0.086956464
+exp-level: 8
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 2
+        MENDING: 1
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 8
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BAMBOO
+    amount: 64
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 63
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BAMBOO
+    amount: 30
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 5
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        MENDING: 1
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PORKCHOP
+    amount: 3
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOOK
+    amount: 8
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIRT
+    amount: 6
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pantalones
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 3
+        DURABILITY: 3
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 9
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Manzanas
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 3
+        DURABILITY: 3
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pantalones
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3

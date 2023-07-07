@@ -1,0 +1,196 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_MOBS: 3
+        DAMAGE_ALL: 4
+      Damage: 14
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        ARROW_INFINITE: 1
+      Damage: 5
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 35
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 53
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 44
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Tarta
+        de Manzana"}],"text":""}'
+      custom-model-data: 9
+      PublicBukkitValues:
+        oraxen:id: apple_pie
+        oraxen:if-uuid: '[B;-104B,77B,-61B,-73B,58B,-61B,64B,-112B,-108B,-21B,109B,-114B,97B,9B,125B,55B]'
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 28
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hamburguesa
+        con Queso"}],"text":""}'
+      custom-model-data: 75
+      PublicBukkitValues:
+        oraxen:id: cheeseburger
+        oraxen:if-uuid: '[B;-47B,-31B,-73B,-123B,38B,-5B,74B,-51B,-116B,-87B,64B,-95B,-20B,-58B,101B,71B]'
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 20
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Tarta
+        de Queso"}],"text":""}'
+      custom-model-data: 73
+      PublicBukkitValues:
+        oraxen:id: cheese_cake
+        oraxen:if-uuid: '[B;-48B,59B,-35B,92B,80B,-71B,69B,101B,-67B,-1B,-110B,89B,9B,36B,-29B,83B]'
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 20
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Crepes"}],"text":""}'
+      custom-model-data: 24
+      PublicBukkitValues:
+        oraxen:id: baked_crepes
+        oraxen:if-uuid: '[B;17B,41B,41B,100B,84B,-29B,66B,-62B,-120B,-54B,-17B,-40B,-33B,89B,-123B,98B]'
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 14
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 7
+      Damage: 11
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 15
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 7
+      Damage: 11
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 7
+      Damage: 11
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 15
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 7
+      Damage: 11
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      repair-cost: 1
+      Damage: 14
+potion_effect:
+  '0':
+    type: ABSORPTION
+    level: 0
+    duration: 318
+health: 43.20000076293945
+hunger: 20
+exp: 0.49890482
+exp-level: 33

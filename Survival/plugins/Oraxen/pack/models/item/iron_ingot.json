@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_ingot"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/villager_hat_armorer" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/villager_hat_butcher" },
+		{ "predicate": { "custom_model_data": 3}, "model": "item/villager_hat_cartographer" },
+		{ "predicate": { "custom_model_data": 4}, "model": "item/villager_hat_cleric" },
+		{ "predicate": { "custom_model_data": 5}, "model": "item/villager_hat_desert" },
+		{ "predicate": { "custom_model_data": 6}, "model": "item/villager_hat_farmer" },
+		{ "predicate": { "custom_model_data": 7}, "model": "item/villager_hat_fisherman" },
+		{ "predicate": { "custom_model_data": 8}, "model": "item/villager_hat_fletcher" },
+		{ "predicate": { "custom_model_data": 9}, "model": "villager_hat_librarian" },
+		{ "predicate": { "custom_model_data": 10}, "model": "villager_hat_savanna" },
+		{ "predicate": { "custom_model_data": 11}, "model": "villager_hat_shepherd" },
+		{ "predicate": { "custom_model_data": 12}, "model": "villager_hat_snow" },
+		{ "predicate": { "custom_model_data": 13}, "model": "villager_hat_swamp" },
+		{ "predicate": { "custom_model_data": 14}, "model": "villager_hat_weaponsmith" },
+		{ "predicate": { "custom_model_data": 15}, "model": "illager_hat_illusioner" },
+		{ "predicate": { "custom_model_data": 16}, "model": "illager_hat_vindicator" }
+	]
+}

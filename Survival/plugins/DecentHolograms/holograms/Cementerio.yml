@@ -1,0 +1,12 @@
+location: Dungeons:106.460:60.048:35.538
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <- Cementerio &7&lGlenfolk
+    height: 0.3
+  actions: {}

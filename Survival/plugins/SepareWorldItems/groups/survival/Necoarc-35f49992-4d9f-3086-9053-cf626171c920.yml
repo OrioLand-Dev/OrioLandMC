@@ -1,0 +1,20 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER
+    amount: 2
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BEEF
+    amount: 2
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIRT
+    amount: 5
+health: 20.0
+hunger: 20
+exp: 0.14285715
+exp-level: 0

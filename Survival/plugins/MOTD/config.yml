@@ -1,0 +1,24 @@
+# This is the server motd.
+Server-MOTD:
+  Line-1: ' &5▇&d▇&5▇&d▇ &6&l►[&e&lᴍᴄ.ORIOLAND.ᴄᴏᴍ &b&l1.9-1.19.4&r&6&l]◄&5 ▇&d▇&5▇&d▇'
+  Line-2: '    &r&8v0.2.9.1&r&f ● &r&2&r&lʙᴇᴛᴀ&r&f ● &r&bʀᴇɢɪꜱᴛʀᴀᴛᴇ ᴇɴ&r&e ᴏʀɪᴏʟᴀɴᴅ.ᴄᴏᴍ&r'
+
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: false
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - '&eWelcome to the server.'
+
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: true
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: OrioLandConFondo.png
+
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: false
+  Maximum-Players: OrioLand

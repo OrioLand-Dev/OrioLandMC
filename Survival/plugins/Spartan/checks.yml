@@ -1,0 +1,294 @@
+MorePackets:
+  check_instant_movements: true
+  enabled: true
+  silent: false
+  name: MorePackets
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+Velocity:
+  check_zero_distance: true
+  enabled: true
+  silent: false
+  name: Velocity
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+FastPlace:
+  check_fast: true
+  enabled: true
+  silent: false
+  name: FastPlace
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+Speed:
+  enabled: true
+  silent: false
+  name: Speed
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+  check_water_speed: true
+  minimum_limit_in_blocks: 2.0
+  check_food_sprinting: true
+  check_omnidirectional_sprinting: true
+BlockReach:
+  overall_distance: 7.5
+  enabled: true
+  silent: false
+  name: BlockReach
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+ImpossibleInventory:
+  check_sneaking: false
+  check_sprinting: false
+  check_walking: false
+  check_sleeping: true
+  check_dead: true
+  check_sprint_jumping: true
+  check_walk_jumping: true
+  check_jumping: true
+  enabled: true
+  silent: false
+  name: ImpossibleInventory
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+KillAura:
+  detection:
+    players: true
+    entities: true
+  check_overall: true
+  check_hit_accuracy: true
+  check_angle: true
+  check_block_raytrace: true
+  check_combined: true
+  check_direction: true
+  check_entity_raytrace: true
+  check_hits_per_second: true
+  check_relative_aim: true
+  check_impossible_hits: true
+  check_item_usage: false
+  check_pitch: true
+  check_yaw: true
+  check_rapid_hits: true
+  check_rotations: true
+  check_hitbox: true
+  check_aim_consistency: true
+  check_aim_accuracy: true
+  check_move_accuracy: true
+  check_modulo: true
+  check_stability: true
+  check_precision: true
+  check_area: true
+  check_distance: true
+  check_advantage: true
+  check_hit_distance: true
+  check_fight_analysis: true
+  aimbot_max_distance: 9.0
+  enabled: true
+  silent: false
+  name: KillAura
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+  detection_entities: true
+  check_hutbix: true
+  check_irregular: true
+  check_raytrace: true
+  check_time: true
+HitReach:
+  horizontal_distance: 3.1
+  vertical_distance: 4.0
+  enabled: true
+  silent: false
+  name: HitReach
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+FastBreak:
+  check_delay: true
+  max_breaks_per_second: 40
+  enabled: true
+  silent: true
+  name: FastBreak
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+Exploits:
+  check_undetected_movement: true
+  check_ping_spoof: true
+  check_head_position: true
+  check_chat_messages: true
+  check_elytra: true
+  enabled: true
+  silent: false
+  name: Exploits
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+  check_building: true
+IrregularMovements:
+  step_limit_in_blocks: 4.0
+  check_upwards: true
+  check_downwards: true
+  check_horizontal: true
+  check_jumping: true
+  check_falling: true
+  check_hopping: true
+  check_climbing: true
+  check_levitation: true
+  check_cobweb: true
+  check_bouncing_blocks: true
+  check_inside_blocks: true
+  check_liquids: true
+  check_entities: true
+  enabled: true
+  silent: false
+  name: IrregularMovements
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+  limit_server_flying: false
+EntityMove:
+  check_horizontal: true
+  check_vertical: true
+  check_stable: true
+  check_donkeys: true
+  compatibility_protection: false
+  enabled: true
+  silent: false
+  name: EntityMove
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+Criticals:
+  check_location: true
+  check_position: true
+  check_mini_jump: true
+  check_damage: true
+  enabled: true
+  silent: false
+  name: Criticals
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+FastClicks:
+  cps_limit: 15
+  check_click_time: true
+  check_click_consistency: true
+  check_fight: true
+  combat_only_mode: false
+  enabled: true
+  silent: false
+  name: FastClicks
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+ImpossibleActions:
+  check_tower: true
+  check_scaffold: true
+  check_actions: true
+  check_item_usage: true
+  check_liquids: true
+  enabled: true
+  silent: false
+  name: ImpossibleActions
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+FastBow:
+  check_bow_force: true
+  check_bow_shots: true
+  enabled: true
+  silent: false
+  name: FastBow
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+NoSwing:
+  check_damage: true
+  check_breaking: true
+  enabled: true
+  silent: false
+  name: NoSwing
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+GhostHand:
+  check_block_breaking: true
+  check_player_interactions: true
+  enabled: true
+  silent: false
+  name: GhostHand
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: false
+  check_fully_solid_blocks_only: true
+NoFall:
+  check_air: true
+  check_landing: true
+  check_pattern: true
+  check_ratio: true
+  check_spoof: false
+  enabled: true
+  silent: false
+  name: NoFall
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+NoSlowdown:
+  check_packets: true
+  check_item_usage: true
+  check_bow_shots: true
+  check_food_eating: true
+  check_cobweb_movement: true
+  check_potion: true
+  enabled: true
+  silent: false
+  name: NoSlowdown
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+XRay:
+  enabled: true
+  silent: false
+  name: XRay
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+ItemDrops:
+  enabled: true
+  silent: false
+  name: ItemDrops
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+AutoRespawn:
+  enabled: true
+  name: AutoRespawn
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+InventoryClicks:
+  enabled: true
+  silent: false
+  name: InventoryClicks
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+FastHeal:
+  enabled: true
+  silent: false
+  name: FastHeal
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true
+FastEat:
+  enabled: true
+  silent: false
+  name: FastEat
+  disabled_worlds: exampleDisabledWorld1, exampleDisabledWorld2
+  silent_worlds: exampleSilentWorld1, exampleSilentWorld2
+  punish: true

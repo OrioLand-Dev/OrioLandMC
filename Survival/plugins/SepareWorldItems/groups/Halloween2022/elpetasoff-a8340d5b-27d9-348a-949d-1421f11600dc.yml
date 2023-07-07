@@ -1,0 +1,18 @@
+inventory:
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 7
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Anchoa"}],"text":""}'
+      custom-model-data: 5
+      PublicBukkitValues:
+        oraxen:id: anchovy
+        oraxen:if-uuid: '[B;-118B,102B,20B,104B,-52B,27B,69B,51B,-86B,114B,-18B,21B,73B,-9B,79B,41B]'
+health: 28.399999618530273
+hunger: 19
+exp: 0.19642857
+exp-level: 30

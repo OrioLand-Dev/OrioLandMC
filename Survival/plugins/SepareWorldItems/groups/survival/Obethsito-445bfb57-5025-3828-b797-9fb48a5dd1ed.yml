@@ -1,0 +1,218 @@
+health: 20.0
+hunger: 18
+exp: 0.0
+exp-level: 0
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 6
+        MENDING: 1
+        MISSILE: 3
+        DAMAGE_ALL: 6
+        TEAR_ARTIFACT: 1
+        DURABILITY: 5
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LIQUID_SHOT: 4
+        MENDING: 1
+        ARROW_DAMAGE: 7
+        DURABILITY: 6
+      Damage: 25
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 4
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 40
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 52
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 2
+        MENDING: 1
+        DAMAGE_ALL: 4
+        DURABILITY: 5
+      Damage: 10
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CARROT
+    amount: 45
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 9
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 32
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 31
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 4
+      Damage: 3
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPRUCE_PLANKS
+    amount: 54
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 6
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+      Damage: 188
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 47
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 3
+      Damage: 21
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 3
+      Damage: 5
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 3
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        OXYGEN: 3
+        DURABILITY: 3
+      Damage: 39
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        OXYGEN: 3
+        DURABILITY: 3
+      Damage: 39
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 3
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 3
+      Damage: 5
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 6
+        DURABILITY: 3
+      Damage: 21

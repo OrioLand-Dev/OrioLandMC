@@ -1,0 +1,330 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        CAFFEINATED: 3
+        DEXTERITY: 2
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 5
+        MENDING: 1
+        DAMAGE_ALL: 10
+        DURABILITY: 5
+      repair-cost: 3
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 366
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"Fortunin"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 24
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+      repair-cost: 1
+      Damage: 94
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 55
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 14
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 63
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 57
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 16
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+      repair-cost: 1
+      Damage: 193
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+    amount: 2
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      repair-cost: 3
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        WATER_WORKER: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        DURABILITY: 5
+      repair-cost: 1
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        WATER_WORKER: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        DURABILITY: 5
+      repair-cost: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      repair-cost: 3
+health: 20.0
+hunger: 20
+exp: 0.3368057
+exp-level: 27

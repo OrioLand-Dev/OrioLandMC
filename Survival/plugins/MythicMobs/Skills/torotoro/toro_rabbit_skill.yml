@@ -1,0 +1,46 @@
+toro_rabbit_jumpsmash:
+    Conditions:
+        - incombat true
+        - offgcd
+    TargetConditions:
+        - distance{d=0to7} true
+    Skills:
+        - gcd{ticks=60} @self
+        - state{s=jump_smash} @self
+        - spin{d=60;v=0} @self
+        - potion{t=SLOW;d=60;l=99;icon=false;p=false} @self
+        - delay 36
+        - effect:sound{s=entity.generic.explode;v=3;p=2} @self
+        - damage{a=10} @ENO{r=7}
+        - delay 1
+        - throw{v=10;vy=2} @ENO{r=7}
+        - effect:particlering{t=reddust;color=#F6FDFF;hs=1;vs=1;a=50;r=6} @origin
+
+toro_rabbit_spin:
+    Conditions:
+        - incombat true
+        - offgcd
+    TargetConditions:
+        - distance{d=0to7} true
+    Skills:
+        - gcd{ticks=50} @self
+        - state{s=spin} @self
+        - spin{d=50;v=0} @self 
+        - effect:sound{s=entity.dolphin.play;v=3;p=0} @self
+        - potion{t=SLOW;d=50;l=99;icon=false;p=false} @self
+        - delay 24
+        - effect:sound{s=entity.zombie.break_wooden_door;v=3;p=1} @self
+        - damage{a=5} @ENO{r=7}
+        - delay 1
+        - throw{v=15;vy=3} @ENO{r=7}
+        - effect:particlering{t=reddust;color=#F6FDFF;hs=1;vs=1;a=50;r=6} @origin
+
+toro_rabbit_death:
+    Skills:
+        - effect:sound{s=entity.dolphin.death;v=3;p=0} @self
+        - delay 60
+        - effect:particles{particle=end_rod;a=100;hs=2;vs=2;s=0.1} @self
+        # Drop items, you can configure this to drop other items you like
+        - effect:sound{s=entity.item.pickup;v=3;p=0.5;repeat=5;repeatInterval=4} @self
+        - dropitem{i=diamond;repeat=5;repeatInterval=4} @self
+        - dropitem{i=GOLD_INGOT;repeat=5;repeatInterval=4} @self

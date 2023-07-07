@@ -1,0 +1,63 @@
+bacon:
+  result:
+    minecraft_item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3120
+      type: COOKED_BEEF
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Bacon"}],"text":""}'
+        custom-model-data: 19
+        PublicBukkitValues:
+          oraxen:id: bacon
+          oraxen:if-uuid: '[B;-36B,-115B,50B,64B,48B,50B,78B,-68B,-91B,-13B,-44B,1B,-117B,86B,-125B,115B]'
+  ingredients:
+    A:
+      amount: 1
+      minecraft_type: PORKCHOP
+figurademunecodenieve:
+  result:
+    oraxen_item: stockpile_snowman
+  ingredients:
+    A:
+      amount: 1
+      minecraft_item:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Muñeco
+            de Nieve"}],"text":""}'
+          custom-model-data: 75
+          PublicBukkitValues:
+            oraxen:id: toffy_xmasdecor_snowman
+            oraxen:furniture: 1b
+            oraxen:if-uuid: '[B;-29B,-102B,-122B,-28B,2B,-40B,78B,39B,-98B,27B,-19B,-103B,126B,1B,-19B,81B]'
+botelladeleche:
+  result:
+    oraxen_item: milk_bottle
+  ingredients:
+    A:
+      amount: 1
+      minecraft_type: MILK_BUCKET
+nata:
+  result:
+    oraxen_item: crema
+  ingredients:
+    A:
+      amount: 1
+      oraxen_item: milk_bottle
+zumodenaranja:
+  result:
+    oraxen_item: orange_juice
+  ingredients:
+    A:
+      amount: 1
+      oraxen_item: orange
+    B:
+      amount: 1
+      oraxen_item: water_bottle

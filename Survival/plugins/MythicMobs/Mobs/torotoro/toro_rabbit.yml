@@ -1,0 +1,30 @@
+toro_rabbit:
+  Type: IRON_GOLEM
+  Display: 'Giant Bunny'
+  Faction: Hana
+  Health: 200
+  KillMessages:
+  - '&7&l<target.name> is killed by giant bunny'
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 fleeplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    NoDamageTicks: 1
+    MovementSpeed: 0.35
+    FollowRange: 64
+    KnockbackResistance: 1
+    Silent: true
+    Despawn: true
+    Invincible: false
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Skills:
+  - skill{s=toro_rabbit_death} @self ~onDeath
+  - randomskill{s=toro_rabbit_jumpsmash,toro_rabbit_spin} @target ~onTimer:100
+  - model{mid=easterbunny;n=false;tint=false} @self ~onSpawn

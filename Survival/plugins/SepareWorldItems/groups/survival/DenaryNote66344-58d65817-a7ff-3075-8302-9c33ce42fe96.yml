@@ -1,0 +1,38 @@
+health: 23.600000381469727
+hunger: 20
+exp: 0.46363667
+exp-level: 42
+inventory:
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WITHER_SKELETON_SPAWN_EGG
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DOLPHIN_SPAWN_EGG
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUNFLOWER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"gold","text":"hh"},{"bold":true,"italic":false,"obfuscated":false,"color":"gold","text":"Anillo"},{"bold":true,"italic":false,"obfuscated":true,"color":"gold","text":"hh"}],"text":""}'
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUNFLOWER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"gold","text":"hh"},{"bold":true,"italic":false,"underlined":true,"obfuscated":false,"color":"gold","text":"Anillo"},{"bold":true,"italic":false,"underlined":true,"obfuscated":true,"color":"gold","text":"hh"}],"text":""}'
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUNFLOWER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Anillo"}],"text":""}'

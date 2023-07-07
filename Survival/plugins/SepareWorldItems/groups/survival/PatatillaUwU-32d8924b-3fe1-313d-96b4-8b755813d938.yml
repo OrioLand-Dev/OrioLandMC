@@ -1,0 +1,190 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      Damage: 97
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      Damage: 19
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      Damage: 108
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 2
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER
+    amount: 6
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PORKCHOP
+    amount: 36
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BEEF
+    amount: 11
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_IRON
+    amount: 6
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIRT
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 24
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: MUTTON
+    amount: 2
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SAND
+    amount: 19
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SANDSTONE
+    amount: 3
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 5
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+      Damage: 13
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        VANISH: 1
+      Damage: 45
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+      Damage: 19
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARCANE_DEFENCE: 2
+      Damage: 45
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARCANE_DEFENCE: 2
+      Damage: 45
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+      Damage: 19
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        VANISH: 1
+      Damage: 45
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHAINMAIL_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Miembro"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+      repair-cost: 1
+      Damage: 13
+health: 20.0
+hunger: 20
+exp: 0.4782607
+exp-level: 8

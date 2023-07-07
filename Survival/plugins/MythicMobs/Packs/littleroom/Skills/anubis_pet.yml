@@ -1,0 +1,39 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+
+AnubisPet_PetSpawn:
+  Skills:
+  - delay 1
+  - effect:particles{particle=poof;amount=50;hS=.45;vS=.25} @self
+  
+AnubisPet_Despawn:
+  Skills:
+  - effect:particles{particle=poof;amount=50;hS=.45;vS=.25} @self
+  - remove @self
+  
+   
+AnubisPet_INTERACT:
+  Skills:  
+  - skill{s=AnubisPet_PET} @trigger
+  - delay 30
+  - summon{t=AnubisPetObelisk} @ring{r=1;p=1}
+  
+  
+AnubisPet_PET:
+  Cooldown: 2
+  TriggerConditions:
+  - crouching true
+  Skills:
+  - setAI{ai=false}
+  - state{s=pet} @self
+  - delay 30
+  - setAI{ai=true}
+  
+  
+anubis_pet_pillar_spawn:
+  Skills:
+  - effect:particles{particle=block;material=sand;amount=4;hS=.25;vS=0;y=0;repeat=20;repeatInterval=1} @self
+  - delay 140
+  - remove @self

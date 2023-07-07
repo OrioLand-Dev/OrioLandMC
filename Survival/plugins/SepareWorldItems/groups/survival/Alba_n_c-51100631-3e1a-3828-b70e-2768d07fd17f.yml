@@ -1,0 +1,23 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RECOVERY_COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Alba_n_c''s
+        Grave"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Survival,
+        19971.5x, 87.5y, -38.5z"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        graves:graveuuid: b2b6f914-a32e-45a9-b5b5-9656a33ff052
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

@@ -1,0 +1,16 @@
+Name: '&e&lLlave Orita'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Encoded:
+    Use: true
+    Value: 2g0004000j9cg01erb9dpim6sj1cpq3kt3id5o7eqbiclfmgrrfdc5000rkc5jgk007chkn6s3cc5sgg0049pgmqp80ihti4pboehp628hqbdti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t24ub5dhm6utp25gh78pboegh3k8icdhgncp909tp6it3149ulqb12ehingt1278h24v890024orrick400000040d4up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq49an6o90clpn8o90dhm62tj541ims812fkm7m8j9ehgmoqb348t6cobcediio8j3dtm6ush278h6esj5cln24b12ehingt1278h2ulr1e9o20oric5q6asp2fleio8jkcls788hq48h7q00a00950tb2dhkm6gjlddlmit2mc5m7apbj1001opbocdimor35dpq66sj1ehin6ej3e9gn8pavddinibj9cg00mr3cc5r6anrfe9kn8o801400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt62ojic5pmirre08006r3mdg0020000400agrfeln78080
+  Durability: 0
+  Name: '&e&lLlave Orita'
+  Lore:
+  - '&fUsa esta llave en &a/Warp crates'
+  Enchants:
+    abrasion: 1
+  Item_Flags: []
+  Unbreakable: false

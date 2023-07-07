@@ -1,0 +1,11 @@
+RandomFloppa:
+  MobType: floppa
+  Worlds: world
+  Chance: 1
+  Priority: 20
+  Action: REPLACE
+  Conditions:
+  - season{s=WINTER}
+  - outside{} true
+  - onblock{b=GRASS_BLOCK}
+  - day required

@@ -1,0 +1,14 @@
+inventory:
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 10
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+health: 58.0
+hunger: 20
+exp: 0.0
+exp-level: 0

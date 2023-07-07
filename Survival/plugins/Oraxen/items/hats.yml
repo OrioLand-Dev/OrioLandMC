@@ -1,0 +1,286 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+anubis_head:
+  displayname: <gradient:#3948AE:#6699FF>Anubis Head
+  material: PAPER
+  lore:
+  - <#6f737d>» <#D5D6D8>NightVision when worn
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: default/anubis_head # .json extension is not mandatory
+    custom_model_data: 43
+  Mechanics:
+    hat:
+      enabled: true
+    armorpotioneffects:
+      night_vision:
+        amplifier: 0
+        ambient: true # Makes potion effect produce more, translucent, particles.
+        particles: true # whether this effect has particles or not
+        icon: true # whether this effect has an icon or not
+
+crown:
+  displayname: <gradient:#F06966:#FAD6A6>Crown
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: default/crown
+    custom_model_data: 44
+  Mechanics:
+    hat:
+      enabled: true
+
+pharaoh_head:
+  displayname: <gradient:#F06966:#FAD6A6>Pharaoh Head
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: default/pharaoh_head
+    custom_model_data: 45
+  Mechanics:
+    hat:
+      enabled: true
+
+witch_hat:
+  displayname: <gradient:#DF98FA:#9055FF>Witch Hat
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 3a25f0b5-dbda-4e38-b097-9e75e37ae464
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: default/witch_hat
+    custom_model_data: 46
+  Mechanics:
+    hat:
+      enabled: true
+
+space_helmet:
+  displayname: <#D5D6D8>Space Helmet
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: default/space_helmet
+    custom_model_data: 47
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_weaponsmith:
+  displayname: <#D5D6D8>Gorro de Herrero
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_weaponsmith
+    custom_model_data: 95
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_toolsmith:
+  displayname: <#D5D6D8>Gorro de Herrero de Herramientas
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_toolsmith
+    custom_model_data: 96
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_shepherd:
+  displayname: <#D5D6D8>Gorro de Pastor
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_shepherd
+    custom_model_data: 97
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_nitwit:
+  displayname: <#D5D6D8>Gorro de Aldeano Simplón
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_nitwit
+    custom_model_data: 98
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_mason:
+  displayname: <#D5D6D8>Gorro de Albañil
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_mason
+    custom_model_data: 99
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_librarian:
+  displayname: <#D5D6D8>Gorro de Librero
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_librarian
+    custom_model_data: 100
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_leatherworker:
+  displayname: <#D5D6D8>Gorro de Curtidor
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_leatherworker
+    custom_model_data: 101
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_fletcher:
+  displayname: <#D5D6D8>Gorro de Flechero
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_fletcher
+    custom_model_data: 109
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_fisherman:
+  displayname: <#D5D6D8>Gorro de Pescador
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_fisherman
+    custom_model_data: 103
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_farmer:
+  displayname: <#D5D6D8>Gorro de Granjero
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_farmer
+    custom_model_data: 104
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_cleric:
+  displayname: <#D5D6D8>Gorro de Clérigo
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_cleric
+    custom_model_data: 105
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_cartographer:
+  displayname: <#D5D6D8>Gorro de Cartógrafo
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_cartographer
+    custom_model_data: 106
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_butcher:
+  displayname: <#D5D6D8>Gorro de Carnicero
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_butcher
+    custom_model_data: 107
+  Mechanics:
+    hat:
+      enabled: true
+
+villager_hat_armorer:
+  displayname: <#D5D6D8>Gorro de Herrero de Armaduras
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/villager_hat_armorer
+    custom_model_data: 108
+  Mechanics:
+    hat:
+      enabled: true
+
+2023_hat:
+  displayname: <#D5D6D8>Gorro de 2023
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: item/2023hat
+    custom_model_data: 110
+  Mechanics:
+    hat:
+      enabled: true

@@ -1,0 +1,117 @@
+health: 20.0
+hunger: 20
+exp: 0.64705884
+exp-level: 5
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_SHOVEL
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 46
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 15
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_CHICKEN
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FURNACE
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_BED
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 3
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PUMPKIN
+    amount: 16
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SUGAR_CANE
+    amount: 35
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BIRCH_LOG
+    amount: 6
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRAFTING_TABLE
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_PLANKS
+    amount: 15
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BONE
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PORKCHOP
+    amount: 10
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 2
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: MUTTON
+    amount: 2
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 80
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 10
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_MUTTON
+    amount: 4
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 16

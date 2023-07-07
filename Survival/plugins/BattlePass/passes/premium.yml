@@ -1,0 +1,65 @@
+name: 'Premium'
+default-points-required: 100
+required-permission: 'battlepass.premium'
+
+items:
+  doesnt-have-pass-item:
+    material: 'gold_nugget'
+    customModelData: 7008
+    name: '{#F33A6A}&lTier: {#ffb3c7}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#71797E}Purchase the Premium Battle'
+      - '{#71797E}Pass at &fstore.server.com'
+      - '{#71797E}to collect premium rewards!'
+      - ''
+      - '{#F33A6A}Locked!'
+  locked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7008
+    name: '{#F33A6A}&lTier: {#ffb3c7}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#F33A6A}Locked!'
+  unlocked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7003
+    name: '{#7CFC00}&lTier: {#c5ff8c}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '&eClaim &8[Left Click]'
+  claimed-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7004
+    name: '{#7CFC00}&lTier: {#c5ff8c}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#7CFC00}Claimed!'
+
+tier-up-actions:
+  - '[message] {ᖆ &7You reached Tier %tier%!}'
+
+tiers:
+  '2': # The tier number
+    rewards: ['1'] # The reward numbers to give to the player (see rewards.yml).
+    required-points: 10 # The amount of points the player must get to advance to the tier.
+  '3':
+    rewards: ['2']
+    required-points: 50
+  '5':
+    rewards: ['2', '4']
+    required-points: 100
+  '7':
+    rewards: ['4']
+    required-points: 150
+  '10':
+    rewards: ['1', '2', '3', '4']
+    required-points: 500

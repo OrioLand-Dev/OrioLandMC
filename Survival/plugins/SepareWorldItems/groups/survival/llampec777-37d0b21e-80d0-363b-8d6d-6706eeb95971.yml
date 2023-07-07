@@ -1,0 +1,383 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"gold","text":"Orita"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 8
+        MENDING: 2
+        DAMAGE_ALL: 9
+        DURABILITY: 7
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        CHANNELING: 1
+        IMPALING: 5
+        LOYALTY: 3
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 2
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 2
+        MENDING: 1
+      repair-cost: 15
+      Damage: 791
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        SILK_TOUCH: 1
+      repair-cost: 3
+      Damage: 199
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 6
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 30
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 16
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPYGLASS
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 4
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 8
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GUNPOWDER
+    amount: 2
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEAD
+    amount: 13
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"R"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F86FA2","text":"u"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6618A","text":"b"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F35471","text":"y"}],"text":""}'
+      custom-model-data: 25
+      PublicBukkitValues:
+        oraxen:id: ruby
+        oraxen:if-uuid: '[B;-31B,6B,-71B,1B,-117B,-77B,78B,-73B,-121B,-125B,56B,-90B,111B,-86B,100B,-66B]'
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 1
+      repair-cost: 3
+      Damage: 19
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BASALT
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WATER_BUCKET
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND
+    amount: 27
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 15
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_BOAT
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRACKED_POLISHED_BLACKSTONE_BRICKS
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 60
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      Damage: 352
+      charged: false
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FORTITUDE: 1
+        MENDING: 1
+        VANISH: 2
+      repair-cost: 1
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/42UQXPTMBCFFTspidumaUpDKMMM3HrgF3BigB44l7tmI29tjWVJI8lNy69HQZHtqTj04Nv3pNXb91wQUpDld6FYcycdd8+/oZqTjJfkuuUSmYEH99XWnWjQ0J16WpDZL4etLQgh2wmZ3gvlSBBcjASOs2ZCZj9UJ903cuSywK0HTkKL1EEV0WlE82SGfY3gqEUsbaRvIz0N9OVAoyypUWUkl5GcBXI1kFo5cCqC8wieBHA5gEyBiNgqYm8C9nb0dM1LbxU+Y4QnEZ4HeDvAJZiGKmjoA0rWCzZRsEim3UG7U/20swgWyRiVEiVKCk9YkNw7nJOTn9BChX5v+YKc3UlWg3QtSvdvl8fdfBxdZRAagdZK/1HWGYsZycWj8Jemr+aioU51rO4Zkrz/NMkJGKP2ybPPArcZOAGaWyrgTyd4EqvzV+GnEV8mW2BgHrGkumt1w2UUZFFwkQgwmOc1fhlNMHhB1vdOGSxfOpsnS0TLQEczs6OZH0atQFf7CGmjrEbmD33h+6hAmqNhXFZHYvof11dBdDXOhm9SrYwMk89JwaV1pjuMTG7G1ZCHKPd4evZlMpDaWV5y6F38HNGrpNGtOuQKjEaXHHydJOzQEi1ANjYJwOYV8JcIv0uz21Vg/CAybew2iZZWe/RLpgZ4/zdYR/x9wD+NCo6orQCH1IusUxKpz0gUnkfhTfK3OQRrSCIhfwGDXzEoqAUAAA==
+      blockMaterial: SHULKER_BOX
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 2
+        MENDING: 1
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 3
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5WUPW/bMBCGaTt2HaX5cJrvdu9cdCk6FW0ydCvQ7MSJusgHUSRBUkHcX1/F6lkK2CEaBTzP6eXxlTIhMnH0XVtV3ZlIcXMP5VJMqRDnNRlUHh7i17BudIVe5vZpX8x/RqxDJoS4mYi939pGkQhoihZ3CF5PxPyHbUw8Ef/oaUef9rTHIkRrkNFvjM469LpHld+QKaXNAxUEho33bOyNijIfRS86+mywF0fPOG520acMv+ngVQ+XHgzFHXnI5DIJoWyea/z/SvaTlRTgK2mhkk6DqQIbEzayzrgazAf/iIV0Te0qMolw0AkXvUDeGulIVfCEmZhFKGdicQs1lNjWYCWSEW+7ER/6EXUTSMmCgmoHlSGiS6TD5L2l1QUaCc5pTPCj5FxQY1xvQpT5c51Z+MLC8ajbPhlFr0bRp6+hM6bfvaYgH5k+S1q6vb0XK5kzfJ60aXBPNWidbP0iCfNAHqVagy93YWZMXyZXqsFRkBr+NJoY/8T4VYdfDr8wDWEtnY1kTVe9pVj82j4OY29DeAwUIhiFaSOvk7YE1f7UpIIIuu0MC59ZuEkO2ta9hpeLPG7r/xedlvYrQgUAAA==
+      blockMaterial: SHULKER_BOX
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ARTHROPODS: 4
+        END_AFFINITY: 2
+        MENDING: 1
+        STUN: 3
+        DURABILITY: 3
+      repair-cost: 1
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: POLISHED_BLACKSTONE_BRICKS
+    amount: 4
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_NUGGET
+    amount: 9
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 20
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 231
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 519
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERRACK
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 1
+      Damage: 359
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 31
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 31
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+      repair-cost: 1
+health: 20.0
+hunger: 20
+exp: 0.11764706
+exp-level: 12

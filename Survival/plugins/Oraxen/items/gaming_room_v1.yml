@@ -1,0 +1,511 @@
+gaming_chair_red:
+  displayname: <#D5D6D8>Gaming Chair
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      # this option requires barrier: true
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: gaming_chair_red
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gaming_chair_red
+    custom_model_data: 15
+
+gaming_chair_green:
+  displayname: <#D5D6D8>Gaming Chair
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      # this option requires barrier: true
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: gaming_chair_green
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gaming_chair_green
+    custom_model_data: 16
+
+gaming_chair_blue:
+  displayname: <#D5D6D8>Gaming Chair
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      # this option requires barrier: true
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: gaming_chair_blue
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gaming_chair_blue
+    custom_model_data: 17
+
+rgb_headphone:
+  displayname: <#D5D6D8>RGB HEADPHONE
+  material: PAPER
+  Mechanics:
+    hat:
+      enabled: true
+  Pack:
+    generate_model: false
+    model: naniii/rgb_headphone
+    custom_model_data: 18
+
+rgb_headphone_love:
+  displayname: <#D5D6D8>RGB HEADPHONE LOVE
+  material: PAPER
+  Mechanics:
+    hat:
+      enabled: true
+  Pack:
+    generate_model: false
+    model: naniii/rgb_headphone_love
+    custom_model_data: 19
+
+gaming_table:
+  displayname: <gradient:#F933FF:#FF33A5>Gaming Table
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: gaming_table
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gaming_table
+    custom_model_data: 20
+
+gaming_monitor:
+  displayname: <gradient:#F933FF:#FF33A5>Gaming Monitor
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: gaming_monitor
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gaming_monitor
+    custom_model_data: 21
+
+emty_engery_drink:
+  displayname: <gradient:#F933FF:#FF33A5>Emty Engery Drink
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: emty_engery_drink
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/emty_engery_drink
+    custom_model_data: 22
+
+cigarettes:
+  displayname: <gradient:#F933FF:#FF33A5>Cigarettes
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: cigarettes
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/cigarettes
+    custom_model_data: 23
+
+armchair:
+  displayname: <#D5D6D8>Armchair
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      # this option requires barrier: true
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: armchair
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/armchair
+    custom_model_data: 24
+
+armchair_rgb:
+  displayname: <#D5D6D8>Armchair RGB
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      # this option requires barrier: true
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: armchair_rgb
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/armchair_rgb
+    custom_model_data: 25
+
+sofa_rgb:
+  displayname: <#D5D6D8>Sofa RGB
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: sofa_rgb
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/sofa_rgb
+    custom_model_data: 26
+
+sofa:
+  displayname: <#D5D6D8>Sofa RGB
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: sofa
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/sofa
+    custom_model_data: 27
+
+living_room_table:
+  displayname: <gradient:#F933FF:#FF33A5>Living Room Table
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: living_room_table
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/living_room_table
+    custom_model_data: 28
+
+living_room_table_rgb:
+  displayname: <gradient:#F933FF:#FF33A5>Living Room Table RGB
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: living_room_table_rgb
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/living_room_table_rgb
+    custom_model_data: 29
+
+tft:
+  displayname: <gradient:#F933FF:#FF33A5>TFT
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: tft
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/tft
+    custom_model_data: 30
+
+gaming_tv:
+  displayname: <gradient:#F933FF:#FF33A5>Gaming TV
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: gaming_tv
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gaming_tv
+    custom_model_data: 31
+
+box:
+  displayname: <gradient:#F933FF:#FF33A5>Box
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: box
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/box
+    custom_model_data: 32
+
+toilet_paper:
+  displayname: <gradient:#F933FF:#FF33A5>Toilet Paper
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: toilet_paper
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/toilet_paper
+    custom_model_data: 33
+
+gamer_paper:
+  displayname: <gradient:#F933FF:#FF33A5>Gamer Paper
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: gamer_toilet_paper
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/gamer_toilet_paper
+    custom_model_data: 34
+
+tv_table:
+  displayname: <gradient:#F933FF:#FF33A5>TV Table
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: tv_table
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/tv_table
+    custom_model_data: 35
+
+tv_table_rgb:
+  displayname: <gradient:#F933FF:#FF33A5>TV Table RGB
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 1
+        y: 0
+        z: 0
+      - x: -1
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 0
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: tv_table_rgb
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/tv_table_rgb
+    custom_model_data: 36
+
+tv_dreamcraft_white:
+  displayname: <gradient:#F933FF:#FF33A5>Gaming TV
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: tv_dreamcraft_white
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/tv_dreamcraft_white
+    custom_model_data: 37
+
+tv_dreamcraft_black:
+  displayname: <gradient:#F933FF:#FF33A5>Gaming TV
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      light: 5
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: tv_dreamcraft_black
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: naniii/tv_dreamcraft_black
+    custom_model_data: 38
+
+movil:
+  displayname: <#FFFFFF>Movil
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: default/movil
+    custom_model_data: 94

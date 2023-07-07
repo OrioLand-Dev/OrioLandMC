@@ -1,0 +1,27 @@
+floppa:
+  Type: CAT
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - model{mid=floppa;n=false;drive=true} @self ~onSpawn
+  - skill{s=die_floppa;sync=true} @self ~onDeath
+  - skill{s=spawn_floppa} @self ~onSpawn
+  Display: Floppa
+  Drops: []
+  Health: 10
+  Damage: 0
+  Options:
+    Collidable: true
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: false
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventRenaming: false

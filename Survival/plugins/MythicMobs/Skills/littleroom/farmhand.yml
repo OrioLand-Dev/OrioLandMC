@@ -1,0 +1,255 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+farmhandSPAWN:
+  Skills:
+  - delay 1
+  - setowner @pir{r=3;sort=NEAREST;limit=1}
+  - delay 1
+  - skill{s=FARMHAND_noowner} @self
+  
+FARMHAND_noowner:
+  Conditions:
+  - hasowner false
+  Skills:
+  - effect:particles{particle=angry_villager;amount=1;hS=0;vS=0;y=1} @self
+  
+
+farmhandBRAND:
+  Conditions:
+  - hasowner false
+  TriggerConditions:
+  - crouching false
+  - holding{m=FARMHAND_BRAND} true
+  Skills:
+  - skill{s=FARMHAND_GRABSOUND} @self
+  - sound{s=block.fire.extinguish} @self
+  - effect:particles{particle=large_smoke;amount=5;hS=.25;vS=.25;speed=0.1;d=true;dir=0,1,0;y=1} @self
+  - setowner @trigger
+
+farmhandGRAB:
+  TriggerConditions:
+  - owner{} true
+  - crouching true
+  - holding{m=air} true
+  Skills:
+  - skill{s=FARMHAND_GRABSOUND} @self
+  - giveitem{i=<caster.name>_FARMHAND} @trigger
+  - remove @self
+  
+FARMHAND_GRABSOUND:
+  Skills:
+  - skill{s=FARMHAND_COWGRAB} @self
+  - skill{s=FARMHAND_PIGGRAB} @self
+  - skill{s=FARMHAND_CHICKENGRAB} @self
+  - skill{s=FARMHAND_SHEEPGRAB} @self
+  - skill{s=FARMHAND_CATGRAB} @self
+  
+FARMHAND_COWGRAB:
+  Conditions:
+  - mythicmobtype{t=COW} true
+  Skills:
+  - sound{s=entity.cow.hurt} @self
+  
+FARMHAND_PIGGRAB:
+  Conditions:
+  - mythicmobtype{t=PIG} true
+  Skills:
+  - sound{s=entity.pig.hurt} @self
+  
+FARMHAND_CHICKENGRAB:
+  Conditions:
+  - mythicmobtype{t=CHICKEN} true
+  Skills:
+  - sound{s=entity.chicken.hurt} @self
+  
+FARMHAND_SHEEPGRAB:
+  Conditions:
+  - mythicmobtype{t=SHEEP} true
+  Skills:
+  - sound{s=entity.sheep.hurt} @self
+  
+FARMHAND_CATGRAB:
+  Conditions:
+  - mythicmobtype{t=CAT,CAT_ALL_BLACK,CAT_BLACK,CAT_BRITISH_SHORTHAIR,CAT_CALICO,CAT_PERSIAN,CAT_JELLIE,CAT_RAGDOLL,CAT_SIAMESE,CAT_TABBY,CAT_WHITE} true
+  Skills:
+  - sound{s=entity.cat.hurt} @self
+  
+  
+farmhandGRAB_CAT:
+  TriggerConditions:
+  - owner{} true
+  - crouching true
+  - holding{m=air} true
+  Skills:
+  - skill{s=FARMHAND_GRABSOUND} @self
+  - skill{s=farmhandGRAB_ALL_BLACK} @self
+  - skill{s=farmhandGRAB_BLACK} @self
+  - skill{s=farmhandGRAB_BRITISH_SHORTHAIR} @self
+  - skill{s=farmhandGRAB_CALICO} @self
+  - skill{s=farmhandGRAB_PERSIAN} @self
+  - skill{s=farmhandGRAB_JELLIE} @self
+  - skill{s=farmhandGRAB_RAGDOLL} @self
+  - skill{s=farmhandGRAB_SIAMESE} @self
+  - skill{s=farmhandGRAB_TABBY} @self
+  - skill{s=farmhandGRAB_WHITE} @self
+  - skill{s=farmhandGRAB_RED} @self
+  
+farmhandGRAB_ALL_BLACK:
+  Conditions:
+  - score{o=ALL_BLACK;v=1} true
+  Skills:
+  - giveitem{i=CAT_ALL_BLACK} @trigger
+  - remove @self
+  
+farmhandGRAB_BLACK:
+  Conditions:
+  - score{o=BLACK;v=1} true
+  Skills:
+  - giveitem{i=CAT_BLACK} @trigger
+  - remove @self
+  
+farmhandGRAB_BRITISH_SHORTHAIR:
+  Conditions:
+  - score{o=BRITISH_SHORTHAIR;v=1} true
+  Skills:
+  - giveitem{i=CAT_BRITISH_SHORTHAIR} @trigger
+  - remove @self
+  
+farmhandGRAB_CALICO:
+  Conditions:
+  - score{o=CALICO;v=1} true
+  Skills:
+  - giveitem{i=CAT_CALICO} @trigger
+  - remove @self
+  
+farmhandGRAB_PERSIAN:
+  Conditions:
+  - score{o=PERSIAN;v=1} true
+  Skills:
+  - giveitem{i=CAT_PERSIAN} @trigger
+  - remove @self
+  
+farmhandGRAB_JELLIE:
+  Conditions:
+  - score{o=JELLIE;v=1} true
+  Skills:
+  - giveitem{i=CAT_JELLIE} @trigger
+  - remove @self
+  
+farmhandGRAB_RAGDOLL:
+  Conditions:
+  - score{o=RAGDOLL;v=1} true
+  Skills:
+  - giveitem{i=CAT_RAGDOLL} @trigger
+  - remove @self
+  
+farmhandGRAB_SIAMESE:
+  Conditions:
+  - score{o=SIAMESE;v=1} true
+  Skills:
+  - giveitem{i=CAT_SIAMESE} @trigger
+  - remove @self
+  
+farmhandGRAB_TABBY:
+  Conditions:
+  - score{o=TABBY;v=1} true
+  Skills:
+  - giveitem{i=CAT_TABBY} @trigger
+  - remove @self
+  
+farmhandGRAB_WHITE:
+  Conditions:
+  - score{o=WHITE;v=1} true
+  Skills:
+  - giveitem{i=CAT_WHITE} @trigger
+  - remove @self
+  
+farmhandGRAB_RED:
+  Conditions:
+  - score{o=RED;v=1} true
+  Skills:
+  - giveitem{i=CAT_RED} @trigger
+  - remove @self
+  
+farmhandCAT:
+  Skills:
+  - delay 1
+  - skill{s=farmhandALL_BLACK} @self
+  - skill{s=farmhandBLACK} @self
+  - skill{s=farmhandBRITISH_SHORTHAIR} @self
+  - skill{s=farmhandCALICO} @self
+  - skill{s=farmhandPERSIAN} @self
+  - skill{s=farmhandJELLIE} @self
+  - skill{s=farmhandRAGDOLL} @self
+  - skill{s=farmhandSIAMESE} @self
+  - skill{s=farmhandTABBY} @self
+  - skill{s=farmhandWHITE} @self
+  - skill{s=farmhandRED} @self
+  
+farmhandALL_BLACK:
+  Conditions:
+  - color{c=ALL_BLACK} true
+  Skills:
+  - modifytargetscore{o=ALL_BLACK;a=set;v=1} @self
+  
+farmhandBLACK:
+  Conditions:
+  - color{c=BLACK} true
+  Skills:
+  - modifytargetscore{o=BLACK;a=set;v=1} @self
+  
+farmhandBRITISH_SHORTHAIR:
+  Conditions:
+  - color{c=BRITISH_SHORTHAIR} true
+  Skills:
+  - modifytargetscore{o=BRITISH_SHORTHAIR;a=set;v=1} @self
+  
+farmhandCALICO:
+  Conditions:
+  - color{c=CALICO} true
+  Skills:
+  - modifytargetscore{o=CALICO;a=set;v=1} @self
+  
+farmhandPERSIAN:
+  Conditions:
+  - color{c=PERSIAN} true
+  Skills:
+  - modifytargetscore{o=PERSIAN;a=set;v=1} @self
+  
+farmhandJELLIE:
+  Conditions:
+  - color{c=JELLIE} true
+  Skills:
+  - modifytargetscore{o=JELLIE;a=set;v=1} @self
+  
+farmhandRAGDOLL:
+  Conditions:
+  - color{c=RAGDOLL} true
+  Skills:
+  - modifytargetscore{o=RAGDOLL;a=set;v=1} @self
+  
+farmhandSIAMESE:
+  Conditions:
+  - color{c=SIAMESE} true
+  Skills:
+  - modifytargetscore{o=SIAMESE;a=set;v=1} @self
+  
+farmhandTABBY:
+  Conditions:
+  - color{c=TABBY} true
+  Skills:
+  - modifytargetscore{o=TABBY;a=set;v=1} @self
+  
+farmhandWHITE:
+  Conditions:
+  - color{c=WHITE} true
+  Skills:
+  - modifytargetscore{o=WHITE;a=set;v=1} @self
+  
+farmhandRED:
+  Conditions:
+  - color{c=RED} true
+  Skills:
+  - modifytargetscore{o=RED;a=set;v=1} @self

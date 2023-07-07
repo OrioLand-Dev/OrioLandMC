@@ -1,0 +1,144 @@
+health: 25.0
+hunger: 20
+exp: 0.7333336
+exp-level: 4
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 24
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BEEF
+    amount: 3
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        DURABILITY: 1
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 39
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 20
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 23
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/62UzWvUQBjGZ7/a3e3X9rt4WnMQC+1FisIiHlp7EESKiheR8GYyzQ6ZzMSZST8sPXkV8SR48yz4T9V/xNnNTjLNtgXBw2ZJ+OV9n+d530wXoS5a3GcCx4dcU33+FqI2qtMQrSeUEyzhWA/UMGMxkX4gzjqo9UKTRHURQps11HzDhDYVGhqiLpoNqUoZnLdR8xUkpDZ/4ZEzLcEbvL/wAsFCb3AMTJEdj2pgFBe3GQ+JZKZfSSgtaUz0UIosGnoDLTPzUATHmcKgHQ4LJqQ38CJJCPd2PG06mtunu7u73uXORbWTxeFjBiXdP5JCE4yp4P2Q9B/v9W9690ZJt/Q37Z95lx+Ke++yg5ovhSRtE1wN/f5/yUye3hXNqH6h5OHVl29X33/65rf95/PXqx+/cvcR6eusj0EZBfevSzcDXjnKAqNrP4tjqt8By4iqoXvpODZtYlNacKIGZv4qGC1TbeSydSAyrmtT+xRSSAQPfRMHmuxQzdL1nF4saUYgtFjdYu0cWymxVMgYD0Vq0Va+lQ3UfU1SoPJAKG2yb3TQ/CHHQ+A6IVyPF3micM3ZeJEx33iSSR012AlD5g/NPIcEImJemJvadbTnTnSS3KFKIYTRRh2BFiasR08qwVZDciRQKbivToUszM9YR6WQ5u1uVt3vF2RqxqMKM//Ud7YCO7MJhIgt1rbYao71Ssx8bFJ/smCnMmsHDDJsVtuC3UrjJceSprjoPGe5hSk3AmIzRzN+ZeF5C2/l8PJ1mInIkgsVnZWyZvo8LsouWrgxBUsS+thMoDS2VDHmzGp8jvgBKdLvWbY1lT4WwCy2XMF6bkk4IQW4cruriIFSfgq8+CxXK/Cm01zSRJlVkULoIoU1yz/I+Q23uDj1KTfjAGzx9emN7t1xbuSrORSOm42KwC1XoLlSHvkaAlY42qy8sO7GGRhwfJJZeqsiximvEqqHZXmE/gIeyQAnSwcAAA==
+      blockMaterial: SHULKER_BOX
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_SHOVEL
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRIMSON_ROOTS
+    amount: 2
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52BgykxhEM3NzEtNLkpMK7EqzijNyU4tik/Kr+BkYPUsSc0tZoAAABfBoPk/AAAA
+      blockMaterial: SHULKER_BOX
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 27
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PORKCHOP
+    amount: 3
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        THRIVE: 2
+      Damage: 3
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        THRIVE: 1
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 175
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 172
+armor_contents:
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        THRIVE: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      enchants:
+        THRIVE: 2
+      Damage: 3

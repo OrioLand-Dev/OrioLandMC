@@ -1,0 +1,12 @@
+location: Dungeons:32.680:37.005:-28.549
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: <- Bosque &7&lNuboso
+    height: 0.3
+  actions: {}

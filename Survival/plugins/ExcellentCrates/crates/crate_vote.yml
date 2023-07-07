@@ -1,0 +1,373 @@
+Name: '&a&lCrate Vote'
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 15
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - crate_vote
+Block:
+  Locations:
+  - 79.0,101.0,78.0,0.0,0.0,Lobby
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Offset:
+      Y: 1.0
+    Text:
+    - '&a&lCrate'
+    - '&a&lVote'
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: VILLAGER_HAPPY
+      Data: ''
+Animation_Config: spin_wander
+Rewards:
+  List:
+    '1':
+      Name: 1000$
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs5001r4d5pn0r31f440012ec5mma016fch6au3ke9gi4eirfch78pboegh3k8hh60o30912fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 1000'
+      Items: []
+    '2':
+      Name: 2000$
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs5001r4d5pn0r31f440012ec5mma016fch6au3ke9gi4eirfch78pboegh3k8hi60o30912fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 2000'
+      Items: []
+    '3':
+      Name: 3000$
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs5001r4d5pn0r31f440012ec5mma016fch6au3ke9gi4eirfch78pboegh3k8hj60o30912fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 3000'
+      Items: []
+    '4':
+      Name: 4000$
+      Chance: 10.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs5001r4d5pn0r31f440012ec5mma016fch6au3ke9gi4eirfch78pboegh3k8hk60o30912fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 4000'
+      Items: []
+    '5':
+      Name: 5000$
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs5001r4d5pn0r31f440012ec5mma016fch6au3ke9gi4eirfch78pboegh3k8hl60o30912fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 5000'
+      Items: []
+    '6':
+      Name: 10000$
+      Chance: 1.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i003rdd5n6aoric5j78ejgc5o6asga001n8ob71800ep39edo6oobp10008jj1dlig09rr49ingt3ic4h3kmrr49q6au3k48t24c9g60o30912fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands:
+      - '[CONSOLE] eco give %player_name% 10000'
+      Items: []
+    '7':
+      Name: Casco
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79i6iobddtn68nr8clm6qpbk18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u890024orrick0000000000i00c8ln66q31dpq6qpbeehpgk0000020g002d5i004bdd5n6aoric5j78ejdcln68qbecs1000rcepm0008010004qb400a6qqbeclhn4ob6egt70sjfehim6t39dtn04003dhr6o004004000j9cg01arb9dpim6sj1cpq3ksj5edo6isj1ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79i6iobddtn68nr8clm6qpbk18006t31cs1g01i4c5mm2pr50000000a003m8qbje1m62u890024orrick0000000000i00c8ln66q31dpq6qpbeehpgk0000020g002d5i004bdd5n6aoric5j78ejdcln68qbecs1000rcepm0008010004qb400a6qqbeclhn4ob6egt70sjfehim6t39dtn04003dhr6o004004000j9cg01arb9dpim6sj1cpq3ksj5edo6isj1ehkmurg2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '8':
+      Name: Pechera
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0073dd5n6aoric5j78ej4d5gmqrrechfm6q35edq70r31ehigk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0073dd5n6aoric5j78ej4d5gmqrrechfm6q35edq70r31ehigk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '9':
+      Name: Pantalon
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0039mmirj5cdp62pjk79i6iobddtn68nrccljmeqbectpgk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0039mmirj5cdp62pjk79i6iobddtn68nrccljmeqbectpgk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '10':
+      Name: Botas
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp14008j3fe9ig0000000002801h2msor8c5n78rb5dpq762g00000820009km800pdlkmspb3e9gmct1qcpim2t38clp5upj1dhm6irj708006r3mdg0080080016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01erb9dpim6sj1cpq3kp39c5mmurj4bth6urrkec5000rkc5jg60068hgmqob7ck0000001800ep39edo6oobp14008j3fe9ig0000000002801h2msor8c5n78rb5dpq762g00000820009km800pdlkmspb3e9gmct1qcpim2t38clp5upj1dhm6irj708006r3mdg0080080016ip0025mmirj5cdp62pjk79mmarj4d5n6e0g00dm7cr000400g002d5i0053dd5n6aoric5j78ejge9nn8pb3ehkmurg2001motjc0020020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '11':
+      Name: Espada
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2800h66usj500000000004g0325dphmgobeehmmarjkec5000000o4000j9cg01arb9dpim6sj1cpq3kpj9e9iluobje1im6t02001motjc0010020009km800hdlkmspb3e9gmct1qdhnmut39dpjg4003dhr6o003004000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020080016ip002dmmirj5cdp62pjk79pmgobie1n6asrj08006r3mdg00a0080016ip0029mmirj5cdp62pjk79pnepb5e1kmspo2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p0a001n8ob70c00ch31dlgmep80000002g00ti6isrgdhgni2800h66usj500000000004g0325dphmgobeehmmarjkec5000000o4000j9cg01arb9dpim6sj1cpq3kpj9e9iluobje1im6t02001motjc0010020009km800hdlkmspb3e9gmct1qdhnmut39dpjg4003dhr6o003004000j9cg012rb9dpim6sj1cpq3krb5dpi6irj708006r3mdg0020080016ip002dmmirj5cdp62pjk79pmgobie1n6asrj08006r3mdg00a0080016ip0029mmirj5cdp62pjk79pnepb5e1kmspo2001motjc001g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '12':
+      Name: Pico
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400cmqqbeclhn4ob6egt68qb1dlnmsp2ve1km6qr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400cmqqbeclhn4ob6egt68qb1dlnmsp2ve1km6qr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '13':
+      Name: Hacha
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002lmmirj5cdp62pjk79i6iobddtn68nr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip002lmmirj5cdp62pjk79i6iobddtn68nr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '14':
+      Name: Pala
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btpmgrrmclm0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01grb9dpim6sj1cpq3kp39c5mmurj4btpmgrrmclm0k003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '15':
+      Name: Pico OP
+      Chance: 5.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800rdlkmspb3e9gmct1qdpin8q35e9kn8pave1km6qr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800rdlkmspb3e9gmct1qdpin8q35e9kn8pave1km6qr1f1igk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000090064arj3d1gmst3dcln78soa000000o80016ip002hmmirj5cdp62pjk79imcpj9cdkmarj3f41000rcepm0018010004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '16':
+      Name: Tridente
+      Chance: 5.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0025mmirj5cdp62pjk79q74qb4cln782g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p80000000001400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0025mmirj5cdp62pjk79q74qb4cln782g00dq62po300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p80000000001400ohbecdk62rjkdlimst3j1800000210004qb4008mqqbeclhn4ob6egt6qpbechkmspo2001motjc000g020009km800kdlkmspb3e9gmct1qeln64sj5c5lmirj708006r3mdg0060000400agrfeln78080
+    '17':
+      Name: Totem
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejkdtq6aravdtj5utbechsmirj70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejkdtq6aravdtj5utbechsmirj70400agrfeln78080
+    '18':
+      Name: Élytros
+      Chance: 5.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0021mmirj5cdp62pjk79imoubke9ggk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0021mmirj5cdp62pjk79imoubke9ggk003ehgme0o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000000400agrfeln78080
+    '19':
+      Name: Comida
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcdnmuqr5chfn0rriddhmgrrg0400agrfeln78g00
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcdnmuqr5chfn0rriddhmgrrg0400agrfeln78g00
+    '20':
+      Name: Manzanas de oro
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78800
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3kprfdhi6arivc5o70r350400agrfeln78800
+    '21':
+      Name: Manzanas de oro encantada
+      Chance: 2.5
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kpbecdk62rjkcli5uprfdhi6arivc5o70r350400agrfeln78080
+    '22':
+      Name: Carbon
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78g00
+      Commands: []
+      Items:
+      - 5000080016ip001pmmirj5cdp62pjk79hmuobc0400agrfeln78g00
+    '23':
+      Name: Hierro
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78g00
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivd5n6errk0400agrfeln78g00
+    '24':
+      Name: Oro
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78g00
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qctnmop2vd5n6errk0400agrfeln78g00
+    '25':
+      Name: Diamantes
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78800
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kp39c5mmurj40400agrfeln78800
+    '26':
+      Name: Esmeraldas
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78400
+      Commands: []
+      Items:
+      - 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78400
+    '27':
+      Name: Netherite
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavd5n6errk0400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdpin8q35e9kn8pavd5n6errk0400agrfeln78080
+    '28':
+      Name: Llave Eventos
+      Chance: 1.0
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs1g03q3elpn8rrd9lnm8pbc8hgn8o800001s2g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb4006mor31epilupbmcln78rrj005001r4d5pn0r31f440012ec5mma2agfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi670o30c125gh78pboegh3k8ik49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34ce1k60o24b12ehingt1278h6i8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68os3gc1g48m24t35f1q24eh2cch7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchho8co308hc49q6au3k48t24qp2fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p33ic1g60h2o8jkcls788hq49ii4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi674q30c125gh78pboegh3k8jk40h7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchhp70o308hc49q6au3k48t24p12fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p33igpg60h2o8jkcls788hq49ii08jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68p0j0c1g48m24t35f1q24eh28ch7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchi16go308hc49q6au3k48t24sh2fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p342e1g60h2o8jkcls788hq49gi4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi6851j0c125gh78pboegh3k8jk49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cghg60o24b12ehingt1278h6a812fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p344d1g60h2o8jkcls788hq492i4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi688s30c125gh78pboegh3k8jm49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cgi360o24b12ehingt1278h6a8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68p1j0c1g48m24t35f1q24eh2doh7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchi36go308hc49q6au3k48t24t12fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p346e1g60h2o8jkcls788hq49ni4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi68d1j0c125gh78pboegh3k8jj49ulqb12ehingt1278h24v890024orrick40000004324up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq491m2rjaclgi0pbjehni0pbe41m62812fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p33gc1g60h2o8jkcls788hq491i4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi670s30c125gh78pboegh3k8j149uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34ce2660o24b12ehingt1278h6k8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68osjec1g48m24t35f1q24eh2c4g24v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi6752j0c125gh78pboegh3k8i549uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cg9m60o24b12ehingt1278h7c8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68p0kac1g48m24t35f1q24eh2ckh7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchi26ko308hc49q6au3k48t24rh2fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p344h1g60h2o8jkcls788hq49q24v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi68cq30c125gh78pboegh3k8jf49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cgq360o24b12ehingt1278h76812fkm7m8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2chimo812fkm7m8j9ehgmoqb348t6cobcediio8j3dtm6ush278h6esj5cln24b12ehingt1278h2utr1e9o20gric5q6asp2fleio8jkcls788hq48h7q0000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800fdlkmspb3e9gmct1qe1gn0pbi18006t31cs1g03q3elpn8rrd9lnm8pbc8hgn8o800001s2g02987aojcd5hk4tbbddkn8lj1dhqmaso800e6au33clm6opbeehhn4obkclpjkoric5q6anrbclsisqb4006mor31epilupbmcln78rrj005001r4d5pn0r31f440012ec5mma2agfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi670o30c125gh78pboegh3k8ik49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34ce1k60o24b12ehingt1278h6i8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68os3gc1g48m24t35f1q24eh2cch7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchho8co308hc49q6au3k48t24qp2fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p33ic1g60h2o8jkcls788hq49ii4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi674q30c125gh78pboegh3k8jk40h7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchhp70o308hc49q6au3k48t24p12fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p33igpg60h2o8jkcls788hq49ii08jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68p0j0c1g48m24t35f1q24eh28ch7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchi16go308hc49q6au3k48t24sh2fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p342e1g60h2o8jkcls788hq49gi4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi6851j0c125gh78pboegh3k8jk49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cghg60o24b12ehingt1278h6a812fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p344d1g60h2o8jkcls788hq492i4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi688s30c125gh78pboegh3k8jm49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cgi360o24b12ehingt1278h6a8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68p1j0c1g48m24t35f1q24eh2doh7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchi36go308hc49q6au3k48t24t12fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p346e1g60h2o8jkcls788hq49ni4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi68d1j0c125gh78pboegh3k8jj49ulqb12ehingt1278h24v890024orrick40000004324up2cls78sj148t5mup2c9nmop1279j62r3jckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49rmgqbkckh2o8jkcls788hq491m2rjaclgi0pbjehni0pbe41m62812fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p33gc1g60h2o8jkcls788hq491i4v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi670s30c125gh78pboegh3k8j149uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34ce2660o24b12ehingt1278h6k8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68osjec1g48m24t35f1q24eh2c4g24v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi6752j0c125gh78pboegh3k8i549uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cg9m60o24b12ehingt1278h7c8jt5hti4ojfdhi24ejke9qmab12d5q62r39cch3kpj1dhpmab12eln68pbidhkmspb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12cdnmorri48t248q68p0kac1g48m24t35f1q24eh2ckh7qb3r49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq48hkchi26ko308hc49q6au3k48t24rh2fkm7m8j2dtm688hqehp7ap9c49kn8obcd5hi4ej6c5m76p9c49qmsp35e9m6irj5cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49hmur3fe8h3k8h38p344h1g60h2o8jkcls788hq49q24v9cfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h26hi68cq30c125gh78pboegh3k8jf49uioup2c9nmop1279q74tb55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh66rrcdtp24eh24d34cgq360o24b12ehingt1278h76812fkm7m8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh66rrcdtp24eh2etk6it3548m24t35f1q24eh2chimo812fkm7m8j9ehgmoqb348t6cobcediio8j3dtm6ush278h6esj5cln24b12ehingt1278h2utr1e9o20gric5q6asp2fleio8jkcls788hq48h7q0000400agrfeln78080
+    '444':
+      Name: '&fCaña OP'
+      Chance: 15.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01arb9dpim6sj1cpq3kpj9edk6irj7btp6up0a001n8ob70c00kkj5e1gmisi3dtpn8000001gi00c8ln66q31dpq6qpbeehpgk0000020g002d5i006bdd5n6aoric5j78ejcelhmmnrfcpfn8q35btpmao82001motjc002g020009km800edlkmspb3e9gmct1qdhqn4p82001motjc002g020009km800hdlkmspb3e9gmct1qdlimsp39dpjg4003dhr6o001004000j9cg018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0g00dm7cr000k00k00cclr6arjddtp6apj9edk000o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01arb9dpim6sj1cpq3kpj9edk6irj7btp6up0a001n8ob70c00kkj5e1gmisi3dtpn8000001gi00c8ln66q31dpq6qpbeehpgk0000020g002d5i006bdd5n6aoric5j78ejcelhmmnrfcpfn8q35btpmao82001motjc002g020009km800edlkmspb3e9gmct1qdhqn4p82001motjc002g020009km800hdlkmspb3e9gmct1qdlimsp39dpjg4003dhr6o001004000j9cg018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0g00dm7cr000k00k00cclr6arjddtp6apj9edk000o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a000000000000400agrfeln78080
+    '445':
+      Name: '&f10 Llaves Vote'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig14jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq4966oobmckg5crrkckh7qn9c49q6au3k48t248jt14008j3fe9igg000000g1kjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278h5asr141in6t3141m6oobmckg6arh049uioup2d5q62r39cch3kpj1dhpmab12cdnmorri48t24priclims8hc49q6au3k48t24bqnc5p70833e9gn8pbj49ulqb12ehingt1278h24v8018014k3lc9m6ioq2ellmmqbkapgmotb5ec400735f1hmar3ccln78oric5q6aspqcdp62t35btlmau9ed5i002j3e9gn8pavepnn8p801400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt62ojic5pmirre08006r3mdg0020000400agrfeln782g0
+      Commands: []
+      Items:
+      - 5000080016ip002tmmirj5cdp62pjk79q74qbgetkn4pavd1nmuqoa001n8ob71800ep39edo6oobp10008jj1dlig14jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24qbkc5m6iop279j62r3jckm24tbechin4r39dpim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jfc9j7asr3c5q6ap1279j62r3jckm24orfdhnn48hq49jn4pb5doh2o8jkcls788hq4966oobmckg5crrkckh7qn9c49q6au3k48t248jt14008j3fe9igg000000g1kjr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h7eq39ehii4b12ehingt1278h5asr141in6t3141m6oobmckg6arh049uioup2d5q62r39cch3kpj1dhpmab12cdnmorri48t24priclims8hc49q6au3k48t24bqnc5p70833e9gn8pbj49ulqb12ehingt1278h24v8018014k3lc9m6ioq2ellmmqbkapgmotb5ec400735f1hmar3ccln78oric5q6aspqcdp62t35btlmau9ed5i002j3e9gn8pavepnn8p801400ohbecdk62rjkdlimst3j1800000110004qb40096qqbeclhn4ob6egt62ojic5pmirre08006r3mdg0020000400agrfeln782g0
+Item:
+  Material: PLAYER_HEAD
+  Amount: 1
+  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZlOGRhZmZlMzVjYTE4MzJmZjk5ZWVhZDQ2MTdhMzY5ZWEwMzNjMjRiODI1M2Y1MTFmZDhiOTE3MzdhN2UifX19
+  Encoded:
+    Use: true
+    Value: 2g0004000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p0a001n8ob71800ep39edo6oobp10008jj1dlig14rr49ingt3ic4h3kmrr49h6ur3448t6cobcediio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h64r3lckh2o8jkcls788hq493n4pb5dog46q35edq24vat5gh78pboegh3k8h2fk00k00ia1qm4r39cd17aqrbd5q5cobcelin620031ingor5dhm6arjkcdp62t35ect66sj1ehiisqb400566sj1ehilutjfehig02g0199mmtbcdh7nerj5e85002ige9nn0pbiehkmaso900478pboehqn4pbj180000011000alj1dhqma05gclskkc2qb1k30p2o99m66ua96piniiikaco6ojq9d9o3eibeapsm4gq96p4mqq1gch442dicf4sj0miod0o68m2adhhnidbkc5bjar2p6d56gmjea5qm4ram61636kjccl454cb3dlancjq7b9m4uhqid1d6qmjc9lt5cqipah2j8jbq99mlkqjb6ld5elj8b9252cidahi6gjbqb4qlklq5et6nkjja9ll54qaf8h4j2j9ib4okql26dld48q399ta4acqdf9i6gjhialkmcm1h740002o0094m8000002bk6061agbgjotjgvsqtgmrdldk0000400agrfeln78080
+  Durability: 0
+  Name: '&9Green Chest'
+  Item_Flags: []
+  Unbreakable: false

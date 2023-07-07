@@ -1,0 +1,17 @@
+location: minas:-27.790:43.000:7.522
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&lMina PVE'
+  - content: '&6&lProgreso de la Mina:'
+  - content: '%realmines_bar_MinaPvE%'
+  - content: ''
+  - content: '&a&lTiempo restante para reiniciarla:'
+  - content: '&l%realmines_secondsleft_MinaPVE% segundos'
+    height: 0.3
+  actions: {}

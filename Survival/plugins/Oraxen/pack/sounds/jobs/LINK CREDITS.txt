@@ -1,0 +1,16 @@
+jobs/LEVEL_UP: https://freesound.org/people/rhodesmas/sounds/320654/
+
+Inventory next: https://freesound.org/people/Fission9/sounds/568992/
+Inventory back: https://freesound.org/people/Fission9/sounds/568991/
+
+ERROR: https://freesound.org/people/suntemple/sounds/249300/
+
+UI_COMPLETED_ALERT: https://freesound.org/people/Headphaze
+
+UI_MENU_OPEN_CLOSE: https://freesound.org/people/FiveBrosStopMosYT
+
+https://jdwasabi.itch.io/8-bit-16-bit-sound-effects-pack
+
+
+***********
+CORRECT_BLIPS: https://freesound.org/people/Eponn/sounds/531510/

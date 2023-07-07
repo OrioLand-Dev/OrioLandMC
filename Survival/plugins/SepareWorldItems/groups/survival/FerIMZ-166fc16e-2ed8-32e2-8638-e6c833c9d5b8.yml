@@ -1,0 +1,538 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"Bisturi! -FerIMZ"}],"text":""}'
+      lore: []
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 5
+        MENDING: 1
+        DAMAGE_ALL: 10
+        DURABILITY: 5
+      repair-cost: 1
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"Igual Que la Hacha -FerIMZ"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 1
+      Damage: 115
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 46
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        ARROW_DAMAGE: 10
+        ARROW_KNOCKBACK: 2
+        DURABILITY: 5
+      Damage: 11
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 23
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        ARROW_DAMAGE: 10
+        ARROW_KNOCKBACK: 2
+        DURABILITY: 5
+      Damage: 51
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_TERRACOTTA
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 32
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+    amount: 3
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_MUTTON
+    amount: 16
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: INK_SAC
+    amount: 3
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER
+    amount: 18
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CARVED_PUMPKIN
+    amount: 2
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BLACK_WOOL
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 1
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        DURABILITY: 5
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 31
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        IMPALING: 5
+        MENDING: 1
+        RIPTIDE: 5
+        DURABILITY: 5
+      Damage: 11
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERRACK
+    amount: 9
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 5
+        MENDING: 1
+        DAMAGE_ALL: 10
+        DURABILITY: 5
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WOODEN_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 3
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 28
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        DURABILITY: 5
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+health: 20.0
+hunger: 20
+exp: 0.8602614
+exp-level: 43
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"(+0:14)"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBi4CnOzszJKQ7IL8nMz2Nm4E0pLUoEMZ3y80qLGRgYFRgYAHcSqcEoAAAA
+      potion-type: minecraft:long_strength

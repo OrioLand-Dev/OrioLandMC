@@ -1,0 +1,90 @@
+negative_space:
+  code: 63490
+  texture: victoralonso/jobs/negative_space
+  ascent: -32768
+  height: -20
+jobs_menu:
+  code: 49591
+  texture: victoralonso/jobs/jobs_menu
+  ascent: 30
+  height: 256
+brewer:
+  code: 12704
+  texture: victoralonso/jobs/menu_progress/brewer
+  ascent: 30
+  height: 256
+builder:
+  code: 12705
+  texture: victoralonso/jobs/menu_progress/builder
+  ascent: 30
+  height: 256
+crafter:
+  code: 12706
+  texture: victoralonso/jobs/menu_progress/crafter
+  ascent: 30
+  height: 256
+digger:
+  code: 12707
+  texture: victoralonso/jobs/menu_progress/digger
+  ascent: 30
+  height: 256
+enchanter:
+  code: 12708
+  texture: victoralonso/jobs/menu_progress/enchanter
+  ascent: 30
+  height: 256
+explorer:
+  code: 12709
+  texture: victoralonso/jobs/menu_progress/explorer
+  ascent: 30
+  height: 256
+farmer:
+  code: 12710
+  texture: victoralonso/jobs/menu_progress/farmer
+  ascent: 30
+  height: 256
+fisherman:
+  code: 12711
+  texture: victoralonso/jobs/menu_progress/fisherman
+  ascent: 30
+  height: 256
+hunter:
+  code: 12712
+  texture: victoralonso/jobs/menu_progress/hunter
+  ascent: 30
+  height: 256
+miner:
+  code: 12713
+  texture: victoralonso/jobs/menu_progress/miner
+  ascent: 30
+  height: 256
+weaponsmith:
+  code: 12714
+  texture: victoralonso/jobs/menu_progress/weaponsmith
+  ascent: 30
+  height: 256
+woodcutter:
+  code: 12715
+  texture: victoralonso/jobs/menu_progress/woodcutter
+  ascent: 30
+  height: 256
+error_green:
+  code: 12732
+  texture: victoralonso/jobs/error_green
+  ascent: 7
+  height: 7
+error_message:
+  code: 12733
+  texture: victoralonso/jobs/error_message
+  ascent: 7
+  height: 7
+error_red:
+  code: 12734
+  texture: victoralonso/jobs/error_red
+  ascent: 7
+  height: 7
+level_up:
+  code: 36887
+  texture: victoralonso/jobs/level_up
+  ascent: 6
+  height: 31

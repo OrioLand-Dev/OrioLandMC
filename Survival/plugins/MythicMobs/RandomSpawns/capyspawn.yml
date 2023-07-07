@@ -1,0 +1,11 @@
+RandomCapy:
+  MobType: capybara
+  Worlds: world
+  Chance: 1
+  Priority: 75
+  Action: REPLACE
+  Conditions:
+  - season{s=FALL}
+  - outside{} true
+  - onblock{b=GRASS_BLOCK}
+  - day required

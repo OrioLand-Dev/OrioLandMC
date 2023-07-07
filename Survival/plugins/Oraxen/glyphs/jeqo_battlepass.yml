@@ -1,0 +1,41 @@
+bp_portal:
+  code: 5504
+  texture: jeqo/battlepass/ui/portal
+  ascent: 47
+  height: 170
+
+bp_daily_quests:
+  code: 5505
+  texture: jeqo/battlepass/ui/daily_quests
+  ascent: 47
+  height: 170
+
+bp_week:
+  code: 5506
+  texture: jeqo/battlepass/ui/week
+  ascent: 47
+  height: 170
+
+bp_quest_overview:
+  code: 5507
+  texture: jeqo/battlepass/ui/quest_overview
+  ascent: 47
+  height: 170
+
+bp_rewards:
+  code: 5508
+  texture: jeqo/battlepass/ui/rewards
+  ascent: 47
+  height: 170
+
+progress_bar:
+  code: 5509
+  texture: jeqo/battlepass/ui/progress_bar
+  ascent: 8
+  height: 9
+
+bp:
+  code: 5510
+  texture: jeqo/battlepass/ui/bp
+  ascent: 8
+  height: 9

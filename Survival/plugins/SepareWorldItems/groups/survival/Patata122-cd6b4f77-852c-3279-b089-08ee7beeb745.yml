@@ -1,0 +1,228 @@
+health: 80.0
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory: {}
+armor_contents: {}
+ender_chest:
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BEACON
+    amount: 15
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Tridente
+        de "},{"bold":true,"italic":false,"color":"dark_blue","text":"Poseidón"}],"text":""}'
+      lore: []
+      enchants:
+        IMPALING: 5
+        MENDING: 1
+        RIPTIDE: 3
+        DURABILITY: 3
+      Damage: 2
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Tridente
+        de "},{"bold":true,"italic":false,"color":"gold","text":"Thor"}],"text":""}'
+      lore: []
+      enchants:
+        CHANNELING: 1
+        IMPALING: 5
+        LOYALTY: 3
+        MENDING: 1
+        DURABILITY: 3
+      Damage: 12
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LIGHT_BLUE_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XQQQuCMBTA8acp5ApBobDoO3Tq0imKDp3rPtQtG+ombkJ9+wgblnVw9//vvcdDAAj8fSHS/MgVU49LnI3BZgRmJeM0reOr2spbU+S0xom4e+CeFC0lAgDfAudcCAUWuAfRcLVrZdTJmhKpBKc4eW2AN7BMgW0KRqbA0SAYCFwNrBaEv0CnXu+Yj88WccXk92BkVE+M6qmu10PqUNduWwddTVhcCk50GfWeserKspEsxYTJFFcsk4pWGi16aP4XbXS+HJgDPAGQ3LOy1AIAAA==
+      blockMaterial: LIGHT_BLUE_SHULKER_BOX
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XUuw6CQABE0QFBAd8KGn/FymgsrLUngIgbYDeBJdG/V6PExsLpz51yPMDDaFuoJN9LLfT9FGUOTHFGUAqZJlV00ev62hR5WoWxurmwDzotaw/A0oB1LJSGAXunGqk379L/lqJSMoxf6/hgg8EmgzsMthhsM7jL4B6DHQa7DPYY3GfwgMFDBo8YPGbwhMFTBs8YPGewz+Cgxas/8KLF1m8sZPa8AOAB1O579UoEAAA=
+      blockMaterial: SHULKER_BOX
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RECOVERY_COMPASS
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 11
+        MENDING: 1
+        DURABILITY: 6
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DYNAMITE: 2
+        LOOT_BONUS_BLOCKS: 2
+        DURABILITY: 3
+      repair-cost: 3
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"italic":false,"text":""}'
+      - '{"italic":false,"extra":[{"extra":[{"color":"gray","text":"Cebos disponibles:
+        "},{"color":"yellow","text":"(3/7)"}],"text":""}],"text":""}'
+      - '{"italic":false,"text":""}'
+      - '{"italic":false,"extra":[{"extra":[{"color":"gold","text":"► 1 "},{"color":"aqua","text":"Agua
+        fresca"}],"text":""}],"text":""}'
+      - '{"italic":false,"extra":[{"color":"gold","text":"► 6 Stringy Worms"}],"text":""}'
+      - '{"italic":false,"extra":[{"extra":[{"color":"gold","text":"► 100 "},{"color":"#ff7777","text":"Camaron"}],"text":""}],"text":""}'
+      - '{"italic":false,"extra":[{"color":"gray","extra":[{"italic":true,"text":"Espacios
+        disponibles"}],"text":"► ? "}],"text":""}'
+      - '{"italic":false,"extra":[{"color":"gray","extra":[{"italic":true,"text":"Espacios
+        disponibles"}],"text":"► ? "}],"text":""}'
+      - '{"italic":false,"extra":[{"color":"gray","extra":[{"italic":true,"text":"Espacios
+        disponibles"}],"text":"► ? "}],"text":""}'
+      - '{"italic":false,"extra":[{"color":"gray","extra":[{"italic":true,"text":"Espacios
+        disponibles"}],"text":"► ? "}],"text":""}'
+      - '{"italic":false,"text":""}'
+      enchants:
+        LUCK: 10
+        LURE: 10
+        MENDING: 1
+        DURABILITY: 10
+      repair-cost: 15
+      internal: H4sIAAAAAAAA/+NiYOBi4EktS83LzS9KTcsszuBgEEjNTdNNLCjIyUxN0U1KzCxh0HArSi3OUAhPLEktsjLUCS4pysxLr1QIzy/KLbYy0wnOKMrMLbAyNDBgYAAAAPk+fFEAAAA=
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHEST
+    amount: 38
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_BED
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      display-name: '{"extra":[{"text":"Ticket x1Granja"}],"text":""}'
+      repair-cost: 1
+      internal: H4sIAAAAAAAA/+NiYOBg4EvLzClJLUpNiS/JLMlJZeAMyUzOTi1RqDBkAAC7E/fuIAAAAA==
+      title: Ticket x1
+      author: Nini4k
+      pages:
+      - '{"extra":[{"text":"Ticket x1 Granja"}],"text":""}'
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPAWNER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"wither_skeleton
+        Spawner"}],"text":""}'
+      internal: H4sIAAAAAAAA/0WPyQ7CMAxEh7AIIrEJOHDjOziyHEFV4V65YCCiJJAG0fKFfBZtg4Qv1sj2vLEEJHqLxByua+2Uy/d0FuhulN7d6aVXnFCOj0THS3Ik0eJqsw2hjpjelOaDpZObv5S7sI3SKyfsjAYEhhvKtkw2zit3xSladdTeKKroWdlLHGV/XH0mICu5NE/t0BAYhfx4KsvHoJizDUmfGQMfYPIPcDNxlJaHbDvoVxaBcWVaSlL8mLlneoJ3KghN/+kY+AJdgQF+EgEAAA==
+      PublicBukkitValues:
+        essentials:convert: 1b
+      blockMaterial: SPAWNER
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XRTYvCMBCA4Wm1WiMs4ipaz/4HwZPs4sGzey/VjjHYJpKmoP/e3a5j6Ydir+F5h0zCABh8fEVqf1pLI8z1J+Au2CKEcSwk7nVwMMvkmEYn1P5OXXrgbAzGCQOAgQXtbaQMWOB8q1Sa1X85ykuuotDf/U2HO7aaYLsJbhFevIHbhK16LCTPFsuwQ7hfeZoMy5RzfOhOSXu5lmiOqIVBP/k9OFPRpcJ9URRu5FLBXhSFhXtU2JWFhVayiBlhrx4X7jIsfdIkxxijDspP/9nQT8nPKz4UQaxkyXvP59f62bse4AbkoBI6LgMAAA==
+      blockMaterial: RED_SHULKER_BOX
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Skull
+        of Patata122"}],"text":""}'
+      Damage: 3
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: cd6b4f77-852c-3279-b089-08ee7beeb745
+        name: Patata122
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY3MTE4MDE2NzMwMSwKICAicHJvZmlsZUlkIiA6ICI3ZTZlYzUwY2U1OGI0ZWVlYTU5NzM5ZmJmZTI4MjA2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHRFZlbnVzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RhYWVhZTBmMjlmN2M1YjNiYWFhNWMwODUxNzY0YzM0ZmJjZWFkOTY4MTc5ZDA0ZmM5ZGEzMGU0NmJiODlhNGUiCiAgICB9CiAgfQp9
+          signature: WaYhvgz3G4avl3pZPWixCA+FFc3k8xu8WrWfns0O/KsD9feEImjVqNAjZOfKYCgvF7qVrbAkZ42r4J8i1BCmVQiBp+1J7tsdndNfi5wN1ozfGEQCJPwi5iDkLrKTZkuZL3nDBEWksCYr7+dZp+OLZuNku2+6/e50RcoIYap9jQJrGrSg5NQG6RN5BeRvNusZZd1MJbA0s2eYbQ/MWXEVjiPtE+0MSaApt4WN8NIDKLtKflF6DbVwDT4lZpsUeERJp5t/dLTi2M9tbQg25pkcjIbtlXNKR3rxwAGfWlAQk/fcPivnel/M3koDPvx1asLr94HF3hUIy1clpJK6MZygDC5IpsczREAi1eNVq2cWmxYePKSKCWCEsKoQVTOApqxjyeI3Z+JHcYRkWggEktJ0HiNaGJQggFWkoVgEJYkceI/mW6vV3YgtFexttkzsD2y7cBpHoE1s+GCyJQH1kzzG48FU8qt+ATKLyUQRn7Wl689ivYjpmzQG7vcHFGxBiOpBrQZWIv3GhAU/s6dZWFjQvA7KPda6XCgUToOzKYxqtM7bCskn34aQyA9OldGl4CIBciveQbU7KRYlbN3a0Z0Wmxd5t62Yf+GFgL/LZC1ueEL6Q/hOhI0QEciOmv+Ynw55YGtdOSzxCYa/gxSpUq5PGS8Xq3eDCuhsegu9NPIciE8=
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WRITTEN_BOOK
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      display-name: '{"extra":[{"text":"Ticket x1Granja"}],"text":""}'
+      repair-cost: 3
+      internal: H4sIAAAAAAAA/+NiYOBg4EvLzClJLUpNiS/JLMlJZeAPyUzOTi1RqDB0L0rMy0pkAAAb5j14JgAAAA==
+      title: Ticket x1Granja
+      author: Nini4k
+      pages:
+      - '{"extra":[{"text":"Ticket x1 Granja"}],"text":""}'
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+        "},{"italic":false,"color":"gold","text":"Orita"}],"text":""}'
+      lore: []
+      enchants:
+        DIG_SPEED: 10
+        MENDING: 2
+        DURABILITY: 7
+      Damage: 92
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3

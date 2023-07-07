@@ -1,0 +1,71 @@
+#Messages
+NoPermission: "&cYou do not have permissions to do this!"
+NoPermissionForSkin: "&cYou do not have permission to use this skin" #Maybe put your buycraft / however the player gets skins :) - Placeholder %SKIN% can be used to get the skin identifier
+
+ErrorOccurred: "&cOh, ha ocurrido un error!"
+
+#If they try placing the minion in a no build zone, or similar:
+CantPlaceMinionHere: "&cNo puedes colocar un Minion aqui!"
+#If there is a chunk limit set, this message is given if they are unable to place their minions due to that
+ChunkMinionPlaceLimit: "&aNo puedes poner mas de %CHUNKLIMIT% Minions en un chunk!"
+
+#The message that appears if the minion was successfully placed, although the action that the minion does is blocked
+#(For example, placed next on the edge of spawn, and trying to get the minion to mine in spawn)
+MinionCannotPerformHere: "&cThe minion cannot perform his actions here (is the minion in a suitable area?)"
+
+#The message that appears when they click the 'rename' button in the UI
+RenameMessage: "&eType the text you wish the Minions Name to be! &cCancel&e can also be used to cancel this command"
+RenameMessageCanceled: "&eThe minion will not be renamed."
+RenameMessageSuccess: "&eYou successfully changed the minions name to&f %NAME%" #%NAME% will get the minions display name
+
+MinionMustBeFullHealthToDestroy: "&cThe minion must have full health to pick it up!"
+
+NotEnoughMoneyToHealMinion: "&CYou do not have $%MONEYNEEDED% to do this!"
+HealSuccessful: "&CHas curado al Minion, ahora tiene %HEALAMOUNT% mas de Vida."
+HealNotNeeded: "&CEl Minion tiene la vida al maximo!"
+VaultNotInstalled: "&CVault is not installed, contact your System Administrator to enable vault!"
+
+NotEnoughMoneyToUpgradeMinion: "&cNo tienes suficiente dinero para mejorar el Minion. Te faltan %MONEYNEEDED%$!" #%MONEYNEEDED% can be used as a placeholder
+MinionAlreadyMaxLevel: "&cNo puedes mejorar el minion, ya esta en el nivel maximo!"
+
+#rotation
+MinionRotatedMessage: "&aHas Rotado al Minion hacia el &e%DIRECTION%"
+
+#Link a chest messages
+LinkAChestMessage: "&aHaz Click derecho en un cofre para conectarlo con el Minion!"
+LinkAChestSuccess: "&aHas conectado el cofre con el Minion!"
+LinkAChestUnattached: "&aSe ha eliminado el cofre del Minion!"
+LinkAChestFail: "&cNo has hecho click en un cofre lo suficientemente rapido para conectarlo con el Minion. Intentalo de nuevo."
+LinkChestBroken: "&cHas roto un cofre conectado a un Minion!"
+
+UnknownCommand: "&cComando desconocido"
+
+#When /minions is entered - Placeholders %VERSION%
+HelpCommand:
+  - "&b&m---------------&r&e[ &e&lMinions&e]&b&m---------------"
+  - "&8/&aminions list {player} &7- &fLists a players minions"
+  - "&8/&aminions remove {world} {x} {y} {z} &7- &fRemoves a minion at the location specified"
+  - "&8/&aminions about &7- &fDisplays information about the plugin"
+  - "&8/&aminions give {online_player} {minion_type} {amount} [level] &7- &fGives the specified user that minion, [level] is optional"
+  - "&8/&aminions reload &7- &fReloads the configuration file however a restart is suggested."
+  - "&8/&aminions storeother {online_player} &7- &fOpens a store for another player."
+  - "&8/&aminions store &7- &fOpens the minion store"
+
+GivenMinion: "&aHas conseguido un &aMinion &b%TYPE%!" #Placeholders, %AMOUNT% and %TYPE%
+
+MaxMinionAmount: "&cNo puedes colocar mas Minions has llegado a tu maximo. (%MAXAMOUNTALLOWED%)" #placeholder will return the max minions allowed for that user
+
+BreakMinionWithFullInventory: "&cTu inventario esta lleno! El Minion esta dejando las cosas en el suelo!"
+
+MinionNameMaxLength: "&cEl nombre del Minion es demasiado largo!"
+
+MinionExpGiven: "&AHas cogido &e%EXP% XP &aa este minion!"
+MinionNoExpToGive: "&cEste Minion no tiene &eXP&c para recolectar!"
+
+MinionStoreNotEnoughMoney: "&cNo tienes suficiente dinero para comprar este Minion!" #%MONEYNEEDED%,%MINIONTYPE% can be used as a placeholder
+MinionStorePurchase: "&cHas comprado un Minion %MINIONTYPE% por %MONEYNEEDED%$!"
+
+#Placeholders, %RANGEPLACED%, %REQUIREDRANGE%
+MinionChestToFar: "&cHas colocado el cofre a %RANGEPLACED% bloques de distancia, la maxima distancia es de %REQUIREDRANGE% bloques"
+
+AdminMinionDestroyMessage: "&cHas forzado la destrucción del Minion!"

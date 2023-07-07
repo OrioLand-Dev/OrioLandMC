@@ -1,0 +1,17 @@
+#### Floppa ####
+
+die_floppa:
+  Skills:
+  - sound{s=entity.cat.death} @self
+  - state{s=death} @self
+  - effect:particles{particle=cloud;amount=25;hS=.5;vS=.5;speed=.01} @self
+
+spawn_floppa:
+  Skills:
+  - delay 1
+  - effect:particles{particle=poof;amount=50;hS=.45;vS=.25} @self
+
+despawn:
+  Skills:
+  - effect:particles{particle=poof;amount=50;hS=.45;vS=.25} @self
+  - remove @self

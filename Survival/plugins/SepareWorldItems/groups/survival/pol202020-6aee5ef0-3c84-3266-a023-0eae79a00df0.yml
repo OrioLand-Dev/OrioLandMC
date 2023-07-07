@@ -1,0 +1,504 @@
+health: 20.0
+hunger: 20
+exp: 0.07639403
+exp-level: 46
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 61
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        FIRE_ASPECT: 2
+        FIRST_STRIKE: 4
+        GOLIATH: 3
+        KNOCKBACK: 4
+        LIFESTEAL: 4
+        LOOT_BONUS_MOBS: 4
+        MENDING: 1
+        NETHER_AFFINITY: 4
+        DAMAGE_ALL: 5
+        STUN: 3
+        SWEEPING_EDGE: 3
+        DURABILITY: 3
+        WISDOM: 3
+      repair-cost: 15
+      Damage: 6
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 6
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 44
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 445
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 41
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 10
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pala
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 18
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SAND
+    amount: 13
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 33
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Manzana
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRAFTING_TABLE
+    amount: 6
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_CHEST
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+      Damage: 302
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        ARROW_DAMAGE: 10
+        ARROW_KNOCKBACK: 2
+        DURABILITY: 5
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WATER_BUCKET
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BAMBOO
+    amount: 35
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 6
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 6
+        MENDING: 1
+        DAMAGE_ALL: 7
+        DURABILITY: 5
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        CHANNELING: 1
+        IMPALING: 5
+        LOYALTY: 3
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 1
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 50
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 5
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 153
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 15
+      Damage: 31
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 15
+      Damage: 31
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 153
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 5
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 50
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/62UwW/TMBTGX5p2bVPabqXjAhMoEpw4cO4JbUNiB0BiOyAhFL0mr6lVx45id6ya9i/zL4Bbz022VAKk5uREv++z/b2XFwAEMDjlMl58EJrp1RWmHWiwBI4zJigucKYnar7kCyqiqbzpQutCU6YCAHjmQfOSSw1WMC4Fscxzw8uCPGidyaXQ7+Ee9iw8qsLId6INi74q0YQoVxw1RQUlSktBVeHACX0rHFZusGYdN3Rc03InuzbgmDNVdW84VauWD2VUIE+qtO/og/8Jp/0P8Na589cknzu0W0NZIUUVPXFoYNEXuzJ5LDpyop4VvdwlShhmUjwIp+10T6wuLHU/scgpiWZLkS5N/CLCSGkWL5zUC8DXmPpwcI4ZpgSb596uv1+7wT7s/K3d0NodVroSk4RvU/EceFirlsCMImNc2yf4Sjmy4kwqvT53AO2EqZzjqgPNz0YEr29DutEFhpPvt6E2y3AS5pRTePfjrXsP78o7H9Wae8YKiuI5Fun2pG8cPaqdVE4VMxUXtW59WkOnRJEgpR9dqjaOutA8JdpMHD+AwH4/R43Wsf/A0eQ9+sTElzhe5qiZFFemPAqg8c2H3mZ9IT6ya1MZL4I9usGvfbp5v9djub/J4VKbv2gzlXtzM8RWEadr4uC9K4s2ro2NVJpxxEQqt+mOHXxs4UEJc8KkbEKAPwTUsHYUBgAA
+      blockMaterial: SHULKER_BOX
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 4
+        SWEEPING_EDGE: 3
+        DURABILITY: 3
+      repair-cost: 3
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/52TX0/CMBTF7zZAmIgiYPwTY+LH8MmoPPis70tXytZsu13aYlj88la7OpLiA/I2cn5n95x7FwPEMHkqBS2WqLlu3kk2hJCvYFFxZFSStX5Q+aYsmExSsR1B/1WzSsUAMA2g91YKHVjgrgNqnpUck5QgGqwmWjOJAfSfxQZ1AC0XWu6q45DpnEmuWaLMH7UjQkdElpjtjEZwpbRA5rSPTjuw2mmnXXFSCVw5Zd8pj/45/9ByFx3HpcCk5rQgWxZDpEkWweCFVCRj8P3zLEbW4nInEDVdJ5RoUjZKO+DeAbHXGZUNxywRqeImIHrpji1xs5NOclURaZ6TVJphlWPOHDM+MFnhJzvxrqitP8mF7xDMRjBeIs0J6oqh/rmv9j7mnQVbrznlDGkTQlR+lNADT7PBVDJSmE5aTbSn91OvRjfdXxl7n77L1Ht5V60Tj5z43Ipv9+7BLFGZjSvv4meWmnRUwcraW9j8wIUFfpiFtbjeO5/Kifz9cCbG4At7kTkCOAQAAA==
+      blockMaterial: SHULKER_BOX
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CYAN_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      internal: H4sIAAAAAAAA/7WRQU/bQBCFx7FdwEJIlYpQe0J7zi/IsZQDEuJCbwhFY+/YXmW9m67HkCjKT+uNH8YW29m04UiPO/revH1vMoAMzr5rWyyuDSte/8TqGCZKwnmjDBUOS561dacX5Oa5XZ1AesPUtBkApBEk99oy9IKvQWCIa3KKaZ7/2RxBemU7wzEMiqhXXASFVNhYI//m05Gf9Pxl4MkUNRomOa+slmTmuFxqyiBmrDI4kqpdalwfQ3KHDcHLRtCKHYrZw0bkXiBmJeqWpkIxalXsnp2R5LR3CUTLTi18Hme7qt5NbV52bYG8BxZWWydm4rn2wcVUsLf0zzvLRX0pttPNv2ajAH91GPhba1qJmjwsto+7sdgCjL0kYy/xQY+heVwNdcTw6Qc2WJE/WXYCp9d9dQ0Zfjtj0i/5slduWapC+YrXE4j1k4Z0OPHnwJTWcWdoAOJDwO+XylQDEMGBS2dyR7gITBISRmPC4XPf3kvY1vaJ9EHI6Pd/Cjn5iJDxfkiAV6jaPW+AAwAA
+      blockMaterial: CYAN_SHULKER_BOX
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      lore: []
+      stored-enchants:
+        ONE_FOR_ALL: 1
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_SHELL
+    amount: 13
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHEST
+    amount: 12
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICKY_PISTON
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 3
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CYAN_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      internal: H4sIAAAAAAAA/5XMuQ6CQABF0QeCwqi44vonVkZjYa09GRCRwDAJDIn+vTGxs/H1514BCASHUifFqTK5eV1l5sHObwhVXqVJLe9m1zzaskjrKNZPH+7ZpKoRALYWnEupDX4CJTMlo/hzteAedVuZPb7aorRN6Q6lHUq7lO5Sukdpj9I+pQWl+5QeUHpI6YDSI0qPKT2h9JTSM0rPKR1SekHpJaVXlF5TevOfBt73HPFKGQUAAA==
+      blockMaterial: CYAN_SHULKER_BOX
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XMuQ6CQABF0QeCwqi44vonVkZjYa09GRCRwDAJDIn+vTGxs/H1514BCASHUifFqTK5eV1l5sHObwhVXqVJLe9m1zzaskjrKNZPH+7ZpKoRALYWnEupDX4CJTMlo/hzteAedVuZPb7aorRN6Q6lHUq7lO5Sukdpj9I+pQWl+5QeUHpI6YDSI0qPKT2h9JTSM0rPKR1SekHpJaVXlF5TevOfBt73HPFKGQUAAA==
+      blockMaterial: SHULKER_BOX
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CYAN_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      internal: H4sIAAAAAAAA/5XMuQ6CQABF0QeCwqi44vonVkZjYa09GRCRwDAJDIn+vTGxs/H1514BCASHUifFqTK5eV1l5sHObwhVXqVJLe9m1zzaskjrKNZPH+7ZpKoRALYWnEupDX4CJTMlo/hzteAedVuZPb7aorRN6Q6lHUq7lO5Sukdpj9I+pQWl+5QeUHpI6YDSI0qPKT2h9JTSM0rPKR1SekHpJaVXlF5TevOfBt73HPFKGQUAAA==
+      blockMaterial: CYAN_SHULKER_BOX
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/5XTTVPCMBAG4C0UgYIFPw/iD3EcD46MB896zyRtpJmm3U4SBv33InEpM/GS+/Nu3uwkGUAG+YvGon5tnXLfH3wzgYEq4aZRrSwM/3SPttrqWhom8GsKozcnG5sBwHUC6btGB0Gg4ZuGM/E7NYHRGrete4Y/nUTpQZQeRuk0So+i9FmUHkfpSZSeen3X6wKF0NI6bCXbca0p8kCRzEfykxfQ4o7YE7GZZ7c9Q14zZ3hXIhriK+Jzz+9Pph4qCKOKmlnHlbEUmlPo3IcWJ+2rfXVyM3J50MU2iK5ihzOIj4kvAr6rlJOs4KaTLuBLz5c9r7Dr5PGOKcGLYHOGq+OCl8QuPVv935ZZzUUw+irooHlZ9h2G+x/5A/cJRzDOAwAA
+      blockMaterial: SHULKER_BOX
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/43LSxOBUAAF4FOKuiivPH8JK8NYWLM3SdJ0q5nubYZ/b4Gx4+y/TwAC3kaWUbYrdKofxzBxYKYXBHlaxFEVXvVK3WqZxdXpXN5d2Hsd50oAWBiwDrLUeAX/GxIZKmXA3pZ1oZd4O+O3W3+cSboG6SzS2aRrkq5FOod0LukE6dqk65CuSzqPdD7peqTrk25AuiHpRqQLSDcm3YR0U9LNSDf/54AnpLPON3cEAAA=
+      blockMaterial: SHULKER_BOX
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/43Luw6CMAAF0AuCQlXwhc8/cTISB2fdDSIiodCElkT/3kETR+9+jgAEgr1UaXmoTWFe5yT3YBc3RFVRZ2mT3M1WP1pZZs3lqp4+3KPJKi0AbCw4J6kMPiH8hVwmWltwY9XWZoevs0hnk65DOod0Lum6pOuRziOdTzpBuj7pBqQbki4gXUi6EenGpJuQbkq6Geki0s1JtyDdknQr0q3/OeANvp2NlXcEAAA=
+      blockMaterial: SHULKER_BOX
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"green","text":"<---"},{"italic":false,"color":"aqua","text":"
+        Proteccion de 32 "},{"italic":false,"strikethrough":true,"color":"green","text":"--->"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"(⌐■_■)ノ♪
+        Protege tu casita!"}],"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/91Y3W7jRBSe1EmapN3tD91dVqxQMTcIFdTtb5KrjZ1UrGDZ5WeREFqisX0SjzL2ROMxtFr1iiteAvESPAG3vAAPwHPAOHY9zjptLVC9wF2cfHO+c76ZOedzWgi10G2DMnsy8AURZ1/icQMtEQfd8YgPNscj0Q3ckE6ADy122kS1xwK8oIUQerOCql9QJlBugc3YBJyhBTCqoJrJQl+st5Am8LiFNp+FFiW2EU4mRHyFaQhBAzUZx6fgd2WYVdsFCMAK+Ri4TG7ZIcGU4rMGqn6KPUA/vdThVHCsd795qVuMOnp3hGkAOzoRWAZOH0PfAU5lTgoRCE4mIFzOwrGbfsusURjYWGSANqOM6139e5cI0Hd0ISnl40fYi/KSKeNtm/nbn8lPTD9/kQL0c6ShNTMMBPOeMAdoHwsspfoYoUSsSizWPSUWBSzcmbpMBBdyVa6QS0MbiVxOyLFFqNw2hLTtORlXGJd6xEHzKtbfL1PFd096x6ZhKB0N/XynFNr2Xm+gaFlJtEb7uLeraEVptP3OvqLFZdF29ttHija4UdqEZLuk2szO4Chzbp2SaPu9g8PMuYUZ7StMJSvR750cZA7X05JoB8bh/qGi5aXRGnttRUvKojUfPjTKbxwn5tFuf65xZCeahmozKPrzNzllUL2PPTwGOdQWj7pqE232hEzCCgXIH8iIAJ/5Be1ihNfjMVVH9Z4XDbtHDYTieM2nU+BYEOZHzyuo+vz5434U9Jf3vv2h/vsT++eDX3/8Y/L1iwa6lZLMYr6jBuoYfODE/hBzj/GhiHTwIZAuI3Yr1RFA5FluLpcH+Vw8fDp0AVPhFkxj65+nce8SSeYzSJ3JUuxM1tSqKZbURRzJnPOozZxH3nMsua/Vc5TVsYy22Tkqv2OZHfN4t/yO1e+ZB6+hYw0Mc+/w0o61uDFtpyddi0/6fXXSfYgsuPT6C124hlqfwxQTbrIgujBaE60OfNvFvvDAF7PmVsvFHCW+XiYv6x0vIY1+R1E1eVvaUEAZw1GASgLYytxDzgTYUQt4JUgGE7CQDoMpgJNgtDwm9C0OeKK4tLl+3kgFqsZL314kkHw9C4S81gKuUWl5gUrazRR/TWGqxyW79GBRYRTGYxnhus3/95S1mpZVj5fezTR8eQXBH+LplKb79OgCvhzD31qkwpTYE9nJcyJk1FSdvYmqnzCeSHy5LpmSYDQiNgHfPktKWv4b9yGnS03tcON/XFsz99+Bqu2/XFcrRq9nKOmZNApXFZQuXsktDlwC1Lli8Qfp4tWrPU96Y24VxN0uiFsriFsviNsoiNssiHujIG6rIO5OQdzdgrj7uZsAnnTJ1Bla0V+ZF/gdudl/AXjdn1TiFAAA
+      blockMaterial: SHULKER_BOX
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_INGOT
+    amount: 39
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_CHEST
+    amount: 2
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      internal: H4sIAAAAAAAA/92XW2/TMBTH3abdpWxcxB3xUOV5n6CPG5MACYQE4gWh6DQ+Saw6tmU7Xce0D8dVPPKR8EjaVDOVMmgVxKOj/zlO/r9zjuMBIQNy/ZDLeHIsLLOnbyDdIV1Gyd2cCYw1JHZksoJPUEdjOdsl/WcWczMghOx3SO81l5aUATfqAAUK9YAEFtIB2abMKA6nO6T3EnIkP85CnFkN4ejdWTiWnIajBLjBg5BZ4CxeLAtBUXOXtFYYq9kEbaZlkWaLp3KcFCYGuySMJZc6HIUnGbMYHoTWbemWb4HjUEk9LAQMOYcpDsPzg7PLO8+jKehJlGpEUad4DhTD8/eLdXhOSIf0j2QhbIdUlnRKS+7XllAGuRQ0MidS09KagGw9gRxSdF4S36cvLfp0bBRQWIc3u2TvWMQZCJujsL/qpu8VWMI0RmAUxrZLAj7lpFsV1a1axKW0TKSrBW4DWgs6leD2ch2DVgKNqSS9SnKnlhRirBEmdZrgN3S7ZdgDn26GPEfbCO/nFvEegYnlhuj2GnJZMl1paR16JkWl6ROvRDQaxTQsiYI/pBespGcyOUXeiN6nFum9Ar6p1gw8SzFJWMxQxKeX2FwFcCMuPY/5nAvM8J9vqafgnPwPqVTD+qFPRbF40pRMq+3CNj3rrggmkdoWAi+NsbWT2yrDHvnkOKapizWN0H1vddIJt4d0R/ZmO2sth9VV+WyXYY99PnGGxjoGtllzfW2TELqX1RsefK3g2fH2rvDMlTfnyl1vRArnKGpnVGTcA+XlvrbyejB2P7nN+rLNw+5QWthUS67z/3HpSuowMPqXE3XPy3oRRFdddD+2OznXerMdzj3YLz24V3uQui9DEYFSHFdZ8a1FK16A+ABiPfW68OOiUn8C0lr/iDwRAAA=
+      blockMaterial: LIME_SHULKER_BOX

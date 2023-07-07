@@ -1,0 +1,41 @@
+Animated-Hats:
+  Siren:
+    Name: '&b&lSirena de Policia'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Sammy The Cookie:
+    Name: '&b&lGalleta'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Chroma Slime:
+    Name: '&b&lSlime de Colores'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Color Block:
+    Name: '&b&lBloque de Colores'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'

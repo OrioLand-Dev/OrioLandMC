@@ -1,0 +1,21 @@
+description: Summon a cloud of empowering aura that grants &astrength, regeneration,
+  and absorption&r
+type: special
+targets:
+- sword
+enchantable: true
+max-level: 1
+tradeable: true
+conflicts: []
+placeholder: '%level%'
+effects:
+- args:
+    cooldown: 300
+    chain: wor_chain
+  id: run_chain
+  triggers:
+  - alt_click
+display-name: Well of Radiance
+discoverable: true
+conditions: []
+rarity: veryspecial

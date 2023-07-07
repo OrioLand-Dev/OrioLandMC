@@ -1,0 +1,910 @@
+##Control Panel for the Minions
+#A control panel for a new minion can easily be created by copying a minion's section and changing its identifier
+#
+#Head SQLDatabase is supported to get heads, for a head in Head SQLDatabase plugin, use SKULL:hdb-<headId> (Example, SKULL:hbd-5100)
+#
+ControlPanel:
+  Miner: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54 #Must be a multiple of 9
+      DisplayName: "&cPanel de %MINIONNAME%" #%MINIONNAME% can be used to get the minions identifier
+    FillerItem:
+      Slot: filler #Either specify a slot ID, or specify filler to fill empty spaces
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none #Possible Actions: NONE, CLOSE, LEVELUP, ROTATE_NORTH, ROTATE_EAST, ROTATE_SOUTH, ROTATE_WEST,ROTATE, SKINS (opens Skin Menu for that minion), ATTACHCHEST, RENAME, PAYHEAL, HEAL (PAYHEAL will charge the user in money, HEAL will not), EXP (Gives the experience the minion has to the player)
+      DisplayName: " " #Placeholders: %MINIONNAME% get the minion name, %HEALTH% get the current minions health, %NEXTLEVELCOST% cost for the next level, %SETTINGVALUE% for the value of the setting, and %NEXTSETTINGVALUE% for the next (upgraded) setting value), and %LEVEL% current minion level
+      Lore: [] #Same placeholders as aboved
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 30
+      Item: DIAMOND_PICKAXE
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha minado"
+        - "&e%STATS% &7bloques desde que se colocó"
+    Nametag:
+      Slot: 31
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Health:
+      Slot: 32
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Fisher:
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none #Possible Actions: NONE, CLOSE, LEVELUP, ROTATE_NORTH, ROTATE_EAST, ROTATE_SOUTH, ROTATE_WEST,ROTATE, SKINS (opens Skin Menu for that minion), ATTACHCHEST, RENAME, PAYHEAL, HEAL (PAYHEAL will charge the user in money, HEAL will not), EXP (Gives the experience the minion has to the player)
+      DisplayName: " " #Placeholders: %MINIONNAME% get the minion name, %HEALTH% get the current minions health, %NEXTLEVELCOST% cost for the next level, %SETTINGVALUE% for the value of the setting, and %NEXTSETTINGVALUE% for the next (upgraded) setting value), and %LEVEL% current minion level
+      Lore: [] #Same placeholders as aboved
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotate West"
+      Lore:
+        - "&7Click this to change the"
+        - "&7Direction of your minion"
+        - "&7to West"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 30
+      Item: DIAMOND_PICKAXE
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha pescado"
+        - "&e%STATS% &7peces desde que se colocó"
+    Nametag:
+      Slot: 31
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Health:
+      Slot: 32
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Slayer: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none
+      DisplayName: " "
+      Lore: []
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 29
+      Item: DIAMOND_SWORD
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha matado"
+        - "&e%STATS% &7mobs desde que se colocó"
+    Nametag:
+      Slot: 30
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Exp:
+      Slot: 32
+      Item: EXPERIENCE_BOTTLE
+      Action: EXP
+      DisplayName: "&e&lXP"
+      Lore:
+        - "&7Tu minion a conseguido"
+        - "&e%EXP% &7de XP"
+    Health:
+      Slot: 33
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Collector: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none
+      DisplayName: " "
+      Lore: []
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 29
+      Item: ENDER_PEARL
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha recolectado"
+        - "&e%STATS% &7items desde que se colocó"
+    Nametag:
+      Slot: 30
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Exp:
+      Slot: 32
+      Item: EXPERIENCE_BOTTLE
+      Action: EXP
+      DisplayName: "&e&lXP"
+      Lore:
+        - "&7Tu minion a conseguido"
+        - "&e%EXP% &7de XP"
+    Health:
+      Slot: 33
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Feeder: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none
+      DisplayName: " "
+      Lore: []
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Stats:
+      Slot: 30
+      Item: DIAMOND_HOE
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha dado de comer"
+        - "&e%STATS% &7veces a los minions"
+    Nametag:
+      Slot: 31
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Health:
+      Slot: 32
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Lumberjack: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none
+      DisplayName: " "
+      Lore: []
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 30
+      Item: DIAMOND_PICKAXE
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha talado"
+        - "&e%STATS% &7troncos desde que se colocó"
+    Nametag:
+      Slot: 31
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Health:
+      Slot: 32
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Farmer: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none
+      DisplayName: " "
+      Lore: []
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 30
+      Item: DIAMOND_AXE
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha cosechado"
+        - "&e%STATS% &7cultivos desde que se colocó"
+    Nametag:
+      Slot: 31
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Health:
+      Slot: 32
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"
+  Seller: #Must be a name of a minion, as this will be the control panel for that minion
+    Settings:
+      Size: 54
+      DisplayName: "&cPanel de %MINIONNAME%"
+    FillerItem:
+      Slot: filler
+      Item: GRAY_STAINED_GLASS_PANE
+      Action: none
+      DisplayName: " "
+      Lore: []
+    Skins:
+      Slot: 19
+      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
+      Action: SKINS #Will open skins menu
+      DisplayName: "&e&lMenu de Skin"
+      Lore:
+        - "&7Haz click para combiar"
+        - "&7la Skin de tu Minion!"
+    North:
+      Slot: 20
+      Item: SKULL:MHF_ArrowUp
+      Action: ROTATE_NORTH
+      DisplayName: "&e&lRotar al Norte"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Norte"
+    East:
+      Slot: 21
+      Item: SKULL:MHF_ArrowRight
+      Action: ROTATE_EAST
+      DisplayName: "&e&lRotar al Este"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Este"
+    South:
+      Slot: 22
+      Item: SKULL:MHF_ArrowDown
+      Action: ROTATE_SOUTH
+      DisplayName: "&e&lRotar al Sur"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Sur"
+    West:
+      Slot: 23
+      Item: SKULL:MHF_ArrowLeft
+      Action: ROTATE_WEST
+      DisplayName: "&e&lRotar al Oeste"
+      Lore:
+        - "&7Haz click para combiar la"
+        - "&7Dirección ode tu Minion"
+        - "&7a Oeste"
+    PayToHeal:
+      Slot: 24
+      Item: GOLDEN_APPLE
+      Action: PAYHEAL
+      DisplayName: "&e&lCurar Minion"
+      Lore:
+        - "&7Esto te costará"
+        - "&7$200" #Change the amount if needed in the config.yml
+    Hopper:
+      Slot: 25
+      Item: HOPPER
+      Action: ATTACHCHEST
+      DisplayName: "&e&lAdjuntar un cofre"
+      Lore:
+        - "&7Adjunta un cofre a este Minion"
+        - "&7para que los bloques vayan a el!"
+    Stats:
+      Slot: 30
+      Item: CHEST
+      Action: NONE
+      DisplayName: "&e&lEstadísticas"
+      Lore:
+        - "&7Tu minion ha vendido"
+        - "&e%STATS% &7objetos desde que se colocó"
+    Nametag:
+      Slot: 31
+      Item: NAME_TAG
+      Action: RENAME
+      DisplayName: "&e&lRenombrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7Renombrar el Minion!"
+    Health:
+      Slot: 32
+      Item: COOKED_BEEF
+      Action: NONE
+      DisplayName: "&e&lVida"
+      Lore:
+        - "&7La vida de tu Minion:"
+        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+    UpgradeMinion:
+      Slot: 40
+      Item: GOLD_INGOT
+      Action: LEVELUP
+      DisplayName: "&e&lMejorar"
+      Lore:
+        - "&7Mejora el Minion al"
+        - "&7siguiente Nivel"
+        - "&7Coste: &e$%NEXTLEVELCOST%"
+    Close:
+      Slot: 49
+      Item: NETHER_STAR
+      Action: CLOSE
+      DisplayName: "&c&lCerrar"
+      Lore:
+        - "&7Haz click para"
+        - "&7cerrar el menu"

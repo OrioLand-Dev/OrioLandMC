@@ -1,0 +1,11 @@
+RandomNutria:
+  MobType: NocsyOtter
+  Worlds: world
+  Biomes: river
+  Chance: 1
+  Priority: 10
+  Action: REPLACE
+  Conditions:
+  - outside{} true
+  - onblock{b=WATER}
+  - day required

@@ -1,0 +1,34 @@
+all: All
+all-conflicts: All Other Enchantments
+messages:
+  prefix: '&a&lEcoEnchants &r&8» &r'
+  no-enchantments-found: '&cNo enchantments found!'
+  cannot-afford-type: '&cYou can''t afford to do this! &fCost: &a%cost% %type%'
+  disabled-descriptions: '&fYou have successfully &cdisabled &fenchantment descriptions!'
+  gave-random-book: '&fGave &a%player%&f a random book (&r%enchantment%&f)!'
+  cannot-afford-price: '&cYou can''t afford to do this! &fPrice: %price%'
+  lrcdb-export-error: '&cError exporting config: &f%message%'
+  enabled-descriptions: '&fYou have successfully &aenabled &fenchantment descriptions!'
+  cannot-afford: '&cYou can''t afford to do this! &fCost: &a$$%cost%'
+  on-cooldown: '&cThis effect is on cooldown! &fTime left: &a%seconds% seconds'
+  descriptions-disabled: '&cEnchantment descriptions are disabled on this server.'
+  invalid-config-name: '&cInvalid config name!'
+  lrcdb-export-success: '&fExported &a%name%&f! View it on &alrcdb.auxilor.io&f, or
+    share your config ID: &f%id%'
+  missing-enchant: '&cYou must specify an enchantment!'
+  must-specify-config-name: '&cYou must specify the config name!'
+  reloaded: Reloaded! Took %time%ms
+  must-specify-lrcdb-id: '&cYou must specify the ID of the config to download! Not
+    sure what this means? Go to &alrcdb.auxilor.io'
+  invalid-levels: '&cMinimum level can''t be higher than maximum level!'
+  not-player: '&cThis command must be run by a player'
+  lrcdb-import-error: '&cError importing config: &f%message%'
+  invalid-command: '&cUnknown subcommand!'
+  cannot-transmit: '&cYou can''t transmit here!'
+  not-found: '&cCannot find an enchantment matching name: &f%name%.'
+  no-permission: '&cYou don''t have permission to do this!'
+  lrcdb-import-success: '&fImported &a%name%&f! Reload the plugin to install it'
+  requires-player: '&cRequires a Player!'
+  invalid-player: '&cInvalid Player!'
+no-conflicts: No Conflicts
+

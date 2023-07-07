@@ -1,0 +1,47 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LIGHT_GRAY_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Clic"},{"bold":false,"italic":false,"color":"gray","text":"
+        » "},{"italic":false,"color":"gray","text":"Unir Silver"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"gray","text":"0/8"}],"text":""}'
+      Damage: 8
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_BED
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Click"},{"bold":false,"italic":false,"color":"gray","text":"
+        » "},{"italic":false,"color":"dark_red","text":"Salir de la arena"}],"text":""}'
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PURPLE_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Purple
+        Team"}],"text":""}'
+      Damage: 10
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PURPLE_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Purple
+        Team"}],"text":""}'
+      Damage: 10
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

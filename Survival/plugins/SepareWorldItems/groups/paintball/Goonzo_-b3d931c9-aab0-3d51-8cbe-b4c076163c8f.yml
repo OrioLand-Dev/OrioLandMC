@@ -1,0 +1,136 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_HORSE_ARMOR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Pistola"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Descripcion:
+        "},{"italic":false,"color":"gray","text":"Pistola de Paintball"}],"text":""}'
+      custom-model-data: 0
+      Unbreakable: true
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Tienda
+        de monedas"}],"text":""}'
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+      Unbreakable: true
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+      Unbreakable: true
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+      Unbreakable: true
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+      Unbreakable: true
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+      Unbreakable: true
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+        Team"}],"text":""}'
+      Unbreakable: true
+      color:
+        ==: Color
+        RED: 249
+        BLUE: 254
+        GREEN: 255
+health: 20.0
+hunger: 19
+exp: 0.0
+exp-level: 0

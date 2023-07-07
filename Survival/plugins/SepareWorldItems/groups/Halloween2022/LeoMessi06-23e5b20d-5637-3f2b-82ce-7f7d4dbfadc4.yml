@@ -1,0 +1,25 @@
+health: 94.0
+hunger: 19
+exp: 0.13235866
+exp-level: 35
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 15
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"green","text":"<---"},{"italic":false,"color":"aqua","text":"
+        Proteccion de 32 "},{"italic":false,"strikethrough":true,"color":"green","text":"--->"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"(⌐■_■)ノ♪
+        Protege tu casita!"}],"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b
+armor_contents: {}

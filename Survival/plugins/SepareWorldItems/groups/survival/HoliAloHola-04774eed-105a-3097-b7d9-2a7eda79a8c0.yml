@@ -1,0 +1,12 @@
+health: 24.799999237060547
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory: {}
+armor_contents: {}
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 64

@@ -1,0 +1,13 @@
+Name: '&6&lLlave Eventos'
+Virtual: false
+Item:
+  Material: PAPER
+  Amount: 1
+  Encoded:
+    Use: true
+    Value: k00010004qb4007mqqbeclhn4ob6egt70obgclp0k003ehgme0o01t1nasrkdtmkqrr4clm48obkc400001m18014k3lc9m6ioq2ellmmqbkapgmotb5ec400735f1hmar3ccln78oric5q6aspqcdp62t35btlmau9ed5i003bcdhgncpavclr6arjkdtpgg009dtp62u35dot6ip001pm6oobmclk62r3cdtrmapbe005001r4d5pn0r31f440012ec5mma04kfch6au3ke9gi4eirfch64rrccgh3kt3ieliio8j9ehgmoqb348t6cobcediio8jldpi6asjcd5n6ap1279j62r3jckm24srke9kmmpbkd1p6utb7d0h3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8j3dtm6ush278h6errccgh2o8jkcls788hq4964ogam8kg4ali59pa4ukp2fleio8jkcls788hq48h7q0000400agrfeln78080
+  Durability: 0
+  Name: '&6&lLLAVE EVENTOS'
+  Custom_Model_Data: 54
+  Item_Flags: []
+  Unbreakable: false

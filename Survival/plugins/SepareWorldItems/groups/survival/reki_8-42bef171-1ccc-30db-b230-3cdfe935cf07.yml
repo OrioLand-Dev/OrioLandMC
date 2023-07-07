@@ -1,0 +1,492 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 5
+      repair-cost: 1
+      Damage: 456
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 61
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 62
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 23
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 5
+        MENDING: 1
+        DAMAGE_ALL: 10
+        DURABILITY: 5
+      Damage: 1
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Cebos
+        disponibles: "},{"italic":false,"color":"yellow","text":"(2/7)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"►
+        2 "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF7777","text":"Camaron"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"►
+        1 "},{"italic":false,"color":"aqua","text":"Agua fresca"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"►
+        ? "},{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Espacios
+        disponibles"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"►
+        ? "},{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Espacios
+        disponibles"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"►
+        ? "},{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Espacios
+        disponibles"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"►
+        ? "},{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Espacios
+        disponibles"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"►
+        ? "},{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Espacios
+        disponibles"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      enchants:
+        LUCK: 3
+        LURE: 3
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 4
+      internal: H4sIAAAAAAAA/+NiYOBi4EktS83LzS9KTcsszuBgEEjNTdNNLCjIyUxN0U1KzCxhEAvOKMrMLbAy0nErSi3OUAhPLEktsjJkYAAAzpxjnz8AAAA=
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Vale
+        por una llave "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 60
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+      Damage: 23
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 2
+        MENDING: 1
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 3
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        MENDING: 1
+        DURABILITY: 3
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pala
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        DIG_SPEED: 5
+        MENDING: 1
+        DURABILITY: 3
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: facb42aa-94d1-358f-b91c-f3bee78d9918
+        name: Ale76767
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY3MjQ4NTYyOTAwNCwKICAicHJvZmlsZUlkIiA6ICIwMDI1ZmY3NjJkODY0NTMyODhiYTkzNjk4MTQ0NTJjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGU3Njc2NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kOGIxYWJkOGYxMDE0MWRlYzdiNjhkYTkzYTgxMjI2OWY2YmM3YmU5ZjA4ZmUzNzc5OTI4MzQwNjhhNTcyMDk4IgogICAgfQogIH0KfQ==
+          signature: pC60tFGr3tIwwIxV3n6fDEoUiH3FhgBJbpiZHq/7SxRYKNZWl5c77aewu3uoB5Is8oskpi81xVOOhl8WG81APLgn/ynYLwDSGI/rEscSsQbTWmUME14k052fn5JB4AXTn+4gihJmgzrGOoD4ja8fqjV162WMtNAc6yHI6MVHCclEgGo4pyh2QmYDAuLtpgiX8wbGtd9fpWhUPA5vy3J+z6yQi9GhIryIC31sIKis3FtrVYUXGJsWKBGHgiwKsB7VMEvHMtK/JvyUSPknRLYCRIaRNvOqDvuWxvzcXPxSqExl6WA+UFqig9Y0dRMqXZSIfd9b6dPn7Z804fXEOod55pwn8OXpLjrRmaPreUfZUnnjTXWq5qv0cWna6/oDF5pYmGy89WUdxk5YxwD5nLRzf67D4jnB91IH7KQLwdvxQosnISx0fX6Uw0IR1Ffi+UwOxrdf20Om7FHwf85VvnPfW9t6Uqc0nWF8/e81I1DSIOBm0algtDmmyvNm/qRv8BsTDP8nZoZRyXSymaFC53QEf7Q2cfKCRnqvCIY4Nf1yfWqjTEfHUBeT3Ys4NttFUTJj2xyzFH7R1CwgDJrQw2QOCr5zppgVpzuSPEoMB6YzqAl/k9CNFIBTfTkuVwpCwcPbe6hTDWS5bp75hg39bzUDv5p7Tn/UdjDhtbZf7eI1ApE=
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pantalones
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Botas
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        RAPID: 1
+        DURABILITY: 3
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GREEN_DYE
+    amount: 10
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pan
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 63
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND
+    amount: 16
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SCRAP
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        ROCKET_SAVER: 2
+        DURABILITY: 3
+      repair-cost: 7
+      Damage: 153
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 10
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Manzanas
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 3
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Regalo
+        Verde de Navidad"}],"text":""}'
+      custom-model-data: 70
+      PublicBukkitValues:
+        oraxen:id: toffy_xmasdecor_gift_green
+        oraxen:furniture: 1b
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SCULK
+    amount: 3
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Gorro
+        Marron"}],"text":""}'
+      custom-model-data: 56
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: oraxen
+          slot: HEAD
+          uuid: 2c9caf7b-8961-42ba-8c1b-ba87f39ec910
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: oraxen
+          slot: HEAD
+          uuid: 2c9caf7b-8961-42ba-8c1b-ba87f39ec910
+          operation: 0
+      PublicBukkitValues:
+        oraxen:id: fur_cap_brown
+        oraxen:if-uuid: '[B;-89B,-23B,-3B,-57B,68B,29B,64B,-54B,-123B,-98B,122B,-9B,119B,32B,-66B,-13B]'
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GLASS
+    amount: 33
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 5
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE_BRICKS
+    amount: 57
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#33F9FF","text":"Baston
+        Congelado"}],"text":""}'
+      custom-model-data: 61
+      PublicBukkitValues:
+        oraxen:id: frostbite_staff
+        oraxen:if-uuid: '[B;113B,64B,81B,-117B,-127B,-16B,74B,30B,-72B,110B,-38B,-38B,37B,-115B,42B,68B]'
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SADDLE
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 35
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARCANE_DEFENCE: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      repair-cost: 1
+      Damage: 10
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 3
+        DURABILITY: 3
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Casco
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        OXYGEN: 3
+        DURABILITY: 3
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pechera
+        "},{"italic":false,"color":"dark_green","text":"Jade"}],"text":""}'
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 3
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARCANE_DEFENCE: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      repair-cost: 1
+      Damage: 10
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+      Damage: 35
+health: 37.90400314331055
+hunger: 16
+exp: 0.29411766
+exp-level: 11

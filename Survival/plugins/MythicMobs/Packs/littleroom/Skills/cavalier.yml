@@ -1,0 +1,327 @@
+﻿#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+###CAVALIER_gui###
+
+
+CAVALIER_petspawn:
+  Skills:
+  - effect:particles{particle=cloud;amount=150;hS=.5;vS=.5;speed=0} @self
+
+
+  
+CAVALIER_interact:
+  TriggerConditions:
+  - owner true
+  - holding air true
+  Cooldown: 5
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=50}
+  - lockmodel{l=true} @self
+  - setAI{ai=false} @self
+  - state{s=salute} @self
+  - delay 60
+  - setAI{ai=true} @self
+  - lockmodel{l=false} @self
+  
+CAVALIER_xp:
+  Skills:
+  - message{m="<mob.name>&f<&co> I JUST GAINED <trigger.level> XP"} @PlayersInRadius{r=30}
+  - petExperience{exp=<trigger.level>} @self
+  
+CAVALIER_attack_sync:
+  Skills:
+  - CancelEvent
+  - randomskill{skills=CAVALIER_attack} @self
+  
+CAVALIER_attack:
+  Cooldown: 1
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=5}
+  - state{s=attack_1} @self
+  - lockmodel{l=true} @self
+  - lunge{v=.25;vy=.1} @target
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox_parts;npid=sword} @self
+  - skill{s=battlepetsswingsound} @self
+  - delay 2
+  - totem{md=2;oH=CAVALIER_attack_damage;hS=1;vS=1;hnp=true} @forward{f=.5}
+  - lockmodel{l=false} @self
+  - delay 3
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox;npid=sword} @self
+  - delay 5
+  - skill{s=CAVALIER_attack2} @self .5
+  
+CAVALIER_attack2:
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=10}
+  - state{s=attack_2} @self
+  - lockmodel{l=true} @self
+  - lunge{v=.25;vy=.1} @target
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox_parts;npid=sword2} @self
+  - skill{s=battlepetsswingsound} @self
+  - delay 2
+  - totem{md=2;oH=CAVALIER_attack_damage;hS=1;vS=1;hnp=true} @forward{f=.5}
+  - lockmodel{l=false} @self
+  - delay 3
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox;npid=sword} @self
+  
+CAVALIER_attack_damage:
+  Skills:
+  - skill{s=battlepetsimpactsound} @self
+  - sudoskill{s=CAVALIERFOX_XP;cat=true}
+  - damage{a=<pet.power>*2}
+  
+CAVALIERFOX_XP:
+  Skills:
+  - petExperience{exp=1} @trigger
+  
+CAVALIER_levelup:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.levelup;v=1;sc=HOSTILE} @self
+  - heal{amount=1000} @self
+  - message{m="&fTu zorro ha &6&lSUBIDO DE NIVEL!"} @owner
+  - effect:particles{particle=composter;amount=5;hS=.25;vS=.35;speed=1;repeat=40;repeatInterval=1;d=true;dir=0,1,0} @self
+  - speak{offset=0.2f;radius=30;maxlinelength=22;message="";duration=60;chat=false} @self
+  
+CAVALIER_levelup_5:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.levelup;v=1;sc=HOSTILE} @self
+  - heal{amount=1000} @self
+  - message{m="&fTu zorro ha &6&lSUBIDO DE NIVEL!"} @owner
+  - effect:particles{particle=composter;amount=5;hS=.25;vS=.35;speed=1;repeat=40;repeatInterval=1;d=true;dir=0,1,0} @self
+  - speak{offset=0.2f;radius=30;maxlinelength=22;message="";duration=60;chat=false} @self
+  - message{m="&fTu zorro ha aprendido &6Cleave!"} @Owner
+  
+CAVALIER_cleave:
+  Cooldown: 10
+  Conditions:
+  - incombat true
+  - offgcd true
+  - targetwithin{d=2} true
+  - petExperience{exp=>100} true
+  Skills:
+  - gcd{ticks=40}
+  - setspeed{type=walking;speed=0} @self
+  - state{s=sword_spell} @self
+  - lockmodel{l=true} @self
+  - delay 15
+  - skill{s=battlepetsswingsound} @self
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox_parts;npid=sword} @self
+  - delay 5
+  - projectile{oH=CAVALIER_cleave_damage;oT=CAVALIER_cleave_tick;v=10;i=1;hR=1;vR=1;hs=true;hfs=.1;d=120;mr=24;sE=false;sB=false;in=1;sfo=0;hp=false;hnp=true}
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox;npid=sword} @self
+  - delay 20
+  - setspeed{type=walking;speed=1.2} @self
+  - lockmodel{l=false} @self
+  
+CAVALIER_cleave_tick:
+  Skills:
+  - effect:particles{particle=crit;amount=5;hS=.15;vS=.15;speed=0.1}
+  
+CAVALIER_cleave_damage:
+  Skills:
+  - skill{s=battlepetsimpactsound} @self
+  - throw{v=4;vy=3}
+  - effect:particles{particle=crit;amount=5;hS=.15;vS=.15;speed=0.1}
+  - sudoskill{s=CAVALIERFOX_XP;cat=true}
+  - damage{a=<pet.power>*3}
+  
+  
+CAVALIER_EVOLVE:
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=evolve} @self
+  - effect:particles{particle=cloud;amount=150;hS=.5;vS=.5;speed=0} @self
+  - delay 42
+  - model{mid=cavalier_fox;r=true} @self
+  - remove @self
+  
+cavalier_fox_DESPAWN:
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=death} @self
+  - changepart{m=cavalier_fox;pid=sword;nm=cavalier_fox;npid=sword} @self
+  - delay 70
+  - effect:particles{particle=flash;amount=1} @self
+  - model{mid=cavalier_fox;r=true} @self
+  - remove @self
+
+  
+  
+  
+###KNIGHTFOX_gui###
+
+
+
+
+
+
+  
+KNIGHTFOX_xp:
+  Skills:
+  - petExperience{exp=<trigger.level>} @self
+  
+KNIGHTFOX_attack_sync:
+  Skills:
+  - CancelEvent
+  - randomskill{skills=KNIGHTFOX_attack} @self
+  
+KNIGHTFOX_attack:
+  Cooldown: 1
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=5}
+  - state{s=attack1} @self
+  - lockmodel{l=true} @self
+  - lunge{v=.25;vy=.1} @target
+  - changepart{m=knight_fox;pid=sword;nm=cavalier_parts;npid=big_sword} @self
+  - skill{s=battlepetsswingsound} @self
+  - delay 2
+  - totem{md=2;oH=KNIGHTFOX_attack_damage;hS=1;vS=1;hnp=true} @forward{f=.5}
+  - lockmodel{l=false} @self
+  - delay 3
+  - changepart{m=knight_fox;pid=sword;nm=knight_fox;npid=sword} @self
+  - delay 5
+  - skill{s=KNIGHTFOX_attack2} @self .5
+  
+KNIGHTFOX_attack2:
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=10}
+  - state{s=attack2} @self
+  - lockmodel{l=true} @self
+  - lunge{v=.25;vy=.1} @target
+  - changepart{m=knight_fox;pid=sword;nm=cavalier_parts;npid=big_sword} @self
+  - skill{s=battlepetsswingsound} @self
+  - delay 2
+  - totem{md=2;oH=KNIGHTFOX_attack_damage;hS=1;vS=1;hnp=true} @forward{f=.5}
+  - lockmodel{l=false} @self
+  - delay 3
+  - changepart{m=knight_fox;pid=sword;nm=knight_fox;npid=sword} @self
+  
+KNIGHTFOX_attack_damage:
+  Skills:
+  - skill{s=battlepetsimpactsound} @self
+  - sudoskill{s=KNIGHTFOX_XP;cat=true}
+  - damage{a=<pet.power>*2} 
+  
+KNIGHTFOX_XP:
+  Skills:
+  - petExperience{exp=1} @trigger
+  
+ 
+  
+KNIGHTFOX_levelup:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.levelup;v=1;sc=HOSTILE} @self
+  - heal{amount=1000} @self
+  - message{m="&fTu zorro ha &6&lSUBIDO DE NIVEL!"} @owner
+  - effect:particles{particle=composter;amount=5;hS=.25;vS=.35;speed=1;repeat=40;repeatInterval=1;d=true;dir=0,1,0} @self
+  - speak{offset=0.2f;radius=30;maxlinelength=22;message="";duration=60;chat=false} @self
+  
+KNIGHTFOX_levelup_15:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.levelup;v=1;sc=HOSTILE} @self
+  - heal{amount=1000} @self
+  - message{m="&fTu zorro ha &6&lSUBIDO DE NIVEL!"} @owner
+  - effect:particles{particle=composter;amount=5;hS=.25;vS=.35;speed=1;repeat=40;repeatInterval=1;d=true;dir=0,1,0} @self
+  - speak{offset=0.2f;radius=30;maxlinelength=22;message="LEVEL UP!";duration=60;chat=false} @self
+  - message{m="&fTu zorro ha aprendido &6Chapoteo!"} @owner
+  
+  
+KNIGHTFOX_spin:
+  Cooldown: 10
+  Conditions:
+  - incombat true
+  - offgcd true
+  - targetwithin{d=2} true
+  - petExperience{exp=>460} true
+  Skills:
+  - gcd{ticks=40}
+  - setspeed{type=walking;speed=0} @self
+  - state{s=sword_spell} @self
+  - lockmodel{l=true} @self
+  - delay 3
+  - skill{s=battlepetsswingsound} @self
+  - changepart{m=knight_fox;pid=sword;nm=cavalier_parts;npid=big_sword} @self
+  - skill{s=KNIGHTFOX_spin_damage} @eir{r=6}
+  - delay 5
+  - changepart{m=knight_fox;pid=sword;nm=knight_fox;npid=sword} @self
+  - delay 22
+  - setspeed{type=walking;speed=1.2} @self
+  - lockmodel{l=false} @self
+  
+  
+KNIGHTFOX_spin_damage:
+  Skills:
+  - skill{s=battlepetsimpactsound} @self
+  - sudoskill{s=KNIGHTFOX_XP;cat=true}
+  - throw{v=4;vy=3}
+  - effect:particles{particle=large_smoke;amount=5;hS=.15;vS=.15;speed=0.1;repeat=20;repeatInterval=2}
+  - damage{a=<pet.power>*3}
+  
+KNIGHTFOX_DESPAWN:
+  Skills:
+  - setAI{ai=false} @self
+  - state{s=death} @self
+  - changepart{m=knight_fox;pid=sword;nm=knight_fox;npid=sword} @self
+  - delay 70
+  - effect:particles{particle=flash;amount=1} @self
+  - model{mid=knight_fox;r=true} @self
+  - remove @self
+  
+  
+#### SOUNDS ####
+
+battlepetsswingsound:
+  Skills:
+  - randomskill{skills=battlepetsswing1,battlepetsswing2,battlepetsswing3,battlepetsswing4,battlepetsswing5} @self
+
+battlepetsswing1:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.swing1;v=1;sc=HOSTILE} @self
+  
+battlepetsswing2:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.swing2;v=1;sc=HOSTILE} @self
+  
+battlepetsswing3:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.swing3;v=1;sc=HOSTILE} @self
+  
+battlepetsswing4:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.swing4;v=1;sc=HOSTILE} @self
+  
+battlepetsswing5:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.swing5;v=1;sc=HOSTILE} @self
+
+battlepetsimpactsound:
+  Skills:
+  - randomskill{skills=battlepetsimpact1,battlepetsimpact2,battlepetsimpact3,battlepetsimpact4} @self
+
+battlepetsimpact1:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.impact1;v=1;sc=HOSTILE} @self
+  
+battlepetsimpact2:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.impact2;v=1;sc=HOSTILE} @self
+  
+battlepetsimpact3:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.impact3;v=1;sc=HOSTILE} @self
+  
+battlepetsimpact4:
+  Skills:
+  - sound{s=littleroom_battlepets:littleroom.battlepets.impact4;v=1;sc=HOSTILE} @self

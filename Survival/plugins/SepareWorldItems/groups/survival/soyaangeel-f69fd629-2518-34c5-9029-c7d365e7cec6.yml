@@ -1,0 +1,23 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RECOVERY_COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"soyaangeel''s
+        Grave"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Survival,
+        15566.5x, 18.5y, -19039.5z"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        graves:graveuuid: 46fe5bb9-6836-40bb-bcc9-f16be7a017eb
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

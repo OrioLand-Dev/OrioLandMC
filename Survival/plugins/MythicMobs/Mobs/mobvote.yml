@@ -1,0 +1,480 @@
+meerkat:
+  Type: PIG
+  AIGoalSelectors:
+  - 0 clear
+  - 1 runfromplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - GRAVEL 1-6 1
+  Equipment: []
+  Skills:
+   - model{mid=meerkat;n=nametag;n=false} @self ~onSpawn
+   - skill{s=Mob_Despawn} @self ~onDespawn
+  Health: 20
+  Damage: 0
+  Options:
+    PreventRenaming: false
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.28
+
+ostrich:
+  Type: CHICKEN
+  AIGoalSelectors:
+  - 0 clear
+  - 1 runfromplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - GRAVEL 1-6 1
+  Equipment: []
+  Skills:
+   - model{mid=ostrich;n=nametag;n=false;drive=true} @self ~onSpawn
+   - skill{s=ostritch_interact} @trigger ~onInteract
+   - skill{s=Mob_Despawn} @self ~onDespawn
+   - skill{s=Mob_Despawn} @self ~onDeath
+   - dismountmodel @self ~onDamaged
+   - skill{s=Ostrich_CancelMelee;sync=true} ~onAttack
+   - skill{s=Ostrich_Attack} ~onAttack
+  Health: 25
+  Damage: 0
+  Options:
+    PreventRenaming: false
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.3
+
+vulture:
+  Type: BEE
+  AIGoalSelectors:
+  - 0 clear
+  - 1 runfromplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - SAND 1-6 1
+  Equipment: []
+  Skills:
+   - model{mid=vulture;n=nametag;n=false} @self ~onSpawn
+   - skill{s=Mob_Despawn} @self ~onDespawn
+  Health: 20
+  Damage: 0
+  Options:
+    PreventRenaming: false
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.28
+
+iceologer:
+  Type: VILLAGER
+  AIGoalSelectors:
+  - 0 clear
+  - 1 runfromplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - ICE 1-6 1
+  Faction: Iceologer
+  Equipment: []
+  Skills:
+   - model{mid=iceologer;n=nametag;n=false} @self ~onSpawn
+   - skill{s=Mob_Despawn} @self ~onDespawn
+   - skill{s=Mob_Despawn} @self ~onDeath
+  Health: 20
+  Damage: 0
+  Options:
+    PreventRenaming: false
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.28
+
+moobloom:
+  Type: COW
+  Drops:
+  - ORANGE_TULIP 0-1 0.3
+  - RED_TULIP 0-1 0.3
+  - ALLIUM 0-1 0.3
+  - DANDELION 0-1 0.3
+  - BLUE_ORCHID 0-1 0.3
+  Equipment: []
+  Skills:
+   - model{mid=moobloom_white;n=nametag;n=false} @self ~onSpawn
+   - skill{s=Mob_Despawn} @self ~onDespawn
+   - skill{s=Mob_Despawn} @self ~onDeath
+   - skill{s=MoonbloomShear} @trigger ~onInteract
+   - skill{s=MoonbloomInteract} @trigger ~onInteract
+  Health: 20
+  Damage: 0
+  Options:
+    PreventRenaming: false
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+
+moobloomcow:
+  Type: COW
+  Equipment: []
+  Skills:
+   - skill{s=Mob_Despawn} @self ~onDespawn
+   - skill{s=Mob_Despawn} @self ~onDeath
+  Health: 20
+  Damage: 0
+  Options:
+    PreventRenaming: false
+    Despawn: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+
+glare:
+  Type: BEE
+  AIGoalSelectors:
+  - 0 clear
+  - 1 restrictsun
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - GLOW_BERRIES 1-3 0.7
+  Equipment: []
+  Skills:
+   - model{mid=glare;n=nametag;n=false} @self ~onSpawn
+   - skill{s=Mob_Despawn} @self ~onDespawn
+   - skill{s=Mob_Despawn} @self ~onDeath
+   - skill{s=GlareScary} @self ~onTimer:20
+   - skill{s=FloweringGlare} @trigger ~onInteract
+  Health: 20
+  Damage: 0
+  Options:
+    Despawn: true
+    AlwaysShowName: true
+    PreventRenaming: false
+    PreventOtherDrops: true
+    Silent: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.28
+
+great_hunger:
+  Type: ZOMBIE
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 fleegolems
+  - 3 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 villagers
+  - 3 monsters
+  Faction: GreatHunger
+  Drops: 
+  - STONE 1-6 1
+  Equipment: []
+  Skills:
+   - model{mid=great_hunter;n=false;n=nametag} @self ~onSpawn
+   - skill{s=Mob_Despawn} @self ~onDespawn
+   - skill{s=Mob_Despawn} @self ~onDeath
+   - skill{s=GreatHunger_CancelMelee;sync=true} ~onAttack
+   - skill{s=GreatHunger_Attack} ~onAttack
+  Health: 45
+  Damage: 0
+  Options:
+    Despawn: true
+    AlwaysShowName: true
+    PreventRenaming: false
+    PreventOtherDrops: true
+    Silent: true
+    PreventSunburn: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.31
+
+COPPER_GOLEM:
+  Type: IRON_GOLEM
+  Health: 50
+  Damage: 0
+  Display: '&7COPPER_GOLEM'
+  Drops:
+  - COPPER_INGOT 1to4 1
+  - LIGHTNING_ROD 1 0.5
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Skills:
+  - model{mid=copper_golem;n=false} @self ~onSpawn
+  - skill{s=Iron_cooperInit} @self ~onAttack
+  - skill{s=copper_state1} @self ~onSpawn
+  - state{s=run} @Self ~onEnterCombat
+  - potion{t=SPEED;d=1000000;l=2;i=false} @Self ~onEnterCombat
+  - potionclear{} @Self ~onDropCombat
+  - state{m=copper_golem;s=run;r=true} @Self ~onDropCombat
+  - randomskill{skills=boton,boton1,boton2,boton3} @self ~onTimer:100
+#  - skill{s=[  - skill:boton @BlocksInRadius{radius=7;radiusy=7;shape=cube}  ]} @Self ~onInteract
+
+COPPER_GOLEM_1:
+  Type: IRON_GOLEM
+  Health: 50
+  Damage: 0
+  Display: '&7COPPER_GOLEM'
+  Drops:
+  - COPPER_INGOT 1to4 1
+  - LIGHTNING_ROD 1 0.5
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Skills:
+  - model{mid=copper_golem_1;n=false} @self ~onSpawn
+  - skill{s=copper_state2} @self ~onSpawn
+  - skill{s=Iron_cooperInit} @self ~onAttack
+  - skill{s=copper_deoxidize1} @self ~onInteract
+  - state{s=run} @Self ~onEnterCombat
+  - potion{t=SPEED;d=1000000;l=2;i=false} @Self ~onEnterCombat
+  - potionclear{} @Self ~onDropCombat
+  - state{m=copper_golem;s=run;r=true} @Self ~onDropCombat
+  - randomskill{skills=boton,boton1,boton2,boton3} @self ~onTimer:100
+
+COPPER_GOLEM_2:
+  Type: IRON_GOLEM
+  Health: 50
+  Damage: 0
+  Display: '&7COPPER_GOLEM'
+  Drops:
+  - COPPER_INGOT 1to4 1
+  - LIGHTNING_ROD 1 0.5
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Skills:
+  - model{mid=copper_golem_2;n=false} @self ~onSpawn
+  - skill{s=copper_state3} @self ~onSpawn
+  - skill{s=Iron_cooperInit} @self ~onAttack
+  - skill{s=copper_deoxidize2} @self ~onInteract
+  - state{s=run} @Self ~onEnterCombat
+  - potion{t=SPEED;d=1000000;l=2;i=false} @Self ~onEnterCombat
+  - potionclear{} @Self ~onDropCombat
+  - state{m=copper_golem;s=run;r=true} @Self ~onDropCombat
+  - randomskill{skills=boton,boton1,boton2,boton3} @self ~onTimer:100
+
+COPPER_GOLEM_3:
+  Type: IRON_GOLEM
+  Health: 50
+  Damage: 0
+  Display: '&7COPPER_GOLEM'
+  Drops:
+  - COPPER_INGOT 1to4 1
+  - LIGHTNING_ROD 1 0.5
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Skills:
+  - model{mid=copper_golem_3;n=false} @self ~onSpawn
+  - skill{s=Iron_cooperInit} @self ~onAttack
+  - state{s=run} @Self ~onEnterCombat
+  - skill{s=copper_deoxidize3} @self ~onInteract
+  - potion{t=SPEED;d=1000000;l=2;i=false} @Self ~onEnterCombat
+  - potionclear{} @Self ~onDropCombat
+  - state{m=copper_golem;s=run;r=true} @Self ~onDropCombat
+  - randomskill{skills=boton,boton1,boton2,boton3} @self ~onTimer:100
+
+COPPER_GOLEM_ANIMATED:
+  Type: IRON_GOLEM
+  Health: 50
+  Damage: 0
+  Display: '&7COPPER_GOLEM'
+  Drops:
+  - COPPER_INGOT 1to4 1
+  - LIGHTNING_ROD 1 0.5
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Skills:
+  - model{mid=copper_golem_animated;n=false} @self ~onSpawn
+  - skill{s=Iron_cooperInit} @self ~onAttack
+  - state{s=run} @Self ~onEnterCombat
+  - potion{t=SPEED;d=1000000;l=2;i=false} @Self ~onEnterCombat
+  - potionclear{} @Self ~onDropCombat
+  - state{m=copper_golem;s=run;r=true} @Self ~onDropCombat
+  - randomskill{skills=boton,boton1,boton2,boton3} @self ~onTimer:100
+
+sniffer:
+  Type: COW
+  Display: '&6Sniffer'
+  Health: 20
+  Damage: 7
+  Faction: Animal
+  Options:
+    Despawn: true
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    Silent: true
+    Tameable: false
+    KnockbackResistance: 1
+  Drops:
+  - exp 5
+  Skills:
+  - model{mid=sniffer;n=false;drive=true;ride=true;n=nametag} @self ~onSpawn
+  - setstance{stance=walk} @Self ~onSpawn
+  - skill{s=sniff2} @Self ~onTimer:80
+#  - sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged  
+  - effect:sound{s=block.flowering_azalea.break;p=1.3;v=1} @self ~onDamaged 1
+#  - sound{s=entity.rabbit.ambient;v=1;p=1.5} @self ~onTimer:80 0.6
+  - skill{s=sniff3} @Self ~onTimer:40
+#  - effect:sound{s=entity.rabbit.death;p=1;v=1} @self ~onDeath
+  #- skill{s=animalsacred} @Self ~onTimer:200
+
+big_sniffer:
+  Type: COW
+  Display: '&6Big Sniffer'
+  Health: 20
+  Damage: 7
+  Faction: Animal
+  Options:
+    Despawn: true
+    AlwaysShowName: true
+    MovementSpeed: 0.1
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    Silent: true
+    Tameable: false
+    KnockbackResistance: 1
+  Drops:
+  - exp 5
+  Skills:
+  - model{mid=sniffer_giant;n=false;drive=true;ride=true;n=nametag} @self ~onSpawn
+  - setstance{stance=walk} @Self ~onSpawn
+  - skill{s=sniff2} @Self ~onTimer:80
+#  - sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged  
+  - effect:sound{s=block.flowering_azalea.break;p=1.3;v=1} @self ~onDamaged 1
+#  - sound{s=entity.rabbit.ambient;v=1;p=1.5} @self ~onTimer:80 0.6
+  - skill{s=sniff3} @Self ~onTimer:40
+#  - effect:sound{s=entity.rabbit.death;p=1;v=1} @self ~onDeath
+  #- skill{s=animalsacred} @Self ~onTimer:200
+
+rascal:
+  Type: FOX
+  Display: '&6Rascal'
+  Health: 2000
+  Damage: 7
+  Faction: Animal
+  Options:
+    Despawn: true
+    AlwaysShowName: true
+    MovementSpeed: 0.35
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Silent: true
+    Tameable: false
+    AlwaysShowName: true
+    KnockbackResistance: 1
+  AIGoalSelectors:
+  - clear
+  - runfromplayers
+  - runfromgolems
+  - runfromvillagers
+  Drops:
+  - exp 5
+  Skills:
+  - model{mid=rascal;n=false;drive=true;ride=true;n=nametag} @self ~onSpawn
+  - setstance{stance=first} @self ~onspawn
+  - skill{s=tp1} @self ~oninteract
+  - skill{s=tp2} @self ~oninteract
+  - skill{s=tp3} @self ~oninteract
+#  - sendactionmessage{m="<mob.name><&sp>&6<mob.hp>&8/&6<mob.mhp>"} @Trigger ~onDamaged  
+  - effect:sound{s=block.flowering_azalea.break;p=1.3;v=1} @self ~onDamaged 1
+#  - sound{s=entity.rabbit.ambient;v=1;p=1.5} @self ~onTimer:80 0.6
+#  - effect:sound{s=entity.rabbit.death;p=1;v=1} @self ~onDeath
+  #- skill{s=animalsacred} @Self ~onTimer:200
+
+tuff_golem_white:
+  Type: IRON_GOLEM
+  Display: '&6Tuff Golem White'
+  Health: 20
+  Damage: 7
+  Faction: Tuff
+  Options:
+    Despawn: true
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    Silent: true
+    Tameable: false
+    KnockbackResistance: 1
+  AITargetSelectors:
+  - clear
+  Drops:
+  - exp 5
+  Skills:
+  - model{mid=tuff_golem_white;n=false;drive=true;ride=true;n=nametag} @self ~onSpawn
+  - setstance{stance=disabled} @self ~onspawn
+  - skill{s=tuff_disabled} @self ~onspawn
+## COLOR ##
+  - skill{s=tuff_base_white} @self ~oninteract
+  - skill{s=tuff_items_white} @trigger ~onInteract
+#  - skill{s=tuff_disabled2} @self ~onTimer:240
+  - skill{s=tuff_death} @self ~onDeath
+  - skill{s=tuff_home} @self ~onTimer:340
+  - goto{speedModifier=1;sh=2;sv=2} @ItemsInRadius{r=15} ~onTimer:40
+  - effect:sound{s=block.tuff.hit;p=1.3;v=1} @self ~onDamaged 1
+#  - sound{s=entity.rabbit.ambient;v=1;p=1.5} @self ~onTimer:80 0.6
+#  - effect:sound{s=entity.rabbit.death;p=1;v=1} @self ~onDeath
+  #- skill{s=animalsacred} @Self ~onTimer:200

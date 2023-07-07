@@ -1,0 +1,232 @@
+Particles:
+  Water Splash:
+    Name: '&b&lSalpicaduras'
+    Material: NETHER_STAR
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Drip Water:
+    Name: '&b&lGoteo de Agua'
+    Material: WATER_BUCKET
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Drip Lava:
+    Name: '&b&lGoteo de Lava'
+    Material: LAVA_BUCKET
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Crit:
+    Name: '&b&lCriticos'
+    Material: STONE_SWORD
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Magic Crit:
+    Name: '&b&lCriticos magicos'
+    Material: POTION:8204
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Spell:
+    Name: '&b&lHechizo'
+    Material: ENDER_CHEST
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &5&lEPICO'
+  Instant Spell:
+    Name: '&b&lHechizo instantaneo'
+    Material: GHAST_TEAR
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &5&lEPICO'
+  Mob Spell:
+    Name: '&b&lHechizo de Mob'
+    Material: EXPERIENCE_BOTTLE
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &5&lEPICO'
+  Witch Spell:
+    Name: '&b&lHechizo de Bruja'
+    Material: POTION:8260
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
+  Angry Villager:
+    Name: '&b&lEnojado'
+    Material: FIRE_CHARGE
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &5&lEPICO'
+  Happy Villager:
+    Name: '&b&lFeliz'
+    Material: EMERALD
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &5&lEPICO'
+  Town Aura:
+    Name: '&b&lAura Gris'
+    Material: MYCELIUM
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Note:
+    Name: '&b&lNotas'
+    Material: NOTE_BLOCK
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &5&lEPICO'
+  Portal:
+    Name: '&b&lPortal'
+    Material: ENDER_PEARL
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Enchantment Table:
+    Name: '&b&lEncantamientos'
+    Material: ENCHANTING_TABLE
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Flame:
+    Name: '&b&lFlamas'
+    Material: GOLD_NUGGET
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
+  Redstone:
+    Name: '&b&lRedstone'
+    Material: REDSTONE
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
+  Heart:
+    Name: '&b&lCorazones'
+    Material: POPPY
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &9&lRARO'
+  Fireworks Spark:
+    Name: '&b&lFuegos Artificiales'
+    Material: FIREWORK_ROCKET
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &d&lLEGENDARIO'
+  Smoke:
+    Name: '&b&lHumo'
+    Material: FIREWORK_STAR
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'
+  Slime:
+    Name: '&b&lSlime'
+    Material: SLIME_BALL
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&f'
+    - '&8&l» &fRareza: &e&lCOMUN'

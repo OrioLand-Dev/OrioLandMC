@@ -1,0 +1,13 @@
+Id: ostrich
+MythicMob: ostrich
+Permission: almpet.ostrich
+Mountable: true
+Distance: 6
+ComingBackRange: 5
+SpawnRange: 3
+MountType: walking
+Icon:
+  Name: §7ostrich
+  TextureBase64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU5OGIzZDU1OTVlYzhjMjJkN2FhZDFkOGI5MWU5ZDIxMDdjNjk1NjM4MWRmNmFmZTM5NmE5NDlkOTU4ZjYifX19
+  Description:
+  - §7Does not know how to hide well

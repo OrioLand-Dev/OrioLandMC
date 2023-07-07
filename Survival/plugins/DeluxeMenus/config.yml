@@ -1,0 +1,84 @@
+# DeluxeMenus 1.13.6-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  jobs_menu_page_1:
+    file: jobs/jobs_menu_page_1.yml
+  jobs_menu_page_2:
+    file: jobs/jobs_menu_page_2.yml
+  jobs_progress_brewer:
+    file: jobs/progress/jobs_progress_brewer.yml
+  jobs_progress_brewer_page_2:
+    file: jobs/progress/jobs_progress_brewer_page_2.yml
+  jobs_progress_brewer_page_3:
+    file: jobs/progress/jobs_progress_brewer_page_3.yml
+  jobs_progress_builder:
+    file: jobs/progress/jobs_progress_builder.yml
+  jobs_progress_builder_page_2:
+    file: jobs/progress/jobs_progress_builder_page_2.yml
+  jobs_progress_builder_page_3:
+    file: jobs/progress/jobs_progress_builder_page_3.yml
+  jobs_progress_crafter:
+    file: jobs/progress/jobs_progress_crafter.yml
+  jobs_progress_crafter_page_2:
+    file: jobs/progress/jobs_progress_crafter_page_2.yml
+  jobs_progress_crafter_page_3:
+    file: jobs/progress/jobs_progress_crafter_page_3.yml
+  jobs_progress_digger:
+    file: jobs/progress/jobs_progress_digger.yml
+  jobs_progress_digger_page_2:
+    file: jobs/progress/jobs_progress_digger_page_2.yml
+  jobs_progress_digger_page_3:
+    file: jobs/progress/jobs_progress_digger_page_3.yml
+  jobs_progress_enchanter:
+    file: jobs/progress/jobs_progress_enchanter.yml
+  jobs_progress_enchanter_page_2:
+    file: jobs/progress/jobs_progress_enchanter_page_2.yml
+  jobs_progress_enchanter_page_3:
+    file: jobs/progress/jobs_progress_enchanter_page_3.yml
+  jobs_progress_explorer:
+    file: jobs/progress/jobs_progress_explorer.yml
+  jobs_progress_explorer_page_2:
+    file: jobs/progress/jobs_progress_explorer_page_2.yml
+  jobs_progress_explorer_page_3:
+    file: jobs/progress/jobs_progress_explorer_page_3.yml
+  jobs_progress_farmer:
+    file: jobs/progress/jobs_progress_farmer.yml
+  jobs_progress_farmer_page_2:
+    file: jobs/progress/jobs_progress_farmer_page_2.yml
+  jobs_progress_farmer_page_3:
+    file: jobs/progress/jobs_progress_farmer_page_3.yml
+  jobs_progress_fisherman:
+    file: jobs/progress/jobs_progress_fisherman.yml
+  jobs_progress_fisherman_page_2:
+    file: jobs/progress/jobs_progress_fisherman_page_2.yml
+  jobs_progress_fisherman_page_3:
+    file: jobs/progress/jobs_progress_fisherman_page_3.yml
+  jobs_progress_hunter:
+    file: jobs/progress/jobs_progress_hunter.yml
+  jobs_progress_hunter_page_2:
+    file: jobs/progress/jobs_progress_hunter_page_2.yml
+  jobs_progress_hunter_page_3:
+    file: jobs/progress/jobs_progress_hunter_page_3.yml
+  jobs_progress_miner:
+    file: jobs/progress/jobs_progress_miner.yml
+  jobs_progress_miner_page_2:
+    file: jobs/progress/jobs_progress_miner_page_2.yml
+  jobs_progress_miner_page_3:
+    file: jobs/progress/jobs_progress_miner_page_3.yml
+  jobs_progress_weaponsmith:
+    file: jobs/progress/jobs_progress_weaponsmith.yml
+  jobs_progress_weaponsmith_page_2:
+    file: jobs/progress/jobs_progress_weaponsmith_page_2.yml
+  jobs_progress_weaponsmith_page_3:
+    file: jobs/progress/jobs_progress_weaponsmith_page_3.yml
+  jobs_progress_woodcutter:
+    file: jobs/progress/jobs_progress_woodcutter.yml
+  jobs_progress_woodcutter_page_2:
+    file: jobs/progress/jobs_progress_woodcutter_page_2.yml
+  jobs_progress_woodcutter_page_3:
+    file: jobs/progress/jobs_progress_woodcutter_page_3.yml

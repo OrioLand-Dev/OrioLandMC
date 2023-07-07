@@ -1,0 +1,156 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+
+
+
+LReasteregg_damaged:
+  Skills:
+  - state{s=hit} @self
+  - delay 1
+  - sound{s=entity.player.levelup} @self
+  - ChangePart{model=lreaster_egg;part=egg;newmodel=easter_egg_parts;newpart=egg} @self
+  - summon{t=LReasteregg_top} @self
+  - skill{s=LReasteregg_colortop} @self
+  - effect:particles{particle=campfire_cosy_smoke;amount=1;hS=.1;vS=.1;speed=0.1;d=true;dir=0,1,0} @self
+  - randomskill{skills=eastereggPOPdiamond,eastereggPOPgold_ingot,eastereggPOPapple,eastereggPOPhoney_bottle,eastereggPOPbrick,eastereggPOPemerald,eastereggPOPstick} @self
+  - effect:particles{particle=crit;amount=1;hS=.2;vS=.2;speed=0.1;repeat=40;repeatInterval=1} @selflocation{y=.75}
+  - effect:particles{particle=firework;amount=5;hS=.1;vS=.1;speed=0.1} @selflocation{y=.75}
+  - delay 80
+  - effect:particles{particle=poof;amount=25;hS=.25;vS=.25;speed=0.1} @self
+  - remove @self
+  
+eastereggPOPdiamond:
+  Skills:
+  - projectile{bulletType=ITEM;material=diamond;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=diamond} @trigger
+  
+eastereggPOPgold_ingot:
+  Skills:
+  - projectile{bulletType=ITEM;material=gold_ingot;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=gold_ingot} @trigger
+  
+eastereggPOPapple:
+  Skills:
+  - projectile{bulletType=ITEM;material=apple;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=apple} @trigger
+  
+eastereggPOPhoney_bottle:
+  Skills:
+  - projectile{bulletType=ITEM;material=honey_bottle;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=honey_bottle} @trigger
+  
+eastereggPOPbrick:
+  Skills:
+  - projectile{bulletType=ITEM;material=brick;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=brick} @trigger
+  
+eastereggPOPemerald:
+  Skills:
+  - projectile{bulletType=ITEM;material=emerald;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=emerald} @trigger
+  
+eastereggPOPstick:
+  Skills:
+  - projectile{bulletType=ITEM;material=stick;v=0.01;i=1;hR=0;vR=0;bulletSpin=8;syo=.75;sfo=0;d=80}
+  - delay 80
+  - giveItem{i=stick} @trigger
+  
+LReasteregg_top:
+  Skills:
+  #- delay 1
+  - lunge{v=.25;yv=2} @RLNTE{a=1;r=5;s=5;minr=1}
+  - delay 15
+  - remove @self
+  
+LReasteregg_randomcolor:
+  Skills:
+  - delay 1
+  - randomskill{skills=LReasteregg_green,LReasteregg_blue,LReasteregg_yellow,LReasteregg_pink,LReasteregg_purple,LReasteregg_white} @self
+
+  
+LReasteregg_colortop:
+  Skills:
+  - skill{s=LReasteregg_greentop} @self
+  - skill{s=LReasteregg_bluetop} @self
+  - skill{s=LReasteregg_yellowtop} @self
+  - skill{s=LReasteregg_pinktop} @self
+  - skill{s=LReasteregg_purpletop} @self
+  - skill{s=LReasteregg_whitetop} @self
+  
+LReasteregg_greentop:
+  Conditions:
+  - stance{s=green} true
+  Skills:
+  - delay 2
+  - tint{m=easter_egg_top;pid=egg;em=false;c=A5DD8B} @children{target=armorstands}
+  
+LReasteregg_green:
+  Skills:
+  - setstance{stance=green} @self
+  - tint{m=LReaster_egg;pid=egg;em=false;c=A5DD8B} @self
+  
+LReasteregg_bluetop:
+  Conditions:
+  - stance{s=blue} true
+  Skills:
+  - delay 2
+  - tint{m=easter_egg_top;pid=egg;em=false;c=7F7FFF} @children{target=armorstands}
+  
+LReasteregg_blue:
+  Skills:
+  - setstance{stance=blue} @self
+  - tint{m=LReaster_egg;pid=egg;em=false;c=7F7FFF} @self
+  
+LReasteregg_yellowtop:
+  Conditions:
+  - stance{s=yellow} true
+  Skills:
+  - delay 2
+  - tint{m=easter_egg_top;pid=egg;em=false;c=FFFF7F} @children{target=armorstands}
+  
+LReasteregg_yellow:
+  Skills:
+  - setstance{stance=yellow} @self
+  - tint{m=LReaster_egg;pid=egg;em=false;c=FFFF7F} @self
+  
+LReasteregg_pinktop:
+  Conditions:
+  - stance{s=pink} true
+  Skills:
+  - delay 2
+  - tint{m=easter_egg_top;pid=egg;em=false;c=FFC0CB} @children{target=armorstands}
+  
+LReasteregg_pink:
+  Skills:
+  - setstance{stance=pink} @self
+  - tint{m=LReaster_egg;pid=egg;em=false;c=FFC0CB} @self
+  
+LReasteregg_purpletop:
+  Conditions:
+  - stance{s=purple} true
+  Skills:
+  - delay 2
+  - tint{m=easter_egg_top;pid=egg;em=false;c=BF7FBF} @children{target=armorstands}
+  
+LReasteregg_purple:
+  Skills:
+  - setstance{stance=purple} @self
+  - tint{m=LReaster_egg;pid=egg;em=false;c=BF7FBF} @self
+  
+LReasteregg_whitetop:
+  Conditions:
+  - stance{s=white} true
+  Skills:
+  - delay 2
+  
+LReasteregg_white:
+  Skills:
+  - setstance{stance=white} @self

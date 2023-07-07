@@ -1,0 +1,80 @@
+{
+	"credit": "Made by Elo106",
+	"texture_size": [64, 64],
+	"textures": {
+		"4": "entity/villager/profession/armorer"
+	},
+	"elements": [
+		{
+			"from": [4, 2.5, 4],
+			"to": [12, 10.5, 12],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#4"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#4"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#4"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#4"},
+				"up": {"uv": [2, 2, 4, 0], "texture": "#4"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#4"}
+			}
+		},
+		{
+			"from": [3.9, 2.4, 3.9],
+			"to": [12.1, 10.6, 12.1],
+			"faces": {
+				"north": {"uv": [10, 2, 12, 4], "texture": "#4"},
+				"east": {"uv": [8, 2, 10, 4], "texture": "#4"},
+				"south": {"uv": [14, 2, 16, 4], "texture": "#4"},
+				"west": {"uv": [12, 2, 14, 4], "texture": "#4"},
+				"up": {"uv": [10, 2, 12, 0], "texture": "#4"},
+				"down": {"uv": [8, 0, 10, 2], "texture": "#4"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2, -1],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2, -1],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [160, 60, 160],
+			"translation": [0.25, 3.75, 2.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [160, 60, 160],
+			"translation": [0.25, 3.75, 2.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [-160, -35, -180]
+		},
+		"head": {
+			"rotation": [5, 0, 0],
+			"translation": [0, 5, 0],
+			"scale": [1.81, 1.81, 1.81]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -6],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "armorer_hat",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

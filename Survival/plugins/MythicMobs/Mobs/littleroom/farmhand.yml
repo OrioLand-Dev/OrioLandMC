@@ -1,0 +1,150 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+PIG:
+  Type: PIG
+  Options:
+    Persistent: true
+  Skills:
+  - skill{s=farmhandBRAND} @self ~onInteract
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandGRAB} @self ~onInteract
+  
+COW:
+  Type: COW
+  Options:
+    Persistent: true
+  Skills:
+  - skill{s=farmhandBRAND} @self ~onInteract
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandGRAB} @self ~onInteract
+  
+  
+CHICKEN:
+  Type: CHICKEN
+  Options:
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandBRAND} @self ~onInteract
+  - skill{s=farmhandGRAB} @self ~onInteract
+
+CAT:
+  Type: CAT
+  Options:
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_ALL_BLACK:
+  Type: CAT
+  Options:
+    CatType: ALL_BLACK
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_BLACK:
+  Type: CAT
+  Options:
+    CatType: BLACK
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_BRITISH_SHORTHAIR:
+  Type: CAT
+  Options:
+    CatType: BRITISH_SHORTHAIR
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_CALICO:
+  Type: CAT
+  Options:
+    CatType: CALICO
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_PERSIAN:
+  Type: CAT
+  Options:
+    CatType: PERSIAN
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_JELLIE:
+  Type: CAT
+  Options:
+    CatType: JELLIE
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_RAGDOLL:
+  Type: CAT
+  Options:
+    CatType: RAGDOLL
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_SIAMESE:
+  Type: CAT
+  Options:
+    CatType: SIAMESE
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_TABBY:
+  Type: CAT
+  Options:
+    CatType: TABBY
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_WHITE:
+  Type: CAT
+  Options:
+    CatType: WHITE
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract
+
+CAT_RED:
+  Type: CAT
+  Options:
+    CatType: RED
+    Persistent: true
+  Skills:
+  - skill{s=farmhandSPAWN} @self ~onSpawn
+  - skill{s=farmhandCAT} @self ~onSpawn
+  - skill{s=farmhandGRAB_CAT} @self ~onInteract

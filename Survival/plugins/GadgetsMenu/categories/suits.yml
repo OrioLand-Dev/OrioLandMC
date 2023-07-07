@@ -1,0 +1,762 @@
+Suits:
+  Frog:
+    Name: '&b&lTraje de Rana'
+    Material: head:cc3c601e4ba3064bec98a51552473aa7a5646e60fddc18d187c09b4a351d2
+    GUI-Name: Traje de Rana
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Posibilidad de saltar'
+    - '&fmas de lo normal.'
+    Equipments:
+      Frog Helmet:
+        Name: '&b&lCasco de Rana'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Frog Chestplate:
+        Name: '&b&lPechera de Rana'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Frog Leggings:
+        Name: '&b&lPantalones de Rana'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Frog Boots:
+        Name: '&b&lBotas de Rana'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Ninja:
+    Name: '&b&lTraje de Ninja'
+    Material: head:e96616bb48ac61a153a9f5c35979f3523c24c366c621d6bacaed10f822b68b
+    GUI-Name: Traje de Ninja
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Lanzar Shurikens al'
+    - '&fhacer click en el aire.'
+    Equipments:
+      Ninja Helmet:
+        Name: '&b&lCabeza de Ninja'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Ninja Chestplate:
+        Name: '&b&lPechera de Ninja'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Ninja Leggings:
+        Name: '&b&lPantalones de Ninja'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Ninja Boots:
+        Name: '&b&lBotas de Ninja'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Speedster:
+    Name: '&b&lTraje de Flash'
+    Material: head:5138ccdee2eb7cf60d5489d388f210629b2e787bb530e65bd1a73126d01067
+    GUI-Name: Traje de Flash
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Sprintear para correr'
+    - '&fmucho mas rapido de lo normal.'
+    Equipments:
+      Speedster Helmet:
+        Name: '&b&lCabeza de Flash'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Speedster Chestplate:
+        Name: '&b&lPechera de Flash'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Speedster Leggings:
+        Name: '&b&lPantalones de Flash'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Speedster Boots:
+        Name: '&b&lBotas de Flash'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Ghostly:
+    Name: '&b&lTraje de Fantasma'
+    Material: SKELETON_SKULL
+    GUI-Name: Traje de Fantasma
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Hacer invisible'
+    - '&fa quien este utilizando el traje.'
+    Equipments:
+      Ghostly Helmet:
+        Name: '&b&lCabeza de Fantasma'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Ghostly Chestplate:
+        Name: '&b&lPechera de Fantasma'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Ghostly Leggings:
+        Name: '&b&lPantalones de Fantasma'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Ghostly Boots:
+        Name: '&b&lBotas de Fantasma'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Disco:
+    Name: '&b&lTraje de Colores'
+    Material: LEATHER_HELMET:#FF0000
+    GUI-Name: Traje de Colores
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Cambiar de colores'
+    - '&fcada pieza del traje.'
+    Equipments:
+      Disco Helmet:
+        Name: '&b&lCasco de Colores'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Disco Chestplate:
+        Name: '&b&lPechera de Colores'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Disco Leggings:
+        Name: '&b&lPantalones de Colores'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Disco Boots:
+        Name: '&b&lBotas de Colores'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Mermaid:
+    Name: '&b&lTraje de Sirena'
+    Material: head:aa36d682f9152a98e53cbf3d583b59df8f024e184531c97c2ea25816d1288f
+    GUI-Name: Traje de Sirena
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Transformarse en'
+    - '&fun calamar al entrar al agua.'
+    Equipments:
+      Mermaid Helmet:
+        Name: '&b&lCaso de Sirena'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Mermaid Chestplate:
+        Name: '&b&lPechera de Sirena'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Mermaid Leggings:
+        Name: '&b&lPantalones de Sirena'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Mermaid Boots:
+        Name: '&b&lBotas de Sirena'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Spooderman:
+    Name: '&b&lTraje de Spiderman'
+    Material: head:9f2f7ebd9e263c939f54f939c9e2bcb18d4431f5577c389d6cbcf1371b11d
+    GUI-Name: Traje de Spiderman
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Lanzar telaraña'
+    - '&fy ser impulsado hacia donde se lanza.'
+    Equipments:
+      Spooderman Helmet:
+        Name: '&b&lCabeza de Spiderman'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Spooderman Chestplate:
+        Name: '&b&lPechera de Spiderman'
+        Mystery Dust: 33
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Spooderman Leggings:
+        Name: '&b&lPantalones de Spiderman'
+        Mystery Dust: 17
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Spooderman Boots:
+        Name: '&b&lBotas de Spiderman'
+        Mystery Dust: 8
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Warrior:
+    Name: '&b&lTraje de Guerrero'
+    Material: head:38f56b7f7ac16046a9816e57c2c3296420ccddb7cc51b1c0de8075a816b747d9
+    GUI-Name: Traje de Guerrero
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Levanta los bloques'
+    - '&fde tu alrededor con un click.'
+    Equipments:
+      Warrior Helmet:
+        Name: '&b&lCasco de Guerrero'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Warrior Chestplate:
+        Name: '&b&lPechera de Guerrero'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Warrior Leggings:
+        Name: '&b&lPantalones de Guerrero'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Warrior Boots:
+        Name: '&b&lBotas de Guerrero'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Necromancer:
+    Name: '&b&lTraje de Nigromante'
+    Material: head:9ddbd0bb9622ce124dabb6ba3baa9a9ea71430f870fec15b3ea81f1961a412b2
+    GUI-Name: Traje de Nigromante
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Aparece a tu ejercito de'
+    - '&fmosntruos con un click.'
+    Equipments:
+      Necromancer Helmet:
+        Name: '&b&lCabeza de Nigromante'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Necromancer Chestplate:
+        Name: '&b&lPechera de Nigromante'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Necromancer Leggings:
+        Name: '&b&lPantalones de Nigromante'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Necromancer Boots:
+        Name: '&b&lBotas de Nigromante'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Thor:
+    Name: '&b&lTraje de Thor'
+    Material: head:2a9f83329a2e475a75335b3949aa4d054f9de413bfb28aa60de2e5259ecaad1
+    GUI-Name: Traje de Thor
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Haz caer un Yunque del'
+    - '&fcielo seguido de un Rayo.'
+    Equipments:
+      Thor Helmet:
+        Name: '&b&lCabeza de Thor'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Thor Chestplate:
+        Name: '&b&lPechera de Thor'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&LEPICO"
+      Thor Leggings:
+        Name: '&b&lPantalones de Thor'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Thor Boots:
+        Name: '&b&lBotas de Thor'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Baker:
+    Name: '&b&lTraje de Panadero'
+    Material: head:b8dea622fb0fbbd2639384c1604f5f1a3c111aa993447319fbac494bff4477
+    GUI-Name: Traje de Panadero
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Haz click para'
+    - '&flanzar Pan recien hecho.'
+    Equipments:
+      Baker Helmet:
+        Name: '&b&lCasco de Panadero'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Baker Chestplate:
+        Name: '&b&lPechera de Panadero'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Baker Leggings:
+        Name: '&b&lPantalones de Panadero'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Baker Boots:
+        Name: '&b&lBotas de Panadero'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Bumblebee:
+    Name: '&b&lTraje de Abejorro'
+    Material: head:bf92d3f385cc16c77675a46de3e833ac17c74ada3e1946ef7021ecdbf9f1ba
+    GUI-Name: Traje de Abejorro
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Haz click para'
+    - '&freproducir una cancion.'
+    Equipments:
+      Bumblebee Helmet:
+        Name: '&b&lCasco de Abejorro'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Bumblebee Chestplate:
+        Name: '&b&lPechera de Abejorro'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Bumblebee Leggings:
+        Name: '&b&lPantalones de Abejorro'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Bumblebee Boots:
+        Name: '&b&lBotas de Abejorro'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Firefighter:
+    Name: '&b&LTraje de Bombero'
+    Material: head:7e9b8d13ae2b8e24b8a06fc982b2628a8131d1b16d6deb9cf31fb633f8ca2e
+    GUI-Name: Traje de Bombero
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Lanzar un spray'
+    - '&fde agua al hacer click.'
+    Equipments:
+      Firefighter Helmet:
+        Name: '&b&lCabeza de Bombero'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Firefighter Chestplate:
+        Name: '&b&lPechera de Bombero'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Firefighter Leggings:
+        Name: '&b&lPantalones de Bombero'
+        Mystery Dust: 19
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Firefighter Boots:
+        Name: '&b&lBotas de Bombero'
+        Mystery Dust: 9
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Plumber:
+    Name: '&b&lTraje de Fontanero'
+    Material: head:6f7eb75e5542cc4937aaad5bb8657393eaf0265006eac1dc96691f32e16437
+    GUI-Name: Traje de Fontanero
+    Enabled: true
+    Cooldown: 0
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Lanzar bolas de'
+    - '&ffuego con un click.'
+    Equipments:
+      Plumber Helmet:
+        Name: '&b&lCabeza de Plomero'
+        Mystery Dust: 73
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Plumber Chestplate:
+        Name: '&b&lPechera de Plomero'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&LEPICO"
+      Plumber Leggings:
+        Name: '&b&lPantalones de Plomero'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Plumber Boots:
+        Name: '&b&lBotas de Plomero'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Ice Walker:
+    Name: '&b&lTraje de Caminante de Hielo'
+    Material: head:371c7c94da4f86a8fe6ea3a5b2f7dad24731ac420ef47ca4c1c766dea60accc
+    GUI-Name: Traje de Caminante de Hielo
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Crear capas de nieve'
+    - '&fen cada bloque que pisas.'
+    Equipments:
+      Ice Walker Helmet:
+        Name: '&b&lCabeza de Caminante de Hielo'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Ice Walker Chestplate:
+        Name: '&b&lPechera de Caminante de Hielo'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Ice Walker Leggings:
+        Name: '&b&lPantalones de Caminante de Hielo'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Ice Walker Boots:
+        Name: '&b&lBotas de Caminante de Hielo'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"
+  Vampire:
+    Name: '&b&lTraje de Vampiro'
+    Material: head:8d44756e0b4ece8d746296a3d5e297e1415f4ba17647ffe228385383d161a9
+    GUI-Name: Traje de Vampiro
+    Enabled: true
+    Enabled-Ability: true
+    Lore:
+    - ''
+    - '&fHabilidad: Te transformaras'
+    - '&fen muercielago al volar.'
+    Equipments:
+      Vampire Helmet:
+        Name: '&b&lCasco de Vampiro'
+        Mystery Dust: 74
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &d&lLEGENDARIO"
+      Vampire Chestplate:
+        Name: '&b&lPechera de Vampiro'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &5&lEPICO"
+      Vampire Leggings:
+        Name: '&b&lPantalones de Vampiro'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &9&lRARO"
+      Vampire Boots:
+        Name: '&b&lBotas de Vampiro'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - "&8&l\xbb &fRareza: &e&lCOMUN"

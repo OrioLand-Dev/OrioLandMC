@@ -1,0 +1,264 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+orita:
+  displayname: <gradient:#FA7CBB:#FFCC00>Orita
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - default/orita_shard.png
+    custom_model_data: 78
+
+orita_helmet:
+  displayname: <gradient:#FA7CBB:#FFCC00>Casco de Orita
+  material: LEATHER_HELMET
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 700 # 50% more than diamond helmet
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 3
+    operation: 0
+    uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 5
+    operation: 0
+    uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 2fa97f3d-5a91-4e64-a804-0d7674b2e4e0
+    slot: HEAD
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_helmet
+      - default/armors/orita_helmet
+
+orita_chestplate:
+  displayname: <gradient:#FA7CBB:#FFCC00>Pechera de Orita
+  material: LEATHER_CHESTPLATE
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 900
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 3
+    operation: 0
+    uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 10
+    operation: 0
+    uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+    slot: CHEST
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: 625d33ca-5f74-43a7-9907-fbdb7289c416
+    slot: CHEST
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_chestplate
+      - default/armors/orita_chestplate
+
+orita_leggings:
+  displayname: <gradient:#FA7CBB:#FFCC00>Pantalones de Orita
+  material: LEATHER_LEGGINGS
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 820
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 3
+    operation: 0
+    uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 8
+    operation: 0
+    uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+    slot: LEGS
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: b6f82c9d-e501-4154-bd88-6b80e3bce997
+    slot: LEGS
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_leggings
+      - default/armors/orita_leggings
+
+orita_boots:
+  displayname: <gradient:#FA7CBB:#FFCC00>Botas de Orita
+  material: LEATHER_BOOTS
+  color: 255, 204, 0
+  Mechanics:
+    durability:
+      value: 800
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_MAX_HEALTH
+    amount: 3
+    operation: 0
+    uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 5
+    operation: 0
+    uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+    slot: FEET
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 3
+    operation: 0
+    uuid: b5285e83-06d9-4d63-a034-c389e56b595d
+    slot: FEET
+  Pack:
+    custom_model_data: 4
+    generate_model: true
+    parent_model: item/generated
+    textures: # duplicate because we use the overlay of the leather armor
+      - default/armors/orita_boots
+      - default/armors/orita_boots
+
+orita_ore:
+  displayname: <#6f737d>Mena de Orita
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - default/orita_ore
+    custom_model_data: 79
+  Mechanics:
+    noteblock:
+      break_sound: block.stone.break
+      place_sound: block.stone.place
+      custom_variation: 3
+      model: orita_ore
+      hardness: 20
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: NETHERITE
+        best_tools:
+        - PICKAXE
+        loots:
+        - oraxen_item: orita
+          probability: 1.0
+orita_pickaxe:
+  displayname: <gradient:#FA7CBB:#FFCC00>Pico de Orita
+  material: NETHERITE_PICKAXE
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/orita_pickaxe.png
+    custom_model_data: 2
+  Mechanics:
+    durability:
+      value: 5000 # diamond sword is 1561
+    smelting:
+      enabled: true
+      play_sound: true
+    bigmining:
+      radius: 1
+      depth: 1
+
+orita_axe:
+  displayname: <gradient:#FA7CBB:#FFCC00>Hacha de Orita
+  material: NETHERITE_AXE
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/orita_axe.png
+    custom_model_data: 2
+  Mechanics:
+    durability:
+      value: 5000 # diamond sword is 1561
+
+orita_hoe:
+  displayname: <gradient:#FA7CBB:#FFCC00>Azada de Orita
+  material: NETHERITE_HOE
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/orita_hoe.png
+    custom_model_data: 2
+  Mechanics:
+    durability:
+      value: 5000 # diamond sword is 1561
+
+orita_shovel:
+  displayname: <gradient:#FA7CBB:#FFCC00>Pala de Orita
+  material: NETHERITE_SHOVEL
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/orita_shovel.png
+    custom_model_data: 2
+  Mechanics:
+    durability:
+      value: 5000
+    bigmining:
+      radius: 1
+      depth: 1
+
+orita_sword:
+  displayname: <gradient:#FA7CBB:#FFCC00>Espada de Orita
+  material: NETHERITE_SWORD
+  Pack:
+    generate_model: true
+    parent_model: item/handheld
+    textures:
+    - default/orita_sword.png
+    custom_model_data: 2
+  Mechanics:
+    durability:
+      value: 5000 # diamond sword is 1561
+    lifeleech:
+      amount: 2
+    energyblast:
+      delay: 20000
+      length: 5
+      damage: 10.0
+      particle:
+        type: REDSTONE # Only REDSTONE particle can change size and color.
+        size: 1
+        color:
+          red: 0
+          green: 255
+          blue: 255

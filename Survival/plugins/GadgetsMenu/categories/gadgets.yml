@@ -1,0 +1,807 @@
+Gadgets:
+  Fun And Games:
+    Name: '&b&lArtefactos de Diversion'
+    Material: head:b89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7
+    GUI-Name: Artefactos de Diversion
+    Enabled: true
+    Lore:
+    - '&b&l'
+    - '&fUtiliza artefactos de minijuegos'
+    - '&fcompartidos y diversion en el lobby'
+    Types:
+      Magic 9 Ball:
+        Name: '&b&lBola 8'
+        Material: BLACK_WOOL
+        Cooldown: 3
+        Mystery Dust: 22
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+        - '&bLos gatos dicen: &fAlimentame.'
+        - '&bEl troll dice: &fTrololololololol'
+        - '&bEl staff dice: &fPor favor no rompas las reglas.'
+        - '&bTu mama dice: &fJuegas demasiados videojuegos, para un poco.'
+        - '&bAnna dice: &f¿Quieres construir un muñeco de nieve?'
+        - '&bMinion dicen: &f¡BEE DO BEE DO BEE DO!'
+        - '&bHerobrine says: &f¡Nadie sobrevivira!'
+        - '&bEl perro dice: &fMeow!'
+        - '&bDarth Vader dice: &fYo soy tu padre.'
+        - '&bElsa dice: &fEl frio nunca me molesto.'
+        - '&bEl creeper dice: &fNo, no te preocupes. No explotaré en tu cara'
+        - '&bNotch dice: &fLa vida es mas divertida si juegas Minecraft.'
+        - '&bMario dice: &f¡It''s me, Mario!'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'
+      Fortune Cookie:
+        Name: '&b&lFortune Cookie Gadget'
+        Material: COOKIE
+        Cooldown: 0
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Player:
+          - '&e{PLAYER}&f: ¡Oh mira, una Galleta!'
+          - '&e{PLAYER}&f: ¡Estaba deliciosa!'
+          - '&e{PLAYER}&f: Pero espera, habia un papel dentro de ella ¿Que dice?'
+          Fortune Cookie:
+          - '&eGalleta de la Fortuna&f: Si no está contento con el lugar en el que
+            se encuentra, siga algunos pasos A la izquierda. Si aún no está satisfecho,
+            no podemos ayudarlo.'
+          - '&eGalleta de la Fortuna&f: Algunos aprendemos de los errores de otros;
+            el resto de los otros.'
+          - '&eGalleta de la Fortuna&f: Mañana, gire a la izquierda. Luego un giro
+            a la derecha. Luego otro giro a la izquierda. Ahora ha llegado a su destino.'
+          - '&eGalleta de la Fortuna&f: Eres único, como todos los demás.'
+          - '&eGalleta de la Fortuna&f: Puede o no ser una persona indecisa.'
+          - '&eGalleta de la Fortuna&f: La fortuna que buscas está dentro de otra
+            galleta.'
+          - '&eGalleta de la Fortuna&f: Hay tres tipos de personas en el mundo: las
+            quién puede contar y los que no pueden.'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'
+      Tetherball:
+        Name: '&b&lTetherball'
+        Material: OAK_FENCE
+        Cooldown: 90
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Diving Board:
+        Name: '&b&lPiscina'
+        Material: CAULDRON
+        Cooldown: 60
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+        - '&¡Backflip!'
+        - '&b¡Frontflip!'
+        - '&b¡Clavado!'
+        - '&b¡Golpe de Panza!'
+        - '&b¡Bala de Cañon!'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+      Trampoline:
+        Name: '&b&lTrampolin'
+        Material: HOPPER
+        Cooldown: 80
+        Mystery Dust: 92
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+      Flower Giver:
+        Name: '&b&lFlower Giver Gadget'
+        Material: FLOWER_POT
+        Cooldown: 5
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Target-A-Player: '&cTienes que hacer Click Derecho en un jugador.'
+          Already-Had-A-Flower: '&cEste jugador ya tiene una Rosa.'
+          Sent-A-Flower: '&a¡Has enviado una Rosa a &e{PLAYER}&a!'
+          Already-Sent-A-Request: '&cLe has enviado una solicitud de Rosa a {PLAYER}.'
+          Received-Flower: '&e{PLAYER} &ate ha regalado una Rosa.'
+          Accept: '&2&l&l[ACCEPTAR]'
+          Decline: '&c&l[RECHAZAR]'
+          Accept-Json-message: '&7Click para aceptar la Rosa.'
+          Decline-Json-message: '&7Click para rechazar la Rosa.'
+          No-Pending-Invite: '&cNo tienes una solicitud pendiente de ese jugador.'
+          Accepted-Flower: '&3{PLAYER} &bha aceptado tu Rosa.'
+          Declined-Flower: '&c{PLAYER} ha rechazado tu Rosa.'
+          Right-Click-To-Remove-Flower: '&eClick Derecho para remover tu Rosa.'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Sand Castle:
+        Name: '&b&lCastillo de Arena'
+        Material: head:9918b3b7516b1946566fd7b287f82ef44afafea9a2c3bd385691f7f0f42097f8
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      BBQ Grill:
+        Name: '&b&lParrilla de BBQ'
+        Material: OBSIDIAN
+        Cooldown: 45
+        Mystery Dust: 58
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Pocket Beach:
+        Name: '&b&lSilla de Playa'
+        Material: SAND
+        Cooldown: 60
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Ice Cream Stand:
+        Name: '&b&lCarrito de Helados'
+        Material: head:239299c36b54bb11e57c686bfe53a5c1c441310f90f69347bacddbf343609d
+        Cooldown: 30
+        Mystery Dust: 68
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+        - '&eSr de los Helados&f: De Fresa... Doble chcolate... Y vainilla... ¿Olvide
+          algo?'
+        - '&eSr de los Helados&f: Helado de Fresa, ¡Mi favorito!'
+        - '&eSr de los Helados&f: Me temo que no tengo cambio en este momento :('
+        - '&eSr de los Helados&f: Lo sentimos, ¡solo aceptamos efectivo por ahora!'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+      Tic Tac Toe:
+        Name: '&b&lTic Tac Toe Gadget'
+        Material: head:a6864136e374f5d676fb4f5b03e10a7bcdb4190b376378ae9492045fb4adf9d
+        Cooldown: 30
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Target-A-Player: '&cHaz click en un jugador para iniciar un juego de Tic
+            Tac Toe con el.'
+          Target-Other-Player: '&cEste jugador se encuentra ya jugando una partida
+            de Tic Tac Toe, intenta con otro jugador.'
+          Challenge: '&aHas retado a &E{PLAYER} &aa un juego de Tic Tac Toe.'
+          Already-Sent-A-Request: '&cYa le has enviado una solicitud de juego a {PLAYER}.'
+          Received-Challenge: '&e{PLAYER} &ate ha desafiado a un juego de Tic Tac
+            Toe.'
+          Accept: '&2&l&l[ACCEPTAR]'
+          Decline: '&c&l[RECHAZAR]'
+          Accept-Json-message: '&7Click para aceptar el reto.'
+          Decline-Json-message: '&7Click para rechazar el reto.'
+          No-Pending-Challenge: '&cTu no tienes solicitudes de juego de este jugador.'
+          Accepted-Challenge: '&b{PLAYER} ha aceptado tu desafio.'
+          Declined-Challenge: '&c{PLAYER} ha rechazado tu desafio.'
+          Draw: '&cTu partida con {PLAYER} &ctermino en empate.'
+          Win: '&bHas derrotado a {PLAYER} en el juego de Tic Tac Toe.'
+          Loss: '&c{PLAYER} te ha derrotado en el juego de Tic Tac Toe.'
+          Opponent-Left-Game: '&cTu oponente se retiro del juego.'
+          Player-Left-Game: '&cTe has retirado el juego.'
+        Items:
+          GUI-Name: Tic Tac Toe - {OPPONENT}
+          Place-Symbol:
+            Name: '&b&lSeleccionar'
+            Material: ITEM_FRAME
+            Lore:
+            - '&fHaz click aqui para colocar'
+            - '&ftu simbolo.'
+          Not-Your-Turn:
+            Name: '&cAun no es tu turno'
+            Material: PAINTING
+            Lore:
+            - '&7Tu oponente aun no ha colocado su'
+            - '&7simbolo, debes esperar.'
+          Challenger:
+            Name: '&6&lNaranja: &e{PLAYER}'
+            Material: ORANGE_TERRACOTTA
+            Lore:
+            - '&fEl jugador del equipo Naranja'
+            - '&fes {PLAYER}.'
+          Opponent:
+            Name: '&b&lAzul: &3{PLAYER}'
+            Material: LIGHT_BLUE_TERRACOTTA
+            Lore:
+            - '&fEl jugador del equipo Azul'
+            - '&fes {PLAYER}.'
+          Challenger-Symbol:
+            Name: '&6Naranja'
+            Material: ORANGE_TERRACOTTA
+            Lore:
+            - '&7Este slot pertenece al '
+            - '&7equipo Naranja.'
+          Opponent-Symbol:
+            Name: '&bAzul'
+            Material: LIGHT_BLUE_TERRACOTTA
+            Lore:
+            - '&7Este slot pertenece al'
+            - '&7equipo Azul.'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+  Mobs And NPCs:
+    Name: '&b&lArtefactos de Mobs'
+    Material: CREEPER_HEAD
+    GUI-Name: Artefactos de Mobs
+    Enabled: true
+    Lore:
+    - '&b&l'
+    - '&fJuega con divertidos artefactos'
+    - '&fde mobs y otras cosas.'
+    Types:
+      Piggy Bank:
+        Name: '&b&lBanco en forma de Cerdo'
+        Material: head:198df42f477f213ff5e9d7fa5a4cc4a69f20d9cef2b90c4ae4f29bd17287b5
+        Cooldown: 40
+        Mystery Dust: 35
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      CATapult:
+        Name: '&b&lCatapulta'
+        Material: OCELOT_SPAWN_EGG
+        Cooldown: 50
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      When Pigs Fly:
+        Name: '&b&lCerdo Volador'
+        Material: SADDLE
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Creeper Astronaut:
+        Name: '&b&lCreeper Astronauta'
+        Material: CREEPER_SPAWN_EGG
+        Cooldown: 40
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Exploding Sheep:
+        Name: '&b&lOveja explosiva'
+        Material: SHEARS
+        Cooldown: 15
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Remain-Time: '&c&l{REMAIN_TIME}s'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Bat Launcher:
+        Name: '&b&lPistola de Muercielagos'
+        Material: IRON_HORSE_ARMOR
+        Affect-Players: true
+        Cooldown: 10
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Scarecrow:
+        Name: '&b&lEspantapajaros'
+        Material: JACK_O_LANTERN
+        Cooldown: 30
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Jack-O-Lantern-DisplayName: '&cScarecrow'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+  Movement:
+    Name: '&b&lArtefactos de Movimiento'
+    Material: GOLDEN_BOOTS
+    GUI-Name: Artefactos de Movimiento
+    Enabled: true
+    Lore:
+    - '&b&l'
+    - '&fCambia tu forma de caminar o'
+    - '&fvolar de una manera divertida.'
+    Types:
+      Cowboy:
+        Name: '&b&lMontura'
+        Material: CACTUS
+        Cooldown: 5
+        Mystery Dust: 30
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Teleport Stick:
+        Name: '&b&lPalo teletransportador'
+        Material: STICK
+        Cooldown: 5
+        Mystery Dust: 18
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Range: 30
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Fire Trail:
+        Name: '&b&lRastro de Fuego'
+        Material: BLAZE_POWDER
+        Cooldown: 50
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Paint Trail:
+        Name: '&b&lRastro de Pintura'
+        Material: MAGENTA_DYE
+        Blacklist:
+        - SPAWNER
+        Cooldown: 35
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Parachute:
+        Name: '&b&lParacaidas'
+        Material: LEAD
+        Cooldown: 60
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Teleporter:
+        Name: '&b&lTeletransportador'
+        Material: ENDER_EYE
+        Cooldown: 30
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Messages:
+          Initiating-Teleport-Sequence: '&e&lIniciando secuencia de teletransportacion.
+            Por favor, espere...'
+          Scanning-Players: '&e&lEscaneando jugadores en busca de un objetivo para
+            teletransportarse...'
+          Target-Acquired: '&e&lObjetivo Localizado: &a&k&lRANDOMCHARATERS&e&l!'
+          Teleport-Initiating: '&a&lIniciando teletransportacion...'
+          Teleport-Complete: '&b&lCompletado. &fGracias por usar el &fviaje rapido.'
+          Process-Failed: '&cEl proceso de localizacion fallo, debido a que no se
+            encontraron objetivos.'
+          Aborted-Teleport-Sequence: '&cAbortando la secuencia de teletransportacion...'
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Rocket:
+        Name: '&b&lCohete'
+        Material: FIREWORK_ROCKET
+        Cooldown: 120
+        Mystery Dust: 125
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+      Let It Snow:
+        Name: '&b&lTormenta de Nieve'
+        Material: SNOW_BLOCK
+        Cooldown: 80
+        Mystery Dust: 60
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+  Musical:
+    Name: '&b&lArtefactos de Musica'
+    Material: JUKEBOX
+    GUI-Name: Artefactos de Musica
+    Enabled: true
+    Lore:
+    - '&b&l'
+    - '&fSi te gusta la muscia reproduce algunos'
+    - '&fdiscos o conviertete en un DJ.'
+    Types:
+      Jukebox:
+        Name: '&b&lCaja de Musica'
+        Material: MUSIC_DISC_CAT
+        Cooldown: 3
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+        Items:
+          GUI-Name: Jukebox
+          Track:
+            Name: '&b{TRACK}'
+            Lore:
+            - ''
+            - '&aClick para reproducir.'
+          Stop-Track:
+            Name: '&cParar musica'
+            Material: RED_WOOL
+            Lore:
+            - '&7'
+            - '&aClick para parar la musica.'
+      Radio:
+        Name: '&b&lRadio'
+        Material: MUSIC_DISC_13
+        Cooldown: 3
+        Mystery Dust: 105
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+        Items:
+          GUI-Name: Radio
+          Track:
+            Name: '&b{TRACK}'
+            Material: NOTE_BLOCK
+            Lore:
+            - ''
+            - '&eClick para reproducir.'
+          Stop-Track:
+            Name: '&cParar pista'
+            Material: RED_WOOL
+            Lore:
+            - '&7'
+            - '&aClick para parar la pista.'
+      Disco Ball:
+        Name: '&b&lBola Disco'
+        Material: LIGHT_BLUE_STAINED_GLASS
+        Duration-Seconds: 60
+        Cooldown: 80
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      DJ Booth:
+        Name: '&b&lCabina de DJ'
+        Material: NOTE_BLOCK
+        Duration-Seconds: 60
+        Cooldown: 60
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
+  Projectile:
+    Name: '&b&lArtefactos de Projectiles'
+    Material: BOW
+    GUI-Name: Artefactos de Projectiles
+    Enabled: true
+    Lore:
+    - '&b&l'
+    - '&fUsa geniales items con los que'
+    - '&fpodras disparar varias cosas.'
+    Types:
+      MobGun:
+        Name: '&b&lPistola de Mobs'
+        Material: BLAZE_ROD
+        Cooldown: 30
+        Mystery Dust: 28
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+        Actionbar-Message: '{GADGET} &r- {MOB}'
+        Mob-Name:
+          Pig: Cerdo
+          Villager: Aldeano
+          Ocelot: Ocelote
+          Cow: Vaca
+          Creeper: Creeper
+          Spider: AraÃ±a
+          Squid: Calamar
+          Chicken: Pollo
+          Sheep: Oveja
+          Wolf: Lobo
+          Witch: Bruja
+          Blaze: Blaze
+          Horse: Caballo
+          Zombie: Zombie
+          Skeleton: Esqueleto
+          MushroomCow: Vaca Mushroom
+          CaveSpider: AraÃ±a de Cueva
+          PigZombie: Zombie Cerdo
+      Railgun:
+        Name: '&b&lPistola'
+        Material: LEVER
+        Cooldown: 5
+        Mystery Dust: 16
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'
+      Explosive Bow:
+        Name: '&b&lArco Explosivo'
+        Material: BOW
+        Cooldown: 8
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'
+      Paintball Gun:
+        Name: '&b&lPistola de Pintura'
+        Material: DIAMOND_HORSE_ARMOR
+        Radius: 3
+        Blacklist:
+        - SAND
+        - GRAVEL
+        - SPAWNER
+        Cooldown: 3
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'
+      Melon Launcher:
+        Name: '&b&lLanzador de Sandias'
+        Material: MELON
+        Cooldown: 3
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'
+  Visual:
+    Name: '&b&lArtefactos Visuales'
+    Material: head:fec5963e1f78f2f05943f4dd32224661374c220ecfde1e54754f5ee1e555dd
+    GUI-Name: Artefactos Visuales
+    Enabled: true
+    Lore:
+    - '&b&l'
+    - '&fUtiliza artefactos que crean particulas'
+    - '&fy mas cosas en el lobby.'
+    Types:
+      Kookie Fountain:
+        Name: '&b&lFuente de Galletas'
+        Material: COOKIE
+        Cooldown: 60
+        Mystery Dust: 62
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&LEPICO'
+      Pyromaniac:
+        Name: '&b&lPiromano'
+        Material: FLINT_AND_STEEL
+        Cooldown: 30
+        Mystery Dust: 35
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Diamond Shower:
+        Name: '&b&lBaÃ±era de Diamantes'
+        Material: DIAMOND
+        Cooldown: 60
+        Mystery Dust: 75
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      Gold Fountain:
+        Name: '&b&lFuente de Oro'
+        Material: GOLD_NUGGET
+        Cooldown: 60
+        Mystery Dust: 70
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Kawarimi No Jutsu:
+        Name: '&b&lKawarimi No Jutsu'
+        Material: OAK_LOG
+        Cooldown: 30
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Cryotube:
+        Name: '&b&lCriotubo'
+        Material: SNOWBALL
+        Cooldown: 45
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Ghosts:
+        Name: '&b&lFantasmas'
+        Material: WITHER_SKELETON_SKULL
+        Cooldown: 40
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Party Popper:
+        Name: '&b&lFiesta de Lanas'
+        Material: ENDER_CHEST
+        Affect-Players: true
+        Cooldown: 60
+        Mystery Dust: 50
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &9&lRARO'
+      Poop Bomb:
+        Name: '&b&lBomba de Poop'
+        Material: COCOA_BEANS
+        Cooldown: 40
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &5&lEPICO'
+      TNT Fountain:
+        Name: '&b&lFuente de TNT'
+        Material: TNT
+        Cooldown: 80
+        Mystery Dust: 90
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &d&lLEGENDARIO'
+      Dracula:
+        Name: '&b&lDracula'
+        Material: GHAST_TEAR
+        Cooldown: 30
+        Mystery Dust: 15
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Lore:
+        - '&f'
+        - '&8&l» &fRareza: &e&lCOMUN'

@@ -1,0 +1,85 @@
+Animations:
+  None:
+    Name: '&b&lNinguna'
+    Material: head:3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
+    Enabled: true
+    Mini-Block:
+      Material: ENDER_CHEST
+    Lore:
+    - '&fElimina la animacion al abrir'
+    - '&funa caja, esta se abrira instantaneamente.'
+  Normal:
+    Name: '&b&lNormal'
+    Material: head:d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
+    Enabled: true
+    Mini-Block:
+      Material: head:d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Normal.'
+  CountDown:
+    Name: '&b&lContador'
+    Material: head:b86b9d58bcd1a555f93e7d8659159cfd25b8dd6e9bce1e973822824291862
+    Enabled: true
+    Mini-Block:
+      Material: head:b86b9d58bcd1a555f93e7d8659159cfd25b8dd6e9bce1e973822824291862
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Contador.'
+  Star:
+    Name: '&b&lEstrella'
+    Material: head:adc56355f11ce53e14d374ecf2a0b255301b734d99c674240afacc73e2145c
+    Enabled: true
+    Mini-Block:
+      Material: head:adc56355f11ce53e14d374ecf2a0b255301b734d99c674240afacc73e2145c
+    Mystery-Box-Quality-Block:
+      Material: NETHER_STAR
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Estrella.'
+  Crafting:
+    Name: '&b&lCrafteo'
+    Material: head:2cdc0feb7001e2c10fd5066e501b87e3d64793092b85a50c856d962f8be92c78
+    Enabled: true
+    Mini-Block:
+      Material: head:2cdc0feb7001e2c10fd5066e501b87e3d64793092b85a50c856d962f8be92c78
+    Mystery-Box-Quality-Block:
+      Material: CRAFTING_TABLE
+      Rotational-Angle:
+        X: 270
+        Y: 0
+        Z: 45
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Crafteo.'
+  Summer:
+    Name: '&b&lVerano'
+    Material: head:5a5ab05ea254c32e3c48f3fdcf9fd9d77d3cba04e6b5ec2e68b3cbdcfac3fd
+    Enabled: true
+    Mini-Block:
+      Material: head:5a5ab05ea254c32e3c48f3fdcf9fd9d77d3cba04e6b5ec2e68b3cbdcfac3fd
+    Mystery-Box-Quality-Block:
+      Material: SUNFLOWER
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Verano.'
+  Halloween:
+    Name: '&b&lHalloween'
+    Material: head:cec751573e9884809cf87d7e5d64fdc1eabffd3fc75ae11a0f7837eb1b91331
+    Enabled: true
+    Mini-Block:
+      Material: head:cec751573e9884809cf87d7e5d64fdc1eabffd3fc75ae11a0f7837eb1b91331
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Halloween.'
+  Holiday:
+    Name: '&b&lNavidad'
+    Material: head:f5612dc7b86d71afc1197301c15fd979e9f39e7b1f41d8f1ebdf8115576e2e
+    Enabled: true
+    Mini-Block:
+      Material: head:f5612dc7b86d71afc1197301c15fd979e9f39e7b1f41d8f1ebdf8115576e2e
+    Mystery-Box-Quality-Block:
+      Material: SNOWBALL
+    Lore:
+    - '&fColoca la animacion al abrir una'
+    - '&fCaja en Navidad.'

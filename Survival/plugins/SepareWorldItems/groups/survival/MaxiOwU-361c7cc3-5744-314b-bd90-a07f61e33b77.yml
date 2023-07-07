@@ -1,0 +1,173 @@
+health: 18.84000015258789
+hunger: 15
+exp: 0.5151512
+exp-level: 13
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 683
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 528
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 27
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 4
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BROWN_MUSHROOM
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NAME_TAG
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LECTERN
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_INGOT
+    amount: 4
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND
+    amount: 2
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OBSIDIAN
+    amount: 3
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_IRON
+    amount: 3
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLETCHING_TABLE
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHARCOAL
+    amount: 8
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BLAST_FURNACE
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOOK
+    amount: 16
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 30
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    amount: 12
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 132
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 133
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 135
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 135
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      Damage: 4
+      blockMaterial: SHIELD
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 135
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 135
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 133
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 132

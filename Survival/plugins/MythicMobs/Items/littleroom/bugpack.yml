@@ -1,0 +1,391 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+bugnet_red:
+  Id: INK_SAC
+  Display: '&fRed Bug Net'
+  Model: 1
+  
+  
+ant:
+  Id: INK_SAC
+  Display: '&fAnt'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 2
+ant2:
+  Id: INK_SAC
+  Display: '&fAnt'
+  Lore:
+  - '&e★★&8☆'
+  Model: 2
+ant3:
+  Id: INK_SAC
+  Display: '&fAnt'
+  Lore:
+  - '&e★★★'
+  Model: 2
+  
+  
+butterfly_blue:
+  Id: INK_SAC
+  Display: '&fBlue Butterfly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 3
+butterfly_blue2:
+  Id: INK_SAC
+  Display: '&fBlue Butterfly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 3
+butterfly_blue3:
+  Id: INK_SAC
+  Display: '&fBlue Butterfly'
+  Lore:
+  - '&e★★★'
+  Model: 3
+  
+butterfly_indigo:
+  Id: INK_SAC
+  Display: '&fIndigo Butterfly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 4
+butterfly_indigo2:
+  Id: INK_SAC
+  Display: '&fIndigo Butterfly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 4
+butterfly_indigo3:
+  Id: INK_SAC
+  Display: '&fIndigo Butterfly'
+  Lore:
+  - '&e★★★'
+  Model: 4
+  
+butterfly_red:
+  Id: INK_SAC
+  Display: '&fRed Butterfly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 5
+butterfly_red2:
+  Id: INK_SAC
+  Display: '&fRed Butterfly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 5
+butterfly_red3:
+  Id: INK_SAC
+  Display: '&fRed Butterfly'
+  Lore:
+  - '&e★★★'
+  Model: 5
+  
+butterfly_violet:
+  Id: INK_SAC
+  Display: '&fViolet Butterfly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 6
+butterfly_violet2:
+  Id: INK_SAC
+  Display: '&fViolet Butterfly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 6
+butterfly_violet3:
+  Id: INK_SAC
+  Display: '&fViolet Butterfly'
+  Lore:
+  - '&e★★★'
+  Model: 6
+  
+butterfly_white:
+  Id: INK_SAC
+  Display: '&fWhite Butterfly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 7
+butterfly_white2:
+  Id: INK_SAC
+  Display: '&fWhite Butterfly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 7
+butterfly_white3:
+  Id: INK_SAC
+  Display: '&fWhite Butterfly'
+  Lore:
+  - '&e★★★'
+  Model: 7
+  
+butterfly_yellow:
+  Id: INK_SAC
+  Display: '&fYellow Butterfly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 8
+butterfly_yellow2:
+  Id: INK_SAC
+  Display: '&fYellow Butterfly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 8
+butterfly_yellow3:
+  Id: INK_SAC
+  Display: '&fYellow Butterfly'
+  Lore:
+  - '&e★★★'
+  Model: 8
+  
+mantis:
+  Id: INK_SAC
+  Display: '&fMantis'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 9
+mantis2:
+  Id: INK_SAC
+  Display: '&fMantis'
+  Lore:
+  - '&e★★&8☆'
+  Model: 9
+mantis3:
+  Id: INK_SAC
+  Display: '&fMantis'
+  Lore:
+  - '&e★★★'
+  Model: 9
+  
+firefly:
+  Id: INK_SAC
+  Display: '&fFirefly'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 10
+firefly2:
+  Id: INK_SAC
+  Display: '&fFirefly'
+  Lore:
+  - '&e★★&8☆'
+  Model: 10
+firefly3:
+  Id: INK_SAC
+  Display: '&fFirefly'
+  Lore:
+  - '&e★★★'
+  Model: 10
+  
+dungbeetle:
+  Id: INK_SAC
+  Display: '&fDung Beetle'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 11
+dungbeetle2:
+  Id: INK_SAC
+  Display: '&fDung Beetle'
+  Lore:
+  - '&e★★&8☆'
+  Model: 11
+dungbeetle3:
+  Id: INK_SAC
+  Display: '&fDung Beetle'
+  Lore:
+  - '&e★★★'
+  Model: 11
+  
+snail:
+  Id: INK_SAC
+  Display: '&fSnail'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 12
+snail2:
+  Id: INK_SAC
+  Display: '&fSnail'
+  Lore:
+  - '&e★★&8☆'
+  Model: 12
+snail3:
+  Id: INK_SAC
+  Display: '&fSnail'
+  Lore:
+  - '&e★★★'
+  Model: 12
+  
+ladybug:
+  Id: INK_SAC
+  Display: '&fLadybug'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 13
+ladybug2:
+  Id: INK_SAC
+  Display: '&fLadybug'
+  Lore:
+  - '&e★★&8☆'
+  Model: 13
+ladybug3:
+  Id: INK_SAC
+  Display: '&fLadybug'
+  Lore:
+  - '&e★★★'
+  Model: 13
+  
+mothatlas:
+  Id: INK_SAC
+  Display: '&fAtlas Moth'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 14
+mothatlas2:
+  Id: INK_SAC
+  Display: '&fAtlas Moth'
+  Lore:
+  - '&e★★&8☆'
+  Model: 14
+mothatlas3:
+  Id: INK_SAC
+  Display: '&fAtlas Moth'
+  Lore:
+  - '&e★★★'
+  Model: 14
+  
+tarantula:
+  Id: INK_SAC
+  Display: '&fTarantula'
+  Lore:
+  - '&e★&8☆☆'
+  Model: 15
+tarantula2:
+  Id: INK_SAC
+  Display: '&fTarantula'
+  Lore:
+  - '&e★★&8☆'
+  Model: 15
+tarantula3:
+  Id: INK_SAC
+  Display: '&fTarantula'
+  Lore:
+  - '&e★★★'
+  Model: 15
+  
+lantern_invis:
+  Id: LANTERN
+  Display: 'invisible lantern'
+  Model: 1
+  
+  
+  
+display_ant:
+  Id: PIG_SPAWN_EGG
+  Display: '&fAnt Farm'
+  Model: 1
+  NBT:
+    MYTHIC_EGG: display_ant
+  
+display_snail:
+  Id: PIG_SPAWN_EGG
+  Display: '&fSnail Habitat'
+  Model: 2
+  NBT:
+    MYTHIC_EGG: display_snail
+  
+display_ladybug:
+  Id: PIG_SPAWN_EGG
+  Display: '&fLadybug Habitat'
+  Model: 3
+  NBT:
+    MYTHIC_EGG: display_ladybug
+  
+display_mantis:
+  Id: PIG_SPAWN_EGG
+  Display: '&fMantis Habitat'
+  Model: 4
+  NBT:
+    MYTHIC_EGG: display_mantis
+  
+display_redbutterfly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fRed Butterfly Habitat'
+  Model: 5
+  NBT:
+    MYTHIC_EGG: display_redbutterfly
+
+display_bluebutterfly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fBlue Butterfly Habitat'
+  Model: 6
+  NBT:
+    MYTHIC_EGG: display_bluebutterfly
+  
+display_yellowbutterfly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fYellow Butterfly Habitat'
+  Model: 7
+  NBT:
+    MYTHIC_EGG: display_yellowbutterfly
+  
+display_whitebutterfly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fWhite Butterfly Habitat'
+  Model: 8
+  NBT:
+    MYTHIC_EGG: display_whitebutterfly
+  
+display_violetbutterfly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fViolet Butterfly Habitat'
+  Model: 9
+  NBT:
+    MYTHIC_EGG: display_violetbutterfly
+  
+display_indigobutterfly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fIndigo Butterfly Habitat'
+  Model: 10
+  NBT:
+    MYTHIC_EGG: display_indigobutterfly
+  
+display_firefly:
+  Id: PIG_SPAWN_EGG
+  Display: '&fFirefly in a Jar'
+  Model: 11
+  NBT:
+    MYTHIC_EGG: display_firefly
+  
+display_dungbeetle:
+  Id: PIG_SPAWN_EGG
+  Display: '&fDungbeetle Habitat'
+  Model: 12
+  NBT:
+    MYTHIC_EGG: display_dungbeetle
+
+  
+display_moth_atlas:
+  Id: PIG_SPAWN_EGG
+  Display: '&fAtlas Moth Habitat'
+  Model: 13
+  NBT:
+    MYTHIC_EGG: display_moth_atlas
+
+  
+display_tarantula:
+  Id: PIG_SPAWN_EGG
+  Display: '&fTarantula Habitat'
+  Model: 14
+  NBT:
+    MYTHIC_EGG: display_tarantula
+
+  
+display_empty:
+  Id: PIG_SPAWN_EGG
+  Display: '&fEmpty Habitat'
+  Model: 15
+  NBT:
+    MYTHIC_EGG: display_empty

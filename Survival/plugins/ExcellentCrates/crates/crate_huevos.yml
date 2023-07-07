@@ -1,0 +1,524 @@
+Name: §3§lCrate Huevos
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 15
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - llave_huevos_mobs
+Block:
+  Locations:
+  - 100.0,101.0,46.0,0.0,0.0,Lobby
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Offset:
+      Y: 1.0
+    Text:
+    - §3§lCrate
+    - §3§lHuevos
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: SOUL_FIRE_FLAME
+      Data: ''
+Animation_Config: spin_mystery
+Rewards:
+  List:
+    '1':
+      Name: Huevo de caballo esqueleto
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0049mmirj5cdp62pjk79pmmpbcclq6urivd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0049mmirj5cdp62pjk79pmmpbcclq6urivd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+    '2':
+      Name: Huevo de salmon
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejjc5m6qrrebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejjc5m6qrrebtpn0obndpfmapr70400agrfeln78080
+    '3':
+      Name: Huevo de calamar
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedonaqb4btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedonaqb4btpn0obndpfmapr70400agrfeln78080
+    '4':
+      Name: Huevo de oveja
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedk6apbgbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedk6apbgbtpn0obndpfmapr70400agrfeln78080
+    '5':
+      Name: Huevo de renacuajo
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3kt31cho6ur35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3kt31cho6ur35btpn0obndpfmapr70400agrfeln78080
+    '6':
+      Name: Huevo de llama
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qdhm62rb1btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qdhm62rb1btpn0obndpfmapr70400agrfeln78080
+    '7':
+      Name: Huevo de piglin
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejgd5jmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejgd5jmoqbebtpn0obndpfmapr70400agrfeln78080
+    '8':
+      Name: Huevo de lavagante
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksrke9km8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksrke9km8pbibtpn0obndpfmapr70400agrfeln78080
+    '9':
+      Name: Huevo de devastador
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksj1epgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksj1epgmepbibtpn0obndpfmapr70400agrfeln78080
+    '10':
+      Name: Huevo de bruja
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qetkn8or8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qetkn8or8btpn0obndpfmapr70400agrfeln78080
+    '11':
+      Name: Huevo de piglin bruto
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3ks39ctm6irivc9p7at35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3ks39ctm6irivc9p7at35btpn0obndpfmapr70400agrfeln78080
+    '12':
+      Name: Huevo de oso polar
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qe1nmoobibth6aobibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qe1nmoobibth6aobibtpn0obndpfmapr70400agrfeln78080
+    '13':
+      Name: Huevo de loro
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejgc5p74rrkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejgc5p74rrkbtpn0obndpfmapr70400agrfeln78080
+    '14':
+      Name: Huevo de panda
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qe1gmsp31btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qe1gmsp31btpn0obndpfmapr70400agrfeln78080
+    '15':
+      Name: Huevo de conejo
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejic5h64qbkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejic5h64qbkbtpn0obndpfmapr70400agrfeln78080
+    '16':
+      Name: Huevo de cubo de magma
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qdlgmerb1bthnaoj5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qdlgmerb1bthnaoj5btpn0obndpfmapr70400agrfeln78080
+    '17':
+      Name: Huevo de pez globo
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qe1qmcpj5e9j6isr8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qe1qmcpj5e9j6isr8btpn0obndpfmapr70400agrfeln78080
+    '18':
+      Name: Huevo de phantom
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ks38c5n78rrdbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ks38c5n78rrdbtpn0obndpfmapr70400agrfeln78080
+    '19':
+      Name: Huevo de tortuga
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejkelp78r35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejkelp78r35btpn0obndpfmapr70400agrfeln78080
+    '20':
+      Name: Huevo de zombie
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejqdtmm4qb5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejqdtmm4qb5btpn0obndpfmapr70400agrfeln78080
+    '21':
+      Name: Huevo de caballo zombie
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kujfdlh6ipavd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kujfdlh6ipavd1nn4sr5btpn0obndpfmapr70400agrfeln78080
+    '22':
+      Name: Huevo de pez tropical
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400gmqqbeclhn4ob6egt78sjfe1km6obcbtj6isr8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400gmqqbeclhn4ob6egt78sjfe1km6obcbtj6isr8btpn0obndpfmapr70400agrfeln78080
+    '23':
+      Name: Huevo de vex
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt7cpbobtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt7cpbobtpn0obndpfmapr70400agrfeln78080
+    '24':
+      Name: Huevo de aldeano zombie
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km8013dlkmspb3e9gmct1qf9nmqoj9clfncqbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km8013dlkmspb3e9gmct1qf9nmqoj9clfncqbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+    '25':
+      Name: Huevo de piglin zombificado
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0093dd5n6aoric5j78ejqdtmm4qb6d5im8nrgd5jmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0093dd5n6aoric5j78ejqdtmm4qb6d5im8nrgd5jmoqbebtpn0obndpfmapr70400agrfeln78080
+    '26':
+      Name: Huevo de aldeano
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt7cqbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+    '27':
+      Name: Huevo de vendedor ambulante
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i0093dd5n6aoric5j78ejnc5n68pbid5n6enrke9gm8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i0093dd5n6aoric5j78ejnc5n68pbid5n6enrke9gm8pbibtpn0obndpfmapr70400agrfeln78080
+    '28':
+      Name: Huevo de zoglin
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejqdtjmoqbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejqdtjmoqbebtpn0obndpfmapr70400agrfeln78080
+    '29':
+      Name: Huevo de esqueleto
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt76qr5dhin8rrebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt76qr5dhin8rrebtpn0obndpfmapr70400agrfeln78080
+    '30':
+      Name: Huevo de saqueador
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400e6qqbeclhn4ob6egt70qbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt70qbcdhgmepbibtpn0obndpfmapr70400agrfeln78080
+    '31':
+      Name: Huevo de warden
+      Chance: 20.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejnc5p68pbebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejnc5p68pbebtpn0obndpfmapr70400agrfeln78080
+    '32':
+      Name: Huevo de esqueleto del Wither
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km8013dlkmspb3e9gmct1qetkn8q35e9fn6qr5dhin8rrebtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km8013dlkmspb3e9gmct1qetkn8q35e9fn6qr5dhin8rrebtpn0obndpfmapr70400agrfeln78080
+    '33':
+      Name: Huevo de mula
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79mnar35btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79mnar35btpn0obndpfmapr70400agrfeln78080
+    '34':
+      Name: Huevo de vindicador
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qepkmsp39cdgn8rribtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qepkmsp39cdgn8rribtpn0obndpfmapr70400agrfeln78080
+    '35':
+      Name: Huevo de lobo
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip0031mmirj5cdp62pjk79rmur36btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79rmur36btpn0obndpfmapr70400agrfeln78080
+    '36':
+      Name: Huevo de vaca seta
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 5000080016ip003lmmirj5cdp62pjk79mmurrjd1p6urrdbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip003lmmirj5cdp62pjk79mmurrjd1p6urrdbtpn0obndpfmapr70400agrfeln78080
+    '37':
+      Name: Huevo de lepisma
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800udlkmspb3e9gmct1qedkmotj5e9j6isr8btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qedkmotj5e9j6isr8btpn0obndpfmapr70400agrfeln78080
+    '38':
+      Name: Huevo de ocelote
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejfcdimorrkbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejfcdimorrkbtpn0obndpfmapr70400agrfeln78080
+    '39':
+      Name: Huevo de llama ambulante
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg020rb9dpim6sj1cpq3kt3ic5i6asivdhm62rb1btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg020rb9dpim6sj1cpq3kt3ic5i6asivdhm62rb1btpn0obndpfmapr70400agrfeln78080
+    '40':
+      Name: Huevo de araña
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: a0000g002d5i006jdd5n6aoric5j78ejje1km8pbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ejje1km8pbibtpn0obndpfmapr70400agrfeln78080
+    '41':
+      Name: Huevo de shulker
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg01mrb9dpim6sj1cpq3ksr8elm6mpbibtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01mrb9dpim6sj1cpq3ksr8elm6mpbibtpn0obndpfmapr70400agrfeln78080
+    '42':
+      Name: Huevo de slime
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedm6irb5btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedm6irb5btpn0obndpfmapr70400agrfeln78080
+    '43':
+      Name: Huevo de cerdo
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400bmqqbeclhn4ob6egt70qb7btpn0obndpfmapr70400agrfeln78080
+    '44':
+      Name: Huevo de esqueleto glacial
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 1800020009km800pdlkmspb3e9gmct1qedq74obpbtpn0obndpfmapr70400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qedq74obpbtpn0obndpfmapr70400agrfeln78080
+Item:
+  Material: PLAYER_HEAD
+  Amount: 1
+  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y2NmY3ZjAzMTI1Y2Y1NDczMzY5NmYzNjMyZjBkOWU2NDcwYmFhYjg0OTg0N2VhNWVhMmQ3OTE1NmFkMGY0MCJ9fX0=
+  Durability: 0
+  Name: '&9Amethyst Chest'
+  Item_Flags: []
+  Unbreakable: false

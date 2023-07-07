@@ -1,0 +1,98 @@
+Admin:
+  tabprefix: '&fΠ&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &fΠ&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+manager:
+  tabprefix: '&5&lManager&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &5&lManager&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+supremo:
+  tabprefix: '&9&lBOT&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &9&lBOT&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+srmod:
+  tabprefix: '&d&lSr. Mod&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &d&lSr. Mod&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+mod:
+  tabprefix: '&fΔ&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &fΔ&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+helper:
+  tabprefix: '&fΡ&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &fΡ&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+builder:
+  tabprefix: '&a&lBuilder&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &a&lBuilder&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+streamer+:
+  tabprefix: '&dStreamer&6+&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &d&lStreamer&6+&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+twitch:
+  tabprefix: '&fΓ | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &fΓ&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+tiktok:
+  tabprefix: '&fΕ | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &fΕ&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6Ε &7| %rs_temperaturecolor%%rs_temperature%'
+orita:
+  tabprefix: '&6&lOrita&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &6&lOrita&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+lonsdaleita:
+  tabprefix: '&b&lLonsdaleita&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &b&lLonsdaleita&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+ruby:
+  tabprefix: '&4Ruby&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &4Ruby&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+jade:
+  tabprefix: '&aJade&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &aJade&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+dios:
+  tabprefix: '&3&lDios&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &3&lDios&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+maestro:
+  tabprefix: '&eMaestro&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &eMaestro&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+Nitro:
+  tabprefix: '&5Booster&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &5Booster&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+experto:
+  tabprefix: '&cExperto&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &cExperto&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+youtuber:
+  tabprefix: '&fΖ | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &fΖ&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+veterano:
+  tabprefix: '&bVeterano&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &bVeterano&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+default:
+  tabprefix: '&2Miembro&8 | &7'
+  tagprefix: '%pvpmanager_pvp_status_prefix% &2Miembro&8 | &7'
+  info: '&f%health% &4❤ &7| &f%vault_eco_balance_formatted% &6΢ &7| %rs_temperaturecolor%%rs_temperature%'
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+per-world:
+  world1:
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tagprefix: '%vault-prefix%'
+  tabsuffix: '%afk%'
+  tagsuffix: '%afk%'
+  customtabname: '%essentialsnick%'
+  customtagname: '%essentialsnick%'

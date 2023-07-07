@@ -1,0 +1,87 @@
+﻿#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+AnubisPet:
+  Type: PIG
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops: []
+  Equipment: []
+  Skills:
+  - model{mid=anubis_pet;n=false;s=1} @self ~onSpawn
+  - model{mid=anubis_pet;n=false;s=1} @self ~onLoad
+  - skill{s=AnubisPet_INTERACT} @trigger ~onInteract
+  - skill{s=AnubisPet_PetSpawn} @self ~onSpawn
+  - bodyclamp{m=anubis_pet;c=10} @self ~onSpawn
+  Display: "§bAnubis"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    
+
+AnubisDarkPet:
+  Type: PIG
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  Drops: []
+  Equipment: []
+  Skills:
+  - effect:particles{particle=squid_ink;amount=1;hS=.25;vS=.25;y=.25} @self ~onTimer:5
+  - model{mid=anubis_dark_pet;n=false;s=1} @self ~onSpawn
+  - model{mid=anubis_dark_pet;n=false;s=1} @self ~onLoad
+  - skill{s=AnubisPet_INTERACT} @trigger ~onInteract
+  - skill{s=AnubisPet_PetSpawn} @self ~onSpawn
+  - bodyclamp{m=anubis_dark_pet;c=10} @self ~onSpawn
+  Display: "§bDark Anubis"
+  Health: 100
+  Damage: 0
+  Options:
+    Collidable: false
+    Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    
+
+AnubisPetObelisk:
+  Type: ARMOR_STAND
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Drops: []
+  Equipment: []
+  Skills:
+  - model{mid=anubis_pet_pillar;n=false;s=1} @self ~onSpawn
+  - model{mid=anubis_pet_pillar;n=false;s=1} @self ~onLoad
+  - skill{s=anubis_pet_pillar_spawn} @self ~onSpawn
+  Display: "§bAnubis Obelisk"
+  Health: 100
+  Damage: 0
+  Options:
+    Invisible: true
+    Marker: true

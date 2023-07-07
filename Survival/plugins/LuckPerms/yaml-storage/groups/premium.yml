@@ -1,0 +1,11 @@
+name: premium
+permissions:
+- chatcolor.use-color-codes
+- chatcolor.use-hex-codes
+- chatmanager.formats.all
+- essentials.nick
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.rgb
+- gsit.crawl
+- gsit.lay

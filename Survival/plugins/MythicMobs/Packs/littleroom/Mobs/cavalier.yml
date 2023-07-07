@@ -1,0 +1,70 @@
+﻿#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+cavalier_fox:
+  Type: IRON_GOLEM
+  AIGoalSelectors:
+  -  meleeattack
+  AITargetSelectors:
+  -  ownerattacker
+  -  ownertarget
+  Drops: []
+  Equipment: []
+  Skills:  
+  - skill{s=CAVALIER_petspawn} @self ~onSpawn
+  - skill{s=CAVALIER_cleave} @forward{f=5} ~onTimer:20
+  - skill{s=CAVALIER_attack;sync=true} @self ~onAttack
+  - skill{s=CAVALIER_xp} @trigger ~onKill
+  - skill{s=CAVALIER_interact} @self ~onInteract
+  - model{mid=cavalier_fox;n=false;step=1} @self ~onSpawn
+  - model{mid=cavalier_fox;n=false;step=1} @self ~onLoad
+  - bodyclamp{mh=10} @self ~onSpawn
+  Health: 450
+  Damage: 0
+  Options:
+    Collidable: true
+    #Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: .25
+    
+    
+knight_fox:
+  Type: IRON_GOLEM
+  AIGoalSelectors:
+  -  meleeattack
+  AITargetSelectors:
+  -  ownerattacker
+  -  ownertarget
+  Drops: []
+  Equipment: []
+  Skills:  
+  - skill{s=CAVALIER_petspawn} @self ~onSpawn
+  - skill{s=KNIGHTFOX_spin} @self ~onTimer:20
+  - skill{s=KNIGHTFOX_attack;sync=true} @self ~onAttack
+  - skill{s=KNIGHTFOX_xp} @trigger ~onKill
+  - model{mid=knight_fox;n=false;step=1} @self ~onSpawn
+  - model{mid=knight_fox;n=false;step=1} @self ~onLoad
+  - bodyclamp{mh=10} @self ~onSpawn
+  Health: 1000
+  Damage: 0
+  Options:
+    Collidable: true
+    #Invincible: true
+    Despawn: true
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    Silent: true
+    KnockbackResistance: 1
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    MovementSpeed: .25
+  

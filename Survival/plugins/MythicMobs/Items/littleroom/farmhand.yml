@@ -1,0 +1,117 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+Pig_FARMHAND:
+  Id: PIG_SPAWN_EGG
+  Display: 'Cerdo'
+  Model: 991
+  Attributes:
+    MainHand:
+      MovementSpeed: -.2
+    OffHand:
+      MovementSpeed: -.2
+  NBT:
+    MYTHIC_EGG: PIG
+    
+Cow_FARMHAND:
+  Id: PIG_SPAWN_EGG
+  Display: 'Vaca'
+  Model: 992
+  Attributes:
+    MainHand:
+      MovementSpeed: -.3
+    OffHand:
+      MovementSpeed: -.3
+  NBT:
+    MYTHIC_EGG: COW
+    
+Chicken_FARMHAND:
+  Id: PIG_SPAWN_EGG
+  Display: 'Pollo'
+  Model: 994
+  NBT:
+    MYTHIC_EGG: CHICKEN
+    
+CAT_ALL_BLACK:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 995
+  NBT:
+    MYTHIC_EGG: CAT_ALL_BLACK
+    
+CAT_BLACK:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 996
+  NBT:
+    MYTHIC_EGG: CAT_BLACK
+    
+CAT_BRITISH_SHORTHAIR:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 997
+  NBT:
+    MYTHIC_EGG: CAT_BRITISH_SHORTHAIR
+    
+CAT_CALICO:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 998
+  NBT:
+    MYTHIC_EGG: CAT_CALICO
+    
+CAT_PERSIAN:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 999
+  NBT:
+    MYTHIC_EGG: CAT_PERSIAN
+    
+CAT_JELLIE:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 9910
+  NBT:
+    MYTHIC_EGG: CAT_JELLIE
+    
+CAT_RAGDOLL:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 9911
+  NBT:
+    MYTHIC_EGG: CAT_RAGDOLL
+    
+CAT_SIAMESE:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 9912
+  NBT:
+    MYTHIC_EGG: CAT_SIAMESE
+    
+CAT_TABBY:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 9913
+  NBT:
+    MYTHIC_EGG: CAT_TABBY
+    
+CAT_WHITE:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 9914
+  NBT:
+    MYTHIC_EGG: CAT_WHITE
+    
+CAT_RED:
+  Id: PIG_SPAWN_EGG
+  Display: 'Gato'
+  Model: 9915
+  NBT:
+    MYTHIC_EGG: CAT_RED
+    
+FARMHAND_BRAND:
+  Id: INK_SAC
+  Display: 'Fusta de Doma'
+  Model: 9991
+

@@ -1,0 +1,408 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 5
+        MENDING: 1
+        DAMAGE_ALL: 10
+        DURABILITY: 5
+      Damage: 2
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"ᖫкιтρєтαѕᖭ"}],"text":""}'
+      enchants:
+        DIG_SPEED: 2
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+      repair-cost: 31
+      Damage: 1
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+        DURABILITY: 5
+      repair-cost: 1
+      Damage: 81
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_PEARL
+    amount: 11
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WATER_BUCKET
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 64
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BAKED_POTATO
+    amount: 47
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+      Damage: 21
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52BgykxhEM3NzEtNLkpMK7EqzijNyU4tik/Kr+BkYPUsSc0t5mJgYGBkZGAJzskv4YVokERoKMjPySzOSE2JT0osTswpYWRgdc4vzSthAmoCAE90z2lxAAAA
+      blockMaterial: RED_SHULKER_BOX
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 125
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        THRIVE: 1
+      Damage: 21
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"ᖫкιтρєтαѕᖭ"}],"text":""}'
+      enchants:
+        ARCANE_DEFENCE: 2
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+      Damage: 1
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        DURABILITY: 5
+      Damage: 12
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 63
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 9
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SHIELD
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_BOAT
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_LOG
+    amount: 14
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRAFTING_TABLE
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 1
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GLASS_PANE
+    amount: 13
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_DYE
+    amount: 15
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 3
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: POLISHED_BLACKSTONE_WALL
+    amount: 5
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STICK
+    amount: 44
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_STAINED_GLASS_PANE
+    amount: 4
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        SILK_TOUCH: 1
+      repair-cost: 3
+      Damage: 78
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_BED
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 10
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_STAINED_GLASS
+    amount: 6
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_NETHER_BRICK_WALL
+    amount: 2
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BASALT
+    amount: 23
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GLASS
+    amount: 30
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+        WISDOM: 3
+      repair-cost: 1
+      Damage: 61
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CRIMSON_STEM
+    amount: 33
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: POLISHED_BLACKSTONE_BRICK_SLAB
+    amount: 6
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        DURABILITY: 5
+      Damage: 12
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"ᖫкιтρєтαѕᖭ"}],"text":""}'
+      enchants:
+        ARCANE_DEFENCE: 2
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+      Damage: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        THRIVE: 1
+      Damage: 21
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+health: 17.414979934692383
+hunger: 17
+exp: 0.07407411
+exp-level: 10
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOOK
+    amount: 5
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NAME_TAG
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"no te mueras cabron"}],"text":""}'
+      repair-cost: 1
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        ARROW_DAMAGE: 10
+        ARROW_KNOCKBACK: 2
+        DURABILITY: 5
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: EMERALD
+    amount: 5
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hamburguesa
+        con Queso"}],"text":""}'
+      custom-model-data: 75
+      PublicBukkitValues:
+        oraxen:id: cheeseburger
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FA7CBB","text":"O"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FB8C96","text":"r"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FC9C70","text":"i"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FDAC4B","text":"t"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FEBC25","text":"a"}],"text":""}'
+      custom-model-data: 32
+      PublicBukkitValues:
+        oraxen:id: orita

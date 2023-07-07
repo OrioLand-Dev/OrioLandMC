@@ -1,0 +1,390 @@
+fur_cap_brown:
+  displayname: <#ffffff>Gorro Marron
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 2c9caf7b-8961-42ba-8c1b-ba87f39ec910
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 2c9caf7b-8961-42ba-8c1b-ba87f39ec910
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: navidad/fur_cap_brown # .json extension is not mandatory
+    custom_model_data: 56
+  Mechanics:
+    hat:
+      enabled: true
+
+fur_cap:
+  displayname: <#ffffff>Gorro Rojo
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 1926e260-02a4-4efd-ae16-84f8bb26150d
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 1926e260-02a4-4efd-ae16-84f8bb26150d
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: navidad/fur_cap # .json extension is not mandatory
+    custom_model_data: 57
+  Mechanics:
+    hat:
+      enabled: true
+
+earmuffs:
+  displayname: <#ffffff>Orejeras Rojas
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 381d1b11-6d20-41a4-a13b-483b011d2f42
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 381d1b11-6d20-41a4-a13b-483b011d2f42
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: navidad/earmuffs # .json extension is not mandatory
+    custom_model_data: 58
+  Mechanics:
+    hat:
+      enabled: true
+
+earmuffs_brown:
+  displayname: <#ffffff>Orejeras Negras
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: cff5a9a3-f7ca-4cb5-9bd9-dd0c0ca3f8fd
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: cff5a9a3-f7ca-4cb5-9bd9-dd0c0ca3f8fd
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: navidad/earmuffs_brown # .json extension is not mandatory
+    custom_model_data: 59
+  Mechanics:
+    hat:
+      enabled: true
+
+earmuffs_green:
+  displayname: <#ffffff>Orejeras Verdes
+  material: PAPER
+  AttributeModifiers:
+  - name: oraxen
+    attribute: GENERIC_ARMOR
+    amount: 3
+    operation: 0
+    uuid: 156c3e2d-3081-4d62-b15a-f7cb87136182
+    slot: HEAD
+  - name: oraxen
+    attribute: GENERIC_ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    uuid: 156c3e2d-3081-4d62-b15a-f7cb87136182
+    slot: HEAD
+  Pack:
+    generate_model: false
+    model: navidad/earmuffs_green # .json extension is not mandatory
+    custom_model_data: 60
+  Mechanics:
+    hat:
+      enabled: true
+
+frostbite_staff:
+  displayname: <#33F9FF>Baston Congelado
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/frostbite_staff
+    custom_model_data: 61
+
+frozen_crown_high:
+  displayname: <#33F9FF>Corona Congelada
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/frozen_crown_high
+    custom_model_data: 62
+  Mechanics:
+    hat:
+      enabled: true
+
+ice_bucket_ice:
+  displayname: <#33F9FF>Cubo de Hielo
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/ice_bucket_ice
+    custom_model_data: 63
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: ice_bucket_ice
+          probability: 1.0
+
+stockpile_snowman:
+  displayname: <#33F9FF>Muñeco de Nieve
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/stockpile_snowman
+    custom_model_data: 64
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: stockpile_snowman
+          probability: 1.0
+
+snowmobile:
+  displayname: <#33F9FF>Moto de Nieve
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/snowmobile
+    custom_model_data: 65
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: snowmobile
+          probability: 1.0
+
+toffy_christmas_tree:
+  displayname: <#FFFFFF>Arbol de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_christmas_tree
+    custom_model_data: 66
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 0
+        y: 0
+        z: 0
+      - x: 0
+        y: 1
+        z: 0
+      - x: 0
+        y: 2
+        z: 0
+      - x: 0
+        y: 3
+        z: 0
+      drop:
+        loots:
+        - oraxen_item: toffy_christmas_tree
+          probability: 1.0
+
+toffy_xmasdecor_balloons:
+  displayname: <#FFFFFF>Globos de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_balloons
+    custom_model_data: 67
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_balloons
+          probability: 1.0
+
+toffy_xmasdecor_basket:
+  displayname: <#FFFFFF>Cesta de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_basket
+    custom_model_data: 68
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_basket
+          probability: 1.0
+
+toffy_xmasdecor_gift:
+  displayname: <#FFFFFF>Regalo de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_gift
+    custom_model_data: 69
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_gift
+          probability: 1.0
+
+toffy_xmasdecor_gift_green:
+  displayname: <#FFFFFF>Regalo Verde de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_gift_green
+    custom_model_data: 70
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_gift_green
+          probability: 1.0
+
+toffy_xmasdecor_gift_red:
+  displayname: <#FFFFFF>Regalo Rojo de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_gift_red
+    custom_model_data: 71
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_gift_red
+          probability: 1.0
+
+toffy_xmasdecor_giftlarge:
+  displayname: <#FFFFFF>Regalo de Navidad Grande
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_giftlarge
+    custom_model_data: 72
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_giftlarge
+          probability: 1.0
+
+toffy_xmasdecor_hanging:
+  displayname: <#FFFFFF>Luces de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_hanging
+    custom_model_data: 73
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_hanging
+          probability: 1.0
+
+toffy_xmasdecor_santafigure:
+  displayname: <#FFFFFF>Figura de Santa
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_santafigure
+    custom_model_data: 74
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_santafigure
+          probability: 1.0
+
+toffy_xmasdecor_snowman:
+  displayname: <#FFFFFF>Muñeco de Nieve
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_snowman
+    custom_model_data: 75
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_snowman
+          probability: 1.0
+
+toffy_xmasdecor_socks:
+  displayname: <#FFFFFF>Calcetines de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_socks
+    custom_model_data: 76
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_socks
+          probability: 1.0
+
+toffy_xmasdecor_wreath:
+  displayname: <#FFFFFF>Corona de Navidad
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: navidad/toffy_xmasdecor_wreath
+    custom_model_data: 77
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: false
+      drop:
+        loots:
+        - oraxen_item: toffy_xmasdecor_wreath
+          probability: 1.0

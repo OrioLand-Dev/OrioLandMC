@@ -1,0 +1,97 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+  
+  #### EASTER EGG ####
+  
+LReaster_egg:
+  Type: ARMOR_STAND
+  Display: 'Easter Egg'  
+  DamageModifiers:
+  - PROJECTILE -0.1
+  - DROWNING 0.0
+  - BLOCK_EXPLOSION 0.0
+  - ENTITY_EXPLOSION 0.0
+  - VOID 0.0
+  - LIGHTNING 0.0
+  - SUICIDE 0.0
+  - STARVATION 0.0
+  - POISON 0.0
+  - MAGIC 0.0
+  - DRAGON_BREATH 0.0
+  - WITHER 0.0
+  - FALLING_BLOCK 0.0
+  - THORNS 0.0
+  - CUSTOM 0.0
+  - LAVA 0.0
+  - MELTING 0.0
+  - FIRE_TICK 0.0
+  - HOT_FLOOR 0.0
+  - FALL 0.0
+  - SUFFOCATION 0.0
+  - CONTACT 0.0
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: true
+    Silent: true
+    PreventBlockInfection: true
+    KnockbackResistance: 1
+    Collidable: false
+  Skills:
+  - skill{s=LReasteregg_randomcolor} @self ~onSpawn
+  - skill{s=LReasteregg_damaged} @trigger ~onDamaged
+  - model{mid=lreaster_egg;d=false;i=true} @self ~onSpawn
+  - model{mid=lreaster_egg;d=false;i=true} @self ~onLoad
+  
+  
+  #### EASTER TOP ####
+  
+  
+LReasteregg_top:
+  Type: ARMOR_STAND
+  Display: 'Easter Egg Top'  
+  Disguise: ARMOR_STAND setInvisible
+  DamageModifiers:
+  - PROJECTILE -0.1
+  - DROWNING 0.0
+  - BLOCK_EXPLOSION 0.0
+  - ENTITY_EXPLOSION 0.0
+  - VOID 0.0
+  - LIGHTNING 0.0
+  - SUICIDE 0.0
+  - STARVATION 0.0
+  - POISON 0.0
+  - MAGIC 0.0
+  - DRAGON_BREATH 0.0
+  - WITHER 0.0
+  - FALLING_BLOCK 0.0
+  - THORNS 0.0
+  - CUSTOM 0.0
+  - LAVA 0.0
+  - MELTING 0.0
+  - FIRE_TICK 0.0
+  - HOT_FLOOR 0.0
+  - FALL 0.0
+  - SUFFOCATION 0.0
+  - CONTACT 0.0
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+    Persistent: true
+    Silent: true
+    PreventBlockInfection: true
+    KnockbackResistance: 1
+    Collidable: false
+  Skills:
+  - skill{s=LReasteregg_top} @self ~onSpawn
+  - model{mid=easter_egg_top;d=false;i=true} @self ~onSpawn
+  - model{mid=easter_egg_top;d=false;i=true} @self ~onLoad

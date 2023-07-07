@@ -1,0 +1,43 @@
+# Simply deleting this file will make the plugin fail to load
+# Make sure you delete all entries found in other files
+# For example, language file uses logo glyph
+logo:
+  texture: required/logo
+  ascent: 20
+  height: 36
+  code: 3009
+menu_banner:
+  texture: required/ui/menu_banner
+  ascent: -14
+  height: 256
+  code: 3010
+menu_recipe:
+  texture: required/recipe_showcase
+  ascent: 40
+  height: 164
+  code: 3011
+menu_items:
+  texture: required/ui/menu_items
+  ascent: 37
+  height: 256
+  code: 3012
+menu_items_overlay:
+  texture: required/ui/menu_items_gems
+  ascent: 37
+  height: 256
+  code: 3013
+ol_register:
+  texture: default/olregistrarse
+  ascent: 9
+  height: 12
+  code: 42000
+ol_survival:
+  texture: default/ol_survival
+  ascent: 25
+  height: 32
+  code: 42023
+voto:
+  texture: default/voto
+  ascent: 100
+  height: 128
+  code: 42030

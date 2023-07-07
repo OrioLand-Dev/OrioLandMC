@@ -1,0 +1,287 @@
+health: 34.400001525878906
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory: {}
+armor_contents: {}
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 64
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPAWNER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"text":"squid Spawner"}],"text":""}'
+      internal: H4sIAAAAAAAA/0WOzQrCMBCEx6jFBvxDvfscHv05VqR6l1XXEqyppim2PqGPZdoI7mVg+HZmJCAxWKbZ+bbRVtnqQInAOKJyy2ROVWMqzhFIhPsHvfSaLEkE3NA9CHXB8K40nw1d7SJ/Fs6AQD9S2vOcUoVPG6033Dkta60JKv9Eey4widm9G77snMEmJp0wRgKywVZZoS06vnL2r7xnp2NeA2xCDBt0l9l6H6U5fp2V7/RJPrgj0PXjpsAXyjF/DAgBAAA=
+      PublicBukkitValues:
+        essentials:convert: 1b
+      blockMaterial: SPAWNER
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 64
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPAWNER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"text":"axolotl Spawner"}],"text":""}'
+      internal: H4sIAAAAAAAA/0WOzQrCMBCEx1RFA/6h3n0Oj/4cK6LeZbWrBGOiaYqtT+hj2TaCexkYvp0ZCUj0F9qeb2vjlS8OdBUYxZRvmNypqE3FKdoS3f2DXmZFniTaXNMdCJVgdFeGz44ufk651dZrQKAXKxM+WFOBT4TGG+WVmldaEZT/iWgmMN7xM1OOk21psNuRuTKGArLGljYzHs1QOv2X3u3pmFYAuy4GNbq1vlpIOsWvswidISkENwVaYdwE+AIw/OgWCgEAAA==
+      PublicBukkitValues:
+        essentials:convert: 1b
+      blockMaterial: SPAWNER
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_INGOT
+    amount: 64
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8000","text":"T"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8400","text":"i"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8800","text":"c"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8C00","text":"k"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9000","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9400","text":"t
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9800","text":"d"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9C00","text":"e
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA000","text":"C"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA400","text":"r"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA800","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAC00","text":"t"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB000","text":"e
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB400","text":"E"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB800","text":"v"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBC00","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC000","text":"n"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC400","text":"t"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC800","text":"o"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFCC00","text":"s"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Canjea
+        esto en la "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8000","text":"C"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8800","text":"a"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8F00","text":"j"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9700","text":"a
+        "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9E00","text":"E"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFA600","text":"v"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAE00","text":"e"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFB500","text":"n"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBD00","text":"t"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFC400","text":"o"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFCC00","text":"s
+        "},{"bold":false,"italic":false,"color":"white","text":"del "},{"italic":false,"color":"green","text":"/warp
+        Crates"}],"text":""}'
+      custom-model-data: 30
+      PublicBukkitValues:
+        excellentcrates:crate_key.id: llave_eventos
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TRIPWIRE_HOOK
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Llave
+        Vote"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Usa
+        esta llave en "},{"italic":false,"color":"green","text":"/Warp crates"}],"text":""}'
+      enchants:
+        ABRASION: 1
+      PublicBukkitValues:
+        excellentcrates:crate_key.id: crate_vote
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 22
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Bacon"}],"text":""}'
+      custom-model-data: 19
+      PublicBukkitValues:
+        oraxen:id: bacon
+        oraxen:if-uuid: '[B;-36B,-115B,50B,64B,48B,50B,78B,-68B,-91B,-13B,-44B,1B,-117B,86B,-125B,115B]'
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"Hacha de netherita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 2
+        MENDING: 1
+        SILK_TOUCH: 1
+        DURABILITY: 3
+      repair-cost: 63
+      Damage: 20
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLDEN_APPLE
+    amount: 64
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OCELOT_SPAWN_EGG
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 5
+        MENDING: 1
+        DAMAGE_ALL: 10
+        DURABILITY: 5
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FALL: 5
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COAL
+    amount: 64
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_INGOT
+    amount: 64
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_BANNER
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: BANNER
+      display-name: '{"color":"gold","translate":"block.minecraft.ominous_banner"}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      patterns:
+      - ==: Pattern
+        color: CYAN
+        pattern: mr
+      - ==: Pattern
+        color: LIGHT_GRAY
+        pattern: bs
+      - ==: Pattern
+        color: GRAY
+        pattern: cs
+      - ==: Pattern
+        color: LIGHT_GRAY
+        pattern: bo
+      - ==: Pattern
+        color: BLACK
+        pattern: ms
+      - ==: Pattern
+        color: LIGHT_GRAY
+        pattern: hh
+      - ==: Pattern
+        color: LIGHT_GRAY
+        pattern: mc
+      - ==: Pattern
+        color: BLACK
+        pattern: bo
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+        MENDING: 1
+        DAMAGE_UNDEAD: 4
+        DURABILITY: 3
+      repair-cost: 1
+      Damage: 1

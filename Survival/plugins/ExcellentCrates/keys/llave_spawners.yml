@@ -1,0 +1,13 @@
+Name: §b§lLlave Spawner
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Amount: 1
+  Durability: 0
+  Name: '&b&lLlave Spawners'
+  Lore:
+  - '&fUsa esta llave en &a/warp crates'
+  Enchants:
+    abrasion: 1
+  Item_Flags: []
+  Unbreakable: false

@@ -1,0 +1,295 @@
+health: 20.0
+hunger: 20
+exp: 0.5294118
+exp-level: 1
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BREAD
+    amount: 29
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        SPARK_ARTIFACT: 1
+        DURABILITY: 3
+      Damage: 325
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        INSTANTANEOUS: 3
+        MENDING: 1
+        DURABILITY: 3
+      Damage: 61
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOOT_BONUS_BLOCKS: 3
+        MENDING: 1
+      Damage: 414
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIURNAL: 5
+        DURABILITY: 3
+      Damage: 76
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BAKED_POTATO
+    amount: 57
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ANDESITE
+    amount: 32
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 2
+      Damage: 2
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIORITE
+    amount: 9
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 64
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GRANITE
+    amount: 19
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RAW_IRON
+    amount: 22
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FLINT
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GRAVEL
+    amount: 3
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLED_DEEPSLATE
+    amount: 64
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+    amount: 64
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LAPIS_LAZULI
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OXEYE_DAISY
+    amount: 6
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ALLIUM
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: AZURE_BLUET
+    amount: 7
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PINK_TULIP
+    amount: 4
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DANDELION
+    amount: 5
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BEEF
+    amount: 15
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ROTTEN_FLESH
+    amount: 2
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEATHER
+    amount: 8
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: POPPY
+    amount: 4
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ORANGE_TULIP
+    amount: 4
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_TULIP
+    amount: 6
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHICKEN
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PORKCHOP
+    amount: 28
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CORNFLOWER
+    amount: 3
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_TULIP
+    amount: 2
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BROWN_WOOL
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: MUTTON
+    amount: 9
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 8
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OAK_PLANKS
+    amount: 2
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FIRE: 4
+        FORCEFIELD: 1
+        MENDING: 1
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FIRE: 3
+        FROZEN: 6
+        DURABILITY: 3
+      Damage: 49
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 84
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 196
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TORCH
+    amount: 5
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 196
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 84
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FIRE: 3
+        FROZEN: 6
+        DURABILITY: 3
+      Damage: 49
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_FIRE: 4
+        FORCEFIELD: 1
+        MENDING: 1

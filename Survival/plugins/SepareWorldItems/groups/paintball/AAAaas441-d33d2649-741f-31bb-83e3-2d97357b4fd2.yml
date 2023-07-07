@@ -1,0 +1,46 @@
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: WHITE_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Clic"},{"bold":false,"italic":false,"color":"gray","text":"
+        » "},{"italic":false,"color":"white","text":"Unir White"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"gray","text":"0/8"}],"text":""}'
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RED_BED
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Click"},{"bold":false,"italic":false,"color":"gray","text":"
+        » "},{"italic":false,"color":"dark_red","text":"Salir de la arena"}],"text":""}'
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BLACK_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"Black
+        Team"}],"text":""}'
+      Damage: 15
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BLACK_WOOL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"black","text":"Black
+        Team"}],"text":""}'
+      Damage: 15
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0

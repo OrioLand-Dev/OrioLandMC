@@ -1,0 +1,249 @@
+inventory:
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"hachita"}],"text":""}'
+      lore: []
+      enchants:
+        DIG_SPEED: 10
+        MENDING: 2
+        DURABILITY: 7
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"pala"}],"text":""}'
+      lore: []
+      enchants:
+        DIG_SPEED: 10
+        MENDING: 2
+        DURABILITY: 7
+      Damage: 12
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 44
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        ABRASION: 4
+        BLACKOUT: 2
+        BLEED: 7
+        FIRE_ASPECT: 2
+        FIRST_STRIKE: 7
+        GOLIATH: 8
+        KNOCKBACK: 1
+        LIFESTEAL: 6
+        LOOT_BONUS_MOBS: 8
+        MENDING: 2
+        NETHER_AFFINITY: 2
+        NINJA: 2
+        RUMBLE: 1
+        DAMAGE_ALL: 18
+        STUN: 2
+        SWEEPING_EDGE: 3
+        DURABILITY: 7
+      repair-cost: 3
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        BLAST_MINING: 8
+        DIG_SPEED: 15
+        LOOT_BONUS_BLOCKS: 15
+        MENDING: 1
+        DURABILITY: 15
+        XRAY: 3
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        BLACKOUT: 2
+        BLEED: 7
+        FIRE_ASPECT: 2
+        FIRST_STRIKE: 7
+        GOLIATH: 8
+        INTROVERSION: 18
+        LIFESTEAL: 6
+        LOOT_BONUS_MOBS: 3
+        MENDING: 1
+        NINJA: 2
+        RUMBLE: 4
+        STUN: 2
+        SWEEPING_EDGE: 4
+        DURABILITY: 3
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      repair-cost: 3
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 18
+        OXYGEN: 6
+        THRIVE: 3
+        DURABILITY: 18
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 18
+        THRIVE: 3
+        DURABILITY: 18
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 18
+        THRIVE: 3
+        DURABILITY: 18
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 18
+        THRIVE: 3
+        DURABILITY: 18
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 10
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 0ca63922-b5d5-36c7-8892-10e0fdcb3da5
+        name: andiricum2
+        properties:
+        - name: textures
+          value: ewogICJ0aW1lc3RhbXAiIDogMTY2Mzk1Njc4ODQwMiwKICAicHJvZmlsZUlkIiA6ICJkYjI3Mjc1NDBmOWE0NzljOTljNDVjYmI0ZDEzMjQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbmRpcmljdW0yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmNGFmMDBhMDliZTIwMjQ1ZjAyMDFlYTkwOTVhMWNkMDMwMTFlNTRhOTNhZDU5NjJmY2YwZGI1NmVhOTg4NWYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+          signature: vrYOy0bMoqpahghF4csQ9hXtXUi5a9AxieDHIfkJ4O8DzVFd1ecWOvLUjy3FGV3agw9a5XZsDxPoebWTQ+b72gZZHqTyox3kr2jRm+5arnp3MbJV1VWUdFTYs1UlKde8g/kxxfX3b0Q60EGs7DE5MJdAu1B7TmuC+znhpsFowHj9AXObVXJnUVuESGVWiWybDDUlC4f7uRJ0l7yEXvNj+biBi+At5BbkUVBsm8Qhf0pb+2SXyVV+yLtW2kxCSn7U93teVkYVynKtyoJ9SdvEoovvek8hBQHKQF7RljfS3OW41knsHvlesxPrUf8lRzjK6lcikI3r6nLZrFRuDGC+frkAXW1YRKaSWw7DrswVAuDnQmhyhB6JSFUXTxILJWA/OEF+B3SxFi2wqcJfGkQrLbzG2C0M3eXn/rmN8xSRZG4e/pRjwpCmItreUprcwUy8JEEbCgod6/kqMagSunRF6jZIhxis66Q9T2ABkyyxwCAvgOFw02IBMb02gt7svVZlePq22Syset+a1YH/DkcpmeC6ZvLJw73HRqrc00epwckl7SWb4LW9AZwUAJv9dU5YKUxeBJpukcCbqkh9zlGug8pjznmKl7d4auGlQB4zLVOlpHBRhKMSEdaZByqgTql7m61vMfr8JK94TLgs+T1Gam2V1K5ebFMF/fRGAbrRFfQ=
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FIREWORK_ROCKET
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: FIREWORK
+      power: 3
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHER_STAR
+    amount: 2
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: TOTEM_OF_UNDYING
+health: 24.399999618530273
+hunger: 20
+exp: 0.7100708
+exp-level: 16
+armor_contents: {}

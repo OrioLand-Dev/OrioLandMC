@@ -1,0 +1,23 @@
+health: 20.0
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: RECOVERY_COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"alvarogarridoo''s
+        Grave"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Survival,
+        -14031.5x, -29.5y, 9577.5z"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        graves:graveuuid: 3c6d4267-36d6-468e-bee5-e4dc0d720752

@@ -1,0 +1,133 @@
+health: 20.0
+hunger: 20
+exp: 0.64705884
+exp-level: 13
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 37
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 276
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 59
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 9
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HOE
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPIDER_EYE
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    amount: 31
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: GOLD_NUGGET
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PUMPKIN
+    amount: 7
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COPPER_INGOT
+    amount: 12
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STRING
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COBBLESTONE
+    amount: 8
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_CHICKEN
+    amount: 5
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: STONE
+    amount: 16
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_PORKCHOP
+    amount: 28
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPYGLASS
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+armor_contents:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_CHESTPLATE
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1

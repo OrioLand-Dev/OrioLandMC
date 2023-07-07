@@ -1,0 +1,124 @@
+health: 23.384000778198242
+hunger: 17
+exp: 0.4117647
+exp-level: 0
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: COMPASS
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Launcher"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Launches
+        you towards the"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"location
+        you are facing."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgS87PLUgsLtbNzU8pzUllAACEjbvIIAAAAA==
+      LodestoneTracked: false
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Random
+        Teleport"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Teleports
+        you to a random player."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWYQK0rMS8nP1S1JzUktyC8q0c3NTynNSWUAAFl2XnkoAAAA
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Vanish"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Toggles
+        your total vanish."}],"text":""}'
+      Damage: 10
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgLUvMyyzO0M3NTynNSWUAABdnIOwfAAAA
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"GUI
+        Hub"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Opens
+        the GUI hub."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgSi/N1M3NTynNSWUAAElCeRAcAAAA
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Staff
+        List"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Shows
+        all staff online and in staff mode"}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgS84vzStJLdLNzU8pzUllAAC0S/whIAAAAA==
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Freeze"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Toggles
+        freeze for the clicked player."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgTStKTa1K1c3NTynNSWUAADtrjfUfAAAA
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"CPS"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Runs
+        a click per second test on"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"the
+        player that was clicked."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgSi4o1s3NTynNSWUAAGAyZ38cAAAA
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Examine"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Inspects
+        the inventory of the player that was clicked."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgS61IzM3MS9XNzU8pzUllAADVSnpWIAAAAA==
+      blockMaterial: CHEST
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: LEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Follow"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mounts
+        the player that was clicked."}],"text":""}'
+      internal: H4sIAAAAAAAA/+NiYOBg4AwuSUxLC8gpLWbgTcvPyckv183NTynNSWUAANCJ86MfAAAA

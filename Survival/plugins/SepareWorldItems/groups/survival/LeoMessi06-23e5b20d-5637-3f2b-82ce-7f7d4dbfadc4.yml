@@ -1,0 +1,257 @@
+health: 101.80000305175781
+hunger: 20
+exp: 0.0
+exp-level: 0
+inventory: {}
+armor_contents: {}
+ender_chest:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+      Damage: 179
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        OXYGEN: 5
+        THRIVE: 2
+        DURABILITY: 5
+      repair-cost: 1
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pico
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 6
+        MENDING: 1
+        DURABILITY: 5
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 9
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SPAWNER
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"chicken
+        Spawner"}],"text":""}'
+      internal: H4sIAAAAAAAA/0WO3Q7BQBSExxZhEz8N7j2HSz+XFcG9HHWwaW3ZbqP1hB5L25X03Ewy+c7MSEBiuIyTMNpoq2xxpJuAH1C+ZTLnojYVp+hK9A9Peus1WZLock33INQF/kNpDg1d7SK8qzBiDQgMAqXdB8dU4Ouh9UF5peaVVgTlDeHNBSZ7fmXK8GVXGmz2pG+MsYCssVWSaYu2K501pY/kfEorgE0foxrdJbZaSHGKf2fhOl2SC24LdNy4KfADsJ0I7AoBAAA=
+      PublicBukkitValues:
+        essentials:convert: 1b
+      blockMaterial: SPAWNER
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Espada
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 6
+        MENDING: 1
+        DAMAGE_ALL: 7
+        DURABILITY: 5
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CYAN_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      blockMaterial: CYAN_SHULKER_BOX
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: DIAMOND_BLOCK
+    amount: 5
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOOK
+    amount: 64
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Notch
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_BLOCK
+    amount: 10
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: OBSIDIAN
+    amount: 17
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: SLIME_BLOCK
+    amount: 4
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CYAN_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      blockMaterial: CYAN_SHULKER_BOX
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+      Damage: 48
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_INFINITE: 1
+        ARROW_DAMAGE: 5
+        ARROW_KNOCKBACK: 2
+      repair-cost: 1
+      Damage: 89
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: BOOK
+    amount: 64
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 10
+        DURABILITY: 5
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: COOKED_BEEF
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#46EEAA","text":"W"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43E9AD","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#40E4B0","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DDEB4","text":"d"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#38D4BA","text":"L"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#35CFBD","text":"e"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#32C9C1","text":"a"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2FC4C4","text":"f"}],"text":""}'
+      custom-model-data: 79
+      PublicBukkitValues:
+        oraxen:id: weed_leaf
+        oraxen:if-uuid: '[B;-64B,13B,-77B,-75B,-68B,79B,75B,-72B,-114B,4B,-128B,-115B,-49B,-50B,9B,21B]'
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Pala
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hacha
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CYAN_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Shulker
+        "},{"italic":false,"color":"aqua","text":"Lonsdaleita"}],"text":""}'
+      blockMaterial: CYAN_SHULKER_BOX
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        VITALITY: 1
+      Damage: 13
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_INGOT
+    amount: 8
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: ARROW
+    amount: 26
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore: []
+      enchants:
+        DIG_SPEED: 7
+        MENDING: 1
+        DURABILITY: 5
+      Damage: 12

@@ -1,0 +1,287 @@
+button_comingsoon:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/button_comingsoon
+    custom_model_data: 11100
+button_air:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/button_air
+    custom_model_data: 11900
+brewer:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/brewer
+    custom_model_data: 12100
+brewer_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/brewer_select
+    custom_model_data: 12110
+brewer_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/brewer_disable
+    custom_model_data: 12120
+builder:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/builder
+    custom_model_data: 12200
+builder_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/builder_select
+    custom_model_data: 12210
+builder_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/builder_disable
+    custom_model_data: 12220
+crafter:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/crafter
+    custom_model_data: 12300
+crafter_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/crafter_select
+    custom_model_data: 12310
+crafter_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/crafter_disable
+    custom_model_data: 12320
+digger:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/digger
+    custom_model_data: 12400
+digger_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/digger_select
+    custom_model_data: 12410
+digger_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/digger_disable
+    custom_model_data: 12420
+enchanter:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/enchanter
+    custom_model_data: 12500
+enchanter_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/enchanter_select
+    custom_model_data: 12510
+enchanter_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/enchanter_disable
+    custom_model_data: 12520
+explorer:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/explorer
+    custom_model_data: 12600
+explorer_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/explorer_select
+    custom_model_data: 12610
+explorer_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/explorer_disable
+    custom_model_data: 12620
+farmer:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/farmer
+    custom_model_data: 12700
+farmer_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/farmer_select
+    custom_model_data: 12710
+farmer_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/farmer_disable
+    custom_model_data: 12720
+fisherman:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/fisherman
+    custom_model_data: 12800
+fisherman_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/fisherman_select
+    custom_model_data: 12810
+fisherman_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/fisherman_disable
+    custom_model_data: 12820
+hunter:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/hunter
+    custom_model_data: 12900
+hunter_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/hunter_select
+    custom_model_data: 12910
+hunter_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/hunter_disable
+    custom_model_data: 12920
+miner:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/miner
+    custom_model_data: 13100
+miner_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/miner_select
+    custom_model_data: 13110
+miner_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/miner_disable
+    custom_model_data: 13120
+weaponsmith:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/weaponsmith
+    custom_model_data: 13200
+weaponsmith_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/weaponsmith_select
+    custom_model_data: 13210
+weaponsmith_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/weaponsmith_disable
+    custom_model_data: 13220
+woodcutter:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/woodcutter
+    custom_model_data: 13300
+woodcutter_select:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/woodcutter_select
+    custom_model_data: 13310
+woodcutter_disable:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/woodcutter_disable
+    custom_model_data: 13320
+progress_red:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/progress_red
+    custom_model_data: 15500
+progress_green:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/progress_green
+    custom_model_data: 16500
+progress_yellow:
+  displayname: '<white>'
+  material: GOLD_NUGGET
+  Pack:
+    generate_model: false
+    model: victoralonso/jobs/progress_yellow
+    custom_model_data: 17500

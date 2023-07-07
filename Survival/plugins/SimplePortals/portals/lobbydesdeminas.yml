@@ -1,0 +1,13 @@
+last-fill-material: AIR
+point-one: minas,-15.0,41.0,2.0,0.0,0.0
+point-two: minas,-11.0,44.0,2.0,0.0,0.0
+teleport-location: minas,-11.0,44.0,2.0,0.0,0.0
+commands-only: true
+commands:
+- lobby:PLAYER
+disabled: false
+message: ''
+title: ''
+sub-title: ''
+bar-message: ''
+cooldown: 0
